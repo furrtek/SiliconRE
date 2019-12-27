@@ -1,6 +1,6 @@
 # PC060HA 'CIU'
 
-[Routing](routing.png)
+![Routing](routing.png)
 
 This chip serves as a 4-bit communication interface between the main and sub CPUs.
 
