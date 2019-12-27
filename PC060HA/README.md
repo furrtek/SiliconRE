@@ -30,3 +30,5 @@ Both directions have four 4-bit register groups with half-full and full flags, a
 The schematic was traced from the chip's silicon die and should represent exactly how it is internally constructed.
 
 Thanks to @Ace646546 for donating the chip.
+
+![PC060HA internal routing](routing.png)
