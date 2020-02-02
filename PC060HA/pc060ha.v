@@ -2,7 +2,7 @@
 // Sean 'furrtek' Gonsalves 2019
 // GPLV2 - See LICENSE
 
-// THIS IS UNTESTED !
+// Tested on Cadash, thanks Caius !
 // Fits in a Lattice LC4128ZE or Altera EPM7128
 
 module top(
@@ -94,7 +94,6 @@ begin
 	else
 		D1_Q <= PIN17;
 end
-
 
 // G1
 always @(posedge SLAVE_WR4 or negedge nROUT)
@@ -208,9 +207,9 @@ assign NMI_REQ = ~&{~G8_Q, ~H9_Q};
 // Slave decode =================================
 
 // M21
-always @(*)
+always @(negedge nSCS)
 begin
-	if (nSCS) SA0_LATCH <= SA0;
+	SA0_LATCH <= SA0;
 end
 
 wire J15 = ~|{SA0_LATCH, nSWR, nSCS};
@@ -220,6 +219,11 @@ wire SCNT_TICK = ~G5;
 
 // SLAVE_RWR -must- be slower than SCNT_TICK
 wire #2 SLAVE_RWR = ~(SA0_LATCH | G5);	// H6, J8
+
+reg SLAVE_RWR_REG;
+always @(posedge SCLK)
+	SLAVE_RWR_REG <= SLAVE_RWR;
+
 wire SLAVE_DRD = ~|{~SA0_LATCH, nSRD, nSCS};	// M20
 wire SLAVE_DWR = ~|{~SA0_LATCH, nSWR, nSCS};	// M18
 
@@ -254,7 +258,7 @@ begin
 end
 
 // K5, L6
-wire L6 = (~L8_Q & ~SLAVE_RWR) | (SLAVE_RWR & SD_OUT[0]);
+wire L6 = (~L8_Q & ~SLAVE_RWR_REG) | (SLAVE_RWR_REG & SD[0]);	// SD_OUT
 // L8
 always @(negedge SCNT_TICK or negedge nRESET)
 begin
@@ -266,7 +270,7 @@ end
 assign SSA[0] = L8_Q;	// J1
 
 // K7, M6
-wire M6 = (~M5_Q & ~SLAVE_RWR & L8_Q) | (SLAVE_RWR & SD_OUT[1]) | (~SLAVE_RWR & ~L8_Q & M5_Q);
+wire M6 = (~M5_Q & ~SLAVE_RWR_REG & L8_Q) | (SLAVE_RWR_REG & SD[1]) | (~SLAVE_RWR_REG & ~L8_Q & M5_Q);	// SD_OUT
 // M5
 always @(negedge SCNT_TICK or negedge nRESET)
 begin
@@ -282,7 +286,7 @@ wire L7 = L8_Q & M5_Q;
 wire K6 = ~&{L8_Q, M5_Q};
 
 // J6, G3
-wire G3 = (~H5_Q & L7 & ~SLAVE_RWR) | (SLAVE_RWR & SD_OUT[2]) | (~SLAVE_RWR & K6 & H5_Q);
+wire G3 = (~H5_Q & L7 & ~SLAVE_RWR_REG) | (SLAVE_RWR_REG & SD[2]) | (~SLAVE_RWR_REG & K6 & H5_Q);	// SD_OUT
 // H5
 always @(negedge SCNT_TICK or negedge nRESET)
 begin
@@ -297,9 +301,9 @@ assign SSA[2] = H5_Q;
 // Master decode ================================
 
 // A23
-always @(*)
+always @(negedge nMCS)
 begin
-	if (nMCS) MA0_LATCH <= MA0;
+	MA0_LATCH <= MA0;
 end
 
 wire A22 = ~|{MA0_LATCH, nMWR, nMCS};
@@ -309,6 +313,11 @@ wire MCNT_TICK = ~A7;
 
 // MASTER_RWR -must- be slower than MCNT_TICK
 wire #2 MASTER_RWR = ~(MA0_LATCH | A7);	// A9, F12
+
+reg MASTER_RWR_REG;
+always @(posedge MCLK)
+	MASTER_RWR_REG <= MASTER_RWR;
+
 wire MASTER_DWR = ~|{~MA0_LATCH, nMWR, nMCS};		// A24
 wire MASTER_DRD = ~|{~MA0_LATCH, nMRD, nMCS};		// A25
 wire MASTER_RD4 = ~&{MASTER_DRD, (MSA == 3'd4)};	//MSA[2], ~MSA[1], ~MSA[0]};	// A12
@@ -339,7 +348,7 @@ begin
 end
 
 // E8, F10
-wire F10 = (~F11_Q & ~MASTER_RWR) | (MASTER_RWR & MD_OUT[0]);
+wire F10 = (~F11_Q & ~MASTER_RWR_REG) | (MASTER_RWR_REG & MD[0]);	// MD_OUT
 // F11
 always @(negedge MCNT_TICK or negedge nRESET_BUF)
 begin
@@ -352,7 +361,7 @@ end
 assign MSA[0] = F11_Q;
 
 // E7, C12
-wire C12 = (~C14_Q & ~MASTER_RWR & F11_Q) | (MASTER_RWR & MD_OUT[1]) | (~MASTER_RWR & ~F11_Q & C14_Q);
+wire C12 = (~C14_Q & ~MASTER_RWR_REG & F11_Q) | (MASTER_RWR_REG & MD[1]) | (~MASTER_RWR_REG & ~F11_Q & C14_Q);	// MD_OUT
 // C14
 always @(negedge MCNT_TICK or negedge nRESET_BUF)
 begin
@@ -368,7 +377,7 @@ wire D8 = F11_Q & C14_Q;
 wire D10 = ~&{F11_Q, C14_Q};
 
 // D9, B10
-wire B10 = (~B11_Q & D8 & ~MASTER_RWR) | (MASTER_RWR & MD_OUT[2]) | (~MASTER_RWR & D10 & B11_Q);
+wire B10 = (~B11_Q & D8 & ~MASTER_RWR_REG) | (MASTER_RWR_REG & MD[2]) | (~MASTER_RWR_REG & D10 & B11_Q);	// MD_OUT
 // B11
 always @(negedge MCNT_TICK or negedge nRESET_BUF)
 begin
@@ -391,16 +400,25 @@ wire SLAVE_W1 = ~&{SLAVE_MEMWR, (SSA[1:0] == 2'd1)};	//~SSA1, SSA0};	// D2
 wire SLAVE_W2 = ~&{SLAVE_MEMWR, (SSA[1:0] == 2'd2)};	//SSA1, ~SSA0};	// C4
 wire SLAVE_W3 = ~&{SLAVE_MEMWR, (SSA[1:0] == 2'd3)};	//SSA1, SSA0};		// C6
 
-always @(*)
+always @(posedge SLAVE_W0)
 begin
 	// C16, A18, C20, D18
-	if (!SLAVE_W0) STM0 <= SD_OUT;
+	STM0 <= SD;	// SD_OUT
+end
+always @(posedge SLAVE_W1)
+begin
 	// E10, B20, C21, D17
-	if (!SLAVE_W1) STM1 <= SD_OUT;
+	STM1 <= SD;	// SD_OUT
+end
+always @(posedge SLAVE_W2)
+begin
 	// C18, B19, B18, D16
-	if (!SLAVE_W2) STM2 <= SD_OUT;
+	STM2 <= SD;	// SD_OUT
+end
+always @(posedge SLAVE_W3)
+begin
 	// D13, A20, C19, E16
-	if (!SLAVE_W3) STM3 <= SD_OUT;
+	STM3 <= SD;	// SD_OUT
 end
 
 wire MASTER_R0 = MASTER_MEMRD & (MSA[1:0] == 2'd0);	//~MSA1 & ~MSA0;	// C25
@@ -436,16 +454,25 @@ wire MASTER_W1 = ~&{MASTER_MEMWR, (MSA[1:0] == 2'd1)};	//~MSA1, MSA0};	// C11
 wire MASTER_W2 = ~&{MASTER_MEMWR, (MSA[1:0] == 2'd2)};	//MSA1, ~MSA0};	// C8
 wire MASTER_W3 = ~&{MASTER_MEMWR, (MSA[1:0] == 2'd3)};	//MSA1, MSA0};		// C10
 
-always @(*)
+always @(posedge MASTER_W0)
 begin
 	// H15, L17, H17, L21
-	if (!MASTER_W0) MTS0 <= MD_OUT;
+	MTS0 <= MD;	// MD_OUT;
+end
+always @(posedge MASTER_W1)
+begin
 	// J13, L18, H16, L19
-	if (!MASTER_W1) MTS1 <= MD_OUT;
+	MTS1 <= MD;	// MD_OUT;
+end
+always @(posedge MASTER_W2)
+begin
 	// H13, L16, G19, L20
-	if (!MASTER_W2) MTS2 <= MD_OUT;
+	MTS2 <= MD;	// MD_OUT;
+end
+always @(posedge MASTER_W3)
+begin
 	// K14, M15, J16, K15
-	if (!MASTER_W3) MTS3 <= MD_OUT;
+	MTS3 <= MD;	// MD_OUT;
 end
 
 wire SLAVE_R0 = SLAVE_MEMRD & (SSA[1:0] == 2'd0);	//~SSA1 & ~SSA0;	// K1
