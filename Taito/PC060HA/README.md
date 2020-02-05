@@ -1,10 +1,8 @@
 # PC060HA 'CIU'
 
-[Routing](routing.png)
+Thanks to @Ace646546 for donating a chip, and Caius for lending a board for verification.
 
-This chip serves as a 4-bit communication interface between the main and sub CPUs.
-
-Its functionality seems to be included in the later '''TC0140SYT''' chip.
+This chip serves as a 4-bit communication interface between the main and sub CPUs. Both directions have four 4-bit register groups with half-full and full flags, along with NMI, MUTE and RESET control. Its functionality seems to be included in the later '''TC0140SYT''' chip.
 
 According to MAME, it is used in the following Taito games:
 * Asuka & Asuka
@@ -27,10 +25,6 @@ According to MAME, it is used in the following Taito games:
 * Violence Fight
 * Volfied
 
-Both directions have four 4-bit register groups with half-full and full flags, along with NMI, MUTE and RESET control.
-
-The schematic was traced from the chip's silicon die and should represent exactly how it is internally constructed.
-
-Thanks to @Ace646546 for donating the chip.
+The schematic was traced from the chip's silicon and should represent exactly how it is internally constructed.
 
 ![PC060HA internal routing](routing.png)
