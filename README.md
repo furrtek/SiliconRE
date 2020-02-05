@@ -1,2 +1,2 @@
-# TaitoChips
-Reverse engineered Taito custom IC from silicon
+# VGChips
+Video Game custom chips reverse-engineered from silicon
