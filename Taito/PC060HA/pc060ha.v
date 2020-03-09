@@ -2,7 +2,7 @@
 // Sean 'furrtek' Gonsalves 2019
 // GPLV2 - See LICENSE
 
-// Tested on Cadash, thanks Caius !
+// Tested on most games, thanks Caius !
 // Fits in a Lattice LC4128ZE or Altera EPM7128
 
 module top(
@@ -78,7 +78,7 @@ assign nROUT = nRESET;
 
 // Control outputs ==============================
 
-// G2
+// B2
 always @(posedge SCLK or negedge D1_Q)
 begin
 	if (!D1_Q)
@@ -208,9 +208,7 @@ assign NMI_REQ = ~&{~G8_Q, ~H9_Q};
 
 // M21
 always @(negedge nSCS)
-begin
 	SA0_LATCH <= SA0;
-end
 
 wire J15 = ~|{SA0_LATCH, nSWR, nSCS};
 wire G5 = ~|{~E4_Q, J15};
@@ -302,11 +300,18 @@ assign SSA[2] = H5_Q;
 
 // A23
 always @(negedge nMCS)
-begin
 	MA0_LATCH <= MA0;
+
+// This was added to prevent a glitch from occuring with Master of Weapon, which caused
+// the memory register index to be incremented twice on the first write, which made consecutive
+// writes to slot [0] and [1] to actually be done in slot [0] and [2]. The glitch occured
+// because of a race condition on combinational logic due to the CPLD being too fast.
+reg A22;
+always @(negedge MCLK)
+begin
+	A22 <= ~|{MA0, nMWR, nMCS};
 end
 
-wire A22 = ~|{MA0_LATCH, nMWR, nMCS};
 wire A7 = ~|{~A3_Q, A22};
 // A8
 wire MCNT_TICK = ~A7;
