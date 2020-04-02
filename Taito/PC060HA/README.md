@@ -27,4 +27,6 @@ According to MAME, it is used in the following Taito games:
 
 The schematic was traced from the chip's silicon and should represent exactly how it is internally constructed.
 
+The Verilog translation includes a few deviations from the real chip to compensate for the use of gate delays for proper operation. Functionality is the same.
+
 ![PC060HA internal routing](routing.png)
