@@ -13,11 +13,11 @@ module M71064(
 	input [4:0] B,
 	
 	output reg [4:0] ROUT,
-	output ROUT_SH,
+	inout ROUT_SH,
 	output reg [4:0] GOUT,
-	output GOUT_SH,
+	inout GOUT_SH,
 	output reg [4:0] BOUT,
-	output BOUT_SH
+	inout BOUT_SH
 );
 
 wire ETAC, JUBE, CUSA, GOFU, HAZE, BUBU, BEXU, JARY, JOGO, DUVO, HOKU, GUVA, ALYF, CONE, AVUR;
