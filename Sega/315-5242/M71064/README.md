@@ -10,11 +10,11 @@ It can also convert the color input to greyscale. This is the more complex part 
 
 Lastly, control inputs allow the output to be darkened or highlighted.
 
-*Normal: shading outputs are tri-stated so they don't affect the final voltage.
-*Shadow: shading outputs are active and set to low if the color component is non-zero.
-*Highlight: shading outputs are active and set to high if the color component is non-zero.
+* Normal: shading outputs are tri-stated so they don't affect the final voltage.
+* Shadow: shading outputs are active and set to low if the color component is non-zero.
+* Highlight: shading outputs are active and set to high if the color component is non-zero.
 
-This means that shading is disabled when the output is pure black.
+This means that shading is disabled when the input is pure black.
 
 # Pinout
 
