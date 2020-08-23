@@ -15,22 +15,22 @@ The PCM data is unpacked. Each byte represents a 7-bit sample and a stop bit, in
 # Registers
 
 * Channel A/1
- * Reg 0: Step LSBs (LLLLLLLL)
- * Reg 1: Step 4 MSBs & prescaler select (--PPMMMM)
- * Reg 2: Start address LSBs
- * Reg 3: Start address MSBs
- * Reg 4: Start address MSB
- * Reg 5: Trigger
+  * Reg 0: Step LSBs (LLLLLLLL)
+  * Reg 1: Step 4 MSBs & prescaler select (--PPMMMM)
+  * Reg 2: Start address LSBs
+  * Reg 3: Start address MSBs
+  * Reg 4: Start address MSB
+  * Reg 5: Trigger
 * Channel B/2
- * Reg 6: Step LSBs (LLLLLLLL)
- * Reg 7: Step 4 MSBs & prescaler select (--PPMMMM)
- * Reg 8: Start address LSBs
- * Reg 9: Start address MSBs
- * Reg 10: Start address MSB
- * Reg 11: Trigger
+  * Reg 6: Step LSBs (LLLLLLLL)
+  * Reg 7: Step 4 MSBs & prescaler select (--PPMMMM)
+  * Reg 8: Start address LSBs
+  * Reg 9: Start address MSBs
+  * Reg 10: Start address MSB
+  * Reg 11: Trigger
 * Other
- * Reg 12: Decoded output on SOEV pin
- * Reg 13: Loop flags. Bit 0: Channel A/1, bit 1: Channel B/2.
+  * Reg 12: Decoded output on SOEV pin
+  * Reg 13: Loop flags. Bit 0: Channel A/1, bit 1: Channel B/2.
  
 # Operation
 
@@ -49,6 +49,7 @@ The CK2M output provides a divided clock signal depending on the state of Regist
 * R1b5=0 R1b4=1: CLK/4/7 ? - Channel A/1 prescaler's size is 8-bit.
 * R1b5=1 R1b4=0: CLK/1024 - Channel A/1 prescaler's size is 4-bit.
 * R1b5=1 R1b4=1: CLK/1024 - Channel A/1 prescaler's size is 8-bit.
+
 
 * R7b5=0 R7b4=0: Channel B/2 prescaler's size is 12-bit.
 * R7b5=0 R7b4=1: Channel B/2 prescaler's size is 8-bit.
