@@ -4,7 +4,7 @@
 * Manufacturer: Oki
 * Die marking: 74000-015
 * Technology: CMOS gate array
-* Used on: Ajax, Aliens, Black Panther, Bottom of the Ninth, Chequered Flag, City Bomber, Cue Brick, Crazy Cop, Crime Fighters, Dark Adventure, Devastators, Devil World, Fast Lane, Gang Busters, Gradius II, Gradius III, Hot Chase, Hyper Crash, Kitten Kaboodle, Missing in Action, MX5000, S.P.Y., Salamander, Super Contra, Teenage Mutant Ninja Turtles, The Final Round,The Main Event, Vulcan Venture, WEC Le Mans 24
+* Used on: Ajax, Aliens, Black Panther, Bottom of the Ninth, Chequered Flag, City Bomber, Crazy Cop, Crime Fighters, Cue Brick, Dark Adventure, Devastators, Devil World, Fast Lane, Gang Busters, Gradius II, Gradius III, Hot Chase, Hyper Crash, Kitten Kaboodle, Missing in Action, MX5000, S.P.Y., Salamander, Super Contra, Teenage Mutant Ninja Turtles, The Final Round, The Main Event, Vulcan Venture, WEC Le Mans 24
 
 The audio outputs are digital, external DACs are required.
 
