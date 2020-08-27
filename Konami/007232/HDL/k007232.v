@@ -1,3 +1,5 @@
+// Konami 007232
+
 module k007232(
 	input CLK,
 	input NRES,
@@ -238,21 +240,21 @@ module k007232(
 		R66 <= RAM[7];
 	always @(posedge NE or posedge nNRES or posedge REG11_WR) begin
 		if (nNRES)
-			J66 <= 0;
-		else if (REG11_WR)
 			J66 <= 1;
+		else if (REG11_WR)
+			J66 <= 0;
 		else
 			J66 <= 1;
 	end
 	
-	assign nCH2_RELOAD = &{~&{REG13[1], R66}, ~J66};
+	assign nCH2_RELOAD = &{~&{REG13[1], R66}, J66};
 	//wire T61 = &{~&{~&{~&{~REG13[1], R66}, T61}, ~J66}, NRES};	// Combinational loop :(
 	//wire CH2_RESET = ~T61;
 	always @(posedge J66 or posedge R66 or negedge NRES) begin
 		if (!NRES)
 			CH2_RESET <= 1;
 		else if (R66) begin
-			if (~J66 & ~REG13[1]) CH2_RESET <= 1;
+			if (J66 & ~REG13[1]) CH2_RESET <= 1;
 		end else
 			CH2_RESET <= 0;
 	end

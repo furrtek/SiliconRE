@@ -1,3 +1,5 @@
+// Testbench for k007232.v
+
 module tb(
 );
 
@@ -34,23 +36,21 @@ module tb(
 		
 		#10 NRES <= 1;
 		
-		// Test SOEV
+		// Test SOEV output
 		#10 AB <= 4'b1101;	// Reg 12
 		DACS <= 0;
 		#10 DACS <= 1;
 		
 		// Set up Channel 1
-		#10 AB <= 4'b0001;	// Reg 0
+		#10 AB <= 4'b0001;	// Reg 0 - Step LSBs
 		DB <= 8'b11111000;
 		DACS <= 0;
 		#10 DACS <= 1;
-		
-		AB <= 4'b0000;	// Reg 1
+		#10 AB <= 4'b0000;	// Reg 1 - Step MSBs & pre-scaler config
 		DB <= 8'b00001111;
 		DACS <= 0;
 		#10 DACS <= 1;
-		
-		#10 AB <= 4'b0011;	// Reg 2
+		#10 AB <= 4'b0011;	// Reg 2 - Sample start address
 		DB <= 8'b00000000;
 		DACS <= 0;
 		#10 DACS <= 1;
@@ -63,12 +63,38 @@ module tb(
 		DACS <= 0;
 		#10 DACS <= 1;
 		
-		#10 AB <= 4'b1100;	// Reg 13
+		// Set up Channel 2
+		#10 AB <= 4'b0111;	// Reg 6 - Step LSBs
+		DB <= 8'b11111100;
+		DACS <= 0;
+		#10 DACS <= 1;
+		#10 AB <= 4'b0110;	// Reg 7 - Step MSBs & pre-scaler config
+		DB <= 8'b00001111;
+		DACS <= 0;
+		#10 DACS <= 1;
+		#10 AB <= 4'b1001;	// Reg 8 - Sample start address
+		DB <= 8'b00001100;
+		DACS <= 0;
+		#10 DACS <= 1;
+		#10 AB <= 4'b1000;	// Reg 9
+		DB <= 8'b00000000;
+		DACS <= 0;
+		#10 DACS <= 1;
+		#10 AB <= 4'b1011;	// Reg 10
+		DB <= 8'b00000000;
+		DACS <= 0;
+		#10 DACS <= 1;
+		
+		#10 AB <= 4'b1100;	// Reg 13 - Loop flags
 		DB <= 8'b00000001;
 		DACS <= 0;
 		#10 DACS <= 1;
 		
-		#10 AB <= 4'b0100;	// Reg 5
+		#10 AB <= 4'b0100;	// Reg 5 - Start CH1
+		DB <= 8'b00000000;
+		DACS <= 0;
+		#10 DACS <= 1;
+		#10 AB <= 4'b1010;	// Reg 11 - Start CH2
 		DB <= 8'b00000000;
 		DACS <= 0;
 		#10 DACS <= 1;
@@ -88,6 +114,10 @@ module tb(
 			17'h00006: RAM <= 8'h32;
 			17'h00007: RAM <= 8'h10;
 			17'h00008: RAM <= 8'h00;
+			17'h0000C: RAM <= 8'h23;
+			17'h0000D: RAM <= 8'h7D;
+			17'h0000E: RAM <= 8'h3A;
+			17'h0000F: RAM <= 8'h94;
 			default: RAM <= 8'hFF;
 		endcase
 	end
