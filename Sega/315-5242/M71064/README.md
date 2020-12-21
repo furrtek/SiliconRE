@@ -2,7 +2,15 @@
 
 Thanks to @Caius for donating a 315-5242 module.
 
-The OKI M71064 is a gate array (fully digital). Its main purpose is to synchronize the input color bits with the pixel clock and gate the outputs depending on the blanking signal.
+* Role: Color data latch, greyscale converter
+* Manufacturer: OKI
+* Die marking: 064
+* Technology: Channelled CMOS gate array
+* Used on: System 24, OutRun, X board, Y board, System C(2), System 32
+
+# Operation
+
+The M71064's main purpose is to synchronize the input color bits with the pixel clock and gate the outputs depending on the blanking signal.
 
 It can also convert the color input to greyscale. This is the more complex part of the chip as the conversion is peformed only in logic, there's no ROM lookup table involved.
 
