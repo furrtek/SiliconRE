@@ -4,50 +4,50 @@
 
 `Unused` means that there's no latch for the given bit of the given register, writing to it does nothing.
 
- *Register 0: X scroll value, lower 8 bits
- *Register 1:
-  *Bit 7: Forces pin NRM low
-  *Bit 6~4: Unused
-  *Bit 3: Layout related
-  *Bit 2: 0=Row scrolling, 1=Column scrolling
-  *Bit 1: Enable row/column scrolling
-  *Bit 0: X scroll value, higher bit
- *Register 2: Y scroll value
- *Register 3:
-  *Bit 7: Unused
-  *Bit 6: Blanking related
-  *Bit 5: Priority related, selects between S7 or P8
-  *Bit 4: Layout related
-  *Bit 3: Highest VRAM address bit when parsing sprite list ($0000/$8000)
-  *Bit 2: Priority related, opaque sprite pixels have highest priority
-  *Bit 1: Unused
-  *Bit 0: Highest gfx ROM address bit for scroll layer tile fetches (tile code bit 13, pin R17)
- *Register 4:
-  *Bit 7: Scroll layer tile code bit 12, 0=From data selected by register 5, 1=Directly from register 4 bit 3
-  *Bit 6: Scroll layer tile code bit 11, 0=From data selected by register 5, 1=Directly from register 4 bit 2
-  *Bit 5: Scroll layer tile code bit 10, 0=From data selected by register 5, 1=Directly from register 4 bit 1
-  *Bit 4: Scroll layer tile code bit 9, 0=From data selected by register 5, 1=Directly from register 4 bit 0
-  *Bit 3~0: See above.
- *Register 5:
-  *Bit 7~6: Scroll layer tile code bit 12 comes from VRAM attribute bit 00=3, 01=4, 10=5 or 11=6
-  *Bit 5~4: Scroll layer tile code bit 11 comes from VRAM attribute bit 00=3, 01=4, 10=5 or 11=6
-  *Bit 3~2: Scroll layer tile code bit 10 comes from VRAM attribute bit 00=3, 01=4, 10=5 or 11=6
-  *Bit 1~0: Scroll layer tile code bit 9 comes from VRAM attribute bit 00=3, 01=4, 10=5 or 11=6
- *Register 6:
-  *Bit 7~6: Unused
-  *Bit 5: Final color output bit 6 (pin COA6)
-  *Bit 4: Final color output bit 5 (pin COA5)
-  *Bit 3: Enable bit 6 of scroll layer tile attribute as priority flag
-  *Bit 2: Enable bit 5 of scroll layer tile attribute as Y flip flag
-  *Bit 1: Enable bit 4 of scroll layer tile attribute as inversion of lowest gfx ROM address bit for scroll layer tile fetches (X flip flag ?)
-  *Bit 0: Enable bit 3 of scroll layer tile attribute as highest color lookup address (pin VCB3)
- *Register 7:
-  *Bit 7~5: Unused
-  *Bit 4: Select NMI repetition rate 0=16 scanlines, 1=32 scanlines
-  *Bit 3: Flip display in both X and Y
-  *Bit 2: Enable FIRQs
-  *Bit 1: Enable IRQs
-  *Bit 0: Enable NMIs
+* Register 0: X scroll value, lower 8 bits
+* Register 1:
+  * Bit 7: Forces pin NRM low
+  * Bit 6~4: Unused
+  * Bit 3: Layout related
+  * Bit 2: 0=Row scrolling, 1=Column scrolling
+  * Bit 1: Enable row/column scrolling
+  * Bit 0: X scroll value, higher bit
+* Register 2: Y scroll value
+* Register 3:
+  * Bit 7: Unused
+  * Bit 6: Blanking related
+  * Bit 5: Priority related, selects between S7 or P8
+  * Bit 4: Layout related
+  * Bit 3: Highest VRAM address bit when parsing sprite list ($0000/$8000)
+  * Bit 2: Priority related, opaque sprite pixels have highest priority
+  * Bit 1: Unused
+  * Bit 0: Highest gfx ROM address bit for scroll layer tile fetches (tile code bit 13, pin R17)
+* Register 4:
+  * Bit 7: Scroll layer tile code bit 12, 0=From data selected by register 5, 1=Directly from register 4 bit 3
+  * Bit 6: Scroll layer tile code bit 11, 0=From data selected by register 5, 1=Directly from register 4 bit 2
+  * Bit 5: Scroll layer tile code bit 10, 0=From data selected by register 5, 1=Directly from register 4 bit 1
+  * Bit 4: Scroll layer tile code bit 9, 0=From data selected by register 5, 1=Directly from register 4 bit 0
+  * Bit 3~0: See above.
+* Register 5:
+  * Bit 7~6: Scroll layer tile code bit 12 comes from VRAM attribute bit 00=3, 01=4, 10=5 or 11=6
+  * Bit 5~4: Scroll layer tile code bit 11 comes from VRAM attribute bit 00=3, 01=4, 10=5 or 11=6
+  * Bit 3~2: Scroll layer tile code bit 10 comes from VRAM attribute bit 00=3, 01=4, 10=5 or 11=6
+  * Bit 1~0: Scroll layer tile code bit 9 comes from VRAM attribute bit 00=3, 01=4, 10=5 or 11=6
+* Register 6:
+  * Bit 7~6: Unused
+  * Bit 5: Final color output bit 6 (pin COA6)
+  * Bit 4: Final color output bit 5 (pin COA5)
+  * Bit 3: Enable bit 6 of scroll layer tile attribute as priority flag
+  * Bit 2: Enable bit 5 of scroll layer tile attribute as Y flip flag
+  * Bit 1: Enable bit 4 of scroll layer tile attribute as inversion of lowest gfx ROM address bit for scroll layer tile fetches (X flip flag ?)
+  * Bit 0: Enable bit 3 of scroll layer tile attribute as highest color lookup address (pin VCB3)
+* Register 7:
+  * Bit 7~5: Unused
+  * Bit 4: Select NMI repetition rate 0=16 scanlines, 1=32 scanlines
+  * Bit 3: Flip display in both X and Y
+  * Bit 2: Enable FIRQs
+  * Bit 1: Enable IRQs
+  * Bit 0: Enable NMIs
   
 # Priority
 
@@ -63,9 +63,9 @@ If reg 3 bit 2 is reset, then both scroll and sprite priority bits are unused. O
 
 # Color output
 
-Pins COA0~COA3 represent the final 4bpp pixel. COA4 indicates 0=Sprite pixel, 1=Scroll pixel. COA5 and COA6 are set by reg 6 bits 4 and 5.
-During blanking, only COA0~COA3 are set to 0. COA4~COA7 continue functioning like in the active display.
-When pin NWCS is low, the CPU address bus A1~A7 are routed to pins COA0~COA6. This has priority over blanking.
+Pins COA0-COA3 represent the final 4bpp pixel. COA4 indicates 0=Sprite pixel, 1=Scroll pixel. COA5 and COA6 are set by reg 6 bits 4 and 5.
+During blanking, only COA0-COA3 are set to 0. COA4-COA7 continue functioning like in the active display.
+When pin NWCS is low, the CPU address bus A1-A7 are routed to pins COA0-COA6. This has priority over blanking.
 
 # Line buffers
 
@@ -75,34 +75,34 @@ Sprite pixels are written to DRAM 2 by 2 (2 * 4bpp), they're also read out 2 by 
 
 # Sprite attributes
 
- *Byte 0:
-  *Bit 7: SPR_CODE7
-  *Bit 6: SPR_CODE6
-  *Bit 5: SPR_CODE5
-  *Bit 4: SPR_CODE4
-  *Bit 3: SPR_CODE3
-  *Bit 2: SPR_CODE2
-  *Bit 1: If SPR_SIZE2=0: SPR_CODE1, =1(32*32):Ignored, SPR_CODE1=COUNTER1_Q2
-  *Bit 0: If SPR_SIZE2=0: SPR_CODE0, =1(32*32):Ignored, SPR_CODE0=EE114
- *Byte 1:
-  *Bit 7~4: Palette number
-  *Bit 3: SPR_CODE_LOW1
-  *Bit 2: SPR_CODE_LOW0
-  *Bit 1: SPR_BANK1
-  *Bit 0: SPR_BANK0
- *Byte 2: Y position, reload value for COUNTER9 and COUNTER12
- *Byte 3:
-  *Bit 7~1: X position lower bits, reload value for COUNTER6 and COUNTER13
-  *Bit 0: Used as odd/even pixel selection for writing in line buffers
- *Byte 4:
-  *Bit 7: SPR_BANK3
-  *Bit 6: SPR_BANK2
-  *Bit 5: SPR_FLIPY
-  *Bit 4: SPR_FLIPX
-  *Bit 3: SPR_SIZE2
-  *Bit 2: SPR_SIZE1
-  *Bit 1: SPR_SIZE0
-  *Bit 0: X position highest bit, COUNTER6_D3
+* Byte 0:
+  * Bit 7: SPR_CODE7
+  * Bit 6: SPR_CODE6
+  * Bit 5: SPR_CODE5
+  * Bit 4: SPR_CODE4
+  * Bit 3: SPR_CODE3
+  * Bit 2: SPR_CODE2
+  * Bit 1: If SPR_SIZE2=0: SPR_CODE1, =1(32*32):Ignored, SPR_CODE1=COUNTER1_Q2
+  * Bit 0: If SPR_SIZE2=0: SPR_CODE0, =1(32*32):Ignored, SPR_CODE0=EE114
+* Byte 1:
+  * Bit 7~4: Palette number
+  * Bit 3: SPR_CODE_LOW1
+  * Bit 2: SPR_CODE_LOW0
+  * Bit 1: SPR_BANK1
+  * Bit 0: SPR_BANK0
+* Byte 2: Y position, reload value for COUNTER9 and COUNTER12
+* Byte 3:
+  * Bit 7~1: X position lower bits, reload value for COUNTER6 and COUNTER13
+  * Bit 0: Used as odd/even pixel selection for writing in line buffers
+* Byte 4:
+  * Bit 7: SPR_BANK3
+  * Bit 6: SPR_BANK2
+  * Bit 5: SPR_FLIPY
+  * Bit 4: SPR_FLIPX
+  * Bit 3: SPR_SIZE2
+  * Bit 2: SPR_SIZE1
+  * Bit 1: SPR_SIZE0
+  * Bit 0: X position highest bit, COUNTER6_D3
 
 # Sprite layout
 
@@ -152,8 +152,9 @@ C93 =   COUNTER1_Q2 ^ SPR_FLIPY
 
 # GFX ROM address
 
-| Pin | SCROLL             | SPR                        | 8x8  | 8x16 | 16x8 | 16x16 | 32x32
-| R0  | COUNTER8Q1/ATTR4   | D121                       | D121
+| Pin | SCROLL             | SPR                        | 8x8  | 8x16 | 16x8 | 16x16 | 32x32 |
+|-----|--------------------|----------------------------|------|------|------|-------|-------|
+| R0  | COUNTER8Q1/ATTR4   | D121                       | D121 |      |      |       |       |
 | R1  |                    | SPR_SIZE2=0:T119, =1:CC120 | A131 | A131 | EE114| EE114 | CC120 | Tile line A0
 | R2  |                    | SPR_SIZE2=0:W128, =1:A93   | EE114| EE114| CC120| CC120 | A93   | Tile line A1
 | R3  |                    | SPR_SIZE2=0:V123, =1:AA76  | CC120| CC120| A93  | A93   | AA76  | Tile line A2
@@ -173,35 +174,40 @@ C93 =   COUNTER1_Q2 ^ SPR_FLIPY
 | R17 | Reg 3 bit 0        | SPR_BANK3
 
 T119:
-SPR_HEIGHT_8 | SPR_WIDTH_8 | Output
-0            | 0     | EE114
-0            | 1     | A131
-1            | 0     | EE114
-1            | 1     | A131
+|SPR_HEIGHT_8 | SPR_WIDTH_8 | Output|
+|-------------|-------------|-------|
+|0            | 0     | EE114
+|0            | 1     | A131
+|1            | 0     | EE114
+|1            | 1     | A131
 
 W128:
-SPR_HEIGHT_8 | SPR_WIDTH_8 | Output
+|SPR_HEIGHT_8 | SPR_WIDTH_8 | Output|
+|-------------|-------------|-------|
 0            | 0     | CC120
 0            | 1     | EE114
 1            | 0     | CC120
 1            | 1     | EE114
 
 V123:
-SPR_HEIGHT_8 | SPR_WIDTH_8 | Output
+|SPR_HEIGHT_8 | SPR_WIDTH_8 | Output|
+|-------------|-------------|-------|
 0            | 0     | A93
 0            | 1     | CC120
 1            | 0     | A93
 1            | 1     | CC120
 
 T131:
-SPR_HEIGHT_8 | SPR_WIDTH_8 | Output
+|SPR_HEIGHT_8 | SPR_WIDTH_8 | Output|
+|-------------|-------------|-------|
 0            | 0     | A131
 0            | 1     | SPR_CODE_LOW0
 1            | 0     | A131
 1            | 1     | SPR_CODE_LOW0
 
 X122:
-SPR_HEIGHT_8 | SPR_WIDTH_8 | Output
+|SPR_HEIGHT_8 | SPR_WIDTH_8 | Output|
+|-------------|-------------|-------|
 0            | 0     | AA76
 0            | 1     | A93
 1            | 0     | SPR_CODE_LOW1
