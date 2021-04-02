@@ -1,5 +1,28 @@
 # Konami 007121
 
+# Nets without drivers - best guesses
+
+* DCLK13=NN222 - Wrong merged nets at c256 ?
+* DCLK16=DCLK18=RR218 at k249 ?
+* COM2=AA186 ?
+* COM4=PP182 ?
+* COM7=NN196 ?
+* COM10=Z245 ?
+* N2=V216 ?
+* N5=N7=J229 ?
+* N6=H220 ?
+* N8=BB243 ?
+* N28=A226 ?
+* ND5=V195=SPR_WIDTH_8 ?
+* ND32=FF226 ?
+* RES2=V108 ?
+* RES4=RES1 ?
+* RES5=V64 ?
+* RES6=RES11=RES12=MM132 ?
+* RES7
+* RES10
+* CLK8=$CK24_1 ?
+
 # Registers
 
 `Unused` means that there's no latch for the given bit of the given register, writing to it does nothing.
@@ -72,6 +95,26 @@ When pin NWCS is low, the CPU address bus A1-A7 are routed to pins COA0-COA6. Th
 GFX ROM data bus is 16 bit wide = 4 * 4bpp pixels.
 
 Sprite pixels are written to DRAM 2 by 2 (2 * 4bpp), they're also read out 2 by 2 and split in turn to go into the priority circuit.
+
+# Scroll RAM
+
+May be used for row or column scrolling. A row or column = 8 pixels.
+Row scrolling: register 0 (X scroll) is overridden. Column scrolling: register 2 (Y scroll) is overridden.
+
+Not a regular RAM block, but 288 latches to store 32 9-bit values (only 8 bits used for column scrolling).
+
+The latch data input comes from a 2-to-1 mux to either store a new value written by the CPU, or the value from SCROLL_OUTx (previous one ?)
+
+Scroll RAM: 20~3F = low 8 bits, 40~5F = highest bit in b0
+
+x01x xxxx = low
+x10x xxxx = high
+
+A6 selects low 8 bits/highest bit
+0x00 0000
+
+Reading:
+If below $2000, read scroll RAM
 
 # Sprite attributes
 
