@@ -14,6 +14,8 @@ module k007452_top(
 
     reg B34, A28;
     reg D35, D28, C35, C28;
+    reg [3:0] P8;
+    reg [15:0] acc_reg;
     wire [7:0] DB_OUT;
     wire D25;
     wire E20, H20, H2, H15;
@@ -35,13 +37,15 @@ module k007452_top(
     wire [3:0] H71;
     wire [3:0] H58;
     wire [3:0] A59;
+    wire [3:0] B60;
+
+    assign nRES = ~RES;
 
     C41 Cell_A59(nF63, F70, A59);
 
     FDO Cell_B49(~A59[3], nB49, F70, B49, nB49);
     assign D51 = ~|{nRES, B49};
 
-    wire [3:0] B60;
     C41 Cell_B60(~CLK, F77, B60);
     assign C53 = ~|{nRES, B60[3]};
 
@@ -65,9 +69,32 @@ module k007452_top(
     assign A56 = ~&{nB42, E74};
     assign B58 = &{A56, A83};
 
-    assign nRES = ~RES;
+    assign E36 = 1; // DEBUG ~|{SLTS, B22, B34, A28, D35, D28, C35, C28};
 
+    wire H37 = |{~E36, RD};
+    assign D25 = ~|{H37, AB_L[1]};
+    wire D26 = ~|{H37, AB_L[2]};
+    wire DB_DIR = ~|{D25, D26};
+    
+    assign DB = DB_DIR ? 8'bzzzz_zzzz : DB_OUT;
+
+    T5A Cell_A44(Y[2], Y[3], Y[4], Y[3], SEL[0], ~SEL[0], SEL[1], A44);
+
+    wire H39 = ~|{~E36, RD};
+    wire H40 = ~|{SLTS, CS12, H39};
+    assign OE1 = ~&{A44, H40};
+    assign OE2 = ~&{~A44, H40};
+    
     assign H32 = ~|{WR, ~E36};
+
+    wire H34 = ~|{WR, SLTS, ~AB_H[12]};
+    wire E34 = ~&{K8, AB_H[13]};
+
+    reg [3:0] C63;
+    always @(negedge CLK)
+        C63 <= {C63[2], F25, C63[0], F23};
+
+
 
     T5A Cell_G35(B3, B34, A12, C14, ~B33, B33, AB_H[14], Y[1]);
     T5A Cell_F37(B17, A28, A11, C20, ~B33, B33, AB_H[14], Y[2]);
@@ -85,6 +112,7 @@ module k007452_top(
     T5A Cell_J2(1'b0, G20, K4, H12, D25, ~D25, D26, DB_OUT[6]);
     T5A Cell_K14(1'b0, H17, K19, H24, D25, ~D25, D26, DB_OUT[7]);
 
+
     // Address decode
     wire G26 = ~&{~AB_L[0], ~AB_L[1], ~AB_L[2], H32};    // 000
     wire F23 = ~&{AB_L[0], ~AB_L[1], ~AB_L[2], H32};     // 001
@@ -99,72 +127,67 @@ module k007452_top(
     wire B24 = ~&{AB_H[15], ~AB_L[14], H34, E34};
     wire B26 = ~&{AB_H[15], ~AB_L[14], H34, ~E34};
 
+
     // Set and reset for A28 and B34, which is which ?
     wire F33 = ~&{nRES, ~K8};
     wire A41 = ~&{nRES, K8};
 
+    always @(posedge B24 or negedge F33 or negedge A41) begin
+        if (!F33) begin
+            B34 <= 1'b1;
+            A28 <= 1'b1;
+        end else if (!A41) begin
+            B34 <= 1'b0;
+            A28 <= 1'b0;
+        end else begin
+            B34 <= ~DB[0];
+            A28 <= ~DB[1];
+        end
+    end
 
-    wire H34 = ~|{WR, SLTS, ~AB_H[12]};
-    wire E34 = ~&{K8, AB_H[13]};
-    
-    // Select 0111
+    // Bank 011
+    wire B1 = ~((~DB[0]&~B26)|(B26&B3));
+    wire B3 = ~(nRES | B1);
+    wire B18 = ~((~DB[1]&~B26)|(B26&B17));
+    wire B17 = ~(nRES | B18);
+    wire B12 = ~((~DB[2]&~B26)|(B26&C21));
+    wire C21 = ~(RES & B12);
+    wire B15 = ~((~DB[3]&~B26)|(B26&B14));
+    wire B14 = ~(RES & B15);
+    wire C2 = ~((~DB[4]&~B26)|(B26&C4));
+    wire C4 = ~(RES & C2);
+    wire B4 = ~((~DB[5]&~B26)|(B26&B6));
+    wire B6 = ~(RES & B4);
+
+    // Bank 101
+    wire A19 = ~((~DB[0]&~B9)|(B9&A12));
+    wire A12 = ~(RES & A19);
+    wire A17 = ~((~DB[1]&~B9)|(B9&A11));
+    wire A11 = ~(RES & A17);
+    wire A15 = ~((~DB[2]&~B9)|(B9&A10));
+    wire A10 = ~(RES & A15);
+    wire A13 = ~((~DB[3]&~B9)|(B9&A9));
+    wire A9 = ~(RES & A13);
+    wire A22 = ~((~DB[4]&~B9)|(B9&A2));
+    wire A2 = ~(RES & A22);
+    wire A3 = ~((~DB[5]&~B9)|(B9&A5));
+    wire A5 = ~(RES & A3);
+
+    // Bank 111
     wire C15 = ~((~DB[0]&~B7)|(B7&C14));
     wire C14 = ~(nRES | C15);
-
     wire C18 = ~((~DB[1]&~B7)|(B7&C20));
     wire C20 = ~(RES & C18);
-
     wire C12 = ~((~DB[2]&~B7)|(B7&C11));
     wire C11 = ~(RES & C12);
-
     wire C26 = ~((~DB[3]&~B7)|(B7&C23));
     wire C23 = ~(RES & C26);
-
     wire C9 = ~((~DB[4]&~B7)|(B7&C8));
     wire C8 = ~(RES & C9);
-
     wire C24 = ~((~DB[5]&~B7)|(B7&C22));
     wire C22 = ~(RES & C24);
 
 
-    // Select 0101
-    wire A19 = ~((~DB[0]&~B9)|(B9&A12));
-    wire A12 = ~(RES & A19);
-
-    wire A17 = ~((~DB[1]&~B9)|(B9&A11));
-    wire A11 = ~(RES & A17);
-
-    wire A15 = ~((~DB[2]&~B9)|(B9&A10));
-    wire A10 = ~(RES & A15);
-
-    wire A13 = ~((~DB[3]&~B9)|(B9&A9));
-    wire A9 = ~(RES & A13);
-
-    wire A22 = ~((~DB[4]&~B9)|(B9&A2));
-    wire A2 = ~(RES & A22);
-
-    wire A3 = ~((~DB[5]&~B9)|(B9&A5));
-    wire A5 = ~(RES & A3);
-
-
-    // Select 1011
-    wire B1 = ~((~DB[0]&~B26)|(B26&B3));
-    wire B3 = ~(nRES | B1);
-
-    wire B18 = ~((~DB[1]&~B26)|(B26&B17));
-    wire B17 = ~(nRES | B18);
-
-    wire B12 = ~((~DB[2]&~B26)|(B26&C21));
-    wire C21 = ~(RES & B12);
-
-    wire B15 = ~((~DB[3]&~B26)|(B26&B14));
-    wire B14 = ~(RES & B15);
-
-    wire C2 = ~((~DB[4]&~B26)|(B26&C4));
-    wire C4 = ~(RES & C2);
-
-    wire B4 = ~((~DB[5]&~B26)|(B26&B6));
-    wire B6 = ~(RES & B4);
 
     FS3 Cell_L3({DB[0], DB[1], DB[2], DB[3]}, M4[3], H36, F23, L3);
     FS3 Cell_M4({DB[4], DB[5], DB[6], DB[7]}, M38, H36, F23, M4);
@@ -179,8 +202,6 @@ module k007452_top(
     assign N18 = ~|{N29[2], ~L3[3]};
     assign N28 = ~|{N29[3], ~L3[3]};
 
-    //wire [7:0] small_adder;
-    //assign small_adder = {L37, N19, N18, N28, R28, R27, R26, R25} + {1'b0, K27, N1, P1, P8[3:0]};
     assign N16 = R25 & P8[0];
     assign M38 = R25 ^ P8[0];
     A1N Cell_R1(R26, P8[1], N16, R1_S, R1_CO);
@@ -190,16 +211,13 @@ module k007452_top(
     A1N Cell_N20(N18, N1, P34_CO, N20_S, N20_CO);
     A1N Cell_N8(N19, K27, N20_CO, N8_S, N8_CO);
 
-    reg [3:0] P8;
     always @(posedge H36 or negedge G26) begin
         if (!G26)
             P8 <= 4'b0000;
         else
             P8 <= {P34_S, R9_S, R17_S, R1_S}; //P8 <= small_adder[4:1];
     end
-    //FDO Cell_P1(H36, small_adder[5], G26, P1, );
-    //FDO Cell_N1(H36, small_adder[6], G26, N1, );
-    //FDO Cell_K27(H36, small_adder[7], G26, K27, );
+
     FDO Cell_P1(H36, N20_S, G26, P1, );
     FDO Cell_N1(H36, N8_S, G26, N1, );
     FDO Cell_K27(H36, L37 ^ N8_CO, G26, K27, );
@@ -209,7 +227,8 @@ module k007452_top(
     LT4 Cell_R29({DB[0], DB[1], DB[2], DB[3]}, G26, , R29);
     LT4 Cell_N29({DB[4], DB[5], DB[6], DB[7]}, G26, , N29);
 
-    // OK:
+
+
     assign J23 = ~(AB_L[0] ? D42 : J77);
     assign H8 = ~(AB_L[0] ?  H42 : M42);
     assign H10 = ~(AB_L[0] ? G42 : P42);
@@ -219,7 +238,6 @@ module k007452_top(
     assign H26 = ~(AB_L[0] ? F42 : L77);
     assign J35 = ~(AB_L[0] ? C42 : J62);
 
-    // OK:
     assign K21 = ~(AB_L[0] ? P8[0] : L3[3]);
     assign K2 = ~(AB_L[0] ?  P8[1] : L3[2]);
     assign K23 = ~(AB_L[0] ? P8[2] : L3[1]);
@@ -228,11 +246,6 @@ module k007452_top(
     assign K12 = ~(AB_L[0] ? N1    : M4[2]);
     assign K4 = ~(AB_L[0] ?  K27   : M4[1]);
     assign K19 = ~(AB_L[0] ? 1'b0  : M4[0]);
-
-    reg [3:0] C63;
-    always @(negedge CLK)
-        C63 <= {C63[2], F25, C63[0], F23};
-
 
     reg [3:0] D3;
     reg [3:0] F2;
@@ -254,10 +267,8 @@ module k007452_top(
     assign G20 = ~(AB_L[0] ? G2[2] : F2[2]);
     assign H17 = ~(AB_L[0] ? G2[3] : F2[3]);
 
-
     LT4 Cell_L42({DB[0], DB[1], DB[2], DB[3]}, G22, , L42);
     LT4 Cell_K62({DB[4], DB[5], DB[6], DB[7]}, G22, , K62);
-
     LT4 Cell_H71({DB[0], DB[1], DB[2], DB[3]}, G24, , H71);
     LT4 Cell_H58({DB[4], DB[5], DB[6], DB[7]}, G24, , H58);
 
@@ -288,7 +299,6 @@ module k007452_top(
     A1N Cell_E66(E49, H58[1], E76_CO, E66_S, E66_CO);
     A1N Cell_E58(E42, H58[0], E66_CO, E58_S, E58_CO);
 
-    reg [15:0] acc_reg;
     always @(posedge B58 or negedge F25) begin
         if (!F25)
             acc_reg <= 16'h0000;
@@ -313,31 +323,6 @@ module k007452_top(
     assign M42 = acc_reg[1];
     assign P42 = acc_reg[0];
 
-    //wire [14:0] adder_b = {H58[0], H58[1], H58[2], H58[3], H71[0], H71[1], H71[2], H71[3], K62[0], K62[1], K62[2], K62[3], L42[0], L42[1], L42[2]};
-    //wire [15:0] adder_out = {14'b0, N46} + {1'b0, acc_reg} + {1'b0, adder_b};
-    //wire [14:0] sel_a = {~acc_reg[13:0], P42};
-
-    /*reg [14:0] acc_reg;
-    always @(posedge B58 or negedge F25) begin
-        if (!F25)
-            acc_reg <= 15'd0;
-        else
-            acc_reg <= ~(C54 ? sel_a : adder_out[14:0]);
-    end*/
-
-    always @(posedge B24 or negedge F33 or negedge A41) begin // Is this the right order ?
-        if (!F33) begin
-            B34 <= 1'b1;
-            A28 <= 1'b1;
-        end else if (!A41) begin
-            B34 <= 1'b0;
-            A28 <= 1'b0;
-        end else begin
-            B34 <= ~DB[0];
-            A28 <= ~DB[1];
-        end
-    end
-
     always @(posedge B24 or negedge RES) begin
         if (!RES) begin
             D35 <= 1'b1;
@@ -351,22 +336,6 @@ module k007452_top(
             C28 <= ~DB[5];
         end
     end
-
-    assign E36 = 1; // DEBUG ~|{SLTS, B22, B34, A28, D35, D28, C35, C28};
-
-    wire H37 = |{~E36, RD};
-    assign D25 = ~|{H37, AB_L[1]};
-    wire D26 = ~|{H37, AB_L[2]};
-    wire DB_DIR = ~|{D25, D26};
-    
-    assign DB = DB_DIR ? 8'bzzzz_zzzz : DB_OUT;
-
-    T5A Cell_A44(Y[2], Y[3], Y[4], Y[3], SEL[0], ~SEL[0], SEL[1], A44);
-
-    wire H39 = ~|{~E36, RD};
-    wire H40 = ~|{SLTS, CS12, H39};
-    assign OE1 = ~&{A44, H40};
-    assign OE2 = ~&{~A44, H40};
 
 endmodule
 
