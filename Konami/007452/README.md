@@ -4,6 +4,8 @@ Math and bankswitching/address decoding chip.
 
 Fujitsu MB672000 gate array with 1245 basic cells. Silicon ID: 672122.
 
+![Die trace](trace.png)
+
 # Multiplier
 
 7-bit operand A * 8-bit operand B -> 15-bit result.
@@ -15,7 +17,7 @@ Fujitsu MB672000 gate array with 1245 basic cells. Silicon ID: 672122.
 
 Result is valid 8+2 clocks after writing to register 1.
 
-Operand A's MSB '''must''' be zero or the result will be incorrect. The result's upper byte MSB is always zero.
+Operand A's MSB **must** be zero or the result will be incorrect. The result's upper byte MSB is always zero.
 
 # Divider
 
