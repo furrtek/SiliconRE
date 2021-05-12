@@ -23,24 +23,29 @@
 * RES10
 * CLK8=$CK24_1 ?
 
+# Pins
+
+See file 007121.ods
+
 # Registers
 
 `Unused` means that there's no latch for the given bit of the given register, writing to it does nothing.
 
 * Register 0: X scroll value, lower 8 bits
 * Register 1:
-  * Bit 7: Forces pin NRM low
+  * Bit 7: Forces pin NRM low (which pin is NRM?)
   * Bit 6~4: Unused
-  * Bit 3: Layout related
+  * Bit 3: Select text mode when high. Layout related
   * Bit 2: 0=Row scrolling, 1=Column scrolling
   * Bit 1: Enable row/column scrolling
   * Bit 0: X scroll value, higher bit
 * Register 2: Y scroll value
 * Register 3:
   * Bit 7: Unused
-  * Bit 6: Blanking related
+  * Bit 6: Blanking related. According to MAME, the effect is to
+           removed the leftmost and rightmost columns of the image
   * Bit 5: Priority related, selects between S7 or P8
-  * Bit 4: Layout related
+  * Bit 4: Selects text mode when low. Layout related
   * Bit 3: Highest VRAM address bit when parsing sprite list ($0000/$8000)
   * Bit 2: Priority related, opaque sprite pixels have highest priority
   * Bit 1: Unused
@@ -50,7 +55,7 @@
   * Bit 6: Scroll layer tile code bit 11, 0=From data selected by register 5, 1=Directly from register 4 bit 2
   * Bit 5: Scroll layer tile code bit 10, 0=From data selected by register 5, 1=Directly from register 4 bit 1
   * Bit 4: Scroll layer tile code bit 9, 0=From data selected by register 5, 1=Directly from register 4 bit 0
-  * Bit 3~0: See above.
+  * Bit 3~0: Scroll layer tile code bits 12:9, selected individually by the above bits
 * Register 5:
   * Bit 7~6: Scroll layer tile code bit 12 comes from VRAM attribute bit 00=3, 01=4, 10=5 or 11=6
   * Bit 5~4: Scroll layer tile code bit 11 comes from VRAM attribute bit 00=3, 01=4, 10=5 or 11=6
@@ -71,7 +76,7 @@
   * Bit 2: Enable FIRQs
   * Bit 1: Enable IRQs
   * Bit 0: Enable NMIs
-  
+
 # Priority
 
 Scroll / sprite priority is decided on pages "PRIORITY" and "COLOR OUTPUT".
@@ -87,8 +92,15 @@ If reg 3 bit 2 is reset, then both scroll and sprite priority bits are unused. O
 # Color output
 
 Pins COA0-COA3 represent the final 4bpp pixel. COA4 indicates 0=Sprite pixel, 1=Scroll pixel. COA5 and COA6 are set by reg 6 bits 4 and 5.
-During blanking, only COA0-COA3 are set to 0. COA4-COA7 continue functioning like in the active display.
+During blanking, only COA0-COA3 are set to 0. COA4-COA6 continue functioning like in the active display.
 When pin NWCS is low, the CPU address bus A1-A7 are routed to pins COA0-COA6. This has priority over blanking.
+
+COA bit | Meaning
+--------|--------------------------
+6       | set by register 6, bit 5
+5       | set by register 6, bit 4
+4       | 0=sprite 1=scroll
+3:0     | Final pixel color
 
 # Line buffers
 
@@ -98,14 +110,18 @@ Sprite pixels are written to DRAM 2 by 2 (2 * 4bpp), they're also read out 2 by 
 
 # Scroll RAM
 
-May be used for row or column scrolling. A row or column = 8 pixels.
-Row scrolling: register 0 (X scroll) is overridden. Column scrolling: register 2 (Y scroll) is overridden.
+May be used for row or column scrolling. A row or column is 8 pixels.
 
-Not a regular RAM block, but 288 latches to store 32 9-bit values (only 8 bits used for column scrolling).
+* Row scrolling: register 0 (X scroll) is overridden.
+* Column scrolling: register 2 (Y scroll) is overridden.
 
-The latch data input comes from a 2-to-1 mux to either store a new value written by the CPU, or the value from SCROLL_OUTx (previous one ?)
+It is not a regular RAM block, but 288 latches to store 32 9-bit values (only 8 bits used for column scrolling).
 
-Scroll RAM: 20~3F = low 8 bits, 40~5F = highest bit in b0
+The latch data input comes from a 2-to-1 mux to either store a new value written by the CPU, or the value from SCROLL_OUTx (to keep the previous one)
+
+Memory mapping:
+* 20:3F = lower 8 bits
+* 40:5F = highest bit in b0
 
 x01x xxxx = low
 x10x xxxx = high
