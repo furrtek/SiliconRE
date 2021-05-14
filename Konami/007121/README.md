@@ -21,6 +21,7 @@
 * RES6=RES11=RES12=MM132 ?
 * RES7
 * RES10
+* CLK6=$H2_BUF ?
 * CLK8=$CK24_1 ?
 
 # Pins
