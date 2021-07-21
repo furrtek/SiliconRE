@@ -215,6 +215,8 @@
         <output name="QD" xpos="0" ypos="62" type="line"/>
     </cell>
     <cell name="FJD" size="12" description="Positive Edge Clocked Power JKFF with CLEAR">
+        <!-- J/K outputs maybe swapped -->
+        <!-- Q/XQ outputs maybe swapped -->
         <input name="J" xpos="0" ypos="0" type="missing"/>
         <input name="K" xpos="0" ypos="0" type="missing"/>
         <input name="CK" xpos="0" ypos="0" type="missing"/>
@@ -281,7 +283,7 @@
         <output name="X" xpos="0" ypos="41" type="line"/>
     </cell>
 
-    <cell name="LT1" size="4" description="SR latch with clear">
+    <cell name="LT1" size="4" description="SR latch with Clear">
         <input name="R" xpos="0" ypos="2" type="line"/>
         <input name="S" xpos="0" ypos="12" type="line"/>
         <input name="CL" xpos="0" ypos="0" type="line"/>
