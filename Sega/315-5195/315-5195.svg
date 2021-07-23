@@ -11,13 +11,14 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    height="2000mm"
    id="svg34107"
-   inkscape:export-xdpi="27.054153"
-   inkscape:export-ydpi="27.054153"
+   inkscape:export-xdpi="50.143661"
+   inkscape:export-ydpi="50.143661"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="315-5195.svg"
    version="1.1"
    viewBox="0 0 2000 2000"
-   width="2000mm">
+   width="2000mm"
+   inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\315-5195.svg.png">
   <defs
      id="defs34101" />
   <sodipodi:namedview
@@ -29,8 +30,8 @@
      fit-margin-top="0"
      id="base"
      inkscape:current-layer="layer2"
-     inkscape:cx="1519.3095"
-     inkscape:cy="7401.1027"
+     inkscape:cx="755.66551"
+     inkscape:cy="7127.0188"
      inkscape:document-units="mm"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
@@ -41,7 +42,7 @@
      inkscape:window-width="1366"
      inkscape:window-x="1436"
      inkscape:window-y="66"
-     inkscape:zoom="2.8284271"
+     inkscape:zoom="0.35355339"
      pagecolor="#ffffff"
      showgrid="true"
      showguides="false">
@@ -52,7 +53,11 @@
        spacingx="1"
        spacingy="1"
        type="xygrid"
-       units="mm" />
+       units="mm"
+       color="#000000"
+       opacity="0.1254902"
+       empcolor="#000000"
+       empopacity="0.25098039" />
   </sodipodi:namedview>
   <metadata
      id="metadata34104">
@@ -62,7 +67,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -19133,7 +19138,7 @@
     <rect
        height="14"
        id="cellrectA87"
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;paint-order:markers fill stroke"
        width="12"
        x="0"
        y="344" />
@@ -19282,7 +19287,7 @@
     <rect
        height="10"
        id="cellrectA104"
-       style="opacity:1;fill:#00ffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;paint-order:markers fill stroke"
        width="12"
        x="0"
        y="412" />
@@ -19431,7 +19436,7 @@
     <rect
        height="2"
        id="cellrectA120"
-       style="opacity:1;fill:#00ffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;paint-order:markers fill stroke"
        width="12"
        x="0"
        y="476" />
@@ -24277,7 +24282,7 @@
     <rect
        height="6"
        id="cellrectF68"
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;paint-order:markers fill stroke"
        width="12"
        x="180"
        y="268" />
@@ -34360,7 +34365,7 @@
     <rect
        height="2"
        id="cellrectM56"
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;paint-order:markers fill stroke"
        width="12"
        x="396"
        y="220" />
@@ -49432,7 +49437,7 @@
     <rect
        height="2"
        id="cellrectZ115"
-       style="opacity:1;fill:#00ffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;paint-order:markers fill stroke"
        width="12"
        x="756"
        y="456" />
@@ -50006,15 +50011,6 @@
        id="path10987"
        inkscape:connector-curvature="0" />
     <path
-       id="path10989"
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 252,250 h -15 v 1 L -5,251 M 252,132 h -15 v 118"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccc">
-      <desc
-         id="desc20472">PIN_D0_IN?</desc>
-    </path>
-    <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 438,439.99999 h -4"
        id="path11082"
@@ -50053,12 +50049,12 @@
          id="desc12752">PIN_BGAC_EN</desc>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#800080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="M 394.00001,-30.999998 V -21 h -1.00002 v 83 h 3"
        id="path11328"
        inkscape:connector-curvature="0">
       <desc
-         id="desc12422">BGAC IN</desc>
+         id="desc12422">PIN_BGAC_IN</desc>
     </path>
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -50136,14 +50132,6 @@
          id="desc12928">G41</desc>
     </path>
     <path
-       id="path11365"
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#800080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 200,142 v -12 h 15 v -1 h 7 m -22,17 v -4 h 16 m 0,12 h -16 v -8 h 16"
-       inkscape:connector-curvature="0">
-      <desc
-         id="desc20442">G33</desc>
-    </path>
-    <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 150,213 h 28 v -16 h 214.99999 v 35 h 3"
        id="path11411"
@@ -50160,7 +50148,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccc">
       <desc
-         id="desc10650">PIN_ADX_IN</desc>
+         id="desc10650">PIN_AD0_IN</desc>
     </path>
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -50450,7 +50438,10 @@
     <path
        id="path10024"
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff00ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 366,193 h -79.00001 v 1 h -1.99998 v 89.99999 H 252 247 v 4 h -31 -5 V 280 h -31 -5 M 47.999999,264 H 67 V 0 M 12,12 h 6 V 0 H 35.999999 71.999998 103 v 7.9999998 h 5 L 136,8 V 2.0000061e-7 L 144,0 M 67,264 v 15.99999 H 71.999998 102 v 8 h 6 L 139,288 v -1 h 36 v -7" />
+       d="m 366,193 h -79.00001 v 1 h -1.99998 v 89.99999 H 252 247 v 4 h -31 -5 V 280 h -31 -5 M 47.999999,264 H 67 V 0 M 12,12 h 6 V 0 H 35.999999 71.999998 103 v 7.9999998 h 5 L 136,8 V 2.0000061e-7 L 144,0 M 67,264 v 15.99999 H 71.999998 102 v 8 h 6 L 139,288 v -1 h 36 v -7">
+      <desc
+         id="desc14839">L48</desc>
+    </path>
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffff00;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 402,185 h 18 v 2 h 352 v 314 h 29"
@@ -50544,7 +50535,7 @@
     </path>
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 42,213 h 25.999998 v 13 H 71 v 1 h 176 v -6 h 139"
+       d="m 42,213 h 25.999998 v 13 H 71 v 1 h 176 v -6 h 148 l 0,-1 h 1"
        id="path9449"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccc" />
@@ -50647,8 +50638,9 @@
     <path
        id="path11610"
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 431.99999,114 H 431 v -1 H 417 V 96 h -8 V 94.999999 H 278.00001 V 80.999998 H 265 v -1 h -7 m 0,0 h -8 V 88 h -34 -37 v 0.999998 H 161 V 253 m 55,3 h -21 v -3 h -34 m 0,-88 h 18 v -1 h 37"
-       inkscape:connector-curvature="0">
+       d="M 431.99999,114 H 431 v -1 H 417 V 96 h -8 V 94.999999 H 278.00001 V 80.999998 H 265 v -1 h -7 m 0,0 h -8 V 88 h -34 -37 v 0.999998 H 161 V 253 m 55,3 h -21 v -3 h -34"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccccccc">
       <desc
          id="desc12932">H17_PA</desc>
     </path>
@@ -51230,7 +51222,10 @@
        d="m 402,445 h 23.99998 v 30 H 681.99999 L 682,510"
        id="path11650"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc">
+      <desc
+         id="desc14853">PIN_D13_OUT</desc>
+    </path>
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 565,515 v -4 h -9.00001 V 446.99999 H 431 V 449 h -29"
@@ -51243,7 +51238,10 @@
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 402,441.00001 h 7 V 442 h 19 v 33.99999 H 768.99999 V 475 h 29 v -24.00001 h 1.99999"
        id="path11666"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc14855">PIN_D14_OUT</desc>
+    </path>
     <path
        id="path11668"
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -52042,7 +52040,7 @@
     </path>
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#800080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 438,60.999999 h -7 V 59 H 410 V 30.999998 H -26 L -26,-33 h 2 v -3"
+       d="m 438,60.999999 h -7 V 59 H 410 V 30.999998 L -26,31 v -63.999998 l 2,-2e-6 v -3"
        id="path9701"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccc">
@@ -53898,7 +53896,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc">
       <desc
-         id="desc10646">AD5 IN</desc>
+         id="desc10646">PIN_AD5_IN</desc>
     </path>
     <path
        id="path9807"
@@ -54072,7 +54070,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccc">
       <desc
-         id="desc10652">PIN_ADY_IN</desc>
+         id="desc10652">PIN_AD2_IN</desc>
     </path>
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff00ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -54160,9 +54158,11 @@
     <path
        id="path11454"
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 252,126 h -1 v -1 H 233 V 89.999999 m 19,0 H 233 V 83 H -25 V -17 h -10">
+       d="m 252,126 h -1 v -1 H 233 V 89.999999 m 19,0 H 233 V 83 H -25 l 0,-112 h -10"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc">
       <desc
-         id="desc12531">PIN_ADZ_IN</desc>
+         id="desc12531">PIN_AD1_IN</desc>
     </path>
     <path
        id="path11721"
@@ -54454,19 +54454,13 @@
        id="path10291"
        inkscape:connector-curvature="0" />
     <path
-       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 144,305.99999 h -6 v 72 h 12"
        id="path10470"
-       inkscape:connector-curvature="0" />
+       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 144,305.99999 h -6 v 72 h 12 m 30,-108 h -21 v 35 h -2 v 1 h -13" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 150,428.99999 h -25 v 21 h 18 v 2.00002 h 1"
        id="path10474"
-       inkscape:connector-curvature="0" />
-    <path
-       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 150,453 h -9 v -6.00001 H -1 V 446 H -28 V 302"
-       id="path10476"
        inkscape:connector-curvature="0" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -54504,7 +54498,7 @@
        inkscape:connector-curvature="0" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#800080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 0,478 h -2 v 26 h -33"
+       d="m 0,478 h -2 v 26 h -32"
        id="path9529"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc">
@@ -54614,27 +54608,10 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc" />
     <path
-       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 42,257 H -6.9999999"
-       id="path10289"
-       inkscape:connector-curvature="0">
-      <desc
-         id="desc12722">PIN_AD0_OUT</desc>
-    </path>
-    <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 144,322 h -1 v -1.00002 h -17 v -3.99999 H 34.999998 v -1 H 18 V 255 h -5 v -1 H 5.9999998"
        id="path10741"
        inkscape:connector-curvature="0" />
-    <path
-       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 42,249 H -6"
-       id="path10743"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc">
-      <desc
-         id="desc12720">PIN_AD1_OUT</desc>
-    </path>
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="M 5.9999998,341.99999 H -1 v 1.00002 H -25 V 391 h -9.999998"
@@ -54653,13 +54630,16 @@
        sodipodi:nodetypes="cccc" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 5.9999998,354.00001 H -1 v -1.00002 L -19,353 v -51"
+       d="M 5.9999998,354.00001 H -1 v -1.00002 l -18,10e-6 0,-58"
        id="path11270"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc">
+      <desc
+         id="desc14833">A87_XQ</desc>
+    </path>
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 5.9999998,330 H -18 v 40 h -15"
+       d="M 5.9999998,330 H -18 v 40 h -17"
        id="path11407"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
@@ -54670,12 +54650,6 @@
       <desc
          id="desc13041">J28</desc>
     </path>
-    <path
-       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 0,345.99999 H -1 V 344 l -19,0 v -46"
-       id="path11731"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 12,216 h 2 v 70 h 28"
@@ -54891,28 +54865,10 @@
        id="path10739"
        inkscape:connector-curvature="0" />
     <path
-       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 42,241 H -9"
-       id="path10745"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc">
-      <desc
-         id="desc12726">PIN_AD3_OUT</desc>
-    </path>
-    <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 47.999999,244 h 18 v 5 H 150"
        id="path10872"
        inkscape:connector-curvature="0" />
-    <path
-       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 42,245 H -8"
-       id="path10880"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc">
-      <desc
-         id="desc12724">PIN_AD2_OUT</desc>
-    </path>
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 287.99999,248 h -1 v -1"
@@ -55322,20 +55278,18 @@
          id="desc12456">D DIR</desc>
     </path>
     <path
-       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M -34.999998,30.999998 H -30 V 221"
        id="path11724"
-       inkscape:connector-curvature="0">
+       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M -34.999998,30.999998 H -30 V 241 m 72,0 h -72">
       <desc
-         id="desc12438">PIN_AD3_OUT</desc>
+         id="desc13106">PIN_AD3_OUT</desc>
     </path>
     <path
-       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M -34.999998,111 H -26 v 111"
        id="path11727"
-       inkscape:connector-curvature="0">
+       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M -34.999998,111 H -26 v 186 m 176,156 h -9 v -6.00001 H -1 V 446 H -28 V 297 h 2">
       <desc
-         id="desc12525">PIN_AD6_OUT</desc>
+         id="desc13121">PIN_AD6_OUT</desc>
     </path>
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -55351,10 +55305,10 @@
        sodipodi:nodetypes="cccccc" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m -33,374.99999 h 9 V 272 l 24,0"
+       d="m -35,375 11,-10e-6 V 272 H 0"
        id="path11409"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="cccc" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 35.999999,345.99999 h -1.000001 v 1.00002"
@@ -55374,11 +55328,6 @@
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 0,431.99999 h -1 v -1.99998 H -26.999999 V 414.99998 H -34"
        id="path9185"
-       inkscape:connector-curvature="0" />
-    <path
-       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#800000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 0,412.00001 h -33 v 63.99998 H 0"
-       id="path10228"
        inkscape:connector-curvature="0" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#800080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -55850,14 +55799,14 @@
        x="800"
        y="450" />
     <rect
-       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="display:inline;opacity:1;vector-effect:none;fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect19541-5-2-0-8-9"
        width="15"
        height="15"
        x="800"
        y="470" />
     <rect
-       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="display:inline;opacity:1;vector-effect:none;fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect19541-5-2-0-8-31"
        width="15"
        height="15"
@@ -56890,12 +56839,6 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332px"
          id="tspan10319-4-6-5-8-2-6-4-0">WRI</tspan></text>
     <path
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff00ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M -37,348.99999 -4,349 v -70"
-       id="path10592"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
-    <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m -34.999998,315 h 2.999999 L -32,248 0,248"
        id="path10594"
@@ -56916,7 +56859,9 @@
     <path
        id="path10611"
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#800080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m -30,413 v -20.00001 m 7,-20.99998 v 20.99998 H -34.999998 M -23,348 v 24.00001 H -33 M -23,333 V 312.99999 H -34.999998 M 0,348 H -23 V 333 H -34.999998 M -30,453 v -32.00001 m 35.9999998,0 H -30 V 413 h -4 m 4,59.99998 V 492 h -4 m -0.999998,-39 H -30 v 19.99998 h -4.999998">
+       d="m -30,413 v -20.00001 m 7,-20.99998 v 20.99998 H -34.999998 M -23,348 v 24.00001 L -35,372 m 12,-39 V 312.99999 H -34.999998 M 0,348 H -23 V 333 H -34.999998 M -30,453 v -32.00001 m 35.9999998,0 H -30 V 413 h -4 m 4,59.99998 V 492 h -4 m -0.999998,-39 H -30 v 19.99998 h -4.999998"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccc">
       <desc
          id="desc12618">PINS_P_DIR</desc>
     </path>
@@ -56926,22 +56871,11 @@
        id="path10618"
        inkscape:connector-curvature="0" />
     <path
-       id="path10634"
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#800080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M -32.000001,-7 H -35 m 3.000001,40 v -48 h -2.999999 m 2.999999,67.999999 V 33 h -2.999999 m 2.999999,39.999999 v -20 h -2.999999 M 216,93.999999 H 199 V 113 H -35 m 2e-6,20 h 2.999999 V 113 L -32,73 h -3"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccccccccccccc">
-      <desc
-         id="desc10640">PINS_AD_DIR</desc>
-    </path>
-    <path
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m -35,-9 h 0.999998 L -34,219"
        id="path10638"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc">
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m -35,-9 h 0.999998 L -34,245 m 76,0 h -76">
       <desc
-         id="desc12728">PIN_ADY_OUT</desc>
+         id="desc13109">PIN_AD2_OUT</desc>
     </path>
     <path
        id="path10672"
@@ -58048,12 +57982,11 @@
          id="desc12469">PIN_A11_OUT</desc>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M -16,512.99998 V 511 H -3 V 275"
        id="path12517"
-       inkscape:connector-curvature="0">
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M -16,512.99998 V 511 H -3 V 251 m 255,-1 h -15 v 1 H -3 M 252,132 h -15 v 118">
       <desc
-         id="desc12519">PIN_D0_IN</desc>
+         id="desc13118">PIN_D0_IN</desc>
     </path>
     <rect
        style="display:inline;opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -58168,9 +58101,9 @@
     <path
        id="path12864"
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#008080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 449.99999,77.999999 V 38.999998 H 445 V 38 H 431.99999 M -25,88.999998 V 222 M 323.99999,85.999999 H 322 v -12 H 252 234 V 87 H -25 v 1.999998 L -35,89 m 287,133 h -18 v -36 m 0,-16 V 87 m -6,99 h 6 v -16 h 18 m 51.00001,24 v 14 H 287.99999 268 v 14 h -16 m 107.99999,-16 h -4 V 195 H 337 v -1 h -13.00001 m 0,0 h -20.99998 v -8 H 324 M 431.99999,38 h -72 -18 V 84.999998 H 337 v 1.000001 H 323.99999 M 482,142 v -20 m 22,0 H 482 V 106 H 467.99999 467 v -2 H 449.99999 V 77.999999 h 18 M 504,142 h -22 v 8 h -14.00001 m 0,0 h -14 v 20 h 14 M 648,14 h -1.00002 v 1 H 645 v 10 h -20 v 1 h -13 -1 v 1 h -18 v 2 h -4 v 1 h -13 -15 v 80 h 15 m -15,28 v 51 h 13.99998 v 1 H 576 612 m -51,-80 v 28 h -21 -1 v 1 h -4 v 3 h -31">
+       d="M 449.99999,77.999999 V 38.999998 H 445 V 38 h -13.00001 m -108,47.999999 H 322 v -12 H 252 234 V 87 H -25 v 1.999998 L -35,89 m 287,133 h -18 v -36 m 0,-16 V 87 m -6,99 h 6 v -16 h 18 m 51.00001,24 v 14 H 287.99999 268 v 14 h -16 m 107.99999,-16 h -4 V 195 H 337 v -1 h -13.00001 m 0,0 h -20.99998 v -8 H 324 M 431.99999,38 h -72 -18 V 84.999998 H 337 v 1.000001 H 323.99999 M 482,142 v -20 m 22,0 H 482 V 106 H 467.99999 467 v -2 H 449.99999 V 77.999999 h 18 M 504,142 h -22 v 8 h -14.00001 m 0,0 h -14 v 20 h 14 M 648,14 h -1.00002 v 1 H 645 v 10 h -20 v 1 h -13 -1 v 1 h -18 v 2 h -4 v 1 h -13 -15 v 80 h 15 m -15,28 v 51 h 13.99998 v 1 H 576 612 m -51,-80 v 28 h -21 -1 v 1 h -4 v 3 H 504 M -25,88.999998 V 253 h 5 M 0,345.99999 H -1 V 344 h -19 v -91">
       <desc
-         id="desc12918">CRST</desc>
+         id="desc14831">CRST</desc>
     </path>
     <path
        id="path12884"
@@ -58247,9 +58180,9 @@
     <path
        id="path13050"
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff00ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 500.99999,380 V 204 m 0,212 v 26.99999 H 503 v 0.99999 h 1 M 504,380 h -3.00001 v 36 H 504 M 479.99999,16 h 7 V 29 H 503 v 1 h 30.99999 m -138,98 h -3 v 59 m 141,-87 v 52 H 504 500.99999 v 41 M 540,30 h -6.00001 v 70 H 540 m -36,104 h -3.00001 V 193 H 409 v -1 h -13.00001 -3 v -5 H 107 v 1 h -6 v 6 H 71.999998 71 v 1 H 68.999999 L 69,225 H -4 v 9 h 3 v 2 h 1">
+       d="M 500.99999,380 V 204 m 0,212 v 26.99999 H 503 v 0.99999 h 1 M 504,380 h -3.00001 v 36 H 504 M 479.99999,16 h 7 V 29 H 503 v 1 h 30.99999 m -138,98 h -3 v 59 m 141,-87 v 52 H 504 500.99999 v 41 M 540,30 h -6.00001 v 70 H 540 m -36,104 h -3.00001 V 193 H 409 v -1 h -13.00001 -3 v -5 H 107 v 1 h -6 v 6 H 71.999998 71 v 1 H 68.999999 L 69,225 H -4 v 9 M -37,348.99999 -4,349 V 234">
       <desc
-         id="desc13053">CLK1</desc>
+         id="desc14842">PIN_CLK</desc>
     </path>
     <path
        id="path13074"
@@ -58259,6 +58192,55 @@
        sodipodi:nodetypes="cccccccccccccccccccccccccccccccc">
       <desc
          id="desc13078">L29</desc>
+    </path>
+    <path
+       id="path13089"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#800000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 0,412.00001 h -33 v 63.99998 H 0 M -33,412.00001 V 255 l -7,0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc">
+      <desc
+         id="desc14846">PIN_PCS?</desc>
+    </path>
+    <path
+       id="path13092"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m -34.999998,-17 h 4 L -31,257 m 73,0 h -73">
+      <desc
+         id="desc13115">PIN_AD0_OUT</desc>
+    </path>
+    <path
+       id="path13096"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#800080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M -31.999999,-15 -32,-27 h -2.999999 m 2.999998,20 H -35 m 3.000001,40 v -48 h -2.999999 m 2.999999,67.999999 V 33 h -2.999999 m 2.999999,39.999999 v -20 h -2.999999 M 216,93.999999 H 199 V 113 H -35 m 2e-6,20 h 2.999999 V 113 L -32,73 h -3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccccccccc">
+      <desc
+         id="desc13099">PINS_AD_DIR</desc>
+    </path>
+    <path
+       id="path13101"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m -34.999998,-25 h 7.999999 L -27,249 m 69,0 h -69">
+      <desc
+         id="desc13112">PIN_AD1_OUT</desc>
+    </path>
+    <path
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 5.9999998,233 H -15"
+       id="path14837"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 0,236 h -1 v -2 h -12"
+       id="path14844"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path14848"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#800080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 216,164 h -16 v -10 m 0,-12 v -12 h 15 v -1 h 7 m -22,17 v -4 h 16 m 0,12 h -16 v -8 h 16">
+      <desc
+         id="desc14851">G33</desc>
     </path>
   </g>
 </svg>
