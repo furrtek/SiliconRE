@@ -30,8 +30,8 @@
      fit-margin-top="0"
      id="base"
      inkscape:current-layer="layer2"
-     inkscape:cx="755.66551"
-     inkscape:cy="7127.0188"
+     inkscape:cx="1526.8695"
+     inkscape:cy="6709.8258"
      inkscape:document-units="mm"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
@@ -42,7 +42,7 @@
      inkscape:window-width="1366"
      inkscape:window-x="1436"
      inkscape:window-y="66"
-     inkscape:zoom="0.35355339"
+     inkscape:zoom="4"
      pagecolor="#ffffff"
      showgrid="true"
      showguides="false">
@@ -50133,9 +50133,10 @@
     </path>
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 150,213 h 28 v -16 h 214.99999 v 35 h 3"
+       d="m 150,213 h 28 V 197 H 392.99999 L 393,220 h 3"
        id="path11411"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 258,178 h -7 v -1 h -4 v -51 h -19"
@@ -50535,10 +50536,10 @@
     </path>
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 42,213 h 25.999998 v 13 H 71 v 1 h 176 v -6 h 148 l 0,-1 h 1"
+       d="m 42,213 h 25.999998 v 13 H 71 v 1 h 176 v -6 h 146 v 11 h 3"
        id="path9449"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccc" />
+       sodipodi:nodetypes="cccccccccc" />
     <path
        id="path9349"
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -51768,7 +51769,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc">
       <desc
-         id="desc11970">A12 OUT</desc>
+         id="desc11970">PIN_A12_OUT</desc>
     </path>
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -52109,7 +52110,7 @@
        id="path10749"
        inkscape:connector-curvature="0">
       <desc
-         id="desc11978">A1 OUT</desc>
+         id="desc11978">PIN_A15_OUT</desc>
     </path>
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -52240,7 +52241,7 @@
        id="path9454"
        inkscape:connector-curvature="0">
       <desc
-         id="desc11994">A2 OUT</desc>
+         id="desc11994">PIN_A16_OUT</desc>
     </path>
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -52292,7 +52293,7 @@
        id="path11689"
        inkscape:connector-curvature="0">
       <desc
-         id="desc11990">PIN_A16_IN</desc>
+         id="desc11990">PIN_A2_IN</desc>
     </path>
     <path
        id="path11708"
@@ -52358,7 +52359,7 @@
        id="path10213"
        inkscape:connector-curvature="0">
       <desc
-         id="desc11988">A16 IN (OUT ?)</desc>
+         id="desc11988">PIN_A2_OUT</desc>
     </path>
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffff00;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -52380,7 +52381,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccc">
       <desc
-         id="desc11980">PIN_A3_OUT</desc>
+         id="desc11980">PIN_A3_IN</desc>
     </path>
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffff00;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -52389,7 +52390,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccc">
       <desc
-         id="desc11986">PIN_A3_IN</desc>
+         id="desc11986">PIN_A3_OUT</desc>
     </path>
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#800080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -53147,7 +53148,7 @@
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffff00;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 732,471.99999 h 22 v -4 m 1.99998,-100.00001 H 754 v 24.00001 M 664.99998,388 V 348 H 684 m 71.99998,119.99999 H 754 v -76 h -34.00002 -22 v 12 H 684 664.99998 V 388 h -4.99999 m 95.99999,-20.00002 h 13.00001 v -0.99999 h 26 L 795,55 h 2.00001 M 664.99998,348 h -36.99999 v -67.00002 h -3 v -0.99999 h -109">
       <desc
-         id="desc11992">PIN_A2_IN</desc>
+         id="desc11992">PIN_A16_IN</desc>
     </path>
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -53688,7 +53689,7 @@
        id="path10036"
        inkscape:connector-curvature="0">
       <desc
-         id="desc11996">PIN_A15_OUT</desc>
+         id="desc11996">PIN_A1_OUT</desc>
     </path>
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -53725,7 +53726,7 @@
        id="path11683"
        inkscape:connector-curvature="0">
       <desc
-         id="desc11998">PIN_A15_IN</desc>
+         id="desc11998">PIN_A1_IN</desc>
     </path>
     <path
        id="path9770"
@@ -55200,9 +55201,10 @@
        inkscape:connector-curvature="0" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 761.99999,337 h 7 v 0.99999 H 790 V 340 h -22"
+       d="m 761.99999,337 h 7 v 0.99999 l 29.00001,0 V 340 l -30,0"
        id="path9387"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 725.99999,377 h 7 v -0.99999 H 753 v -16.00002 h -21"
@@ -57582,7 +57584,7 @@
          x="799.93988"
          y="114.4204"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332px"
-         id="tspan11757-9">A15</tspan><tspan
+         id="tspan11757-9">A1</tspan><tspan
          sodipodi:role="line"
          x="799.93988"
          y="118.72142"
@@ -57598,7 +57600,7 @@
          x="799.93988"
          y="94.42041"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332px"
-         id="tspan11782-7">A1</tspan><tspan
+         id="tspan11782-7">A15</tspan><tspan
          sodipodi:role="line"
          x="799.93988"
          y="98.721428"
@@ -57630,7 +57632,7 @@
          x="799.93988"
          y="54.420406"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332px"
-         id="tspan11757-9-3">A2</tspan><tspan
+         id="tspan11757-9-3">A16</tspan><tspan
          sodipodi:role="line"
          x="799.93988"
          y="58.721424"
@@ -57646,7 +57648,7 @@
          x="799.93988"
          y="34.420403"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332px"
-         id="tspan11757-9-3-2">A16</tspan><tspan
+         id="tspan11757-9-3-2">A2</tspan><tspan
          sodipodi:role="line"
          x="799.93988"
          y="38.72142"
