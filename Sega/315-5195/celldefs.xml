@@ -158,35 +158,40 @@
         <output name="XQ" xpos="0" ypos="0" type="missing"/>
     </cell>
     <cell name="FDE" size="10" description="Positive Edge Clocked Power DFF with CLEAR">
-        <input name="D" xpos="0" ypos="4" type="line"/>
+        <!-- Checked -->
         <input name="CK" xpos="0" ypos="2" type="line"/>
+        <input name="D" xpos="0" ypos="4" type="line"/>
         <input name="CL" xpos="0" ypos="8" type="line"/>
-        <output name="Q" xpos="0" ypos="37" type="line"/>
         <output name="XQ" xpos="0" ypos="33" type="line"/>
+        <output name="Q" xpos="0" ypos="37" type="line"/>
     </cell>
     <cell name="FDG" size="9" description="Positive Edge Clocked DFF with CLEAR">
-        <input name="D" xpos="0" ypos="4" type="line"/>
+        <!-- Checked -->
         <input name="CK" xpos="0" ypos="2" type="line"/>
+        <input name="D" xpos="0" ypos="4" type="line"/>
         <input name="CL" xpos="0" ypos="8" type="line"/>
-        <output name="Q" xpos="0" ypos="34" type="line"/>
         <output name="XQ" xpos="0" ypos="32" type="line"/>
+        <output name="Q" xpos="0" ypos="34" type="line"/>
     </cell>
     <cell name="FDM" size="6" description="DFF">
-        <input name="D" xpos="0" ypos="8" type="line"/>
+        <!-- Checked -->
         <input name="CK" xpos="0" ypos="0" type="line"/>
-        <output name="Q" xpos="0" ypos="22" type="missing"/>
+        <input name="D" xpos="0" ypos="8" type="line"/>
         <output name="XQ" xpos="0" ypos="21" type="line"/>
+        <output name="Q" xpos="0" ypos="22" type="missing"/>
     </cell>
     <cell name="FDN" size="7" description="DFF with Set">
-        <input name="D" xpos="0" ypos="4" type="line"/>
+        <!-- Checked -->
         <input name="CK" xpos="0" ypos="0" type="line"/>
-        <input name="S" xpos="0" ypos="14" type="line"/>
+        <input name="D" xpos="0" ypos="4" type="line"/>
         <output name="Q" xpos="0" ypos="10" type="line"/>
+        <input name="S" xpos="0" ypos="14" type="line"/>
         <output name="XQ" xpos="0" ypos="26" type="line"/>
     </cell>
     <cell name="FDO" size="7" description="DFF with Reset">
-        <input name="D" xpos="0" ypos="8" type="line"/>
+        <!-- Checked -->
         <input name="CK" xpos="0" ypos="0" type="line"/>
+        <input name="D" xpos="0" ypos="8" type="line"/>
         <input name="R" xpos="0" ypos="10" type="line"/>
         <output name="Q" xpos="0" ypos="25" type="line"/>
         <output name="XQ" xpos="0" ypos="26" type="line"/>
@@ -215,14 +220,13 @@
         <output name="QD" xpos="0" ypos="62" type="line"/>
     </cell>
     <cell name="FJD" size="12" description="Positive Edge Clocked Power JKFF with CLEAR">
-        <!-- J/K outputs maybe swapped -->
-        <!-- Q/XQ outputs maybe swapped -->
-        <input name="J" xpos="0" ypos="0" type="missing"/>
-        <input name="K" xpos="0" ypos="0" type="missing"/>
-        <input name="CK" xpos="0" ypos="0" type="missing"/>
-        <input name="CL" xpos="0" ypos="0" type="missing"/>
-        <output name="Q" xpos="0" ypos="0" type="missing"/>
-        <output name="XQ" xpos="0" ypos="0" type="missing"/>
+        <!-- Checked -->
+        <input name="CK" xpos="0" ypos="2" type="missing"/>
+        <input name="J" xpos="0" ypos="6" type="missing"/>
+        <input name="K" xpos="0" ypos="10" type="missing"/>
+        <input name="CL" xpos="0" ypos="22" type="missing"/>
+        <output name="XQ" xpos="0" ypos="41" type="missing"/>
+        <output name="Q" xpos="0" ypos="45" type="missing"/>
     </cell>
 
     <cell name="G14" size="2" description="2-wide 3-OR 4-input OR-AND-Inverter">
@@ -284,11 +288,12 @@
     </cell>
 
     <cell name="LT1" size="4" description="SR latch with Clear">
-        <input name="R" xpos="0" ypos="4" type="line"/>
-        <input name="S" xpos="0" ypos="14" type="line"/>
+        <!-- Checked -->
         <input name="CL" xpos="0" ypos="2" type="line"/>
+        <input name="R" xpos="0" ypos="4" type="line"/>
         <output name="Q" xpos="0" ypos="8" type="line"/>
         <output name="XQ" xpos="0" ypos="10" type="line"/>
+        <input name="S" xpos="0" ypos="14" type="line"/>
     </cell>
     <cell name="LT2" size="4" description="1-bit Data Latch">
         <input name="D" xpos="0" ypos="0" type="missing"/>
@@ -312,14 +317,16 @@
         <output name="ND" xpos="0" ypos="49" type="line"/>
     </cell>
     <cell name="LTK" size="4" description="1-bit Data Latch">
-        <input name="D" xpos="0" ypos="8" type="line"/>
+        <!-- Checked -->
         <input name="G" xpos="0" ypos="0" type="line"/>
+        <input name="D" xpos="0" ypos="8" type="line"/>
         <output name="Q" xpos="0" ypos="12" type="line"/>
         <output name="XQ" xpos="0" ypos="14" type="line"/>
     </cell>
     <cell name="LTL" size="5" description="1-bit Data Latch with Clear">
-        <input name="D" xpos="0" ypos="8" type="line"/>
+        <!-- Checked -->
         <input name="G" xpos="0" ypos="0" type="line"/>
+        <input name="D" xpos="0" ypos="8" type="line"/>
         <input name="CL" xpos="0" ypos="10" type="line"/>
         <output name="Q" xpos="0" ypos="16" type="line"/>
         <output name="XQ" xpos="0" ypos="18" type="line"/>
