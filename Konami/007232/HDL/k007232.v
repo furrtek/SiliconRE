@@ -6,7 +6,7 @@ module k007232(
 	
 	input NRCS, DACS, NRD,
 	input [3:0] AB,
-	output NO, NE,
+	output NQ, NE,
 	
 	inout [7:0] DB,
 	inout [7:0] RAM,
@@ -43,7 +43,7 @@ module k007232(
 	wire nCH1_RELOAD, nCH2_RELOAD;
 	
 	assign NE = F74;
-	assign NO = E74;
+	assign NQ = E74;
 	
 	always @(negedge CLK or posedge nNRES) begin
 		if (nNRES)
