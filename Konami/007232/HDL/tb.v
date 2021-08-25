@@ -19,7 +19,7 @@ module tb(
 		NRES,
 		NRCS, DACS, NRD,
 		AB,
-		NO, NE,
+		NQ, NE,
 		DB_2, RAM_2,
 		SA,
 		ASD, BSD,

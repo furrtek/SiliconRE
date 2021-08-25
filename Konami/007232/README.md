@@ -29,7 +29,7 @@ The PCM data is unpacked. Each byte represents a 7-bit sample and a stop bit, in
   * Reg 10: Start address MSB
   * Reg 11: Trigger
 * Other
-  * Reg 12: Decoded output on SOEV pin
+  * Reg 12: Decoded output on SLEV pin
   * Reg 13: Loop flags. Bit 0: Channel A/1, bit 1: Channel B/2.
  
 # Operation

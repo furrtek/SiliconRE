@@ -47,7 +47,9 @@ See file 007121.ods
            removed the leftmost and rightmost columns of the image
   * Bit 5: Priority related, selects between S7 or P8
   * Bit 4: Selects text mode when low. Layout related
-  * Bit 3: Highest VRAM address bit when parsing sprite list ($0000/$8000)
+           Limits the part of the image where sprites can appear (CC39)
+  * Bit 3: There are two sprite tables, this bit selects the active one
+           (highest VRAM address bit when parsing sprite list $0000/$8000)
   * Bit 2: Priority related, opaque sprite pixels have highest priority
   * Bit 1: Unused
   * Bit 0: Highest gfx ROM address bit for scroll layer tile fetches (tile code bit 13, pin R17)
@@ -72,23 +74,32 @@ See file 007121.ods
   * Bit 0: Enable bit 3 of scroll layer tile attribute as highest color lookup address (pin VCB3)
 * Register 7:
   * Bit 7~5: Unused
-  * Bit 4: Select NMI repetition rate 0=16 scanlines, 1=32 scanlines
+  * Bit 4: Select NMI repetition rate 0=32 scanlines, 1=64 scanlines
   * Bit 3: Flip display in both X and Y
-  * Bit 2: Enable FIRQs
-  * Bit 1: Enable IRQs
-  * Bit 0: Enable NMIs
+  * Bit 2: Enable FIRQs. Pulse it to clear an active FIRQ request.
+  * Bit 1: Enable IRQs. Pulse it to clear an active IRQ request.
+  * Bit 0: Enable NMIs. Pulse it to clear an active NMI request.
+
+# Interrupts
+
+The chip can produce the three interrupts supported by the M6809 CPU:
+
+*  NMI: either every 32 scanlines (Reg7[4] low) or 64 (Reg7[4] high)
+*  IRQ: at the same time that /VBLANK goes high
+* FIRQ: each time /IRQ is cleared, /FIRQ toggles
 
 # Priority
 
 Scroll / sprite priority is decided on pages "PRIORITY" and "COLOR OUTPUT".
-The tile's priority bit is the tilemap's attribute bit 6 when reg 6 bit 3 is high, otherwise it is set to 0.
+
+The tile priority bit is the tilemap attribute bit 6 when reg 6 bit 3 is high, otherwise it is set to 0.
 It's loaded in the same kind of 8-bit shift register used for the tile's pixels, so once loaded it stays the same for a given 8-pixel row.
 The output of the shift register is finally used only if reg 3 bits 2 and 5 are set.
 If the priority bit is set, and the current pixel is opaque (color isn't zero), then opaque scroll pixels have priority.
 
-If reg 3 bit 2 is set, bit 5 is reset, and P6 (wrong ? doesn't make sense) is high, then all scroll pixels have priority ?
+If reg 3 bit 2 is set, bit 5 is low, and P6 (wrong ? doesn't make sense) is high, then all scroll pixels have priority ?
 
-If reg 3 bit 2 is reset, then both scroll and sprite priority bits are unused. Opaque sprite pixels are given priority.
+If reg 3 bit 2 is low, then both scroll and sprite priority bits are unused. Opaque sprite pixels are given priority.
 
 # Color output
 
@@ -116,6 +127,8 @@ May be used for row or column scrolling. A row or column is 8 pixels.
 * Row scrolling: register 0 (X scroll) is overridden.
 * Column scrolling: register 2 (Y scroll) is overridden.
 
+Note that if the row is set to text mode, the scroll mux output is always zero.
+
 It is not a regular RAM block, but 288 latches to store 32 9-bit values (only 8 bits used for column scrolling).
 
 The latch data input comes from a 2-to-1 mux to either store a new value written by the CPU, or the value from SCROLL_OUTx (to keep the previous one)
@@ -133,7 +146,12 @@ A6 selects low 8 bits/highest bit
 Reading:
 If below $2000, read scroll RAM
 
-# Sprite attributes
+# Sprites
+
+There are two sprite tables in memory, selectable via bit Reg3[3]. The table is
+addressed by a 11-bit up counter.
+
+## Sprite attributes
 
 * Byte 0:
   * Bit 7: SPR_CODE7
@@ -164,19 +182,19 @@ If below $2000, read scroll RAM
   * Bit 1: SPR_SIZE0
   * Bit 0: X position highest bit, COUNTER6_D3
 
-# Sprite layout
+## Sprite layout
 
-* SPR_SIZE2: Size is 32*32
+* SPR_SIZE2: Size is 32x32
 * SPR_SIEZ1: Width is 0=16px, 1=8px
 * SPR_SIEZ0: Height is 0=16px, 1=8px
 
-| SPR_SIZE | Width | Height | Notes | GFX ROM address, x means bit kept (LOW0/LOW1), 0 means replaced by internal counter
-|----------|-------|--------|---------------------------------------------------------------|-------------------|
-| 000      | 16    | 16     | SPR_HEIGHT_8=0, COUNTER1 reloaded with 1, 1, ~Z58, ~Z58       | A131, AA76, SPR_CODE0... MAME:xx00 ok
-| 001      | 16    | 8      | SPR_HEIGHT_8=1, COUNTER1 reloaded with 1, 1, 1, ~Z58          | A131, LOW1, SPR_CODE0... MAME:xxx0 ok
-| 010      | 8     | 16     | SPR_HEIGHT_8=0, COUNTER1 reloaded with 1, 1, 1, ~Z58          | LOW0, A93, SPR_CODE0...  MAME:xx0x ok
-| 011      | 8     | 8      | SPR_HEIGHT_8=1, COUNTER1 reloaded with 1, 1, 1, 1             | LOW0, LOW1, SPR_CODE0... MAME:xxxx ok
-| 100      | 32    | 32     | SPR_HEIGHT_8=0, COUNTER1 reloaded with ~Z58, ~Z58, ~Z58, ~Z58 | A131, C93, SPR_CODE0...  MAME:xx00 ok
+ SPR_SIZE | Width | Height | Notes                                                         | GFX ROM address, x means bit kept (LOW0/LOW1), 0 means replaced by internal counter
+----------|-------|--------|---------------------------------------------------------------|------------------------------------------------------------------------------------
+ 000      | 16    | 16     | SPR_HEIGHT_8=0, COUNTER1 reloaded with 1, 1, ~Z58, ~Z58       | A131, AA76, SPR_CODE0... MAME:xx00 ok
+ 001      | 16    | 8      | SPR_HEIGHT_8=1, COUNTER1 reloaded with 1, 1, 1, ~Z58          | A131, LOW1, SPR_CODE0... MAME:xxx0 ok
+ 010      | 8     | 16     | SPR_HEIGHT_8=0, COUNTER1 reloaded with 1, 1, 1, ~Z58          | LOW0, A93, SPR_CODE0...  MAME:xx0x ok
+ 011      | 8     | 8      | SPR_HEIGHT_8=1, COUNTER1 reloaded with 1, 1, 1, 1             | LOW0, LOW1, SPR_CODE0... MAME:xxxx ok
+ 100      | 32    | 32     | SPR_HEIGHT_8=0, COUNTER1 reloaded with ~Z58, ~Z58, ~Z58, ~Z58 | A131, C93, SPR_CODE0...  MAME:xx00 ok
 
 COUNTER1 is enabled only when size=011 ? Doesn't make sense.
 
@@ -212,65 +230,65 @@ C93 =   COUNTER1_Q2 ^ SPR_FLIPY
 
 # GFX ROM address
 
-| Pin | SCROLL             | SPR                        | 8x8  | 8x16 | 16x8 | 16x16 | 32x32 |
-|-----|--------------------|----------------------------|------|------|------|-------|-------|
-| R0  | COUNTER8Q1/ATTR4   | D121                       | D121 |      |      |       |       |
-| R1  |                    | SPR_SIZE2=0:T119, =1:CC120 | A131 | A131 | EE114| EE114 | CC120 | Tile line A0
-| R2  |                    | SPR_SIZE2=0:W128, =1:A93   | EE114| EE114| CC120| CC120 | A93   | Tile line A1
-| R3  |                    | SPR_SIZE2=0:V123, =1:AA76  | CC120| CC120| A93  | A93   | AA76  | Tile line A2
-| R4  | Code bit 0         | T131                       | LOW0 | LOW0 | A131 | A131  | A131
-| R5  | Code bit 1         | SPR_SIZE2=0:X122, =1:C93   | LOW1 | A93  | LOW1 | AA76  | C93
-| R6  | Code bit 2         | SPR_CODE0
-| R7  | Code bit 3         | SPR_CODE1
-| R8  | Code bit 4         | SPR_CODE2
-| R9  | Code bit 5         | SPR_CODE3
-| R10 | Code bit 6         | SPR_CODE4
-| R11 | Code bit 7         | SPR_CODE5
-| R12 | Attribute bit 7    | SPR_CODE6
-| R13 | See reg 4 and 5    | SPR_CODE7
-| R14 | See reg 4 and 5    | SPR_BANK0
-| R15 | See reg 4 and 5    | SPR_BANK1
-| R16 | See reg 4 and 5    | SPR_BANK2
-| R17 | Reg 3 bit 0        | SPR_BANK3
+ Pin | SCROLL             | SPR                        | 8x8  | 8x16 | 16x8 | 16x16 | 32x32 |
+-----|--------------------|----------------------------|------|------|------|-------|-------|
+ R0  | COUNTER8Q1/ATTR4   | D121                       | D121 |      |      |       |       |
+ R1  |                    | SPR_SIZE2=0:T119, =1:CC120 | A131 | A131 | EE114| EE114 | CC120 | Tile line A0
+ R2  |                    | SPR_SIZE2=0:W128, =1:A93   | EE114| EE114| CC120| CC120 | A93   | Tile line A1
+ R3  |                    | SPR_SIZE2=0:V123, =1:AA76  | CC120| CC120| A93  | A93   | AA76  | Tile line A2
+ R4  | Code bit 0         | T131                       | LOW0 | LOW0 | A131 | A131  | A131
+ R5  | Code bit 1         | SPR_SIZE2=0:X122, =1:C93   | LOW1 | A93  | LOW1 | AA76  | C93
+ R6  | Code bit 2         | SPR_CODE0
+ R7  | Code bit 3         | SPR_CODE1
+ R8  | Code bit 4         | SPR_CODE2
+ R9  | Code bit 5         | SPR_CODE3
+ R10 | Code bit 6         | SPR_CODE4
+ R11 | Code bit 7         | SPR_CODE5
+ R12 | Attribute bit 7    | SPR_CODE6
+ R13 | See reg 4 and 5    | SPR_CODE7
+ R14 | See reg 4 and 5    | SPR_BANK0
+ R15 | See reg 4 and 5    | SPR_BANK1
+ R16 | See reg 4 and 5    | SPR_BANK2
+ R17 | Reg 3 bit 0        | SPR_BANK3
 
 T119:
-|SPR_HEIGHT_8 | SPR_WIDTH_8 | Output|
-|-------------|-------------|-------|
-|0            | 0     | EE114
-|0            | 1     | A131
-|1            | 0     | EE114
-|1            | 1     | A131
+SPR_HEIGHT_8 | SPR_WIDTH_8 | Output
+-------------|-------------|-------
+0            | 0           | EE114
+0            | 1           | A131
+1            | 0           | EE114
+1            | 1           | A131
 
 W128:
-|SPR_HEIGHT_8 | SPR_WIDTH_8 | Output|
-|-------------|-------------|-------|
-0            | 0     | CC120
-0            | 1     | EE114
-1            | 0     | CC120
-1            | 1     | EE114
+SPR_HEIGHT_8 | SPR_WIDTH_8 | Output
+-------------|-------------|-------
+0            | 0           | CC120
+0            | 1           | EE114
+1            | 0           | CC120
+1            | 1           | EE114
 
 V123:
-|SPR_HEIGHT_8 | SPR_WIDTH_8 | Output|
-|-------------|-------------|-------|
-0            | 0     | A93
-0            | 1     | CC120
-1            | 0     | A93
-1            | 1     | CC120
+SPR_HEIGHT_8 | SPR_WIDTH_8 | Output
+-------------|-------------|-------
+ 0           | 0           | A93
+ 0           | 1           | CC120
+ 1           | 0           | A93
+ 1           | 1           | CC120
 
 T131:
-|SPR_HEIGHT_8 | SPR_WIDTH_8 | Output|
-|-------------|-------------|-------|
-0            | 0     | A131
-0            | 1     | SPR_CODE_LOW0
-1            | 0     | A131
-1            | 1     | SPR_CODE_LOW0
+SPR_HEIGHT_8 | SPR_WIDTH_8 | Output
+-------------|-------------|-------
+ 0           | 0           | A131
+ 0           | 1           | SPR_CODE_LOW0
+ 1           | 0           | A131
+ 1           | 1           | SPR_CODE_LOW0
 
 X122:
-|SPR_HEIGHT_8 | SPR_WIDTH_8 | Output|
-|-------------|-------------|-------|
-0            | 0     | AA76
-0            | 1     | A93
-1            | 0     | SPR_CODE_LOW1
-1            | 1     | SPR_CODE_LOW1
+SPR_HEIGHT_8 | SPR_WIDTH_8 | Output
+-------------|-------------|-------
+ 0           | 0           | AA76
+ 0           | 1           | A93
+ 1           | 0           | SPR_CODE_LOW1
+ 1           | 1           | SPR_CODE_LOW1
 
 Tilemap is made of pairs of code-attribute bytes for each tile ?

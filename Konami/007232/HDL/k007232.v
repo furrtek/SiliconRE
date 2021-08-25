@@ -6,7 +6,7 @@ module k007232(
 	
 	input NRCS, DACS, NRD,
 	input [3:0] AB,
-	output NO, NE,
+	output NQ, NE,
 	
 	inout [7:0] DB,
 	inout [7:0] RAM,
@@ -15,7 +15,7 @@ module k007232(
 	output reg [6:0] BSD,
 	
 	output CK2M,
-	output SOEV
+	output SLEV
 );
 
 	wire nNRES = ~NRES;
@@ -43,7 +43,7 @@ module k007232(
 	wire nCH1_RELOAD, nCH2_RELOAD;
 	
 	assign NE = F74;
-	assign NO = E74;
+	assign NQ = E74;
 	
 	always @(negedge CLK or posedge nNRES) begin
 		if (nNRES)
@@ -107,7 +107,7 @@ module k007232(
 	wire nREG9_WR = ~((ADDR == 4'd9) & ~DACS);
 	wire nREG10_WR = ~((ADDR == 4'd10) & ~DACS);
 	wire REG11_WR = ((ADDR == 4'd11) & ~DACS);
-	assign SOEV = ~((ADDR == 4'd12) & ~DACS);
+	assign SLEV = ~((ADDR == 4'd12) & ~DACS);
 	wire nREG13_WR = ~((ADDR == 4'd13) & ~DACS);
 
 	assign RAM = (~NRCS & NRD & ~NE) ? DB : 8'bzzzzzzzz;
@@ -121,7 +121,7 @@ module k007232(
 		else
 			K74 <= 1;
 	end
-	wire CH1_RESET_PRE = ~|{CH1_PRE_OUT, ~K74};
+	wire nCH1_RESET_PRE = ~|{CH1_PRE_OUT, ~K74};
 
 	wire V91 = ~&{nREG6_WR, nREG7_WR};
 	reg L79;
@@ -131,7 +131,7 @@ module k007232(
 		else
 			L79 <= 1;
 	end
-	wire CH2_RESET_PRE = ~|{CH2_PRE_OUT, ~L79};
+	wire nCH2_RESET_PRE = ~|{CH2_PRE_OUT, ~L79};
 
 	always @(posedge nREG4_WR)
 		REG4 <= DB[0];
@@ -158,11 +158,11 @@ module k007232(
 	always @(posedge nREG9_WR)
 		REG9 <= DB;
 		
-  wire M49, H97, M75, K95;
+	wire M49, H97, M75, K95;
 	// CH1 Prescaler
-	CNT2 CH1PRE0(NE, CH1_RESET_PRE, CLKd4, CH1_RESET_PRE, REG0[3:0], CH1_PRE[3:0]);
-	CNT2 CH1PRE1(NE, CH1_RESET_PRE, M49, CH1_RESET_PRE, REG0[7:4], CH1_PRE[7:4]);
-	CNT2 CH1PRE2(NE, CH1_RESET_PRE, H97, CH1_RESET_PRE, REG1[3:0], CH1_PRE[11:8]);
+	CNT2 CH1PRE0(NE, nCH1_RESET_PRE, CLKd4, nCH1_RESET_PRE, REG0[3:0], CH1_PRE[3:0]);
+	CNT2 CH1PRE1(NE, nCH1_RESET_PRE, M49, nCH1_RESET_PRE, REG0[7:4], CH1_PRE[7:4]);
+	CNT2 CH1PRE2(NE, nCH1_RESET_PRE, H97, nCH1_RESET_PRE, REG1[3:0], CH1_PRE[11:8]);
 	assign M49 = &{CLKd4, CH1_PRE[3:0]};
 	wire J33 = &{M49, CH1_PRE[7:4]};
 	wire J83 = &{H97, CH1_PRE[11:8]};
@@ -170,9 +170,9 @@ module k007232(
 	assign CH1_PRE_OUT = REG1[4] ? J33 : J83;
 	
 	// CH2 Prescaler
-	CNT2 CH2PRE0(NE, CH2_RESET_PRE, CLKd4, CH2_RESET_PRE, REG6[3:0], CH2_PRE[3:0]);
-	CNT2 CH2PRE1(NE, CH2_RESET_PRE, M75, CH2_RESET_PRE, REG6[7:4], CH2_PRE[7:4]);
-	CNT2 CH2PRE2(NE, CH2_RESET_PRE, K95, CH2_RESET_PRE, REG7[3:0], CH2_PRE[11:8]);
+	CNT2 CH2PRE0(NE, nCH2_RESET_PRE, CLKd4, nCH2_RESET_PRE, REG6[3:0], CH2_PRE[3:0]);
+	CNT2 CH2PRE1(NE, nCH2_RESET_PRE, M75, nCH2_RESET_PRE, REG6[7:4], CH2_PRE[7:4]);
+	CNT2 CH2PRE2(NE, nCH2_RESET_PRE, K95, nCH2_RESET_PRE, REG7[3:0], CH2_PRE[11:8]);
 	assign M75 = &{~CLKd4, CH2_PRE[3:0]};
 	wire K91 = &{M75, CH2_PRE[7:4]};
 	wire G95 = &{K95, CH2_PRE[11:8]};
