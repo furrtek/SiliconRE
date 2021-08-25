@@ -73,7 +73,7 @@ module k007232(
 	end
 
 	wire CLKd1024 = CLKDIV[7];
-	wire CLKd4 = D69;
+	wire CLKd4 = F74; // buffer G57
 
 	// Output data latches
 	always @(negedge CLKd4)
