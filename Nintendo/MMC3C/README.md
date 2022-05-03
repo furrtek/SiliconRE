@@ -18,6 +18,6 @@ The IRQ timer is ticked after PPU_A12 has been low for 3 falling edges of M2.
 
 # Schematic
 
-The schematic was traced from the chip's silicon and should represent exactly how it is internally constructed. The svg can be overlaid on the die picture (not provided, very large and ugly file).
+The schematic was traced from the chip's silicon and should represent exactly how it is internally constructed. The svg can be overlaid on the die picture found here: https://siliconpr0n.org/map/nintendo/mmc3c/mz/
 
 ![Nintendo MMC3C internal routing](routing.png)
