@@ -1,0 +1,51 @@
+   TEST1 1  64 VDD
+ok DCLK  2  63 CPBLK ok
+   TEST2 3  62 Out   ok high when on last pixel of line
+ok /RES  4  61 HINT  ok
+ok NL    5  60 S24H  low
+ok H512  6  59 VBLK  ok
+ok H256  7  58 HBLK  ok
+ok H128  8  57 V256  ok
+ok H64   9  56 V128  ok
+ok H32   10 55 V64   ok
+ok H16   11 54 V32   ok
+ok H8    12 53 V16   ok
+ok H4    13 52 V8    ok
+ok H2    14 51 V4    ok
+ok H1    15 50 V2    ok
+   GND   16 49 V1    ok
+ok V256E 17 48 GND
+ok V128E 18 47 H512E ok
+ok V64E  19 46 H256E ok
+ok V32E  20 45 H128E ok
+ok V16E  21 44 H64E  ok
+ok V8E   22 43 H32E  ok
+ok V4E   23 42 H16E  ok
+ok V2E   24 41 H8E   ok
+ok V1E   25 40 H4E   ok
+   ISET  26 39 H2E   ok
+ok INTD  27 38 H1E   ok
+   D8    28 37 D0
+   D7    29 36 D1
+   D6    30 35 D2
+   D5    31 34 D3
+   VDD   32 33 D4
+
+Bootleg copy:
+H[9:0]: 3x chained 161's clocked by DCLK, reset to 01 0000 0000 = 100 when pin 62 is high
+Pin 62 = H[9] & H[7:0] = 10 1111 1111 = 2FF
+
+V[0]: Pin 62 / 2 rising edge
+V[8:1]: 2x chained 161's clocked by pin 62, reset to 0011 1001 = 39 (<<1) when ~&{V1, V4, V8, V128, V256}
+First one enabled by V[0]
+
+CPBLK = VBLK | HBLK
+HINT = &{INTD, V256E, V64E, V32E, V1, V2, V4, V8, ~V16, ~V128E}
+
+HE[7:0] = H[7:0] ^ NL
+HE[8] = H[8] ^ NL ?
+HE[9] = H[9] ^ NL ?
+V[8:0] = V[8:0] ^ NL ?
+
+dbreed: ISET 1FF  1 1111 1111
+rtype:  ISET 16F  1 0110 1111, matches bootleg hard-wired value
