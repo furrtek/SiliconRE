@@ -1,0 +1,49 @@
+Cell_3d is the top two BCs of a 8-bit latch, some traces are wrong ! For illustration only
+See picture of paper notes
+
+Thunder Cross 2 POST:
+Table of test commands starts at 14d4, entries are 2 bytes
+First byte is the address (<30 means write, 31 means read), second byte is value
+
+   ______
+ 1|NC VDD|28
+ 2|NC   P|27
+ 3|NC   P|26
+ 4|NC  NC|25
+ 5|NC  NC|24
+ 6|A5  NC|23
+ 7|A4   P|22
+ 8|A3  NC|21
+ 9|A2   P|20
+10|A1  D7|19
+11|D0  D6|18
+12|D1  D5|17
+13|D2  D4|16
+14|GND_D3|15
+
+Value	Regs written to						Expected
+00	3,5,7,9,D,F,13,15,17,19,1D,1F,23,25,27,2B,2D,2F		0
+
+FF	3	1
+FF	2B	0
+FF	5	1
+FF	2D	0
+FF	7	1
+FF	2F	0
+
+FF	13	1
+FF	23	0
+FF	15	1
+FF	25	0
+FF	17	1
+FF	27	0
+
+FF	9	1
+FF	D	0
+FF	19	1
+FF	F	0
+
+0	D	1
+FF	1D	0
+0	F	1
+FF	1F	0

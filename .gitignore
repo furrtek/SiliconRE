@@ -3,3 +3,14 @@
 *.pdsbak
 *.workspace
 *.pdsprj
+NEC/BU5782K/BU5782K.csv
+NEC/BU5782K/BU5782K_cells.ods
+Namco/CUS27/ftk_CPLD.zip
+*.done
+*.rpt
+*.summary
+*.cdb
+*.hdb
+*.rdb
+*.bak
+*.tdf
