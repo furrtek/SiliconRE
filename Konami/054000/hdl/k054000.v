@@ -88,7 +88,6 @@ k054000_unit UNIT_Y(
 assign DOUT = RESULT_Y | RESULT_X;
 
 assign D0DIR = (A[5:4] != 2'd3) | RDEN;
-assign D[0] = D0DIR ? 1'bz : DOUT;
-assign D[7:1] = 7'bzzzz_zzz;
+assign D = {7'bzzzz_zzz, D0DIR ? 1'bz : DOUT};
 
 endmodule
