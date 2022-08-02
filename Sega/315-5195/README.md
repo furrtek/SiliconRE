@@ -34,35 +34,35 @@ Memory mapper / CPU-Sub CPU-MCU interface
 * Reg0: Set D_LATCH[7:0] with MUX_IN_D
 * Reg1: Set D_LATCH[15:8] with MUX_IN_D
 * Reg2:
- * D[0]: M68K /RESET direction (1:In, reset state, forced output when /CRST is low)
- * D[1]: M68K /HALT direction (1:In, reset state, forced output when /CRST is low)
- * D[2]: M68K /BERR direction (1:In, reset state)
+  * D[0]: M68K /RESET direction (1:In, reset state, forced output when /CRST is low)
+  * D[1]: M68K /HALT direction (1:In, reset state, forced output when /CRST is low)
+  * D[2]: M68K /BERR direction (1:In, reset state)
 * Reg3: Load ->Z80 data latch (P bus output), triggers Z80 interrupt
 * Reg4: M68K IPL lines:
- * D[2:0] M68K IPL lines
- * D[3]: ?
+  * D[2:0] M68K IPL lines
+  * D[3]: Set pending interrupt ?
 * Reg5: R/W operation control (setting both bits shouldn't do anything)
- * D[0]: Write
- * D[1]: Read
+  * D[0]: Write
+  * D[1]: Read
 * Reg6:
- * D[0]: Enable MCU interrupt when data counter OVF
- * D[1]: Enable MCU interrupt when Z80 writes
- * D[2]: Enable continuous reading with address auto-inc
- * D[3]: Clear data counter OVF flag when low
+  * D[0]: Enable MCU interrupt when data counter OVF
+  * D[1]: Enable MCU interrupt when Z80 writes
+  * D[2]: Enable continuous reading with address auto-inc
+  * D[3]: Clear data counter OVF flag when low
 * Reg7[6:0]: M68K address top bits for writes
 * Reg8: M68K address middle bits for writes (affected by auto-inc)
 * Reg9: M68K address middle bits for writes (affected by auto-inc)
 * RegA[6:0]: M68K address top bits for reads
 * RegB: M68K address middle bits for reads (affected by auto-inc)
 * RegC: M68K address middle bits for reads (affected by auto-inc)
-* RegD[3:0]: Data length bits[11:8] ?
-* RegE: Data length bits[7:0] ?
+* RegD[3:0]: Data length bits[11:8] ? Is it 65535 - data length ?
+* RegE: Data length bits[7:0] ? Is it 65535 - data length ?
 * RegF[0]: Related to continuous read mode
 * Reg10, 12... 1E:
- * [1:0]: Size mask for given region 0~7
- * [3:2]: /DTACK delay for given region 0~7
-  * 0: Use /EDAK pin
-  * 1~3: n cycles
+  * [1:0]: Size mask for given region 0~7
+  * [3:2]: /DTACK delay for given region 0~7
+   * 0: Use /EDAK pin
+   * 1~3: n cycles
 * Reg11, 13... 1F: Base address for given region 0~7
 
 * Z80 writes Z80-> data latch when /PCS and /PWR low
@@ -78,20 +78,19 @@ Memory mapper / CPU-Sub CPU-MCU interface
 
 * MCU read xxx11: Acks Z80 write /INT
 * MCU write reg6 D3: Clear data count-up /INT
-* D_LATCH is auto set to M68K data bus when L32_Q is high
 
 MCU (AD bus) can read:
 * 0: D_LATCH[15:8]
 * 1: D_LATCH[7:0]
 * 2: M68K control pin states / status
- *Bit 0: REST pin (active low)
- *Bit 1: HALT pin (active low)
- *Bit 2: BERR pin (active low)
- *Bit 3: IPL pins direction
- *Bit 4: IPL input related ?
- *Bit 5: Z80 interrupt pending
- *Bit 6: Busy with R/W operation (active low)
- *Bit 7: M68K interrupt pending ?
+  * Bit 0: REST pin (active low)
+  * Bit 1: HALT pin (active low)
+  * Bit 2: BERR pin (active low)
+  * Bit 3: IPL pins direction
+  * Bit 4: IPL input related ?
+  * Bit 5: Z80 interrupt pending
+  * Bit 6: Busy with R/W operation (active low)
+  * Bit 7: M68K interrupt pending ?
 * 3: Z80-> latch data
 
 It seems that after reset, the M68K has control of banking and r/w registers (MCU_MODE low, see K20).
