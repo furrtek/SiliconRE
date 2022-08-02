@@ -71,8 +71,7 @@ Memory mapper / CPU-Sub CPU-MCU interface
 # Nets
 
 * MUX_IN_D[7:0]: M68K D[7:0] or MCU AD[7:0] depending on MCU_MODE
-* SUB_MAIN[7:0]: Z80 to M68K data latch
-* PIN_AS_DIR: Low when r/w operation ongoing
+* SUB_MAIN[7:0]: Z80 to MCU data latch
 
 # Notes
 
@@ -95,6 +94,8 @@ MCU (AD bus) can read:
 
 It seems that after reset, the M68K has control of banking and r/w registers (MCU_MODE low, see K20).
 As soon as the MCU performs a write, control is given to it forever until the next reset (MCU_MODE high).
+
+The M68K can't read the Z80 reply data directly, only the MCU can. It probably reads the data, messes with it (?), and initiates a write operation to place it in 68k RAM.
 
 The /CS outputs can only be active when there are no pending interrupts, and the external (M68K-driven) or internal (DMA-driven) /AS is active.
 
