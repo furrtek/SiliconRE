@@ -4,25 +4,12 @@
 
 Fujitsu gate array with embedded RAM.
 
-* CA0-3: XACC[14:11] with optional flipping
-* CA7-4: YACC[14:11] with optional flipping
-* CA15-8: RAM_R_D[7:0] (tile code low)
-* CA23-16: RAM_L_D[7:0] (tile code high)
+* CA0-3: XACC[14:11], pixel x in tile with optional flipping
+* CA7-4: YACC[14:11], pixel y in tile with optional flipping
+* CA15-8: RAM_R_D[7:0], tile code low
+* CA23-16: RAM_L_D[7:0], tile code high
 
-# X adder:
-
-* A[7:0]: REG3 or REG5
-* B[7:0]: XACC[7:0] or XPREV[7:0]
-* A[23:8]: REG2 or REG4, sign-extended
-* B[23:8]: {REG0, REG1} or XACC[23:8] or XPREV[23:8]
-
-Load: W119 {REG0, REG1, 00}
-
-Acc: W148
-
-Pixel inc: E34_1 {00, REG2, REG3}
-
-Line inc: /E34_1 {00, REG4, REG5}
+Logic for both counters is the same, except for trigger and mux signals of course.
 
 # Registers
 
@@ -49,15 +36,15 @@ Line inc: /E34_1 {00, REG4, REG5}
 * 3, 16, 35, 48: GND
 * 32, 64: VCC
 * 2: 12MHz in
-* 4: OBLK out
+* 4: OBLK out (indicates that current pixel is out of plane)
 * 7-15, 17-31: Graphics ROM address out
 * 33: IOCS registers select
 * 34: VRCS RAM select
 * 36-46: CPU address in
 * 50-57: CPU data in/out
 * 58: CPU RW in
-* 59: VSCN in
-* 60: HSCN in
-* 61: VRC in
-* 62: HRC in
+* 59: VSCN in (VBLANK active low)
+* 60: HSCN in (HBLANK active low)
+* 61: VRC in (VSYNC)
+* 62: HRC in (HSYNC)
 * 63: 6MHz in
