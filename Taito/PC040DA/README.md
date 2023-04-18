@@ -6,6 +6,8 @@ Reverse-engineered based on an X-ray shot by @AsPiC_83, who also donated a sacri
 
 Resistor values unknown.
 
+![PC040DA trace](PC040DA.png)
+
 # Pinout
 
   * 1, 15: D1
