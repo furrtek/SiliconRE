@@ -1,0 +1,154 @@
+UM6619F Super A'Can silicon RE notes
+Die ID "A65392A"
+Last edit 20/09/2023
+NOTHING HAS BEEN VERIFIED
+
+-6502 core
+-One 2k*16 68000 ROM block
+-Two 4k*8 6502 ROM blocks
+-Sound
+-Joypad IO
+-Two DMA channels
+
+DMA stuff:
+The DMA control registers at E9002A and E9003A can be read back.
+Both have all their 16 bits used.
+
+E9002C doesn't exist
+E9002E exists
+
+E9003C exists
+E9003E doesn't exist
+
+
+
+How does the 6502/68000 crossover work ?
+Can both access the same registers in different address ranges ?
+	Apparently not, CPU_Dx_Z is for the 68000, different from 6502_Dx.
+When is the 6502 IRQ line set ?
+
+Register bits marked "not mapped" means writing has no effect, reading always returns 0 ?
+
+There's a total of 7 interrupt sources:
+-5 external which are triggered via 6619 pins 27 to 31.
+-2 internal from the 6619 itself, which according to MAME should be DMA and TIMER.
+
+The 68000 IPL lines (interrupt level) are set according to priority-encoding combinational logic using all 7 IRQFLAGs.
+The 6618 PPU has 3 lines going to the 6619 to trigger the video-related interrupts.
+
+Interrupt registers bitmap:
+7: From 6618 PPU		6619 pin 31
+6: Sound DMA ?			internal
+5: From 6618 PPU		6619 pin 30
+4: From 6618 PPU		6619 pin 29
+3: Timer ? 			internal
+2: From cartridge connector	6619 pin 28
+1: From expansion connector 	6619 pin 27
+
+From MAME:
+68000 IRQ level 3: H-Blank
+68000 IRQ level 5: Line match
+68000 IRQ level 7: V-Blank
+
+From MAME:
+0xE90000~0xE9001F sound_r sound_w
+0xE90020~0xE9002F dma_channel0_w
+0xE90030~0xE9003F dma_channel1_w
+
+Reg 0x401 or 0x409 ?: Read/Write IRQACK1
+Reg 0x402 or 0x40A ?: Read/Write IRQACK2?
+Reg 0x403 or 0x40B ?: Read/Write IRQACK3?
+Reg 0x404 or 0x40C ?: Read/Write IRQACK4
+Reg 0x405 or 0x40D ?: Read/Write IRQACK5
+Reg 0x406 or 0x40E ?: Read/Write IRQACK6?
+Reg 0x407 or 0x40F ?: Read/Write IRQACK7
+
+
+E90020: Write only - DMA0_SRCU_WR	Load some counter
+E90022: Write only - DMA0_SRCL_WR	Load some counter
+E90024: Write only - DMA0_DSTU_WR	Load some counter
+E90026: Write only - DMA0_DSTL_WR	Load some counter
+E90028: Write only - DMA0_CNT_WR	Load some counter
+E9002A: Read/Write - DMA0_CTRL_WR	All bits used
+E9002C: Not mapped
+E9002E: Write only - At least 5 bits used
+
+E90030: Write only - DMA1_SRCU_WR	Load some counter
+E90032: Write only - DMA1_SRCL_WR	Load some counter
+E90034: Write only - DMA1_DSTU_WR	Load some counter
+E90036: Write only - DMA1_DSTL_WR	Load some counter
+E90038: Write only - DMA1_CNT_WR	Load some counter
+E9003A: Read/Write - DMA1_CTRL_WR	All bits used
+E9003C: Read/Write - Reset internal 68000 ROM enable timer
+E9003E: Not mapped
+
+Reg 0x410: Read/Write
+	CPU_D7_Z: IRQEN7
+	CPU_D6_Z: IRQEN6
+	CPU_D5_Z: IRQEN5
+	CPU_D4_Z: IRQEN4
+	CPU_D3_Z: IRQEN3
+	CPU_D2_Z: IRQEN2
+	CPU_D1_Z: IRQEN1
+	CPU_D0_Z: Not mapped
+
+Reg 0x411: Read only
+	CPU_D7_Z: IRQFLAG7
+	CPU_D6_Z: IRQFLAG6
+	CPU_D5_Z: IRQFLAG5
+	CPU_D4_Z: IRQFLAG4
+	CPU_D3_Z: IRQFLAG3
+	CPU_D2_Z: IRQFLAG2
+	CPU_D1_Z: IRQFLAG1
+	CPU_D0_Z: Not mapped
+
+Reg 0x412: Read/Write
+	CPU_D0_Z: Used
+	CPU_D1_Z: Used
+	CPU_D2_Z: Used
+	CPU_D3_Z: Used
+	CPU_D4_Z: Used
+	CPU_D5_Z: ?
+	CPU_D6_Z: Used
+	CPU_D7_Z: Used
+	CPU_D0_Z: Used
+	CPU_D9_Z: Used
+	CPU_D10_Z: ?
+	CPU_D11_Z: ?
+	CPU_D12_Z: Used
+	CPU_D13_Z: Used
+	CPU_D14_Z: ?
+	CPU_D15_Z: ?
+
+Reg 0x413: Read/Write
+Reg 0x414: Read only
+Reg 0x415: Read only
+
+Reg 0x416: Read/Write
+	CPU_D7_Z: Not mapped
+	CPU_D6_Z: Not mapped
+	CPU_D5_Z: Not mapped
+	CPU_D4_Z: Not mapped
+	CPU_D3_Z: Toggle or lock ?
+	CPU_D2_Z: Used
+	CPU_D1_Z: Toggle or lock ?
+	CPU_D0_Z: Used
+
+Reg 0x417: Read/Write
+	CPU_D7_Z: Pin 31 interrupt polarity
+	CPU_D6_Z: Not mapped
+	CPU_D5_Z: Pin 30 interrupt polarity
+	CPU_D4_Z: Pin 29 interrupt polarity
+	CPU_D3_Z: Not mapped
+	CPU_D2_Z: Pin 28 interrupt polarity
+	CPU_D1_Z: Pin 27 interrupt polarity
+	CPU_D0_Z: Not mapped
+
+Reg 0x420: Write only ?
+Reg 0x421: ?
+Reg 0x422: Write only ?
+Reg 0x423: Write only ?
+Reg 0x424: ?
+Reg 0x425: Read only - [3:0] used, the 6502 can read these too (through which address ?)
+Reg 0x426: Read only - [7:0] used, directly from a 8-bit latch loaded with the 6502 data bus
+Reg 0x427: Not mapped
