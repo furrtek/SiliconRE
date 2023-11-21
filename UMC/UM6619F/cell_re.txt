@@ -1,0 +1,38 @@
+UM6619F cell RE
+
+Guessing the function of AR34:
+321: IRQFLAG3, IRQFLAG2, IRQFLAG1
+ABC: What is presented to AR34 after inverters on 3 and 1
+L: IRQ level (priority encoded)
+X: What AR34 should output
+321 ABC L X
+-----------
+000 101 0 0
+001 100 1 1
+010 111 2 0
+011 110 2 0
+100 001 3 1
+101 000 3 1
+110 011 3 1
+111 010 3 1
+X = ~(A(B+C))
+AR34 is an AOI
+On schematic, symbol has different inputs.
+Equation here    Symbol
+A                C
+B                B
+C                A
+
+Guessing the function of AR26:
+ABCD: AR26B, AR34, IRQFLAG5, ~IRQFLAG6
+L: IRQ level (priority encoded)
+7654321 L ABCD AR26
+0000000 0 1001  1
+0000001 1 1101  0
+000001x 2 1001  1
+00001xx 3 1101  0
+0001xxx 4 0x01  1
+001xxxx 5 xx11  0
+01xxxxx 6 0xx0  1
+1xxxxxx 7 xxxx  x
+AR26 = ~(AB+CD)
