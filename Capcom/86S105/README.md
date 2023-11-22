@@ -8,6 +8,8 @@ Thanks to @Caiusarcade for donating the chip.
 * Technology: CMOS standard cell
 * Used on: 1943, Ashita Tenki ni Naare, Black Tiger, Block Block, Capcom Baseball, Capcom World, Dokaben, Dokaben 2, Pang, Poker Ladies, Quiz Sangokushi, Quiz Tonosama no Yabou, Super Pang
 
+Very similar logic can be found implemented with discrete logic chips on Ghosts and Goblins (schematics pages 11 to 13).
+
 # Operation
 
 This chip has 3 internal RAM blocks:
