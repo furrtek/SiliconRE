@@ -177,4 +177,4 @@ The call depth is only 1 (one), meaning that calls can't be nested.
 
 The schematic was traced from the chip's silicon and should represent exactly how it is internally constructed. The svg can be overlaid on the [die picture](https://siliconpr0n.org/map/konami/052591/furrtek_mz/).
 
-![Konami 052591 internal routing](trace.png)
+![Konami 052591 internal routing](k052591_trace.png)
