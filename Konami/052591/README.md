@@ -115,6 +115,7 @@ The ALU result is written to reg B if IR[8] or IR[7] are set.
 
 IR[33] low: Rotate, high: Shift. This might need further testing.
 | Operation | Direction | Destination | Bit inserted                |
+| --------- | --------- | ----------- | --------------------------- |
 | Shift     | Left      | Register    | Zero                        |
 | Rotate    | Left      | Register    | Acc's MSB                   |
 | Shift     | Right     | Register    | N45 (?)                     |
@@ -152,6 +153,7 @@ A RAM access is performed when IR[29] = 0.
 When IR[15] = 0, branching is enabled. Otherwise PC is just incremented.
 
 | IR[26:24] | Branch                                   |
+| --------- | ---------------------------------------- |
 | 0         | Conditional call, PC = immediate if true |
 | 1         | Conditional jump, PC = immediate if true |
 | 2         | Conditional return                       |
@@ -162,11 +164,12 @@ When IR[15] = 0, branching is enabled. Otherwise PC is just incremented.
 | 7         | Restart program at initial PC            |
 
 The condition is set by IR[23:22]:
-| IR[23:22] | Condition | Description
-| 0         | Zero      | Set when the ALU result is zero
-| 1         | Carry     | Represents the ALU's result 17th bit
-| 2         | Overflow  | Set when a 2's complement arithmetic operation overflows (like the Z80's O flag)
-| 3         | Negative  | Copy of the ALU's result 16th bit
+| IR[23:22] | Condition | Description |
+| --------- | --------- | ----------- |
+| 0         | Zero      | Set when the ALU result is zero |
+| 1         | Carry     | Represents the ALU's result 17th bit |
+| 2         | Overflow  | Set when a 2's complement arithmetic operation overflows (like the Z80's O flag) |
+| 3         | Negative  | Copy of the ALU's result 16th bit |
 
 The call depth is only 1 (one), meaning that calls can't be nested.
 
