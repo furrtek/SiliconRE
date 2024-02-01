@@ -32,7 +32,7 @@ reg [35:0] iram [0:64];		// Internal RAM for program, 64 36-bit words
 reg [35:0] iram_din;		// Storage for loading bytes to internal RAM
 reg [35:0] iram_dout;
 reg [5:0] iram_a_next;
-reg [5:0] iram_a_curr;
+reg [5:0] iram_a_ret;
 reg [5:0] iram_a_mux;
 wire [5:0] iram_a;
 reg iram_we;
@@ -147,7 +147,7 @@ always @(posedge acc_wr) begin
 	casex(ir[8:7])
 		2'b0x: acc <= alu;
 		2'b10: acc <= {ir[33] ? alu[0] : CIN0, acc[15:1]};
-		2'b11: acc <= {alu[14:0], ir[33] ? 1'b0 : ~alu[15]};
+		2'b11: acc <= {acc[14:0], ir[33] ? 1'b0 : ~alu[15]};
 	endcase
 end
 
@@ -276,11 +276,11 @@ always @(posedge clk)
 	iram_a_next <= iram_a + 1'b1;
 
 always @(posedge L63)
-	iram_a_curr <= iram_a_next;
+	iram_a_ret <= iram_a_next;
 
 always @(*) begin
 	case({N77, N74})
-		2'b00: iram_a_mux <= iram_a_curr;
+		2'b00: iram_a_mux <= iram_a_ret;
 		2'b01: iram_a_mux <= iram_a_next;
 		2'b10: iram_a_mux <= ir[21:16];
 		2'b11: iram_a_mux <= LD;
@@ -308,10 +308,16 @@ end
 
 // Read from register
 
-always @(negedge clk) begin
+always @(*) begin
+	if (clk) begin
+		rega <= r[ir[11:9]];
+		regb <= r[ir[14:12]];
+	end
+end
+/*always @(posedge clk) begin
 	rega <= r[ir[11:9]];
 	regb <= r[ir[14:12]];
-end
+end*/
 
 // OUT0 pin
 assign C150 = clk | ~&{ir[15], ~ir[34]};
@@ -362,7 +368,7 @@ always @(posedge clk)
 	K110 <= ~&{ir[33:32]};
 assign ir1p = ir[1] | ~|{acc[0], K110};
 
-assign J89 = ~|{ir[35], ir[15]};
+assign J89 = ~|{~ir[35], ir[15]};
 
 assign T40 = ir[2] & (ir[0] | ir1p);
 assign T42 = ~|{ir[2], ir1p};

@@ -5,22 +5,23 @@
 * Die marking: 660118
 * Technology: CMOS gate array
 * Used on: Hexion, Thunder Cross, S.P.Y.
+* Chip donator: @Ace646546
 
-Another one of Konami's barely used crazy ideas to attempt thwarting piracy.
+Another one of Konami's crazy attempts at thwarting piracy.
 
 The 052591 is a custom 8/16 bit big-endian CISC CPU.
 * Eight 16-bit registers and one accumulator
 * Single-step shift/rotate
 * Call depth: one
-* Add/sub and bitwise operations, no mul or div
-* Parallel conditional branching based on 4 flags: zero, carry, overflow, and positive
-* Access to a max of 8kB 8-bit external memory with independently controllable /OE and /WE lines
+* Add/sub and bitwise operations, provisions to make division fast
+* Conditional branching based on 4 flags: zero, carry, overflow, and negative
+* Access to a max of 8kB*8 external memory with independently controllable /OE and /WE lines
 * All instructions take one cycle to execute. Accessing 16-bit external data must be done in two steps.
 
-The game's main CPU loads a small program, gives it some data to process, lets it run, and gets interrupted when the job's done.
+The game's main CPU loads a small program to internal RAM, gives it some data to process, and lets it run. An interrupted is generated when the job's done.
 Hexion has it connected to VRAM instead of dedicated work RAM ?
 
-The program is stored in internal RAM, with a max size of 64 36-bit fixed-length instructions.
+The program has a max size of 64 36-bit instructions.
 
 # Disassembler
 
@@ -29,29 +30,31 @@ Use `k052591_dec.py` to disassemble/decode binary programs.
 Row descriptions:
 * ALUA ALUB: ALU inputs. # means immediate value.
 * Op: ALU operation.
-* s: Operation size, byte or Word.
 * Dst: Destination.
 * S/R: Shift/rotate operation.
-* I: Increment (ALU carry in).
-* Jump: Branch operation, if any.
-* RamU: Load RAM MSB register with current RAM byte
-* Ext: External bus operations, if any. A means address bus is set, D means data bus (with Upper/Lower byte indication).
+* I: ALU carry in. + means set, ~ means depends on previous result's sign.
+* Branch: Branch operation, if any.
+* RamM: Load RAM MSB register with current RAM byte
+* Ext: External bus operations, if any. A= means address bus is set, D= means data bus (with Upper/Lower byte indication).
 * Ctrl: Control of external bus. If "Apply" isn't mentioned, then the outputs are unchanged.
+* Next: Setting of future external control signals. Note that they affect NEXT cycles, if applied.
 
 # Configuration
 
-Access to internal RAM and external data only works when the START pin is low.
+Access to internal RAM and external RAM only works when the START pin is low.
 
-The PC is set to DB[5:0] by writing with AB9 high and BK (BANK) low. DB[7] locks(high) / unlocks(low) PC for program loading.
+When BK (BANK) is low, the main CPU can write to the internal RAM to load a program.
+The internal RAM can't be read back. The BK pin has no effect when the main CPU reads, external RAM will always be selected.
 Loading a program is done in groups of 5 bytes, the least-significant one of each instruction first. The last byte of a group only has its lower nibble used, effectively using 36 bits out of 40.
 The instruction is stored and the PC is incremented on every 5th byte write.
 
-External data can be loaded and read back when BK is high.
-The internal RAM can't be read back. The BK pin has no effect on reads, external RAM will always be selected.
+If BK is low and AB9 is high, the PC is selected instead of internal RAM. The main CPU can set it via DB[5:0]. DB[7] locks(high) / unlocks(low) PC for program loading.
 
-To start the program, the PC must be locked to the entry point by writing `0x80 | entrypoint` with AB9 high and BK low. Then, the START pin must be set.
+When BK is high, the main CPU external RAM can be accessed.
 
-It's up to the game's main CPU to stop the k052591 by clearing the START pin. Apparently, all programs use the OUT0 general-purpose output pin to signal this.
+To start the program, the PC must be locked to the entry point by writing `0x80 | entrypoint` with BK low and AB9 high. Then, the START pin must be set.
+
+It's up to the main CPU to stop the k052591 by clearing the START pin. Apparently, all programs signal this by using the OUT0 general-purpose output pin to trigger an interrupt.
 
 # Instructions
 
@@ -65,12 +68,12 @@ Register A is selected by IR[11:9], it can be used for external RAM address or d
 
 | IR[35] | IR[15] | Effect |
 | ------ | ------ | --------------------------------------------------------------- |
-| 0      | 0      | ALU A pre-mux stage is RAM data, latch RAM data in high byte*   |
+| 0      | 0      | ALU A pre-mux stage is RAM data, store RAM data in MSB latch*   |
 | 0      | 1      | ALU A pre-mux stage is RAM data                                 |
 | 1      | 0      | ALU A pre-mux stage is RAM data, MSB is zero                    |
 | 1      | 1      | ALU A pre-mux stage is immediate                                |
 
-*: The ALU first mux stage will be twice the same byte from RAM. This is used to load 16-bit RAM data in two steps.
+*: This is used to load 16-bit RAM data in two steps.
 
 The ALU inputs are set according to IR[2:0]:
 | IR[2:0] | A in    | B in  |
@@ -87,9 +90,9 @@ The ALU inputs are set according to IR[2:0]:
 The ALU operation is defined by IR[5:3]:
 | IR[5:3] | ALU operation   |
 | ------- | --------------- |
-| 0       | Add ? |
-| 1       | Add ? |
-| 2       | Subtract        |
+| 0       | A+B             |
+| 1       | /A+B            |
+| 2       | A+/B            |
 | 3       | OR              |
 | 4       | AND             |
 | 5       | ? |
@@ -98,7 +101,7 @@ The ALU operation is defined by IR[5:3]:
 
 Internally, IR[5] inverts the ALU output when low, IR[4] inverts ALU B, IR[3] inverts ALU A.
 For example, the AND operation has IR[5:3] = 4 = 0b100, performing A&B. The OR operation has IR[5:3] = 3 = 0b011, effectively performing ~(~A&~B).
-If IR[5:3] is lower than 3, arithmetic operations are enabled.
+If IR[5:3] is lower than 3, arithmetic is enabled.
 
 The ALU result is written to reg B if IR[8] or IR[7] are set.
 
@@ -113,7 +116,7 @@ The ALU result is written to reg B if IR[8] or IR[7] are set.
 | 6       | Reg B and Acc       | IR[33]       | Left      | ALU     |
 | 7       | Reg B               | IR[33]       | Left      | ALU     |
 
-IR[33] low: Rotate, high: Shift. This might need further testing.
+IR[33] low: Rotate, high: Shift. This is a bit weird.
 | Operation | Direction | Destination | Bit inserted                |
 | --------- | --------- | ----------- | --------------------------- |
 | Shift     | Left      | Register    | Zero                        |
@@ -126,12 +129,12 @@ IR[33] low: Rotate, high: Shift. This might need further testing.
 | Rotate    | Right     | Acc         | ALU's carry-in              |
 
 When the ALU is set to perform an arithmetic operation, its carry input is set when:
-* IR[33:32] == 01 and IR[3] = 1.
-* IR[33:32] != 01 and IR[34] = 1 and IR[15] = 0.
+* IR[33:32] == 01 and IR[3] == 1.
+* IR[33:32] != 01 and IR[34] = 1 and IR[15] = 0 depending on previous result's sign. This is used by S.P.Y.'s division algorithm to turn adds to subs conditionally.
 
 # I/O
 
-The OUT0 pin is set to IR[16] when IR[15]=1 and IR[34]=0. It's set high after a reset.
+The OUT0 pin is set to IR[16] when IR[15]=1 and IR[34]=0. It's set high when the START input falls.
 
 | IR[31:30] | Ext RAM busses               |
 | --------- | ---------------------------- |
@@ -171,7 +174,7 @@ The condition is set by IR[23:22]:
 | 2         | Overflow  | Set when a 2's complement arithmetic operation overflows (like the Z80's O flag) |
 | 3         | Negative  | Copy of the ALU's result 16th bit |
 
-The call depth is only 1 (one), meaning that calls can't be nested.
+The call depth is only 1 (one), meaning that they can't be nested.
 
 # Schematic
 

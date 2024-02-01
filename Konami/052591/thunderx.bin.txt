@@ -1,0 +1,77 @@
+thunderx.bin		Initial PC=01
+              33 33 332 22 222 22221111 1 111 11               (Imm and PC values are in hex)
+Addr          54 32 109 87 654 32109876 5 432 109 876 543 210  ALUA  ALUB Op  Dst    S/R I Branch    RamM Ext      Ctrl  Next      Code
+
+00: 8ad0000e7 10 00 101 01 101 00000000 0 000 000 011 100 111  RamB  #0   And r0           jp   00        A=ALU          OE=0 WE=1 00: clr  r0,ExtAddr       jp   00	Infinite loop
+
+01: ca005805f 11 00 101 00 000 00000101 1 000 000 001 011 111  #5    #0   Or                              A=ALU                    01: ld   ExtAddr,#5					Entry point
+02: 88be200df 10 00 100 01 011 11100010 0 000 000 011 011 111  RamB  #0   Or  r0                          A=ALU    Apply OE=0 WE=1 02: ld   r0,ExtAddr,[ExtAddr]b		r0 = 00,(0005), pointer to first byte of set 0
+
+03: ca006805f 11 00 101 00 000 00000110 1 000 000 001 011 111  #6    #0   Or                              A=ALU                    03: ld   ExtAddr,#6
+
+04: 8cb007edf 10 00 110 01 011 00000000 0 111 111 011 011 111  RamB  #0   Or  r7                                   Apply OE=0 WE=1 04: ld   r7,[ExtAddr]b               r7 = 00,(0006), pointer to first byte of set 1
+05: ca000801b 11 00 101 00 000 00000000 1 000 000 000 011 011  #0    r0   Or  Acc                         A=ALU                    05: ld   Acc,ExtAddr,r0   
+06: 8cb0010df 10 00 110 01 011 00000000 0 001 000 011 011 111  RamB  #0   Or  r1                                   Apply OE=0 WE=1 06: ld   r1,[ExtAddr]b               r1 = object 0 flags
+07: ca003805f 11 00 101 00 000 00000011 1 000 000 001 011 111  #3    #0   Or                              A=ALU                    07: ld   ExtAddr,#3       
+08: 8cb00201f 10 00 110 01 011 00000000 0 010 000 000 011 111  RamB  #0   Or  Acc                                  Apply OE=0 WE=1 08: ld   Acc,[ExtAddr]b              Acc = 00,(0003), collide mask
+09: cab0000c4 11 00 101 01 011 00000000 0 000 000 011 000 100  #0    r0   Add r0         +                A=ALU          OE=0 WE=1 09: inc  r0,ExtAddr       
+0a: 8cb0020df 10 00 110 01 011 00000000 0 010 000 011 011 111  RamB  #0   Or  r2                                   Apply OE=0 WE=1 0a: ld   r2,[ExtAddr]b               r2 = object 0 width
+0b: cab0000c4 11 00 101 01 011 00000000 0 000 000 011 000 100  #0    r0   Add r0         +                A=ALU          OE=0 WE=1 0b: inc  r0,ExtAddr       
+0c: 8cb0030df 10 00 110 01 011 00000000 0 011 000 011 011 111  RamB  #0   Or  r3                                   Apply OE=0 WE=1 0c: ld   r3,[ExtAddr]b               r3 = object 0 height
+0d: cab0000c4 11 00 101 01 011 00000000 0 000 000 011 000 100  #0    r0   Add r0         +                A=ALU          OE=0 WE=1 0d: inc  r0,ExtAddr       
+0e: 8cb0040df 10 00 110 01 011 00000000 0 100 000 011 011 111  RamB  #0   Or  r4                                   Apply OE=0 WE=1 0e: ld   r4,[ExtAddr]b               r4 = object 0 x position
+0f: cab0000c4 11 00 101 01 011 00000000 0 000 000 011 000 100  #0    r0   Add r0         +                A=ALU          OE=0 WE=1 0f: inc  r0,ExtAddr       
+10: 8cb0050df 10 00 110 01 011 00000000 0 101 000 011 011 111  RamB  #0   Or  r5                                   Apply OE=0 WE=1 10: ld   r5,[ExtAddr]b               r5 = object 0 y position
+11: 8e9352260 10 00 111 01 001 00110101 0 010 001 001 100 000  r1    Acc  And              jp   z,35                     OE=0 WE=1 11: and  r1,Acc           jp   z,35  Go to 35 if no object 0 flags are in the collide mask
+
+12: 8ab000e44 10 00 101 01 011 00000000 0 000 111 001 000 100  #0    r7   Add                             A=ALU          OE=0 WE=1 12: ld   ExtAddr,r7
+13: 8cb0060df 10 00 110 01 011 00000000 0 110 000 011 011 111  RamB  #0   Or  r6                                   Apply OE=0 WE=1 13: ld   r6,[ExtAddr]b               r6 = object 1 flags
+14: ca004805f 11 00 101 00 000 00000100 1 000 000 001 011 111  #4    #0   Or                              A=ALU                    14: ld   ExtAddr,#4       
+15: 8cb00601f 10 00 110 01 011 00000000 0 110 000 000 011 111  RamB  #0   Or  Acc                                  Apply OE=0 WE=1 15: ld   Acc,[ExtAddr]b              Acc = 00,(0004), hit mask
+16: 8e9316c60 10 00 111 01 001 00110001 0 110 110 001 100 000  r6    Acc  And              jp   z,31                     OE=0 WE=1 16: and  r6,Acc           jp   z,31  Go to 31 if no object 1 flags are in the hit mask
+17: ca0018e45 11 00 101 00 000 00000001 1 000 111 001 000 101  #1    r7   Add                             A=ALU                    17: add  ExtAddr,#1,r7    
+18: 8cb0064c5 10 00 110 01 011 00000000 0 110 010 011 000 101  RamB  r2   Add r6                                   Apply OE=0 WE=1 18: add  r6,[ExtAddr]b,r2            r6 = (r7 + 1) + r2 = Object 1 width + Object 0 width
+19: ca0038e45 11 00 101 00 000 00000011 1 000 111 001 000 101  #3    r7   Add                             A=ALU                    19: add  ExtAddr,#3,r7    
+1a: ccb000067 11 00 110 01 011 00000000 0 000 000 001 100 111  RamB  #0   And                                      Apply OE=0 WE=1 1a: nop                   
+1b: cc95d4815 11 00 110 01 001 01011101 0 100 100 000 010 101  RamB  ~r4  Add Acc        + jp   c,1d               Apply OE=0 WE=1 1b: sub  Acc,[ExtAddr]b,r4jp   p,1d  Acc =  Object 1 x pos - Object 0 x pos
+1c: ceb000012 11 00 111 01 011 00000000 0 000 000 000 010 010  #0    ~Acc Add Acc        +                               OE=0 WE=1 1c: neg  Acc                         Abs
+
+1d: ce9716c48 11 00 111 01 001 01110001 0 110 110 001 001 000  ~r6   Acc  Add            + jp   c,31                     OE=0 WE=1 1d: cmp  Acc,r6           jp   c,31
+1e: ca0028e45 11 00 101 00 000 00000010 1 000 111 001 000 101  #2    r7   Add                             A=ALU                    1e: add  ExtAddr,#2,r7    
+1f: 8cb0066c5 10 00 110 01 011 00000000 0 110 011 011 000 101  RamB  r3   Add r6                                   Apply OE=0 WE=1 1f: add  r6,[ExtAddr]b,r3			r6 = (r7 + 2) + r3 = Object 1 height + Object 0 height 
+20: ca0048e45 11 00 101 00 000 00000100 1 000 111 001 000 101  #4    r7   Add                             A=ALU                    20: add  ExtAddr,#4,r7
+21: ccb000067 11 00 110 01 011 00000000 0 000 000 001 100 111  RamB  #0   And                                      Apply OE=0 WE=1 21: nop                   
+22: cc9645a15 11 00 110 01 001 01100100 0 101 101 000 010 101  RamB  ~r5  Add Acc        + jp   c,24               Apply OE=0 WE=1 22: sub  Acc,[ExtAddr]b,r5jp   p,24
+23: ceb000012 11 00 111 01 011 00000000 0 000 000 000 010 010  #0    ~Acc Add Acc        +                               OE=0 WE=1 23: neg  Acc                         Abs
+
+24: ce9716c48 11 00 111 01 001 01110001 0 110 110 001 001 000  ~r6   Acc  Add            + jp   c,31                     OE=0 WE=1 24: cmp  Acc,r6           jp   c,31
+25: ce09b92e5 11 00 111 00 000 10011011 1 001 001 011 100 101  #9b   r1   And r1                                                   25: and  r1,#9b,r1					r1 = (object 0 flags & 0x9B) | 0x10
+26: ce01092dd 11 00 111 00 000 00010000 1 001 001 011 011 101  #10   r1   Or  r1                                                   26: or   r1,#10,r1
+27: ca000fe5c 11 00 101 00 000 00000000 1 111 111 001 011 100  #0    r7   Or                              A=ALU                    27: ld   ExtAddr,r7       
+28: 8d30060df 10 00 110 10 011 00000000 0 110 000 011 011 111  RamB  #0   Or  r6                                   Apply OE=1 WE=0 28: ld   r6,[ExtAddr]b              	r6 = object 1 flags
+29: ce09fece5 11 00 111 00 000 10011111 1 110 110 011 100 101  #9f   r6   And r6                                                   29: and  r6,#9f,r6
+2a: c0010ecdd 11 00 000 00 000 00010000 1 110 110 011 011 101  #10   r6   Or  r6                          D=ALU(L) Apply           2a: or   r6,ExtData,#10,r6(L)		Write r6 & 0x9F | 0x10
+2b: cc004ec25 11 00 110 00 000 00000100 1 110 110 000 100 101  #4    r6   And Acc                                  Apply           2b: and  Acc,#4,r6        
+2c: c00008218 11 00 000 00 000 00000000 1 000 001 000 011 000  r1    Acc  Or  Acc                         D=ALU(L) Apply           2c: or   Acc,ExtData,r1,Acc(L)
+2d: ca003804d 11 00 101 00 000 00000011 1 000 000 001 001 101  ~#3   r0   Add                             A=ALU                    2d: sub  ExtAddr,#4,r0				ExtAddr = r0 - 4
+2e: ce0e6e0df 11 00 111 00 000 11100110 1 110 000 011 011 111  #e6   #0   Or  r6                                                   2e: ld   r6,#e6                      In set 0, only entries above address 0xE6 can have their flags changed
+2f: 8f1756049 10 00 111 10 001 01110101 0 110 000 001 001 001  ~r0   r6   Add              jp   c,35                     OE=1 WE=0 2f: cmp  r0,r6            jp   c,35	Don't write if lower
+30: 8cd350067 10 00 110 01 101 00110101 0 000 000 001 100 111  RamB  #0   And              jp   35                 Apply OE=0 WE=1 30: nop                   jp   35    Write object 0 flags & 4 | r1
+
+31: ce005fec5 11 00 111 00 000 00000101 1 111 111 011 000 101  #5    r7   Add r7                                                   31: add  r7,#5,r7					Next object 1
+32: ca002805f 11 00 101 00 000 00000010 1 000 000 001 011 111  #2    #0   Or                              A=ALU                    32: ld   ExtAddr,#2       
+33: 8cb00001f 10 00 110 01 011 00000000 0 000 000 000 011 111  RamB  #0   Or  Acc                                  Apply OE=0 WE=1 33: ld   Acc,[ExtAddr]b   
+34: cc9526e48 11 00 110 01 001 01010010 0 110 111 001 001 000  ~r7   Acc  Add            + jp   c,12               Apply OE=0 WE=1 34: cmp  Acc,r7           jp   c,12	Loop if not last
+
+35: cab0000c4 11 00 101 01 011 00000000 0 000 000 011 000 100  #0    r0   Add r0         +                A=ALU          OE=0 WE=1 35: ld   ExtAddr,ALU      inc  r0	Next object 0
+36: cab000027 11 00 101 01 011 00000000 0 000 000 000 100 111  RamB  #0   And Acc                         A=ALU          OE=0 WE=1 36: ld   ExtAddr,ALU      clr  Acc	Acc = (0000),(0001)
+37: 48b000042 01 00 100 01 011 00000000 0 000 000 001 000 010  #0    Acc  Add            +           Set  A=ALU    Apply OE=0 WE=1 37: ld   MSB,[ExtAddr]    add  ExtAddr,Acc,#1
+38: 0cb00001f 00 00 110 01 011 00000000 0 000 000 000 011 111  Ram   #0   Or  Acc                    Set           Apply OE=0 WE=1 38: ld   MSB,[ExtAddr]    ld   Acc,[ExtAddr]w
+39: 0c9430048 00 00 110 01 001 01000011 0 000 000 001 001 000  ~r0   Acc  Add              jp   c,03 Set           Apply OE=0 WE=1 39: cmp  r0,Acc           jp   c,03	Loop if not last
+3a: 8e000fe5f 10 00 111 00 000 00000000 1 111 111 001 011 111  #0    #0   Or                                             OUT0=0    3a: ld   OUT0,#0
+3b: 8ed007e5f 10 00 111 01 101 00000000 0 111 111 001 011 111  RamB  #0   Or               jp   00                       OE=0 WE=1 3b: nop                   jp   00	Done
+
+3c: 6ff0004ff 01 10 111 11 111 00000000 0 000 010 011 111 111  Ram   #0   ?   r0           jp   Init Set                 OE=1 WE=1 3c: Garbage
+3d: 302ff0705 00 11 000 00 010 11111111 0 000 011 100 000 101  Ram   r3   Add r0,Acc >>    ret  n    Set  D=ALU(L) Apply OE=0 WE=0 3d: Garbage
+3e: c02e00101 11 00 000 00 010 11100000 0 000 000 100 000 001  r0    r0   Add r0,Acc >>> + ret  n         D=ALU(L) Apply OE=0 WE=0 3e: Garbage
+3f: 440046c03 01 00 010 00 000 00000100 0 110 110 000 000 011  #0    r6   Add Acc        + call z,04 Set  D=ALU(U) Apply OE=0 WE=0 3f: Garbage

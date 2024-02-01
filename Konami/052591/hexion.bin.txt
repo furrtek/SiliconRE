@@ -1,0 +1,81 @@
+hexion.bin	Initial PC = 0
+              33 33 332 22 222 22221111 1 111 11               (Imm and PC values are in hex)
+Addr          54 32 109 87 654 32109876 5 432 109 876 543 210  ALUA  ALUB Op  Dst    S/R I Branch    RamM Ext      Ctrl  Next      Code
+
+00: 8e001805f 10 00 111 00 000 00000001 1 000 000 001 011 111  #1    #0   Or                                             OUT0=1    00: ld   OUT0,#1							Set OUT0 high (should already be)
+01: ce00080df 11 00 111 00 000 00000000 1 000 000 011 011 111  #0    #0   Or  r0                                                   01: ld   r0,#0                          	r0 = 0            
+02: ce00290df 11 00 111 00 000 00000010 1 001 000 011 011 111  #2    #0   Or  r1                                                   02: ld   r1,#2                          	r1 = 2
+03: ce003a0df 11 00 111 00 000 00000011 1 010 000 011 011 111  #3    #0   Or  r2                                                   03: ld   r2,#3                          	r2 = 3
+04: ce00fb0df 11 00 111 00 000 00001111 1 011 000 011 011 111  #f    #0   Or  r3                                                   04: ld   r3,#f                          	r3 = f
+05: cbfffc0df 11 00 101 11 111 11111111 1 100 000 011 011 111  #ffff #0   Or  r4                          A=ALU                    05: ld   ExtAddr,#1fff    ld   r4,#ffff  r4 = ffff, ExtAddr = 1fff
+06: c3300025c 11 00 001 10 011 00000000 0 000 001 001 011 100  #0    r1   Or                              D=ALU(L)       OE=1 WE=0 06: ld   ExtData,r1(L)
+07: c8004805f 11 00 100 00 000 00000100 1 000 000 001 011 111  #4    #0   Or                              A=ALU    Apply           07: ld   ExtAddr,#4       nop            (1fff) = 2, set ExtAddr = 4
+08: c2b000e5c 11 00 001 01 011 00000000 0 000 111 001 011 100  #0    r7   Or                              D=ALU(L)       OE=0 WE=1 08: ld   ExtData,r7(L)    
+09: 8cb0070df 10 00 110 01 011 00000000 0 111 000 011 011 111  RamB  #0   Or  r7                                   Apply OE=0 WE=1 09: ld   r7,[ExtAddr]b                   r7 = 00,(0004)
+0a: c8000805f 11 00 100 00 000 00000000 1 000 000 001 011 111  #0    #0   Or                              A=ALU    Apply           0a: ld   ExtAddr,#0       nop                   
+0b: c2b00045c 11 00 001 01 011 00000000 0 000 010 001 011 100  #0    r2   Or                              D=ALU(L)       OE=0 WE=1 0b: ld   ExtData,r2(L)    
+0c: 8cb0060df 10 00 110 01 011 00000000 0 110 000 011 011 111  RamB  #0   Or  r6                                   Apply OE=0 WE=1 0c: ld   r6,[ExtAddr]b      				r6 = 00,(0000) (Command: 00, 01 and 30 used)
+0d: ce91f0c5c 11 00 111 01 001 00011111 0 000 110 001 011 100  #0    r6   Or               jp   z,1f                     OE=0 WE=1 0d: tst  r6               jp   z,1f		Go to 1f if command == 0
+0e: 8e92d0c4c 10 00 111 01 001 00101101 0 000 110 001 001 100  ~#0   r6   Add              jp   z,2d                     OE=0 WE=1 0e: sub  r6,#1            jp   z,2d		Go to 2d if command == 1
+
+Command anything other than 00 or 01: Set bank to r7, then clear 16 bytes starting from r5.w
+0f: c8003805f 11 00 100 00 000 00000011 1 000 000 001 011 111  #3    #0   Or                              A=ALU    Apply           0f: ld   ExtAddr,#3       nop
+10: c2b00045c 11 00 001 01 011 00000000 0 000 010 001 011 100  #0    r2   Or                              D=ALU(L)       OE=0 WE=1 10: ld   ExtData,r2(L)    
+11: 0cb00005f 00 00 110 01 011 00000000 0 000 000 001 011 111  Ram   #0   Or                         Set           Apply OE=0 WE=1 11: ld   MSB,[ExtAddr]    nop                   
+12: ca002805f 11 00 101 00 000 00000010 1 000 000 001 011 111  #2    #0   Or                              A=ALU                    12: ld   ExtAddr,#2       nop
+13: 4c000d0df 01 00 110 00 000 00000000 1 101 000 011 011 111  RamW  #0   Or  r5                                   Apply           13: ld   r5,[ExtAddr]w                   r5.w = {[3], [2]}
+14: af3003a01 10 10 111 10 011 00000000 0 011 101 000 000 001  r5    r3   Add Acc                                        OE=1 WE=0 14: add  Acc,r5,r3                       Acc = r5 + r3 = r5 + f
+15: cb300085c 11 00 101 10 011 00000000 0 000 100 001 011 100  #0    r4   Or                              A=ALU          OE=1 WE=0 15: ld   ExtAddr,r4       nop                   
+16: c13000e5c 11 00 000 10 011 00000000 0 000 111 001 011 100  #0    r7   Or                              D=ALU(L) Apply OE=1 WE=0 16: ld   ExtData,r7(L)                   (1fff) = 3
+17: ca000805f 11 00 101 00 000 00000000 1 000 000 001 011 111  #0    #0   Or                              A=ALU                    17: ld   ExtAddr,#0       nop
+18: c1300005c 11 00 000 10 011 00000000 0 000 000 001 011 100  #0    r0   Or                              D=ALU(L) Apply OE=1 WE=0 18: ld   ExtData,r0(L)                   (0) = r7
+19: cb300085c 11 00 101 10 011 00000000 0 000 100 001 011 100  #0    r4   Or                              A=ALU          OE=1 WE=0 19: ld   ExtAddr,r4       nop
+1a: c1300005c 11 00 000 10 011 00000000 0 000 000 001 011 100  #0    r0   Or                              D=ALU(L) Apply OE=1 WE=0 1a: ld   ExtData,r0(L)                   (1fff) = 0
+
+1b: cb3005a84 11 00 101 10 011 00000000 0 101 101 010 000 100  #0    r5   Add r5         +                A=r5           OE=1 WE=0 1b: ld   ExtAddr,r5       inc  r5		ExtAddr = r5, r5++
+1c: cd15b0a48 11 00 110 10 001 01011011 0 000 101 001 001 000  ~r5   Acc  Add            + jp   c,1b               Apply OE=1 WE=0 1c: cmp  Acc,r5           jp   c,1b		(ExtAddr) = 0, loop until r5 > A
+1d: 8e000805f 10 00 111 00 000 00000000 1 000 000 001 011 111  #0    #0   Or                                             OUT0=0    1d: tst  OUT0,#0                         Set OUT0 low
+
+1e: cfd1e005f 11 00 111 11 101 00011110 0 000 000 001 011 111  RamB  #0   Or               jp   1e                       OE=1 WE=1 1e: nop                   jp   1e        Infinite loop
+
+Command is 00: Set bank to 0 and fill from 0 to 0x1fff with r2.b
+1f: ca001805f 11 00 101 00 000 00000001 1 000 000 001 011 111  #1    #0   Or                              A=ALU                    1f: ld   ExtAddr,#1       nop			r2 = 00,(0001)
+20: 8cb0020df 10 00 110 01 011 00000000 0 010 000 011 011 111  RamB  #0   Or  r2                                   Apply OE=0 WE=1 20: ld   r2,[ExtAddr]b    
+21: cb300085c 11 00 101 10 011 00000000 0 000 100 001 011 100  #0    r4   Or                              A=ALU          OE=1 WE=0 21: ld   ExtAddr,r4       nop            (1fff) = 3       
+22: c0003805f 11 00 000 00 000 00000011 1 000 000 001 011 111  #3    #0   Or                              D=ALU(L) Apply           22: ld   ExtData,#3(L)    
+23: cb300085c 11 00 101 10 011 00000000 0 000 100 001 011 100  #0    r4   Or                              A=ALU          OE=1 WE=0 23: ld   ExtAddr,r4       nop            (1fff) = 3
+24: c8000805f 11 00 100 00 000 00000000 1 000 000 001 011 111  #0    #0   Or                              A=ALU    Apply           24: ld   ExtAddr,#0       nop
+25: c3300005c 11 00 001 10 011 00000000 0 000 000 001 011 100  #0    r0   Or                              D=ALU(L)       OE=1 WE=0 25: ld   ExtData,r0(L)                   (0) = 0
+26: c9300085c 11 00 100 10 011 00000000 0 000 100 001 011 100  #0    r4   Or                              A=ALU    Apply OE=1 WE=0 26: ld   ExtAddr,r4       nop
+27: ecfff919f 11 10 110 01 111 11111111 1 001 000 110 011 111  #fff  #0   Or  r1,Acc <<                            Apply           27: ld   Acc,r1,#fff<<1                  (1fff) = 0, r1 = 1ffe
+28: c2000845c 11 00 001 00 000 00000000 1 000 010 001 011 100  #0    r2   Or                              D=ALU(L)                 28: ld   ExtData,r2(L)
+
+29: cb3000084 11 00 101 10 011 00000000 0 000 000 010 000 100  #0    r0   Add r0         +                A=r0           OE=1 WE=0 29: ld   ExtAddr,r0       inc  r0        ExtAddr = r0, r0++
+2a: cd1691049 11 00 110 10 001 01101001 0 001 000 001 001 001  ~r0   r1   Add            + jp   c,29               Apply OE=1 WE=0 2a: cmp  r1,r0            jp   c,29      (ExtAddr) = r2, loop until r0 > r1
+2b: 8e000805f 10 00 111 00 000 00000000 1 000 000 001 011 111  #0    #0   Or                                             OUT0=0    2b: tst  OUT0,#0                         Set OUT0 low
+
+2c: cfd2c005f 11 00 111 11 101 00101100 0 000 000 001 011 111  RamB  #0   Or               jp   2c                       OE=1 WE=1 2c: nop                   jp   2c        Infinite loop
+
+Command is 01: Set banks to 1 and fill from 0 to 0x1fff with r2.b
+2d: ca001805f 11 00 101 00 000 00000001 1 000 000 001 011 111  #1    #0   Or                              A=ALU                    2d: ld   ExtAddr,#1       nop			r2 = 00,(0001)
+2e: 8cb0020df 10 00 110 01 011 00000000 0 010 000 011 011 111  RamB  #0   Or  r2                                   Apply OE=0 WE=1 2e: ld   r2,[ExtAddr]b    
+2f: cb300085c 11 00 101 10 011 00000000 0 000 100 001 011 100  #0    r4   Or                              A=ALU          OE=1 WE=0 2f: ld   ExtAddr,r4       nop            (1fff) = 3
+30: c0003805f 11 00 000 00 000 00000011 1 000 000 001 011 111  #3    #0   Or                              D=ALU(L) Apply           30: ld   ExtData,#3(L)    
+31: cb300005c 11 00 101 10 011 00000000 0 000 000 001 011 100  #0    r0   Or                              A=ALU          OE=1 WE=0 31: ld   ExtAddr,r0       nop            (0) = 3
+32: c0001805f 11 00 000 00 000 00000001 1 000 000 001 011 111  #1    #0   Or                              D=ALU(L) Apply           32: ld   ExtData,#1(L)    
+33: cb300085c 11 00 101 10 011 00000000 0 000 100 001 011 100  #0    r4   Or                              A=ALU          OE=1 WE=0 33: ld   ExtAddr,r4       nop            (1fff) = 1
+34: c8000805f 11 00 100 00 000 00000000 1 000 000 001 011 111  #0    #0   Or                              A=ALU    Apply           34: ld   ExtAddr,#0       nop
+35: c3300005c 11 00 001 10 011 00000000 0 000 000 001 011 100  #0    r0   Or                              D=ALU(L)       OE=1 WE=0 35: ld   ExtData,r0(L)                   (0) = 0
+36: c9300085c 11 00 100 10 011 00000000 0 000 100 001 011 100  #0    r4   Or                              A=ALU    Apply OE=1 WE=0 36: ld   ExtAddr,r4       nop
+37: ecfff919f 11 10 110 01 111 11111111 1 001 000 110 011 111  #fff  #0   Or  r1,Acc <<                            Apply           37: ld   Acc,r1,#fff<<1                  (1fff) = 0, r1 = 1ffe
+38: c2000845c 11 00 001 00 000 00000000 1 000 010 001 011 100  #0    r2   Or                              D=ALU(L)                 38: ld   ExtData,r2(L)    
+
+39: cb3000084 11 00 101 10 011 00000000 0 000 000 010 000 100  #0    r0   Add r0         +                A=r0           OE=1 WE=0 39: ld   ExtAddr,r0       inc  r0        ExtAddr = r0, r0++
+3a: cd1791049 11 00 110 10 001 01111001 0 001 000 001 001 001  ~r0   r1   Add            + jp   c,39               Apply OE=1 WE=0 3a: cmp  r1,r0            jp   c,39      (ExtAddr) = r2, loop until r0 > r1
+3b: 8e000805f 10 00 111 00 000 00000000 1 000 000 001 011 111  #0    #0   Or                                             OUT0=0    3b: tst  OUT0,#0                         Set OUT0 low
+
+3c: cfd3c005f 11 00 111 11 101 00111100 0 000 000 001 011 111  RamB  #0   Or               jp   3c                       OE=1 WE=1 3c: nop                   jp   3c        Infinite loop
+
+3d: fffffffff 11 11 111 11 111 11111111 1 111 111 111 111 111  #ffff #0   ?   r7     <<                                            3d: ld   r7,#ffff<<1						Garbage      
+3e: fffffffff 11 11 111 11 111 11111111 1 111 111 111 111 111  #ffff #0   ?   r7     <<                                            3e: ld   r7,#ffff<<1						Garbage
+3f: fffffffff 11 11 111 11 111 11111111 1 111 111 111 111 111  #ffff #0   ?   r7     <<                                            3f: ld   r7,#ffff<<1						Garbage

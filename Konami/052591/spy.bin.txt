@@ -1,0 +1,104 @@
+spy.bin		Initial PC=00 (once per frame) or PC=10 (many times per frame)
+              33 33 332 22 222 22221111 1 111 11               (Imm and PC values are in hex)
+Addr          54 32 109 87 654 32109876 5 432 109 876 543 210  ALUA  ALUB Op  Dst    S/R I Branch    RamM Ext      Ctrl  Next      Code
+
+Coordinate projection routine (16/16=8.8 loop):
+00: 8fc387ee7 10 00 111 11 100 00111000 0 111 111 011 100 111  RamB  #0   And r7           call 38                       OE=1 WE=1 00: clr  r7               call 38				Entry point, clear r7
+01: 0dc3836df 00 00 110 11 100 00111000 0 011 011 011 011 111  Ram   #0   Or  r3           call 38   Set           Apply OE=1 WE=1 01: ld   MSB,[ExtAddr]    ld   r3,[ExtAddr]w    call 38	r3 = (0000),(0001) count
+02: 0dc3a12df 00 00 110 11 100 00111010 0 001 001 011 011 111  Ram   #0   Or  r1           call 3a   Set           Apply OE=1 WE=1 02: ld   MSB,[ExtAddr]    ld   r1,[ExtAddr]w    call 3a	r1 = (0002),(0003) nearplane
+
+03: 8dc3800df 10 00 110 11 100 00111000 0 000 000 011 011 111  RamB  #0   Or  r0           call 38                 Apply OE=1 WE=1 03: ld   r0,[ExtAddr]b    call 38				r0 = 00,(0004)
+04: 0db007e1f 00 00 110 11 011 00000000 0 111 111 000 011 111  Ram   #0   Or  Acc                    Set           Apply OE=1 WE=1 04: ld   MSB,[ExtAddr]    ld   Acc,[ExtAddr]w   
+05: cff00fe26 11 00 111 11 111 00000000 1 111 111 000 100 110  #ff00 Acc  And Acc                                                  05: and  Acc,#ff00,Acc					Acc = (0005),00
+06: dfc340389 11 01 111 11 100 00110100 0 000 001 110 001 001  ~r1   r0   Add r0,Acc <<< + call 34                       OE=1 WE=1 06: sub  Acc,r0,r0,r1     call 34				1+16 division steps...
+07: 9fc340381 10 01 111 11 100 00110100 0 000 001 110 000 001  r1    r0   Add r0,Acc <<< ~ call 34                       OE=1 WE=1 07: a/s  Acc,r0,r1,r0     call 34
+08: 9fc340381 10 01 111 11 100 00110100 0 000 001 110 000 001  r1    r0   Add r0,Acc <<< ~ call 34                       OE=1 WE=1 08: a/s  Acc,r0,r1,r0     call 34
+09: 9fc340381 10 01 111 11 100 00110100 0 000 001 110 000 001  r1    r0   Add r0,Acc <<< ~ call 34                       OE=1 WE=1 09: a/s  Acc,r0,r1,r0     call 34
+0a: 9fc2f0381 10 01 111 11 100 00101111 0 000 001 110 000 001  r1    r0   Add r0,Acc <<< ~ call 2f                       OE=1 WE=1 0a: a/s  Acc,r0,r1,r0     call 2f
+0b: 8d90e36cc 10 00 110 11 001 00001110 0 011 011 011 001 100  ~#0   r3   Add r3           jp   z,0e               Apply OE=1 WE=1 0b: dec  r3               jp   z,0e				r3--, end if 0
+0c: cab007e84 11 00 101 01 011 00000000 0 111 111 010 000 100  #0    r7   Add r7         +                A=r7           OE=0 WE=1 0c: ld   ExtAddr,r7       inc  r7               
+0d: 8cd037e5f 10 00 110 01 101 00000011 0 111 111 001 011 111  RamB  #0   Or               jp   03                 Apply OE=0 WE=1 0d: nop                   jp   03                            loop
+
+End:
+0e: 8effe807f 10 00 111 01 111 11111110 1 000 000 001 111 111  #ffe  #0   ?                                              OUT0=0    0e: ld   OUT0,#0
+0f: 8fd0f7e5f 10 00 111 11 101 00001111 0 111 111 001 011 111  RamB  #0   Or               jp   0f                       OE=1 WE=1 0f: nop                   jp   0f                            Infinite loop
+
+Collision check routine:
+10: 8fc387ee7 10 00 111 11 100 00111000 0 111 111 011 100 111  RamB  #0   And r7           call 38                       OE=1 WE=1 10: clr  r7               call 38
+11: 0dc3a00df 00 00 110 11 100 00111010 0 000 000 011 011 111  Ram   #0   Or  r0           call 3a   Set           Apply OE=1 WE=1 11: ld   MSB,[ExtAddr]    ld   r0,[ExtAddr]w    call 3a      r0 = (0000),(0001)
+12: 8d90e12df 10 00 110 11 001 00001110 0 001 001 011 011 111  RamB  #0   Or  r1           jp   z,0e               Apply OE=1 WE=1 12: ld   r1,[ExtAddr]b    jp   z,0e                          r1 = 00,(0002) end if 0
+13: ce010ecdf 11 00 111 00 000 00010000 1 110 110 011 011 111  #10   #0   Or  r6                                                   13: ld   r6,#10                                              r6 = 10
+
+outer:
+14: ce003fe1f 11 00 111 00 000 00000011 1 111 111 000 011 111  #3    #0   Or  Acc                                                  14: ld   Acc,#3                                              A = 3
+15: ce003fedf 11 00 111 00 000 00000011 1 111 111 011 011 111  #3    #0   Or  r7                                                   15: ld   r7,#3                                               r7 = 3
+16: 8fc3e5edc 10 00 111 11 100 00111110 0 101 111 011 011 100  #0    r7   Or  r5           call 3e                       OE=1 WE=1 16: ld   r5,r7            call 3e                            r5 = 3
+17: 8d92b12df 10 00 110 11 001 00101011 0 001 001 011 011 111  RamB  #0   Or  r1           jp   z,2b               Apply OE=1 WE=1 17: ld   r1,[ExtAddr]b    jp   z,2b                          r1 = 00,(r6++), go to 2b if 0
+
+inner:
+18: cfc382567 11 00 111 11 100 00111000 0 010 010 101 100 111  RamB  #0   And r2     >>>   call 38                       OE=1 WE=1 18: clr  r2               call 38                            TODO: Check this
+19: 0dc3c12df 00 00 110 11 100 00111100 0 001 001 011 011 111  Ram   #0   Or  r1           call 3c   Set           Apply OE=1 WE=1 19: ld   MSB,[ExtAddr]    ld   r1,[ExtAddr]w    call 3c
+1a: 0db0036df 00 00 110 11 011 00000000 0 011 011 011 011 111  Ram   #0   Or  r3                     Set           Apply OE=1 WE=1 1a: ld   MSB,[ExtAddr]    ld   r3,[ExtAddr]w    
+1b: 8fb0014c1 10 00 111 11 011 00000000 0 001 010 011 000 001  r2    r1   Add r1                                         OE=1 WE=1 1b: add  r1,r2,r1                                            r1 += r2
+1c: 8fc3834c1 10 00 111 11 100 00111000 0 011 010 011 000 001  r2    r3   Add r3           call 38                       OE=1 WE=1 1c: add  r3,r2,r3         call 38                            r3 += r2
+1d: 0dc3722c5 00 00 110 11 100 00110111 0 010 001 011 000 101  Ram   r1   Add r2           call 37   Set           Apply OE=1 WE=1 1d: ld   MSB,[ExtAddr]    add  r2,[ExtAddr]w,r1 call 37
+1e: 4dc3c12cd 01 00 110 11 100 00111100 0 001 001 011 001 101  ~Ram  r1   Add r1         + call 3c   Set           Apply OE=1 WE=1 1e: ld   MSB,[ExtAddr]    sub  r1,r1,[ExtAddr]w call 3c
+1f: 0dc3b46c5 00 00 110 11 100 00111011 0 100 011 011 000 101  Ram   r3   Add r4           call 3b   Set           Apply OE=1 WE=1 1f: ld   MSB,[ExtAddr]    add  r4,[ExtAddr]w,r3 call 3b
+20: 4db0036cd 01 00 110 11 011 00000000 0 011 011 011 001 101  ~Ram  r3   Add r3         +           Set           Apply OE=1 WE=1 20: ld   MSB,[ExtAddr]    sub  r3,r3,[ExtAddr]w 
+21: cf9ed1649 11 00 111 11 001 11101101 0 001 011 001 001 001  ~r3   r1   Add            + jp   n,2d                     OE=1 WE=1 21: cmp  r1,r3            jp   n,2d                          r1 - r3, go to 2d if negative
+
+22: cf9ea18c9 11 00 111 11 001 11101010 0 001 100 011 001 001  ~r4   r1   Add r1         + jp   n,2a                     OE=1 WE=1 22: sub  r1,r1,r4         jp   n,2a                          r1 -= r4, go to 2a if 0 or negative
+23: 8f92a12dc 10 00 111 11 001 00101010 0 001 001 011 011 100  #0    r1   Or  r1           jp   z,2a                     OE=1 WE=1 23: ld   r1,r1            jp   z,2a
+
+24: 8f9265acc 10 00 111 11 001 00100110 0 101 101 011 001 100  ~#0   r5   Add r5           jp   z,26                     OE=1 WE=1 24: dec  r5               jp   z,26                          r5--, go to 26 if 0
+25: 8fd187e5f 10 00 111 11 101 00011000 0 111 111 001 011 111  RamB  #0   Or               jp   18                       OE=1 WE=1 25: nop                   jp   18                            loop
+
+26: 8f8327e5a 10 00 111 11 000 00110010 0 111 111 001 011 010  #0    Acc  Or               call z,32                     OE=1 WE=1 26: tst  Acc              call z,32                          Write Acc to (r7++) if Acc is 0
+27: c9c336c84 11 00 100 11 100 00110011 0 110 110 010 000 100  #0    r6   Add r6         + call 33        A=r6     Apply OE=1 WE=1 27: ld   ExtAddr,r6       inc  r6               call 33      Write Acc to (r6++)
+
+28: 8d90e00cc 10 00 110 11 001 00001110 0 000 000 011 001 100  ~#0   r0   Add r0           jp   z,0e               Apply OE=1 WE=1 28: dec  r0               jp   z,0e                          r0--, end if 0
+29: 8fd147e5f 10 00 111 11 101 00010100 0 111 111 001 011 111  RamB  #0   Or               jp   14                       OE=1 WE=1 29: nop                   jp   14
+
+2a: 8fd247e0a 10 00 111 11 101 00100100 0 111 111 000 001 010  ~#0   Acc  Add Acc          jp   24                       OE=1 WE=1 2a: dec  Acc              jp   24
+
+2b: ce00decc5 11 00 111 00 000 00001101 1 110 110 011 000 101  #d    r6   Add r6                                                   2b: add  r6,#d,r6						Next object
+2c: 8fd287e5f 10 00 111 11 101 00101000 0 111 111 001 011 111  RamB  #0   Or               jp   28                       OE=1 WE=1 2c: nop                   jp   28
+
+2d: 8fb0016dc 10 00 111 11 011 00000000 0 001 011 011 011 100  #0    r3   Or  r1                                         OE=1 WE=1 2d: ld   r1,r3            					r1 = r3
+2e: 8fd2244dc 10 00 111 11 101 00100010 0 100 010 011 011 100  #0    r2   Or  r4           jp   22                       OE=1 WE=1 2e: ld   r4,r2            jp   22				r4 = r2
+
+Called:
+2f: ce002fecd 11 00 111 00 000 00000010 1 111 111 011 001 101  ~#2   r7   Add r7                                                   2f: sub  r7,#3,r7
+30: cbb007e84 11 00 101 11 011 00000000 0 111 111 010 000 100  #0    r7   Add r7         +                A=r7           OE=1 WE=1 30: ld   ExtAddr,r7       inc  r7               
+31: 873007e5a 10 00 011 10 011 00000000 0 111 111 001 011 010  #0    Acc  Or                              D=ALU(U)       OE=1 WE=0 31: ld   ExtData,Acc(U)   
+
+Called:
+32: c9b007e84 11 00 100 11 011 00000000 0 111 111 010 000 100  #0    r7   Add r7         +                A=r7     Apply OE=1 WE=1 32: ld   ExtAddr,r7       inc  r7               
+
+Called:
+33: 836007e5a 10 00 001 10 110 00000000 0 111 111 001 011 010  #0    Acc  Or               ret            D=ALU(L)       OE=1 WE=0 33: ld   ExtData,Acc(L)   ret
+
+Called: Three division steps
+34: 9fb000381 10 01 111 11 011 00000000 0 000 001 110 000 001  r1    r0   Add r0,Acc <<< ~                               OE=1 WE=1 34: a/s  Acc,r0,r1,r0     
+35: 9fb000381 10 01 111 11 011 00000000 0 000 001 110 000 001  r1    r0   Add r0,Acc <<< ~                               OE=1 WE=1 35: a/s  Acc,r0,r1,r0
+36: 9fe000381 10 01 111 11 110 00000000 0 000 001 110 000 001  r1    r0   Add r0,Acc <<< ~ ret                           OE=1 WE=1 36: a/s  Acc,r0,r1,r0     ret
+
+Called: Rewind r7 and read RAM word
+37: ce001fecd 11 00 111 00 000 00000001 1 111 111 011 001 101  ~#1   r7   Add r7                                                   37: sub  r7,#2,r7
+
+Called: Used to read RAM word with r7 as pointer
+38: cab007e84 11 00 101 01 011 00000000 0 111 111 010 000 100  #0    r7   Add r7         +                A=r7           OE=0 WE=1 38: ld   ExtAddr,r7       inc  r7               
+39: 0db007e5f 00 00 110 11 011 00000000 0 111 111 001 011 111  Ram   #0   Or                         Set           Apply OE=1 WE=1 39: ld   MSB,[ExtAddr]    nop                   
+
+3a: cad3f7e84 11 00 101 01 101 00111111 0 111 111 010 000 100  #0    r7   Add r7         + jp   3f        A=r7           OE=0 WE=1 3a: ld   ExtAddr,r7       inc  r7               jp   3f
+
+Called:
+3b: ce001eccd 11 00 111 00 000 00000001 1 110 110 011 001 101  ~#1   r6   Add r6                                                   3b: sub  r6,#2,r6         
+
+3c: cab006c84 11 00 101 01 011 00000000 0 110 110 010 000 100  #0    r6   Add r6         +                A=r6           OE=0 WE=1 3c: ld   ExtAddr,r6       inc  r6               
+3d: 0db007e5f 00 00 110 11 011 00000000 0 111 111 001 011 111  Ram   #0   Or                         Set           Apply OE=1 WE=1 3d: ld   MSB,[ExtAddr]    nop                   
+
+3e: cab006c84 11 00 101 01 011 00000000 0 110 110 010 000 100  #0    r6   Add r6         +                A=r6           OE=0 WE=1 3e: ld   ExtAddr,r6       inc  r6               
+
+3f: 8ce007e5f 10 00 110 01 110 00000000 0 111 111 001 011 111  RamB  #0   Or               ret                     Apply OE=0 WE=1 3f: nop                   ret
+
