@@ -31,7 +31,7 @@ Please e-mail me at (nickname) @gmail.com .
 
 # Projects statuses
 
-* Done: Trace, schematic available. Verilog in some cases.
+* Done: Trace, schematic available. Verilog in some cases. Mistakes possible ! See issues.
 * WIP: Work in progress.
 * Embargo: Work done. Privately paid work that will be released in the future.
 * Stalled: Some work done, can't do more right now.
