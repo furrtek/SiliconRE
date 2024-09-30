@@ -34,6 +34,7 @@ Please e-mail me at (nickname) @gmail.com .
 * Done: Trace, schematic available. Verilog in some cases.
 * WIP: Work in progress.
 * Embargo: Work done. Privately paid work that will be released in the future.
+* Stalled: Some work done, can't do more right now.
 
 |Company|Reference|Description|Status|
 |-------|---------|-----------|------|
@@ -90,3 +91,5 @@ Please e-mail me at (nickname) @gmail.com .
 |Taito|PC040DA|I forgot :(|Done|
 |Taito|PC060HA|CPU I/O|Done|
 |Thomson|EFGJ03L|MO5 main ASIC|Done|
+|UMC|UM6618F|Super A'Can|Stalled|
+|UMC|UM6619F|Super A'Can|Stalled|
