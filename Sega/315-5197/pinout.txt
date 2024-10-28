@@ -1,0 +1,49 @@
+XSLW Slow VRAM low write
+XSUW Slow VRAM high write
+XSOE Slow VRAM common /OE
+XSCE Slow VRAM /CS and address latch
+XFLW Fast VRAM low write
+XFUW Fast VRAM high write
+XFOE Fast VRAM common /OE
+X12M /12M clock input
+X6M /6M clock output ?
+XVRAM
+XRD
+XLWR
+XUWR
+AD16
+XDTK
+XINT
+X1L
+XDMA
+FLIP
+XSYC
+XBNK
+HCK Input fixed high
+VCK Input fixed low
+XRST System reset
+AV[14:0] VRAM address out, CPU address in
+VR[15:0] VRAM data in/out, CPU data in/out
+GA[2:0] GFX ROM address (tile row)
+GA[15:11] GFX ROM address (tile number)
+XCPU Low: CPU address on AVx
+XVWR Low: CPU data on VRx
+XVRD Low: VRx on CPU data
+XGAO /OE for missing GA lines
+XGAL Latch missing GA lines from VR
+K8
+OBJ[11:0] Sprite layer from 315-5196
+CA[10:0] Palette RAM address output
+SHAD
+/COLOR Output Low: Palette RAM CPU access
+XFIX
+XSA
+XSB
+COS1
+COS2
+COS0 Input fixed low
+XSWA
+XSWB
+CG[17:10] GFX data bitplane from ROM
+CG[27:20] GFX data bitplane from ROM
+CG[37:30] GFX data bitplane from ROM

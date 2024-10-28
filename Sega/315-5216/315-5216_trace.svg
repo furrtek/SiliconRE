@@ -26,16 +26,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="2590.6522"
-     inkscape:cy="-308.82309"
+     inkscape:zoom="0.12374369"
+     inkscape:cx="158.83196"
+     inkscape:cy="1904.5638"
      inkscape:document-units="mm"
      inkscape:current-layer="layer4"
      showgrid="false"
-     inkscape:window-width="1440"
-     inkscape:window-height="877"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1366"
+     inkscape:window-height="684"
+     inkscape:window-x="1432"
+     inkscape:window-y="124"
      inkscape:window-maximized="1"
      gridtolerance="1"
      objecttolerance="1"
@@ -49,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -60,14 +60,14 @@
     <image
        sodipodi:absref="D:\Electro\VGChips\Sega\315-5216\sega_315-5216_mz.jpg"
        xlink:href="sega_315-5216_mz.jpg"
-       sodipodi:insensitive="true"
-       transform="scale(-1)"
-       width="3693.936"
-       height="4543.4248"
-       preserveAspectRatio="none"
-       id="image18"
+       y="-2420.5457"
        x="-1952.8014"
-       y="-2420.5457" />
+       id="image18"
+       preserveAspectRatio="none"
+       height="4543.4248"
+       width="3693.936"
+       transform="scale(-1)"
+       sodipodi:insensitive="true" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -2303,17 +2303,6 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="285.96075"
-       y="15.40294"
-       id="text10586-5-4-7-0-4-0-0"><tspan
-         sodipodi:role="line"
-         id="tspan10584-2-1-64-7-2-7-5"
-         x="285.96075"
-         y="15.40294"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332px">FDO</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="482.60312"
        y="-705.76703"
        id="text10586-5-4-7-0-4-0-6"><tspan
@@ -2344,6 +2333,17 @@
          x="283.03171"
          y="-347.44559"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332px">FDN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="285.96075"
+       y="15.40294"
+       id="text10586-5-4-7-0-4-0-0"><tspan
+         sodipodi:role="line"
+         id="tspan10584-2-1-64-7-2-7-5"
+         x="285.96075"
+         y="15.40294"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332px">FDO</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"

@@ -30,8 +30,8 @@
      fit-margin-top="0"
      id="base"
      inkscape:current-layer="layer2"
-     inkscape:cx="2321.13"
-     inkscape:cy="6513.3002"
+     inkscape:cx="1927.4125"
+     inkscape:cy="6860.1902"
      inkscape:document-units="mm"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
@@ -41,8 +41,8 @@
      inkscape:window-maximized="1"
      inkscape:window-width="1366"
      inkscape:window-x="1436"
-     inkscape:window-y="66"
-     inkscape:zoom="4"
+     inkscape:window-y="128"
+     inkscape:zoom="2.8284271"
      pagecolor="#ffffff"
      showgrid="true"
      showguides="false">
@@ -49524,22 +49524,6 @@
        id="path9535"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="czc" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.24514651px;line-height:125%;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20282166px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-22.791843"
-       y="264.18158"
-       id="text9539"><tspan
-         sodipodi:role="line"
-         id="tspan9537"
-         x="-22.791843"
-         y="264.18158"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#000000;stroke-width:0.20282166px">Fucked up</tspan><tspan
-         sodipodi:role="line"
-         x="-22.791843"
-         y="268.23801"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#000000;stroke-width:0.20282166px"
-         id="tspan9541">area</tspan></text>
     <path
        d="m 216,186 h 1"
        id="inputL0G47-2"
@@ -50603,10 +50587,10 @@
        inkscape:connector-curvature="0" />
     <path
        id="path11287"
-       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#008080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 490.99999,234 v 4 H 504 m -13.00001,-8 v 4 H 504 m 6.00001,-5 H 503 v 1 H 490.99999 V 219 M 300,218 h 23 v 1 H 490.99999 V 184 H 504 m 0,-36 h -13.00001 v 36">
       <desc
-         id="desc12956">R58</desc>
+         id="desc12956">CRST</desc>
     </path>
     <path
        id="path11446"
@@ -50976,15 +50960,6 @@
        sodipodi:nodetypes="ccc">
       <desc
          id="desc12760">PINS_D_DIR1</desc>
-    </path>
-    <path
-       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#800080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 366,468.99999 h 7 v 1.00002 h 21.00001 L 394,499"
-       id="path9738"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc">
-      <desc
-         id="desc12762">PINS_D_DIR2</desc>
     </path>
     <path
        id="path10159"
@@ -52583,7 +52558,7 @@
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#800080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 739,212 v 2 h 15.99999 v 2 h 0.99999 m 0,-4 H 739 V 71.999998 L 720,72 h -1 V 71 H 575 v -2 h -15 v -7 h -7 v -1 h -7 m -2e-5,-10e-7 h -6.99997 V 62 h -4.00003 v 11.999999 h -174.99999 -3 V -11 h -23 v -1 H 266 v -5 h 5 v -9 m 233,176 h -3.00001 V 121 H 503 v -1 h 1 13 v -1 h 18 V 74">
       <desc
-         id="desc12905">PIN_AS_EN</desc>
+         id="desc12905">PIN_AS_DIR</desc>
     </path>
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -58181,11 +58156,6 @@
     </path>
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 5.9999998,233 H -15"
-       id="path14837"
-       inkscape:connector-curvature="0" />
-    <path
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 0,236 h -1 v -2 h -12"
        id="path14844"
        inkscape:connector-curvature="0" />
@@ -58220,11 +58190,9 @@
     <path
        id="path14260"
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#800080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m -31,133 v 89 m 1e-6,-237 -1e-6,-12 h -3.999999 M -31,-7 h -4 m 4,40 v -48 h -3.999998 M -31,52.999999 V 33 h -3.999998 M -31,73 V 53 l -3.999998,-10e-7 M 216,93.999999 H 199 V 113 H -35 m 2e-6,20 H -31 l 1e-6,-20 L -31,73 h -4"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccccccccccccccccccc">
+       d="m -31,133 v 100 m 1e-6,-248 -1e-6,-12 h -3.999999 M -31,-7 h -4 m 4,40 v -48 h -3.999998 M -31,52.999999 V 33 h -3.999998 M -31,73 V 53 l -3.999998,-10e-7 M 216,93.999999 H 199 V 113 H -35 m 2e-6,20 H -31 l 1e-6,-20 L -31,73 h -4 M 5.9999998,233 H -31">
       <desc
-         id="desc14263">PINS_AD_DIR</desc>
+         id="desc20720">PINS_AD_DIR</desc>
     </path>
     <path
        id="path14278"
@@ -58234,6 +58202,29 @@
        sodipodi:nodetypes="ccccccccccc">
       <desc
          id="desc14281">PIN_CS5</desc>
+    </path>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.24514651px;line-height:100%;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.20282166px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       x="-35.181156"
+       y="264.14636"
+       id="text9539"><tspan
+         sodipodi:role="line"
+         x="-35.181156"
+         y="264.14636"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:100%;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.20282166px;"
+         id="tspan20710">Broken area</tspan><tspan
+         sodipodi:role="line"
+         x="-35.181156"
+         y="267.39151"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:100%;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.20282166px;"
+         id="tspan20714">Traces are guessed</tspan></text>
+    <path
+       id="path20722"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#800080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98165134;paint-order:normal"
+       d="M 568.00001,497.99999 H 554.99999 V 496 H 394 m -28,-27.00001 h 7 v 1.00002 h 21.00001 L 394,496">
+      <desc
+         id="desc21530">PINS_D_DIR2</desc>
     </path>
   </g>
 </svg>
