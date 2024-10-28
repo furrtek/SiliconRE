@@ -39,4 +39,4 @@ used for output. They're swapped each new scanline.
 
 # Pinout
 
-See 86S105.ods
+See `86S105_pinout.ods`

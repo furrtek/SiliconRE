@@ -30,8 +30,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.34003124"
-     inkscape:cx="1732.5755"
-     inkscape:cy="7047.4541"
+     inkscape:cx="4393.167"
+     inkscape:cy="4371.598"
      inkscape:document-units="mm"
      inkscape:current-layer="layer3"
      showgrid="false"
@@ -1259,7 +1259,7 @@
        x="1671.7736"
        y="2117.1414" />
     <rect
-       style="display:inline;opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="display:inline;opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#00ff00;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect2102-9-3-2-5-7-33-11-5-4"
        width="36.348633"
        height="11.49262"
@@ -3863,7 +3863,10 @@
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        d="m -1162.3552,1603.4134 v -58.2647 h 83.6554 l -4.0091,-931.96887 h 387.80814 l -0.26728,-157.95627 h 24.8775 m -24.6427,157.96969 h 18.17433 v -3.4851 h 3.50481 v -3.93921 h 3.50151"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccccccc" />
+       sodipodi:nodetypes="ccccccccccccc">
+      <desc
+         id="desc15674">A93</desc>
+    </path>
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        d="m -583.34688,-47.227063 h 62.80835 v 14.699826 h 87.93168 l 0.53453,161.698067 H -330.154 v 13.96025 h 6.61386"
@@ -3960,7 +3963,10 @@
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        d="M -211.04043,1603.4296 -214.7822,907.45957 H -318.21549"
        id="path4729"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc15672">PIN57_OUT</desc>
+    </path>
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        d="m -232.15471,837.70244 h -63.61015 l 0.80179,161.96522 -112.29711,-0.87538"
@@ -5340,7 +5346,7 @@ High when A[21:18] == 0</desc>
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccccc">
       <desc
-         id="desc12871">T125_Z1</desc>
+         id="desc12871">AZONE</desc>
     </path>
     <path
        id="path3398"
@@ -5814,7 +5820,10 @@ PIN71</desc>
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#800080;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        d="m -760.57318,355.84818 h 80.09717 v -6.56535 h 9.1915 m 312.87607,1253.86337 -3.20723,-586.1221 h -160.62899 v -51.31574 h -25.65786 v -33.14145 h -61.88657 v 22.12714 h -77.03336 v 14.79489 h 15.53798 m -15.63068,-14.8576 h -72.96459 l -2.00318,-1524.63757 h 19.24341 v -40.35772 h 61.94471 v 3.73275 h 8.31611"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccccccccccccccccc" />
+       sodipodi:nodetypes="ccccccccccccccccccccccc">
+      <desc
+         id="desc15670">A134?</desc>
+    </path>
     <path
        id="path11003"
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#800080;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
