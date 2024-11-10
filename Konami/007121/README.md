@@ -1,5 +1,11 @@
 # Konami 007121
 
+ * Manufacturer: Oki
+ * Type: Channeled gate array
+ * Die markings: ?
+ * Function: Sprite controller
+ * Used in: Contra, Combat School, Fast Lane, Flak Attack, Haunted Castle, Labyrinth Runner
+
 # Nets without drivers - best guesses
 
 * DCLK13=NN222 - Wrong merged nets at c256 ?
@@ -24,13 +30,9 @@
 * CLK6=$H2_BUF ?
 * CLK8=$CK24_1 ?
 
-# Pins
-
-See file 007121.ods
-
 # Registers
 
-`Unused` means that there's no latch for the given bit of the given register, writing to it does nothing.
+`Unused` means that there's no latch for the given bit, writing to it does nothing.
 
 * Register 0: X scroll value, lower 8 bits
 * Register 1:
@@ -84,8 +86,8 @@ See file 007121.ods
 
 The chip can produce the three interrupts supported by the M6809 CPU:
 
-*  NMI: either every 32 scanlines (Reg7[4] low) or 64 (Reg7[4] high)
-*  IRQ: at the same time that /VBLANK goes high
+*  NMI: every 32 scanlines (Reg7[4] low) or 64 (Reg7[4] high)
+*  IRQ: at the same time /VBLANK goes high
 * FIRQ: each time /IRQ is cleared, /FIRQ toggles
 
 # Priority

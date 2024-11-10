@@ -1,8 +1,12 @@
 # Konami 053251
 
-This chip is a video layer priority encoder.
+ * Manufacturer: Fujitsu
+ * Type: Dual column channeled gate array
+ * Die markings: 620407U
+ * Function: Video layer mixer priority encoder
+ * Used in: Asterix, Bells & Whistles, Bucky O'Hare, Cowboys of Moo Mesa, Dragon Ball Z 2, Escape Kids, G.I. Joe, Over Drive, Golfing Greats, Lightning Fighters, Parodius, Premier Soccer, Punk Shot, Surprise Attack, The Simpsons, TMNT 2, Vendetta, X-Men, Xexex
 
-It has inputs for 5 layers:
+It has inputs for 5 layers (CI0~4x):
  * 0, 1 and 2: 5 palette bits + 4 color bits
  * 3 and 4: 4 palette bits + 4 color bits
  
@@ -13,8 +17,8 @@ B: Base, P: Palette #, C: Color
 For CI0: BBPPPPPCCCC    BB: Reg9[1:0]
 For CI1: BBPPPPPCCCC    BB: Reg9[3:2]
 For CI2: BBPPPPPCCCC    BB: Reg9[5:4]
-For CI3: BBBPPPPCCCC    BB: Reg10[2:0]
-For CI4: BBBPPPPCCCC    BB: Reg10[5:3]
+For CI3: BBBPPPPCCCC    BBB: Reg10[2:0]
+For CI4: BBBPPPPCCCC    BBB: Reg10[5:3]
 ```
 
 # Registers
@@ -59,25 +63,3 @@ The schematic was traced from the chip's silicon and should represent exactly ho
 Thanks to O. Galibert for the help.
 
 ![Konami 053251 internal routing](routing.png)
-
-# Games
-
-According to MAME, it is used in the following Konami games:
-* Asterix
-* Bells & Whistles
-* Bucky O'Hare
-* Cowboys of Moo Mesa
-* Dragon Ball Z 2
-* Escape Kids
-* G.I. Joe, Over Drive
-* Golfing Greats
-* Lightning Fighters
-* Parodius
-* Premier Soccer
-* Punk Shot
-* Surprise Attack
-* The Simpsons
-* TMNT 2
-* Vendetta
-* X-Men
-* Xexex

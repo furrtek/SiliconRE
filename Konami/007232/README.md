@@ -1,16 +1,16 @@
 # Konami 007232
 
-* Role: Two channel 7-bit PCM player with variable pitch
-* Manufacturer: Oki
-* Die marking: 74000-015
-* Technology: CMOS gate array
-* Used on: Ajax, Aliens, Black Panther, Bottom of the Ninth, Chequered Flag, City Bomber, Crazy Cop, Crime Fighters, Cue Brick, Dark Adventure, Devastators, Devil World, Fast Lane, Gang Busters, Gradius II, Gradius III, Hot Chase, Hyper Crash, Kitten Kaboodle, Missing in Action, MX5000, S.P.Y., Salamander, Super Contra, Teenage Mutant Ninja Turtles, The Final Round, The Main Event, Vulcan Venture, WEC Le Mans 24
+ * Manufacturer: Oki
+ * Type: Channeled gate array
+ * Die markings: 74000-015
+ * Function: Two channel 7-bit PCM player with variable pitch
+ * Used in: Ajax, Aliens, Black Panther, Bottom of the Ninth, Chequered Flag, City Bomber, Crazy Cop, Crime Fighters, Cue Brick, Dark Adventure, Devastators, Devil World, Fast Lane, Gang Busters, Gradius II, Gradius III, Hot Chase, Hyper Crash, Kitten Kaboodle, Missing in Action, MX5000, S.P.Y., Salamander, Super Contra, Teenage Mutant Ninja Turtles, The Final Round, The Main Event, Vulcan Venture, WEC Le Mans 24
 
 The audio outputs are digital, external DACs are required.
 
 The PCM data can come from ROM or RAM. There are provisions for the host CPU to read and write to the RAM.
 
-The PCM data is unpacked. Each byte represents a 7-bit sample and a stop bit, in the form `sSSSSSSS`.
+Each PCM data byte is made of a 7-bit sample and a stop bit, in the form `sSSSSSSS`.
 
 # Registers
 
@@ -34,14 +34,13 @@ The PCM data is unpacked. Each byte represents a 7-bit sample and a stop bit, in
  
 # Operation
 
-Each channel has a 12-bit prescaler. Each time it overflows, two things happen: a new sample is read
-(if the channel is playing), and the counter is reloaded with the "step" value. The prescalers are always
-running whether the channel is playing or not.
+Each channel has a 12-bit prescaler. Each time it overflows, two things happen: it is reloaded with the "step" value,
+and a new sample is read (if the channel is playing). The prescalers are always running whether the channel is playing or not.
 
 When a channel is triggered, the start address is loaded into a 17-bit counter and the channel starts playing.
 
-If the sample read has its stop bit set, depending on the loop flag in register 13, the channel is either
-stopped or its start address is reloaded (loop).
+If the sample read has its stop bit set, depending on the loop flag in register 13, the channel is either stopped or its
+start address is reloaded (loop).
 
 The CK2M output provides a divided clock signal depending on the state of Register 1 bits 4 and 5 ?
 

@@ -1,11 +1,11 @@
 # Konami 052591 PMC
 
-* Role: Custom CPU used for security through obscurity
-* Manufacturer: Fujitsu
-* Die marking: 660118
-* Technology: CMOS gate array
-* Used on: Hexion, Thunder Cross, S.P.Y.
-* Chip donator: @Ace646546
+ * Manufacturer: Fujitsu
+ * Type: Channeled gate array
+ * Die markings: 660118
+ * Function: Custom CPU used for security through obscurity
+ * Used in: Hexion, Thunder Cross, S.P.Y.
+ * Chip donator: @Ace646546
 
 Another one of Konami's crazy attempts at thwarting piracy.
 

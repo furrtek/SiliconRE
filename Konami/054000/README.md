@@ -1,10 +1,14 @@
 # Konami 054000
 
-Nec CMOS-5 gate array (6 transistor cells)
+ * Manufacturer: NEC
+ * Type: CMOS-5 gate array, 6-transistor BCs
+ * Die markings: 65025-060
+ * Function: Collision detection / Security
+ * Used in: Thunder Cross 2, Bells & Whistles, Gaiapolis, Bucky O'Hare, Lethal Enforcers, Vendetta
 
 Gets loaded with 18 bytes, replies with a single bit. Unused registers are unmapped. No reset signal so initial state may be random.
 
-Both X and Y parts use exactly the same logic, the results are ORed together.
+Both X and Y parts use exactly the same logic, the result of both are ORed together.
 
 Cell_3d is the top two BCs of a 8-bit latch, some traces are wrong ! For illustration only. See pictures of paper notes.
 
@@ -34,16 +38,18 @@ Cell_3d is the top two BCs of a 8-bit latch, some traces are wrong ! For illustr
 # Use
 
 According to MAME the following games use this chip:
-*Thunder Cross 2 (@ 0x500000, passes POST without patch, not used in game)
-*Bells & Whistles (@ 0x500000)
-*Gaiapolis (@ 0x660000, not POSTed but permanently used in game, returning 0 causes player to hit everything in screen)
-*Bucky O'Hare (@ 0x0d2000, POST returns "P7 device error" if check fails, permanently used in game, returning 0 causes player to always be hit)
-*Lethal Enforcers (@ 0x4880 with CBNK=0, never used ?)
-*Vendetta (@ 0x5f80, not POSTed but permanently used in game, returning 0 causes all hit checks to pass)
+* Thunder Cross 2 (@ 0x500000, passes POST without patch, not used in game)
+* Bells & Whistles (@ 0x500000)
+* Gaiapolis (@ 0x660000, not POSTed but used in game, returning 0 causes player to hit everything on screen)
+* Bucky O'Hare (@ 0x0d2000, POST returns "P7 device error" if check fails, used in game, returning 0 causes player to always be hit)
+* Lethal Enforcers (@ 0x4880 with CBNK=0, never used ?)
+* Vendetta (@ 0x5f80, not POSTed but used in game, returning 0 causes all hit checks to pass)
+
+# Notes
 
 Thunder Cross 2 POST:
 Table of test commands starts at 0x14d4, entries are 2 bytes.
-First byte is the reg address *2+1 (<0x30 means write, 0x31 means read), second byte is value.
+First byte is the reg address *2+1 (< 0x30 means write, 0x31 means read), second byte is value.
 
 Value	Regs written to						Expected
 00	3,5,7,9,D,F,13,15,17,19,1D,1F,23,25,27,2B,2D,2F		0

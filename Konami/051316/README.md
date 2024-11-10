@@ -1,8 +1,10 @@
 # Konami 051316
 
-"PSAC" ROZ plane generator.
-
-Fujitsu gate array with embedded RAM.
+ * Manufacturer: Fujitsu
+ * Type: Channeled gate array with embedded RAM
+ * Die markings: Z87160
+ * Function: "PSAC" ROZ plane generator
+ * Used in: ...
 
 * CA0-3: XACC[14:11], pixel x in tile with optional flipping
 * CA7-4: YACC[14:11], pixel y in tile with optional flipping

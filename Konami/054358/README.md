@@ -1,21 +1,22 @@
-Konami 054358
-Toshiba gate array
+# Konami 054358
 
-Security / DMA chip
-
-Used on: Asterix, Sunset Riders
+ * Manufacturer: Toshiba
+ * Type: Gate array
+ * Die markings: CD05 0009
+ * Function: DMA/Security
+ * Used in: Asterix, Sunset Riders
 
 According to a comment in MAME's source, Asterix' use of the chip is pretty comical.
 The mentionned routine is at 7F30 in the EAD set ("asterix").
 If d7 is >= $100, a simple d7 word copy is done from (a6) to (a5)
-If d7 is < $100, two longword parameters are set up at an arbitrary RAM location:
-* $22.b,a6.l (source) to $104258 (RAM)
-* d7-1.b,a5.l (dest) to $10425C (RAM)
-* Finally $64104258.l ($64.b, RAM location of parameters) to $380800 (dedicated 054358 register)
+If d7 is < $100, two longword parameters are set up at arbitrary RAM locations:
+* {$22[7:0], a6[23:0]} (source) to $104258 (RAM)
+* {d7-1[7:0], a5[23:0]} (dest) to $10425C (RAM)
+* Finally $64104258.l ($64[7:0], RAM location of parameters) to $380800 (dedicated 054358 register)
 
 Sunset Riders is a bit more serious about it.
 
-Latch R: 16-bit latch controlled by R125/T135, fet by DB_IN_LATCH[15:8]
+Latch R: 16-bit latch controlled by R125/T135, fed by DB_IN_LATCH[15:8]
 N126, P130, V131, Y125
 
 Latch V: 16-bit latch controlled by G118

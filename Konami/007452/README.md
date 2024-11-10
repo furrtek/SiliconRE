@@ -1,8 +1,10 @@
 # Konami 007452
 
-Math and bankswitching/address decoding chip.
-
-Fujitsu MB672000 gate array with 1245 basic cells. Silicon ID: 672122.
+ * Manufacturer: Fujitsu
+ * Type: Channeled gate array, MB672000 series with 1245 BCs
+ * Die markings: 672122
+ * Function: Math and bankswitching/address decoding chip
+ * Used in: ...
 
 ![Die trace](trace.png)
 
@@ -10,10 +12,10 @@ Fujitsu MB672000 gate array with 1245 basic cells. Silicon ID: 672122.
 
 7-bit operand A * 8-bit operand B -> 15-bit result.
 
-* Write to 0: Set operand A.
-* Write to 1: Set operand B and trigger multiplication process.
-* Read from 0: Get result lower byte.
-* Read from 1: Get result upper byte.
+* Write to 0: Set operand A
+* Write to 1: Set operand B and trigger multiplication process
+* Read from 0: Get result lower byte
+* Read from 1: Get result upper byte
 
 Result is valid 8+2 clocks after writing to register 1.
 
@@ -23,26 +25,26 @@ Operand A's MSB **must** be zero or the result will be incorrect. The result's u
 
 16-bit dividend / 16-bit divisor -> 16-bit quotient, 16-bit remainder.
 
-* Write to 2: Set divisor upper byte.
-* Write to 3: Set divisor lower byte.
-* Write to 4: Set dividend upper byte.
-* Write to 5: Set dividend lower byte and trigger division process.
-* Read from 2: Get remainder lower byte.
-* Read from 3: Get remainder top byte.
-* Read from 4: Get quotient lower byte.
-* Read from 5: Get quotient top byte.
+* Write to 2: Set divisor upper byte
+* Write to 3: Set divisor lower byte
+* Write to 4: Set dividend upper byte
+* Write to 5: Set dividend lower byte and trigger division process
+* Read from 2: Get remainder lower byte
+* Read from 3: Get remainder top byte
+* Read from 4: Get quotient lower byte
+* Read from 5: Get quotient top byte
 
 Result is valid 16+2 clocks after writing to register 5.
 
 # Bankswitching
 
-* Register 5xxx: Set bank 1.
-* Register 7xxx: Set bank 2.
-* Register 9xxx: Set bank 3.
-* Register Bxxx: Set bank 4.
-
 Has four 6-bit registers whose values are output on Y[6:1] depending on the AB[14:13] inputs.
 Didn't spend time trying to understand what's happening in detail, sorry.
+
+* Register 5xxx: Set bank 1
+* Register 7xxx: Set bank 2
+* Register 9xxx: Set bank 3
+* Register Bxxx: Set bank 4
 
 # Pinout
 
