@@ -28,3 +28,6 @@ Capcom/86S105/pins
 Capcom/86S105/sim
 Nanao/KNA70H015(11)/CPLD
 Konami/054000
+*.bin
+*.pdsprj
+*.vcd
