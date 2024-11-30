@@ -29,16 +29,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="7038.5477"
-     inkscape:cy="5705.5976"
+     inkscape:zoom="1"
+     inkscape:cx="4917.8609"
+     inkscape:cy="3349.4453"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1366"
-     inkscape:window-height="697"
-     inkscape:window-x="1436"
-     inkscape:window-y="128"
+     inkscape:window-height="684"
+     inkscape:window-x="1432"
+     inkscape:window-y="124"
      inkscape:window-maximized="1"
      objecttolerance="1"
      gridtolerance="1"
@@ -67,7 +67,7 @@
      inkscape:label="Die"
      style="display:inline">
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0050_Layer 5.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0050_Layer 5.jpg"
        xlink:href="columns/columns_0050_Layer 5.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -78,7 +78,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0001s_0011_Layer 36.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0001s_0011_Layer 36.jpg"
        xlink:href="pins/pins_0001s_0011_Layer 36.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -89,7 +89,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0001s_0010_Layer 37.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0001s_0010_Layer 37.jpg"
        xlink:href="pins/pins_0001s_0010_Layer 37.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -100,7 +100,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0001s_0009_Layer 38.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0001s_0009_Layer 38.jpg"
        xlink:href="pins/pins_0001s_0009_Layer 38.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -111,7 +111,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0001s_0008_Layer 39.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0001s_0008_Layer 39.jpg"
        xlink:href="pins/pins_0001s_0008_Layer 39.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -122,7 +122,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0001s_0007_Layer 40.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0001s_0007_Layer 40.jpg"
        xlink:href="pins/pins_0001s_0007_Layer 40.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -133,7 +133,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0001s_0006_Layer 41.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0001s_0006_Layer 41.jpg"
        xlink:href="pins/pins_0001s_0006_Layer 41.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -144,7 +144,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0001s_0005_Layer 42.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0001s_0005_Layer 42.jpg"
        xlink:href="pins/pins_0001s_0005_Layer 42.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -155,7 +155,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0001s_0004_Layer 43.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0001s_0004_Layer 43.jpg"
        xlink:href="pins/pins_0001s_0004_Layer 43.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -166,7 +166,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0055_Layer 0.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0055_Layer 0.jpg"
        xlink:href="columns/columns_0055_Layer 0.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -177,7 +177,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0054_Layer 1.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0054_Layer 1.jpg"
        xlink:href="columns/columns_0054_Layer 1.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -188,7 +188,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0053_Layer 2.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0053_Layer 2.jpg"
        xlink:href="columns/columns_0053_Layer 2.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -199,7 +199,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0052_Layer 3.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0052_Layer 3.jpg"
        xlink:href="columns/columns_0052_Layer 3.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -210,7 +210,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0049_Layer 6.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0049_Layer 6.jpg"
        xlink:href="columns/columns_0049_Layer 6.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -221,7 +221,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0044_Layer 11.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0044_Layer 11.jpg"
        xlink:href="columns/columns_0044_Layer 11.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -232,7 +232,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0038_Layer 17.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0038_Layer 17.jpg"
        xlink:href="columns/columns_0038_Layer 17.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -243,7 +243,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0037_Layer 18.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0037_Layer 18.jpg"
        xlink:href="columns/columns_0037_Layer 18.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -254,7 +254,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0026_Layer 29.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0026_Layer 29.jpg"
        xlink:href="columns/columns_0026_Layer 29.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -265,7 +265,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0023_Layer 32.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0023_Layer 32.jpg"
        xlink:href="columns/columns_0023_Layer 32.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -276,7 +276,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0013_Layer 42.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0013_Layer 42.jpg"
        xlink:href="columns/columns_0013_Layer 42.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -287,7 +287,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0051_Layer 4.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0051_Layer 4.jpg"
        xlink:href="columns/columns_0051_Layer 4.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -298,7 +298,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0024_Layer 31.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0024_Layer 31.jpg"
        xlink:href="columns/columns_0024_Layer 31.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -309,7 +309,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0025_Layer 30.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0025_Layer 30.jpg"
        xlink:href="columns/columns_0025_Layer 30.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -320,7 +320,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0010_Layer 45.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0010_Layer 45.jpg"
        xlink:href="columns/columns_0010_Layer 45.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -331,7 +331,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0002_Layer 53.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0002_Layer 53.jpg"
        xlink:href="columns/columns_0002_Layer 53.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -342,7 +342,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0003s_0016_Layer 2.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0003s_0016_Layer 2.jpg"
        xlink:href="pins/pins_0003s_0016_Layer 2.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -353,7 +353,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0003s_0014_Layer 4.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0003s_0014_Layer 4.jpg"
        xlink:href="pins/pins_0003s_0014_Layer 4.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -364,7 +364,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0003s_0013_Layer 5.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0003s_0013_Layer 5.jpg"
        xlink:href="pins/pins_0003s_0013_Layer 5.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -375,7 +375,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0003s_0012_Layer 6.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0003s_0012_Layer 6.jpg"
        xlink:href="pins/pins_0003s_0012_Layer 6.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -386,7 +386,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0003s_0011_Layer 7.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0003s_0011_Layer 7.jpg"
        xlink:href="pins/pins_0003s_0011_Layer 7.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -397,7 +397,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0003s_0010_Layer 8.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0003s_0010_Layer 8.jpg"
        xlink:href="pins/pins_0003s_0010_Layer 8.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -408,7 +408,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0003s_0009_Layer 9.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0003s_0009_Layer 9.jpg"
        xlink:href="pins/pins_0003s_0009_Layer 9.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -419,7 +419,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0003s_0008_Layer 10.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0003s_0008_Layer 10.jpg"
        xlink:href="pins/pins_0003s_0008_Layer 10.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -430,7 +430,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0003s_0007_Layer 11.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0003s_0007_Layer 11.jpg"
        xlink:href="pins/pins_0003s_0007_Layer 11.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -441,7 +441,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0003s_0006_Layer 12.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0003s_0006_Layer 12.jpg"
        xlink:href="pins/pins_0003s_0006_Layer 12.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -452,7 +452,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0003s_0005_Layer 13.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0003s_0005_Layer 13.jpg"
        xlink:href="pins/pins_0003s_0005_Layer 13.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -463,7 +463,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0003s_0004_Layer 14.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0003s_0004_Layer 14.jpg"
        xlink:href="pins/pins_0003s_0004_Layer 14.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -474,7 +474,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0003s_0003_Layer 15.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0003s_0003_Layer 15.jpg"
        xlink:href="pins/pins_0003s_0003_Layer 15.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -485,7 +485,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0003s_0002_Layer 16.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0003s_0002_Layer 16.jpg"
        xlink:href="pins/pins_0003s_0002_Layer 16.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -496,7 +496,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0003s_0001_Layer 17.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0003s_0001_Layer 17.jpg"
        xlink:href="pins/pins_0003s_0001_Layer 17.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -507,7 +507,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0000s_0011_Layer 19.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0000s_0011_Layer 19.jpg"
        xlink:href="pins/pins_0000s_0011_Layer 19.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -518,7 +518,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0000s_0010_Layer 20.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0000s_0010_Layer 20.jpg"
        xlink:href="pins/pins_0000s_0010_Layer 20.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -529,7 +529,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0000s_0009_Layer 21.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0000s_0009_Layer 21.jpg"
        xlink:href="pins/pins_0000s_0009_Layer 21.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -540,7 +540,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0000s_0008_Layer 22.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0000s_0008_Layer 22.jpg"
        xlink:href="pins/pins_0000s_0008_Layer 22.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -551,7 +551,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0000s_0007_Layer 23.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0000s_0007_Layer 23.jpg"
        xlink:href="pins/pins_0000s_0007_Layer 23.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -562,7 +562,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0000s_0006_Layer 24.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0000s_0006_Layer 24.jpg"
        xlink:href="pins/pins_0000s_0006_Layer 24.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -573,7 +573,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0000s_0005_Layer 25.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0000s_0005_Layer 25.jpg"
        xlink:href="pins/pins_0000s_0005_Layer 25.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -584,7 +584,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0000s_0004_Layer 26.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0000s_0004_Layer 26.jpg"
        xlink:href="pins/pins_0000s_0004_Layer 26.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -595,7 +595,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0000s_0003_Layer 27.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0000s_0003_Layer 27.jpg"
        xlink:href="pins/pins_0000s_0003_Layer 27.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -606,7 +606,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0000s_0002_Layer 28.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0000s_0002_Layer 28.jpg"
        xlink:href="pins/pins_0000s_0002_Layer 28.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -617,7 +617,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0000s_0001_Layer 29.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0000s_0001_Layer 29.jpg"
        xlink:href="pins/pins_0000s_0001_Layer 29.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -628,7 +628,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0003s_0000_Layer 18.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0003s_0000_Layer 18.jpg"
        xlink:href="pins/pins_0003s_0000_Layer 18.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -639,7 +639,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0001s_0015_Layer 32.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0001s_0015_Layer 32.jpg"
        xlink:href="pins/pins_0001s_0015_Layer 32.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -650,7 +650,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0001s_0014_Layer 33.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0001s_0014_Layer 33.jpg"
        xlink:href="pins/pins_0001s_0014_Layer 33.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -661,7 +661,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0001s_0013_Layer 34.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0001s_0013_Layer 34.jpg"
        xlink:href="pins/pins_0001s_0013_Layer 34.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -672,7 +672,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0001s_0016_Layer 31.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0001s_0016_Layer 31.jpg"
        xlink:href="pins/pins_0001s_0016_Layer 31.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -683,7 +683,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0001s_0012_Layer 35.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0001s_0012_Layer 35.jpg"
        xlink:href="pins/pins_0001s_0012_Layer 35.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -694,7 +694,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0001s_0003_Layer 44.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0001s_0003_Layer 44.jpg"
        xlink:href="pins/pins_0001s_0003_Layer 44.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -705,7 +705,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0001s_0002_Layer 45.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0001s_0002_Layer 45.jpg"
        xlink:href="pins/pins_0001s_0002_Layer 45.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -716,7 +716,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0000s_0000_Layer 58.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0000s_0000_Layer 58.jpg"
        xlink:href="pins/pins_0000s_0000_Layer 58.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -727,7 +727,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0000s_0001_Layer 57.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0000s_0001_Layer 57.jpg"
        xlink:href="pins/pins_0000s_0001_Layer 57.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -738,7 +738,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0000s_0002_Layer 56.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0000s_0002_Layer 56.jpg"
        xlink:href="pins/pins_0000s_0002_Layer 56.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -749,7 +749,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0000s_0003_Layer 55.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0000s_0003_Layer 55.jpg"
        xlink:href="pins/pins_0000s_0003_Layer 55.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -760,7 +760,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0000s_0004_Layer 54.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0000s_0004_Layer 54.jpg"
        xlink:href="pins/pins_0000s_0004_Layer 54.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -771,7 +771,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0000s_0005_Layer 53.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0000s_0005_Layer 53.jpg"
        xlink:href="pins/pins_0000s_0005_Layer 53.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -782,7 +782,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0000s_0006_Layer 52.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0000s_0006_Layer 52.jpg"
        xlink:href="pins/pins_0000s_0006_Layer 52.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -793,7 +793,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0000s_0007_Layer 51.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0000s_0007_Layer 51.jpg"
        xlink:href="pins/pins_0000s_0007_Layer 51.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -804,7 +804,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0000s_0008_Layer 50.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0000s_0008_Layer 50.jpg"
        xlink:href="pins/pins_0000s_0008_Layer 50.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -815,7 +815,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0000s_0009_Layer 49.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0000s_0009_Layer 49.jpg"
        xlink:href="pins/pins_0000s_0009_Layer 49.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -826,7 +826,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0000s_0010_Layer 48.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0000s_0010_Layer 48.jpg"
        xlink:href="pins/pins_0000s_0010_Layer 48.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -837,7 +837,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0001s_0000_Layer 47.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0001s_0000_Layer 47.jpg"
        xlink:href="pins/pins_0001s_0000_Layer 47.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -848,7 +848,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0001s_0001_Layer 46.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0001s_0001_Layer 46.jpg"
        xlink:href="pins/pins_0001s_0001_Layer 46.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -859,7 +859,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0048_Layer 7.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0048_Layer 7.jpg"
        xlink:href="columns/columns_0048_Layer 7.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -870,7 +870,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0046_Layer 9.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0046_Layer 9.jpg"
        xlink:href="columns/columns_0046_Layer 9.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -881,7 +881,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0043_Layer 12.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0043_Layer 12.jpg"
        xlink:href="columns/columns_0043_Layer 12.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -892,7 +892,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0039_Layer 16.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0039_Layer 16.jpg"
        xlink:href="columns/columns_0039_Layer 16.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -903,7 +903,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0035_Layer 20.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0035_Layer 20.jpg"
        xlink:href="columns/columns_0035_Layer 20.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -914,7 +914,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0032_Layer 23.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0032_Layer 23.jpg"
        xlink:href="columns/columns_0032_Layer 23.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -925,7 +925,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0031_Layer 24.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0031_Layer 24.jpg"
        xlink:href="columns/columns_0031_Layer 24.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -936,7 +936,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0021_Layer 34.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0021_Layer 34.jpg"
        xlink:href="columns/columns_0021_Layer 34.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -947,7 +947,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0019_Layer 36.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0019_Layer 36.jpg"
        xlink:href="columns/columns_0019_Layer 36.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -958,7 +958,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0018_Layer 37.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0018_Layer 37.jpg"
        xlink:href="columns/columns_0018_Layer 37.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -969,7 +969,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0012_Layer 43.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0012_Layer 43.jpg"
        xlink:href="columns/columns_0012_Layer 43.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -980,7 +980,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0007_Layer 48.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0007_Layer 48.jpg"
        xlink:href="columns/columns_0007_Layer 48.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -991,7 +991,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0006_Layer 49.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0006_Layer 49.jpg"
        xlink:href="columns/columns_0006_Layer 49.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1002,7 +1002,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0005_Layer 50.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0005_Layer 50.jpg"
        xlink:href="columns/columns_0005_Layer 50.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1013,7 +1013,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0004_Layer 51.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0004_Layer 51.jpg"
        xlink:href="columns/columns_0004_Layer 51.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1024,7 +1024,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0003_Layer 52.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0003_Layer 52.jpg"
        xlink:href="columns/columns_0003_Layer 52.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1035,7 +1035,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0001_Layer 54.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0001_Layer 54.jpg"
        xlink:href="columns/columns_0001_Layer 54.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1046,7 +1046,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0045_Layer 10.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0045_Layer 10.jpg"
        xlink:href="columns/columns_0045_Layer 10.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1057,7 +1057,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0042_Layer 13.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0042_Layer 13.jpg"
        xlink:href="columns/columns_0042_Layer 13.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1068,7 +1068,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0040_Layer 15.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0040_Layer 15.jpg"
        xlink:href="columns/columns_0040_Layer 15.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1079,7 +1079,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0036_Layer 19.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0036_Layer 19.jpg"
        xlink:href="columns/columns_0036_Layer 19.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1090,7 +1090,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0033_Layer 22.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0033_Layer 22.jpg"
        xlink:href="columns/columns_0033_Layer 22.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1101,7 +1101,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0029_Layer 26.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0029_Layer 26.jpg"
        xlink:href="columns/columns_0029_Layer 26.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1112,7 +1112,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0027_Layer 28.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0027_Layer 28.jpg"
        xlink:href="columns/columns_0027_Layer 28.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1123,7 +1123,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0022_Layer 33.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0022_Layer 33.jpg"
        xlink:href="columns/columns_0022_Layer 33.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1134,7 +1134,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0047_Layer 8.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0047_Layer 8.jpg"
        xlink:href="columns/columns_0047_Layer 8.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1145,7 +1145,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0041_Layer 14.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0041_Layer 14.jpg"
        xlink:href="columns/columns_0041_Layer 14.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1156,7 +1156,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0034_Layer 21.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0034_Layer 21.jpg"
        xlink:href="columns/columns_0034_Layer 21.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1167,7 +1167,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0030_Layer 25.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0030_Layer 25.jpg"
        xlink:href="columns/columns_0030_Layer 25.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1178,7 +1178,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0028_Layer 27.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0028_Layer 27.jpg"
        xlink:href="columns/columns_0028_Layer 27.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1189,7 +1189,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0020_Layer 35.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0020_Layer 35.jpg"
        xlink:href="columns/columns_0020_Layer 35.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1200,7 +1200,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0017_Layer 38.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0017_Layer 38.jpg"
        xlink:href="columns/columns_0017_Layer 38.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1211,7 +1211,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0016_Layer 39.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0016_Layer 39.jpg"
        xlink:href="columns/columns_0016_Layer 39.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1222,7 +1222,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0009_Layer 46.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0009_Layer 46.jpg"
        xlink:href="columns/columns_0009_Layer 46.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1233,7 +1233,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0008_Layer 47.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0008_Layer 47.jpg"
        xlink:href="columns/columns_0008_Layer 47.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1244,7 +1244,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0015_Layer 40.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0015_Layer 40.jpg"
        xlink:href="columns/columns_0015_Layer 40.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1255,7 +1255,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0014_Layer 41.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0014_Layer 41.jpg"
        xlink:href="columns/columns_0014_Layer 41.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1266,7 +1266,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\columns/columns_0011_Layer 44.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\columns/columns_0011_Layer 44.jpg"
        xlink:href="columns/columns_0011_Layer 44.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1277,7 +1277,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0003s_0017_Layer 1.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0003s_0017_Layer 1.jpg"
        xlink:href="pins/pins_0003s_0017_Layer 1.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1288,7 +1288,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0003s_0015_Layer 3.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0003s_0015_Layer 3.jpg"
        xlink:href="pins/pins_0003s_0015_Layer 3.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1299,7 +1299,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0001s_0001_Layer 46.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0001s_0001_Layer 46.jpg"
        xlink:href="pins/pins_0001s_0001_Layer 46.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -1310,7 +1310,7 @@
        height="158.75"
        width="211.66667" />
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips.git\trunk\Capcom\86S105\pins/pins_0001s_0000_Layer 47.jpg"
+       sodipodi:absref="D:\Electro\VGChips\Capcom\86S105\pins/pins_0001s_0000_Layer 47.jpg"
        xlink:href="pins/pins_0001s_0000_Layer 47.jpg"
        transform="translate(293.92541,4.7051076)"
        style="display:inline"
@@ -4591,7 +4591,10 @@
        id="path8449"
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.24705882;fill-rule:evenodd;stroke:#800080;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 880.84925,1644.1682 v -3.3073 l 51.40476,0.095 m -51.59375,33.5449 50.36534,0.378 m -149.30059,-31.372 99.21875,0.5669 -0.56697,71.8155 49.98736,0.094 m -148.54465,-128.6059 0.37798,-34.1123 h -10.96132 m 10.58334,71.2485 v -37.1362 h -10.96132 m 0.66146,71.343 h 10.01638 l 0.28348,-34.2068 h -10.86681"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc2823">HIRO</desc>
+    </path>
     <path
        transform="translate(293.92541,4.7051076)"
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.24705882;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -4809,18 +4812,13 @@
     </path>
     <path
        transform="translate(293.92541,4.7051076)"
-       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.24705882;fill-rule:evenodd;stroke:#00ffff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1088.1239,1767.8594 1.2027,-159.5599 h -27.9297"
-       id="path34325"
-       inkscape:connector-curvature="0" />
-    <path
-       transform="translate(293.92541,4.7051076)"
        id="path9520"
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.24705882;fill-rule:evenodd;stroke:#00ffff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1098.4138,1225.7031 -2.1395,224.3742 m 2.4067,-250.8338 -0.4008,26.4596 296.2147,1.47 m -293.5421,-358.27472 -2.2718,330.34512 h -35.1459 m 32.099,443.2238 0.756,-192.3898 -33.6399,-0.567 m -2.2679,192.7678 35.2463,0.378 -1.2284,125.8661 m 312.0754,-858.86544 -9.4881,-0.26725 -4.8108,644.92139 h 8.1517"
        inkscape:connector-curvature="0">
       <desc
-         id="desc33162">RAMLDD</desc>
+         id="desc33162">RAMLDD
+BUF_D4</desc>
     </path>
     <path
        transform="translate(293.92541,4.7051076)"
@@ -4829,7 +4827,8 @@
        d="m 1098.681,1597.4751 1.47,-218.2256 m 2.94,-357.8739 -2.6727,357.7403 -76.9736,-0.8018 -1.47,256.1778 -150.47265,-1.6036 m 226.10995,135.372 1.2027,-170.9188 283.573,1.3363 3.0736,-367.2283 h 18.9761 m -300.2773,-362.55112 -1.0691,152.47722 h -37.4177"
        inkscape:connector-curvature="0">
       <desc
-         id="desc22459">RAMLDG</desc>
+         id="desc22459">RAMLDG
+BUF_D1</desc>
     </path>
     <path
        transform="translate(293.92541,4.7051076)"
@@ -4879,7 +4878,8 @@
        d="m 1144.5178,1394.3502 -0.5346,229.4509 m 260.0533,-381.1263 -96.3507,-0.5346 -2.539,382.1955 -161.2972,-0.6682 -0.9354,143.9246 m 6.6817,-899.09464 -1.7373,179.33784 m -277.42561,619.3971 96.8852,0.5346 1.60361,-274.4858 175.8633,1.0691 2.9399,-346.515 -83.1208,-0.9354"
        inkscape:connector-curvature="0">
       <desc
-         id="desc31518">RAMLDH</desc>
+         id="desc31518">RAMLDH
+BUF_D0</desc>
     </path>
     <path
        transform="translate(293.92541,4.7051076)"
@@ -4921,7 +4921,8 @@
        d="m 1400.9444,1501.6712 -108.1957,-0.9449 1.6065,-149.5841 m 111.0106,-406.92382 -108.8505,-0.74838 -2.1601,407.6722 -184.4015,-2.325 m -1.5173,222.3319 -1.0691,196.9776 m 1.8709,-287.582 -0.8018,90.6044 h -47.9749 m 50.1131,-318.9862 -1.3364,228.3818 h -46.9058 m 51.7167,-612.18086 -3.3409,383.66536 h -46.3713"
        inkscape:connector-curvature="0">
       <desc
-         id="desc33156">RAMLDB</desc>
+         id="desc33156">RAMLDB
+BUF_D6</desc>
     </path>
     <path
        transform="translate(293.92541,4.7051076)"
@@ -5203,10 +5204,12 @@
        transform="translate(293.92541,4.7051076)"
        id="path11910"
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.24705882;fill-rule:evenodd;stroke:#00ffff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1132.0897,1364.0151 3.0736,-369.63371 m -4.009,576.90131 0.9354,-207.2676 -149.93807,-1.2027 -1.20271,229.7182 -109.31324,-1.0691 m 531.00962,-382.6273 -100.6361,-1.0395 -3.1183,364.4636 -167.916,-0.945 -1.0394,196.7366 m -65.4649,-774.3367 70.6927,0.6682 1.2028,-126.28484"
-       inkscape:connector-curvature="0">
+       d="m 1132.0897,1364.0151 3.0736,-369.63371 m -4.009,576.90131 0.9354,-207.2676 -149.93807,-1.2027 -1.20271,229.7182 -109.31324,-1.0691 m 532.06792,-382.6273 -101.6944,-1.0395 -3.1183,364.4636 -167.916,-0.945 -1.0394,196.7366 m -65.4649,-774.3367 70.6927,0.6682 1.2028,-126.28484"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccc">
       <desc
-         id="desc22465">RAMLDF</desc>
+         id="desc22465">RAMLDF
+BUF_D2</desc>
     </path>
     <path
        transform="translate(293.92541,4.7051076)"
@@ -5221,7 +5224,8 @@
        d="m 975.81578,1348.0239 130.69832,0.5287 m -130.69831,-0.5287 -1.13393,214.6905 -103.09301,-1.3229 m 237.91665,-593.46977 -45.5695,-0.66818 m 46.5049,-98.48881 -0.9354,99.29063 -4.1427,576.76763 m 298.6737,-347.1831 -89.4016,-0.8018 -2.2718,349.5885 -207.0003,-1.6036 -1.2027,223.17"
        inkscape:connector-curvature="0">
       <desc
-         id="desc31963">RAMLDE</desc>
+         id="desc31963">RAMLDE
+BUF_D3</desc>
     </path>
     <path
        transform="translate(293.92541,4.7051076)"
@@ -5482,12 +5486,6 @@
        inkscape:connector-curvature="0" />
     <path
        transform="translate(293.92541,4.7051076)"
-       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.24705882;fill-rule:evenodd;stroke:#00ffff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1089.193,1608.4331 0.8018,-142.9892 h -27.2615"
-       id="path34327"
-       inkscape:connector-curvature="0" />
-    <path
-       transform="translate(293.92541,4.7051076)"
        id="path9508"
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.24705882;fill-rule:evenodd;stroke:#800080;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 875.36761,1079.6608 53.9561,0.189 1.03945,-177.55434 96.47834,1.03944 -0.094,60.00372 51.2157,0.37798 0.094,-44.88468 280.5529,1.60642 -3.4963,464.62726 46.3021,0.4724"
@@ -5520,15 +5518,6 @@
        d="m 746.15264,1127.6152 h -6.14719 l 0.93543,-174.3933 h -31.80506"
        id="path9618"
        inkscape:connector-curvature="0" />
-    <path
-       transform="translate(293.92541,4.7051076)"
-       id="path9644"
-       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.24705882;fill-rule:evenodd;stroke:#00ffff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1406.4419,921.01592 -44.7676,-0.66818 -4.1427,606.96906 h 43.2977 m -308.9636,-301.6137 0.8018,-91.6734 267.7126,2.0112 m -267.579,-2.0112 1.7373,-265.39861"
-       inkscape:connector-curvature="0">
-      <desc
-         id="desc34341">RAMLDC</desc>
-    </path>
     <path
        transform="translate(293.92541,4.7051076)"
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.24705882;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -5606,10 +5595,12 @@
        transform="translate(293.92541,4.7051076)"
        id="path9953"
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.24705882;fill-rule:evenodd;stroke:#00ffff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1371.9479,1246.3667 -286.506,-1.8899 m -1.8616,251.035 1.6595,-217.6025 m -2.0604,259.0293 0.4009,-41.4268 h -22.8515 m 20.9806,272.3476 1.6037,-230.7872 h -21.6489 m 1.9364,-259.4464 21.6392,0.2835 2.6458,-408.78124 m 316.8386,85.70611 -30.3326,-0.18899 -3.9687,520.18972 29.8601,0.567"
-       inkscape:connector-curvature="0">
+       d="m 1371.9479,1246.3667 -286.506,-1.8899 m -1.8616,251.035 1.6595,-217.6025 m -2.0604,259.0293 0.4009,-41.4268 h -22.8515 m 20.9806,272.3476 1.6037,-230.7872 h -22.4427 m 2.7302,-259.4464 21.6392,0.2835 2.6458,-408.78124 m 318.1615,85.70611 -31.6555,-0.18899 -3.9687,520.18972 29.8601,0.567"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccc">
       <desc
-         id="desc22455">RAMLDA</desc>
+         id="desc22455">RAMLDA
+BUF_D7</desc>
     </path>
     <path
        transform="translate(293.92541,4.7051076)"
@@ -6374,11 +6365,14 @@
        id="path9498"
        inkscape:connector-curvature="0" />
     <path
+       id="path34329"
        transform="translate(293.92541,4.7051076)"
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.24705882;fill-rule:evenodd;stroke:#00ffff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1090.1284,1465.5775 1.7373,-240.008 h -27.6624"
-       id="path34329"
-       inkscape:connector-curvature="0" />
+       d="m 1090.1284,1465.5775 1.7373,-240.008 h -27.6624 m 24.9897,382.8636 0.8018,-142.9892 h -27.2615 m 25.3906,302.4155 1.2027,-159.5599 h -27.9297 m 345.045,-687.28358 -44.7676,-0.66818 -4.1427,606.96906 h 43.2977 m -308.9636,-301.6137 0.8018,-91.6734 267.7126,2.0112 m -267.579,-2.0112 1.7373,-265.39861">
+      <desc
+         id="desc2821">RAMLDC
+BUF_D5</desc>
+    </path>
     <path
        transform="translate(293.92541,4.7051076)"
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.24705882;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -6654,7 +6648,10 @@
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.24705882;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1677.9065,912.12285 h -5.6696 v -3.87426 l -131.2523,-1.22841 v 11.24479 l -106.3058,-0.66146"
        id="path8584"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc2812">D2 in</desc>
+    </path>
     <path
        transform="translate(293.92541,4.7051076)"
        id="path8646"
@@ -6774,13 +6771,19 @@
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.24705882;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1767.2033,912.59532 -53.2001,-0.56697 -0.094,15.49704 -44.8847,-0.37799 v 3.68528 l -96.1949,-0.85045 v 11.0558 l -136.7329,-0.85045"
        id="path8867"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc2814">D1 in</desc>
+    </path>
     <path
        transform="translate(293.92541,4.7051076)"
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.24705882;fill-rule:evenodd;stroke:#000080;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1435.9072,951.43237 53.5782,0.28348 v -18.8988 l 58.0193,0.66146 0.189,-14.93006 219.5096,1.7009"
        id="path8869"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc2816">D0 in</desc>
+    </path>
     <path
        transform="translate(293.92541,4.7051076)"
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.24705882;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -11793,7 +11796,7 @@ CEN for NICOLE</desc>
          x="1033.3683"
          y="1419.6812"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332px"
-         id="tspan23417-9-25-0-8-1-4-4-5">JASON</tspan></text>
+         id="tspan23417-9-25-0-8-1-4-4-5">JEREM</tspan></text>
     <text
        transform="translate(293.92541,4.7051076)"
        xml:space="preserve"
