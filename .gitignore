@@ -5,6 +5,7 @@
 *.pdsbak
 *.workspace
 *.pdsprj
+*.blend
 *.bin
 *.pdsprj
 *.vcd
