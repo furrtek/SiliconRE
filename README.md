@@ -6,11 +6,14 @@ Passion provides the energy, Patreon money provides the time https://www.patreon
 
 More of this:
 - https://github.com/ika-musume/ASIC_RE
+- https://github.com/BueniaDev/RakitaASIC
 - https://www.patreon.com/skutis
 - https://www.righto.com/
 - https://siliconpr0n.org/
 
 Chip "database" with references, date, manufacturers, silicon IDs, descriptions and donators (if in my collection): https://docs.google.com/spreadsheets/d/1-4YH3xBQobYJ0NR4TNJO10mzUCcyNdEzlFjsFldoQjc/edit?usp=sharing
+
+Please reach out if you're working on any of these so I can update @'s and links. This kind of work can be very time consuming, it would be a shame if several people worked on the same chip without knowing (even though that could help cross-checking for errors).
 
 # Cell lists
 
