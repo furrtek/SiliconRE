@@ -66,6 +66,7 @@ Please e-mail me at (nickname) @gmail.com .
 |Konami|053990|Security/DMA|WIP|
 |Konami|054321|Digital volume control and I/O|Embargo|
 |Konami|054358|Security/DMA|WIP|
+|Konami|055555|Layer mixer|WIP|
 |Namco|C102|ROZ tilemap memory I/O|Embargo|
 |Namco|C106|Sprite scaling controller|Embargo|
 |Namco|C120|Palette memory controller|Done|
