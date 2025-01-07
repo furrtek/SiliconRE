@@ -6,26 +6,33 @@ Passion provides the energy, Patreon money provides the time https://www.patreon
 
 More of this:
 - https://github.com/ika-musume/ASIC_RE
+- https://github.com/BueniaDev/RakitaASIC
 - https://www.patreon.com/skutis
 - https://www.righto.com/
 - https://siliconpr0n.org/
 
 Chip "database" with references, date, manufacturers, silicon IDs, descriptions and donators (if in my collection): https://docs.google.com/spreadsheets/d/1-4YH3xBQobYJ0NR4TNJO10mzUCcyNdEzlFjsFldoQjc/edit?usp=sharing
 
+Please reach out if you're working on any of these so I can update @'s and links. This kind of work can be very time consuming, it would be a shame if several people worked on the same chip without knowing (even though that could help cross-checking for errors).
+
+# Cell lists
+
+Check out `Cells` for (messy) cell lists and detailed traces for a few vendors. If you're reverse-engineering a gate array, this may save you a LOT of time.
+
 # Commissions
 
 If you own some chips that need decapping and/or imaging, I may be able to get you x5 or x10 panoramas for free under these conditions:
 - Chip must be from 70's, 80's or early 90's. It's very unlikely that I'll be able to produce useful images for chips with datecodes above 1993, except if you don't need to see down to the transistors (ie check silicon markings, for the presence of memory blocks, if pins are inputs or outputs, tech/process used etc...).
-- Chip must be not be '''visibly''' damaged. Untested or known non-functional is fine, as long as there are no cracks, bulges, smoke, burn marks or other evidences of severe silicon damage. Dirty package, bent/torn off pins, and cosmetic defects don't matter.
+- Chip package must be not be burnt or cracked. Untested or known non-functional is fine, as long as there are no cracks, bulges, smoke, burn marks or other evidences of severe silicon damage. Dirty package, bent/torn off pins, and cosmetic defects don't matter.
 - Plastic parts are the easiest to work with, through-hole or SMT doesn't matter. Ceramic packages sealed with glass frit are the most labor intensive and are better avoided for rare samples.
 - One sample is generally enough, two preferred in case anything goes wrong (especially for ceramic packages).
-- Pictures can be made freely available with CC-BY license at any time. Your name can be listed as donator if you wish.
+- I can make the pictures freely available with CC-BY license at any time. Your name can be listed as donator if you wish.
 - No specific deadline (work will be done depending on my free time and on the weather where I live).
 
-Delaying the release of pictures for any reason (jealousy, race to worldwide fame, commercial, ...) can be arranged if under 12 months.
+Delaying the release of pictures for any reason (jealousy, race to worldwide fame, etc ...) can be arranged if under 12 months.
 
 If you have a specific deadline, I'll ask for financial participation depending on its tightness or reject the job if my schedule doesn't allow me to meet it.
-If you need some reverse-engineering work done (schematics, verilog, partial or complete) on top of the decapping and imaging, let's discuss that.
+If you need some reverse-engineering work done (schematics, verilog, partial or complete) on top of the decapping and imaging, we can discuss a price.
 
 Please e-mail me at (nickname) @gmail.com .
 
@@ -59,6 +66,7 @@ Please e-mail me at (nickname) @gmail.com .
 |Konami|053990|Security/DMA|WIP|
 |Konami|054321|Digital volume control and I/O|Embargo|
 |Konami|054358|Security/DMA|WIP|
+|Konami|055555|Layer mixer|WIP|
 |Namco|C102|ROZ tilemap memory I/O|Embargo|
 |Namco|C106|Sprite scaling controller|Embargo|
 |Namco|C120|Palette memory controller|Done|
