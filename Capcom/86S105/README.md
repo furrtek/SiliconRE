@@ -1,6 +1,6 @@
 # Capcom 86S105
 
-Thanks to @Caiusarcade for donating the chip.
+Thanks to @Caiusarcade for donating the chip. Thanks to Apocalypse for debugging.
 
 * Role: Sprite parsing
 * Manufacturer: Ricoh
@@ -35,7 +35,7 @@ all the parameters on dedicated pins at the same time. External circuitry then d
 finally shifted out to the display during scanline-0.
 
 Both Y scanning and active list reading operations are done at the same time. While an active list is being filled, the other one is
-used for output. They're swapped each new scanline.
+used for output and cleared. They're swapped each scanline.
 
 # Pinout
 
