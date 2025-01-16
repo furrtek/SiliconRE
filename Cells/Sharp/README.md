@@ -2,6 +2,8 @@
 
 Original cell names unknown. Mugshots taken from die pictures from John McMaster.
 
+See JPG files for mugshots, and PNG files for RE'd layout and I/O locations.
+
 ## Color code
 
  * Orange: M1 metal
