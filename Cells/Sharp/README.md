@@ -2,6 +2,17 @@
 
 Original cell names unknown. Mugshots taken from die pictures from John McMaster.
 
+## Color code
+
+ * Orange: M1 metal
+ * Yellow: M2 metal
+ * Blue: Ground rail (M1)
+ * Red: Positive rail (M1)
+ * Green: Poly (gates)
+ * Purple: Active
+ * Black: M1 to poly or active via
+ * Brown: M2 to M1 via
+
 | Name | BCs | Function 			        	| In | Out |
 |-----|---|-----------------------------|----|-----|
 | BUF | 1 | Buffer 			   | 1 | 1 |
