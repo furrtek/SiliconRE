@@ -17,17 +17,17 @@ Please reach out if you're working on any of these so I can update @'s and links
 
 # Cell lists
 
-Check out `Cells` for (messy) cell lists and detailed traces for a few vendors. If you're reverse-engineering a gate array, this may save you a LOT of time.
+Check out `Cells` for cell lists and detailed traces for a few vendors. If you're reverse-engineering a gate array, this will save you a LOT of time.
 
 # Commissions
 
 If you own some chips that need decapping and/or imaging, I may be able to get you x5 or x10 panoramas for free under these conditions:
-- Chip must be from 70's, 80's or early 90's. It's very unlikely that I'll be able to produce useful images for chips with datecodes above 1993, except if you don't need to see down to the transistors (ie check silicon markings, for the presence of memory blocks, if pins are inputs or outputs, tech/process used etc...).
-- Chip package must be not be burnt or cracked. Untested or known non-functional is fine, as long as there are no cracks, bulges, smoke, burn marks or other evidences of severe silicon damage. Dirty package, bent/torn off pins, and cosmetic defects don't matter.
-- Plastic parts are the easiest to work with, through-hole or SMT doesn't matter. Ceramic packages sealed with glass frit are the most labor intensive and are better avoided for rare samples.
-- One sample is generally enough, two preferred in case anything goes wrong (especially for ceramic packages).
-- I can make the pictures freely available with CC-BY license at any time. Your name can be listed as donator if you wish.
-- No specific deadline (work will be done depending on my free time and on the weather where I live).
+* Chip must be from 70's, 80's or early 90's. It's very unlikely that I'll be able to produce useful images for chips with datecodes above 1993, except if you don't need to see down to the transistors (ie check silicon markings, for the presence of memory blocks, if pins are inputs or outputs, tech/process used etc...).
+* Chip package must be not be burnt or cracked. Untested or known non-functional is fine, as long as there are no cracks, bulges, smoke, burn marks or other evidences of severe silicon damage. Dirty package, bent/torn off pins, and cosmetic defects don't matter.
+* Plastic parts are the easiest to work with, through-hole or SMT doesn't matter. Ceramic packages sealed with glass frit are the most labor intensive and are better avoided for rare samples.
+* One sample is generally enough, two preferred in case anything goes wrong (especially for ceramic packages).
+* I can make the pictures freely available with CC-BY license at any time. Your name can be listed as donator if you wish.
+* No specific deadline (work will be done depending on my free time and on the weather where I live).
 
 Delaying the release of pictures for any reason (jealousy, race to worldwide fame, etc ...) can be arranged if under 12 months.
 
@@ -63,10 +63,12 @@ Please e-mail me at (nickname) @gmail.com .
 |Konami|052591|Security|Done|
 |Konami|053251|Graphics priority encoder|Done|
 |Konami|053260|PCM playback and I/O|Done|
+|Konami|053936|ROZ tilemap controller|WIP|
 |Konami|053990|Security/DMA|WIP|
 |Konami|054321|Digital volume control and I/O|Embargo|
 |Konami|054358|Security/DMA|WIP|
 |Konami|055555|Layer mixer|WIP|
+|Konami|056540|Voxel-like height processor|WIP|
 |Namco|C102|ROZ tilemap memory I/O|Embargo|
 |Namco|C106|Sprite scaling controller|Embargo|
 |Namco|C120|Palette memory controller|Done|
