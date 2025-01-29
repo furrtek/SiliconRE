@@ -54,7 +54,7 @@ When BK is high, the main CPU external RAM can be accessed.
 
 To start the program, the PC must be locked to the entry point by writing `0x80 | entrypoint` with BK low and AB9 high. Then, the START pin must be set.
 
-It's up to the main CPU to stop the k052591 by clearing the START pin. Apparently, all programs signal this by using the OUT0 general-purpose output pin to trigger an interrupt.
+It's up to the main CPU to stop the 052591 by clearing the START pin. Apparently, all programs signal this by using the OUT0 general-purpose output pin to trigger an interrupt.
 
 # Instructions
 
@@ -180,4 +180,4 @@ The call depth is only 1 (one), meaning that they can't be nested.
 
 The schematic was traced from the chip's silicon and should represent exactly how it is internally constructed. The svg can be overlaid on the [die picture](https://siliconpr0n.org/map/konami/052591/furrtek_mz/).
 
-![Konami 052591 internal routing](k052591_trace.png)
+![Konami 052591 internal routing](052591_trace.png)
