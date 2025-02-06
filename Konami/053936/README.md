@@ -35,10 +35,10 @@ Can auto-load registers 2, 3, 4 and 5 each line from external RAM.
   * D15: Set Y line update << 8
 * 7:
   * D[1:0]: Selects pixel delay between M121B and M136 (0 to 3)
-  * D2: Start state for window SR registers
+  * D2: Start state for window SR registers (how is this useful ?)
   * D3: Invert window
   * D4: Disable window function
-  * D5: Enable layer
+  * D5: Enable layer (disabled forces OOB)
   * D6: Enable automatic register update
   * Other bits are unused
 * 8: Window min X 10-bit

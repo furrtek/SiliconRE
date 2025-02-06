@@ -63,7 +63,7 @@ Please e-mail me at (nickname) @gmail.com .
 |Konami|052591|Security|Done|
 |Konami|053251|Graphics priority encoder|Done|
 |Konami|053260|PCM playback and I/O|Done|
-|Konami|053936|ROZ tilemap controller|WIP|
+|Konami|053936|ROZ tilemap controller|Done|
 |Konami|053990|Security/DMA|WIP|
 |Konami|054321|Digital volume control and I/O|Embargo|
 |Konami|054358|Security/DMA|WIP|
