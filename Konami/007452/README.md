@@ -3,6 +3,7 @@
  * Manufacturer: Fujitsu
  * Type: Channeled gate array, MB672000 series with 1245 BCs
  * Die markings: 672122
+ * Die picture: Unavailable
  * Function: Math and bankswitching/address decoding chip
  * Used in: ...
 

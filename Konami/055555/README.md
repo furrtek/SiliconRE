@@ -3,8 +3,10 @@
  * Manufacturer: Fujitsu
  * Type: Gate array
  * Die markings: CG24173-610
+ * Die picture: https://siliconpr0n.org/map/konami/055555/furrtek_mz/
  * Function: Video layer priority generator
  * Used in: Gaiapolis, Martial Champion, Metamorphic Force, Violent Storm
+ * Chip donator: rep-arcade.com
 
 Allows for 4 scroll layers, a sprite layer, and 3 sub layers. Shadow, brightness.
 All registers are write-only.

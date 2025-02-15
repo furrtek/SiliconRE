@@ -1,8 +1,9 @@
 # Konami 052591 PMC
 
  * Manufacturer: Fujitsu
- * Type: Channeled gate array
+ * Type: Channeled gate array with RAM
  * Die markings: 660118
+ * Die picture: https://siliconpr0n.org/map/konami/052591/furrtek_mz/
  * Function: Custom CPU used for security through obscurity
  * Used in: Hexion, Thunder Cross, S.P.Y.
  * Chip donator: @Ace646546

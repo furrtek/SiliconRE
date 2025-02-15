@@ -3,6 +3,7 @@
  * Manufacturer: Oki
  * Type: Channeled gate array
  * Die markings: ?
+ * Die picture: Unavailable
  * Function: Sprite controller
  * Used in: Contra, Combat School, Fast Lane, Flak Attack, Haunted Castle, Labyrinth Runner
 

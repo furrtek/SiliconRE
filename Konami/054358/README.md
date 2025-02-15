@@ -3,8 +3,10 @@
  * Manufacturer: Toshiba
  * Type: Gate array
  * Die markings: CD05 0009
+ * Die picture: https://siliconpr0n.org/map/konami/054358/furrtek_mz/
  * Function: DMA/Security
  * Used in: Asterix, Sunset Riders
+ * Chip donator: @Ace646546
 
 According to a comment in MAME's source, Asterix' use of the chip is pretty comical.
 The mentionned routine is at 7F30 in the EAD set ("asterix").

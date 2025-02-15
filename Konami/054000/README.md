@@ -3,8 +3,10 @@
  * Manufacturer: NEC
  * Type: CMOS-5 gate array, 6-transistor BCs
  * Die markings: 65025-060
+ * Die picture: https://siliconpr0n.org/map/konami/054000/furrtek_mz/
  * Function: Collision detection / Security
  * Used in: Thunder Cross 2, Bells & Whistles, Gaiapolis, Bucky O'Hare, Lethal Enforcers, Vendetta
+ * Chip donator: @CaiusArcade
 
 Gets loaded with 18 bytes, replies with a single bit. Unused registers are unmapped. No reset signal so initial state may be random.
 

@@ -3,6 +3,7 @@
  * Manufacturer: Fujitsu
  * Type: Channeled gate array with embedded RAM
  * Die markings: Z87160
+ * Die picture: https://siliconpr0n.org/map/konami/051316/furrtek_mz/
  * Function: "PSAC" ROZ plane generator
  * Used in: ...
 

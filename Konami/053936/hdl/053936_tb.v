@@ -1,6 +1,8 @@
 // Konami 053936 testbench
 // furrtek 2024
 
+// 070225: Basic functions and window look ok. Pixel and line counter offset untested. Auto RAM update untested.
+
 `include "053936.v"
 
 module tb();

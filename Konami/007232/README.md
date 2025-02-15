@@ -3,6 +3,7 @@
  * Manufacturer: Oki
  * Type: Channeled gate array
  * Die markings: 74000-015
+ * Die picture: https://siliconpr0n.org/map/konami/007232/furrtek_mz/
  * Function: Two channel 7-bit PCM player with variable pitch
  * Used in: Ajax, Aliens, Black Panther, Bottom of the Ninth, Chequered Flag, City Bomber, Crazy Cop, Crime Fighters, Cue Brick, Dark Adventure, Devastators, Devil World, Fast Lane, Gang Busters, Gradius II, Gradius III, Hot Chase, Hyper Crash, Kitten Kaboodle, Missing in Action, MX5000, S.P.Y., Salamander, Super Contra, Teenage Mutant Ninja Turtles, The Final Round, The Main Event, Vulcan Venture, WEC Le Mans 24
 

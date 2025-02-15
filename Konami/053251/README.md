@@ -3,8 +3,10 @@
  * Manufacturer: Fujitsu
  * Type: Dual column channeled gate array
  * Die markings: 620407U
+ * Die picture: https://siliconpr0n.org/map/konami/053251/furrtek_mz/
  * Function: Video layer mixer priority encoder
  * Used in: Asterix, Bells & Whistles, Bucky O'Hare, Cowboys of Moo Mesa, Dragon Ball Z 2, Escape Kids, G.I. Joe, Over Drive, Golfing Greats, Lightning Fighters, Parodius, Premier Soccer, Punk Shot, Surprise Attack, The Simpsons, TMNT 2, Vendetta, X-Men, Xexex
+ * Chip donator: @Ace646546
 
 It has inputs for 5 layers (CI0~4x):
  * 0, 1 and 2: 5 palette bits + 4 color bits

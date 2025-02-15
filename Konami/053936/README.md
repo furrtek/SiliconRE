@@ -3,8 +3,9 @@
  * Manufacturer: Fujitsu
  * Type: Channelled double column gate array
  * Die markings: 605902
+ * Die picture: https://siliconpr0n.org/map/konami/053936/furrtek_mz/
  * Function: "PSAC2" ROZ plane generator
- * Used in: Balzing Tornado, Dragon Ball Z 2, F-1 Grand Prix, Gaiapolis, Golfing Greats, Lethal Crash Race, Monster Maulers, Premier Soccer, Run and Gun, Super Slams
+ * Used in: Blazing Tornado, Dragon Ball Z 2, F-1 Grand Prix, Gaiapolis, Golfing Greats, Lethal Crash Race, Monster Maulers, Premier Soccer, Run and Gun, Super Slam
 
 Uses two 24-bit signed accumulators for the pixel lookup positions.
 
@@ -27,10 +28,10 @@ Can auto-load registers 2, 3, 4 and 5 each line from external RAM.
   * Reg U6 D6 = 0: Yacc += {{8{regU5[7]}}, regU5, regL5}
   * Reg U6 D6 = 1: Yacc += {regU5, regL5, 8'h00}
 * 6:
-  * D[5:0]: Out of bounds mask for XAcc[23:18] (signed, so OOB occurs on both edges), all 1's means no mask
+  * D[5:0]: Out of bounds mask for XAcc[23:18] (MSB set means signed, so OOB occurs on both edges), all 1's means no mask
   * D6: Set X pixel update << 8
   * D7: Set X line update << 8
-  * D[13:8]: Out of bounds mask for YAcc[23:18] (signed, so OOB occurs on both edges), all 1's means no mask
+  * D[13:8]: Out of bounds mask for YAcc[23:18] (MSB set means signed, so OOB occurs on both edges), all 1's means no mask
   * D14: Set Y pixel update << 8
   * D15: Set Y line update << 8
 * 7:
