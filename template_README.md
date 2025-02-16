@@ -3,6 +3,7 @@
  * Manufacturer: Fujitsu
  * Type: Dual column channeled gate array
  * Die markings: 620407U
+ * Die picture: https://siliconpr0n.org/...
  * Function: Video layer mixer priority encoder
  * Used in: Asterix, Bells & Whistles, Bucky O'Hare, ...
  * Chip donator: @Ace646546

@@ -1,14 +1,16 @@
 # Capcom 86S105
 
-Thanks to @Caiusarcade for donating the chip. Thanks to Apocalypse for debugging.
-
-* Role: Sprite parsing
-* Manufacturer: Ricoh
-* Die marking: © B5C39
-* Technology: CMOS standard cell
-* Used on: 1943, Ashita Tenki ni Naare, Black Tiger, Block Block, Capcom Baseball, Capcom World, Dokaben, Dokaben 2, Pang, Poker Ladies, Quiz Sangokushi, Quiz Tonosama no Yabou, Super Pang
+ * Manufacturer: Ricoh
+ * Type: CMOS standard cell
+ * Die markings: B5C39
+ * Die picture: Unavailable
+ * Function: Sprite controller
+ * Used in: 1943, Ashita Tenki ni Naare, Black Tiger, Block Block, Capcom Baseball, Capcom World, Dokaben, Dokaben 2, Pang, Poker Ladies, Quiz Sangokushi, Quiz Tonosama no Yabou, Super Pang
+ * Chip donator: CaiusArcade
 
 Very similar logic can be found implemented with discrete logic chips on Ghosts and Goblins (schematics pages 11 to 13).
+
+Thanks to Apocalypse for debugging.
 
 # Operation
 
@@ -36,7 +38,3 @@ finally shifted out to the display during scanline-0.
 
 Both Y scanning and active list reading operations are done at the same time. While an active list is being filled, the other one is
 used for output and cleared. They're swapped each scanline.
-
-# Pinout
-
-See `86S105_pinout.ods`
