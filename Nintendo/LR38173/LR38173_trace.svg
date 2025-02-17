@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="4032.6028mm"
+   height="4216.3999mm"
+   viewBox="0 0 4032.6028 4216.3999"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.5257639"
-     inkscape:cx="708.82527"
-     inkscape:cy="-647.68571"
+     inkscape:zoom="0.033714938"
+     inkscape:cx="7029.4918"
+     inkscape:cy="9044.5781"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -39,7 +39,11 @@
      inkscape:window-maximized="1"
      objecttolerance="1"
      gridtolerance="1"
-     guidetolerance="1" />
+     guidetolerance="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -55,24 +59,26 @@
   <g
      inkscape:label="Die"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(1672.343,1982.8011)">
     <image
-       sodipodi:absref="D:\Electro\VGChips\Nintendo\LR38173\nintendo_lr38173_mz.jpg"
+       sodipodi:absref="D:\Electro\SiliconRE\Nintendo\LR38173\nintendo_lr38173_mz.jpg"
        xlink:href="nintendo_lr38173_mz.jpg"
-       sodipodi:insensitive="true"
-       transform="rotate(90)"
-       width="4216.3999"
-       height="4032.6028"
-       preserveAspectRatio="none"
-       id="image18"
+       y="-2360.2598"
        x="-1982.8011"
-       y="-2360.2598" />
+       id="image18"
+       preserveAspectRatio="none"
+       height="4032.6028"
+       width="4216.3999"
+       transform="rotate(90)"
+       sodipodi:insensitive="true" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Cells"
-     style="display:inline;opacity:0.5">
+     style="display:inline;opacity:0.5"
+     transform="translate(1672.343,1982.8011)">
     <rect
        style="display:inline;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect22"

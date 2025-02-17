@@ -10,12 +10,12 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="3009.1062mm"
+   height="3175mm"
+   viewBox="0 0 3009.1062 3175"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="KNA70H015(11)_trace.svg"
    inkscape:export-filename="C:\Users\furrtek\Documents\Electro\VGChips\Nanao\KNA70H015(11)\KNA70H015(11)_trace.svg.png"
    inkscape:export-xdpi="17.288"
@@ -30,19 +30,23 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.0625"
-     inkscape:cx="529.6947"
-     inkscape:cy="-680.42632"
+     inkscape:cx="5547.6233"
+     inkscape:cy="5485.2879"
      inkscape:document-units="mm"
      inkscape:current-layer="layer3"
      showgrid="false"
      inkscape:window-width="1366"
-     inkscape:window-height="697"
-     inkscape:window-x="1436"
-     inkscape:window-y="128"
+     inkscape:window-height="684"
+     inkscape:window-x="1432"
+     inkscape:window-y="124"
      inkscape:window-maximized="1"
      objecttolerance="1"
      gridtolerance="1"
-     guidetolerance="1" />
+     guidetolerance="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -58,23 +62,25 @@
   <g
      inkscape:label="Die"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(1327.6603,1246.6548)">
     <image
-       sodipodi:absref="C:\Users\furrtek\Documents\Electro\VGChips\Nanao\KNA70H015(11)\KNA70H015(11)_x10_mz_12k.jpg"
+       sodipodi:absref="D:\Electro\SiliconRE\Nanao\KNA70H015(11)\KNA70H015(11)_x10_mz_12k.jpg"
        xlink:href="KNA70H015(11)_x10_mz_12k.jpg"
-       sodipodi:insensitive="true"
-       width="3009.1062"
-       height="3175"
-       preserveAspectRatio="none"
-       id="image18"
+       y="-1246.6548"
        x="-1327.6603"
-       y="-1246.6548" />
+       id="image18"
+       preserveAspectRatio="none"
+       height="3175"
+       width="3009.1062"
+       sodipodi:insensitive="true" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Cells"
-     style="display:inline;opacity:0.6">
+     style="display:inline;opacity:0.6"
+     transform="translate(1327.6603,1246.6548)">
     <rect
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.24705882;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98165134;paint-order:normal"
        id="rect1374"
@@ -7486,7 +7492,8 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Traces"
-     style="display:inline">
+     style="display:inline"
+     transform="translate(1327.6603,1246.6548)">
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.24705882;fill-rule:evenodd;stroke:#000080;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98165134;paint-order:normal"
        d="m -429.38094,1381.0357 v -196.1696 h -66.52381"
@@ -9645,7 +9652,7 @@
   <path
      id="path12881"
      style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.24705882;fill-rule:evenodd;stroke:#800080;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98165134;paint-order:normal"
-     d="m 446.21976,439.18737 -467.764403,-0.0683 M -657.67857,1265.375 h 117.92858 l -2.64584,-508.00001 h 7.18156 l 120.57438,-0.58586 v -5.08377 h 50.64882 v 15.49702 l 312.964284,-0.37797 -0.755952,-327.32739 30.238095,-0.37797 V 383.93452 M 324.78593,1233.5659 h -4.86431 v -147.0517 h 4.49014 m 241.71854,-71.8421 0.37417,185.9661 m 375.79017,0.1029 H 817.94047 l -123.59822,-0.378 H 571.87798 448.27975 v 21.5446 h -123.5982 v 21.5447 m 0.37796,4.9137 v -5.6697 H 78.619047 M 570.62044,1015.4205 h -5.23849 V 813.36472 h 4.11594 v -36.2952 H 446.01939 V 614.30238 h -4.49014 l -1.12252,-175.31605"
+     d="m 1773.88,1685.8422 -467.7644,-0.068 m -636.13389,826.2559 h 117.92858 l -2.64584,-508 h 7.18156 l 120.57438,-0.5859 v -5.0838 h 50.64882 v 15.4971 l 312.96429,-0.378 -0.756,-327.3274 30.2381,-0.378 v -55.1845 m 346.3306,849.6314 h -4.8643 V 2333.169 h 4.4901 m 241.7186,-71.8421 0.3741,185.9661 m 375.7902,0.1029 h -124.3542 l -123.5982,-0.378 H 1899.5383 1775.94 v 21.5446 h -123.5982 v 21.5447 m 0.378,4.9137 v -5.6697 h -246.4405 m 492.0014,-227.2759 h -5.2385 v -202.0558 h 4.116 v -36.2952 h -123.4785 v -162.7671 h -4.4902 l -1.1225,-175.3161"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccc">
     <desc
