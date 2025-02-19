@@ -1,0 +1,143 @@
+Can operate in autonomous or CPU peripheral mode depending on the state of pin 60 "CPU".
+DEP-5: VCC, CPU peripheral
+RCE-10: GND, autonomous
+
+The pin names MUTE and SH0 are swapped on some schematics. Only the name is incorrect.
+Pin 55 is MUTE. Pin 61 is SH0 (next to pin 62 SH1).
+The MUTE pin remains low after reset while the first computation cycle is performed, then
+it stays high forever.
+
+Pin TSTB is a (positive edge ?) clock that registers CPU_D[6:0].
+It is set high in normal operation.
+[2:0] is one-hot decoded to {nTESTA[7:1], nNOTESTA}. nNOTESTA is low after a reset.
+[6:3] is one-hot decoded to {TESTB[4:1], NOTESTB}. NOTESTB is high after a reset.
+
+The output pin TST0's state comes from a signal selected by TESTB[4:1] (N61 5-to-1 mux).
+
+The RCE-10 samples at 50kHz with a 4MHz CLKIN, which means a sample is output every 80 cycles.
+
+Internal sequencing is driven by a 20-bit shift register "SR" made of five 4-bit DFFs rotating a
+single set bit. It is clocked at CLKIN / 4, which matches the 80 cycles per sample observation.
+Several gates are used to OR the shift register's outputs to generate trigger pulses for various
+operation steps.
+
+Chorus parameters are stored in three 8-bit internal registers: Depth, Rate, and Delay.
+
+The value of all 3 registers are multiplexed into a common structure which seems to be a
+8-bit magnitude comparator that uses RAMP[7:0], which output controls the GETA pin.
+In sim, GETA is set after a delay then never reset again. What's up with that ?
+The comparator's output doesn't seem to go anywhere else.
+
+The RAMP counter is clocked by SR16 and never reset, meaning the output increments once every cycle.
+
+In autonomous mode, RAMP[7:0] is output on the VD pins, generating an increasing ramp thanks to an
+external resistor DAC. 3 comparators wired to the pots set the state of the RATE, DELY and DPTH pins.
+Whenever the ramp voltage exceeds the pot's output, the corresponding internal register is loaded
+with the current DAC value.
+The 3 pots are read in sequence RATE, DELAY, DEPTH, DELAY, effectively sampling DELAY twice as
+often as the others. This is because DELAY is selected for sampling based on a single bit, not two.
+The ramp is increased at a rate of CLKIN / 80 on SR16, so each pot takes 80 * 256 = 20480 clocks
+to sample. With a 4MHz CLKIN:
+	RATE and DEPTH are sampled at 4M / 20480 / 4 =~ 49Hz
+	DELAY is sampled at 4M / 20480 / 2 =~ 98Hz
+
+DRAM is only written to 4 times in the same burst (on SR18) every 80 clocks (4M / 80 = 50kHz), so
+writes would only be to load DRAM with the 16-bit audio ADC values. No read-modify-write.
+After the write burst, the DRAM is then read 16 times in 4 bursts of 4 reads on SR 2, 6, 10 and 14.
+
+DRAM is read into 8 different 4-bit latches, which are loaded twice per 80 clock period (16 reads).
+The values of these latches are then treated as 4 pairs of nibbles by 2-to-1 muxes.
+DRAM is written from 4 different nibble sources coming from 16 lines which mux IO* inputs (ADC).
+
+In autonomous mode, the IO* pins are connected to a resistor network to form a DAC. The lower
+ones may be omitted to reduce the resolution.
+When SH1 is high, the input and CH0 output SH are charged. The IO* pins are used as an output
+DAC and the COMP input is ignored.
+When SH1 is low, the input and CH0 output SH are held. The IO* pins can be used as an input DAC
+with a comparator, and the COMP input must be used.
+While SH1 is low, the SH0 output should pulse high to charge the CH1 output SH ?
+
+The L100 signal clears the 16-bit sample input latch when low.
+The input latch is loaded when the COMP input is high, from either of two sources depending on
+the state of the DIO pin:
+-DIO high: Use digital input, directly read the IO* pins state
+-DIO low: One bit at a time from the SR (sequential bit sets depending on COMP pin, effectively a SAR)
+The sample values are signed.
+
+In a cycle, DRAM read registers are loaded in this order:
+E16 F48 H18 L17 then E1 F28 H3 L3
+And once more in the same order, effectively reading 4 samples in total.
+
+Samples are stored to DRAM in this order:
+sample[15:12] to address +3
+sample[11:8] to address +2
+sample[7:4] to address +1
+sample[3:0] to address +0
+
+H51 pulses low twice per cycle to latch an output sample:
+-one during SR9, which is used a while later during SH1 high (CH0 output).
+-one during SR18, just between SH1 high and SH0 high (CH1 output).
+
+The digital audio output values come from the registered output of the E adder: SUME_REG[15:0]
+
+SUME = {SUME[15], SUME[15:1]} + {READ[15], READ[15:1]} + (READ[0] | SUME[0])
+
+The SUME_REG is cleared four times per cycle (on SR 7, 8, 15 and 16) during a single clock cycle.
+The SUME_REG is clocked twice per cycle (on SR 6 and 14)
+
+
+---
+
+Used BC (total 40, v = described in Verilog):
+
+A1N  v  1-bit Full Adder
+A2N  v  2-bit Full Adder
+A4H     4-bit Binary Full Adder with Fast Carry
+ 
+BD3     Delay Cell
+BD5     Delay Cell
+ 
+C41     Non-scan 4-bit Binary Asynchronous Counter
+ 
+D14  v  2-wide 3-AND 4-Input AOI
+D23  v  2-wide 2-AND 3-Input AOI
+D24  v  2-wide 2-AND 4-Input AOI
+D34  v  3-wide 2-AND 4-Input AOI
+DE2     2:4 Decoder
+DE3     3:8 Decoder
+ 
+FDM  v  Non-scan D Flip-flop
+FDO  v  Non-scan D Flip-flop with Reset
+FDP     Non-scan D Flip-flop with Set and Reset
+FDR     Non-scan 4-bit D Flip-flop with Clear
+ 
+G24     2-wide 2-OR 4-Input OAI
+G34     3-wide 2-OR 4-Input OAI
+G44     3-wide 2-AND 2-OR 4-Input OAI
+ 
+K1B  v  True Clock Buffer
+K2B  v  Power Clock Buffer
+ 
+LT1     S-R Latch with Clear
+LT4     4-bit Data Latch
+ 
+N2N  v  2-Input NAND
+N2P  v  Power 2-Input AND
+N3B  v  Power 3-Input NAND
+N3N  v  3-Input NAND
+N3P  v  Power 3-Input AND
+N4N  v  4-Input NAND
+ 
+R2B  v  Power 2-Input NOR
+R2N  v  2-Input NOR
+R2P  v  Power 2-Input OR
+R3N  v  3-Input NOR
+R3P  v  Power 3-Input OR
+R4P  v  Power 4-Input OR
+R6B  v  Power 6-Input NOR
+ 
+T26     Power 2-AND 6-wide Multiplexer
+T5A     4:1 Selector
+ 
+V1N  v  Inverter
+V2B  v  Power Inverter
