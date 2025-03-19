@@ -1,11 +1,12 @@
 # SiliconRE
 
-Traces, schematics, and general infos about custom chips from the 80's and 90's, reverse-engineered from silicon die pictures.
+Traces, schematics, and general infos about custom chips from the 80's and 90's, mostly video-game related, reverse-engineered from silicon die pictures.
 
 Passion provides the energy, Patreon money provides the time https://www.patreon.com/furrtek :)
 
-More of this:
+More of this from other people:
 - https://github.com/ika-musume/ASIC_RE
+- https://github.com/madoov/Custom_schematics
 - https://github.com/BueniaDev/RakitaASIC
 - https://www.patreon.com/skutis
 - https://www.righto.com/
@@ -28,6 +29,7 @@ If you own some chips that need decapping and/or imaging, I may be able to get y
 * One sample is generally enough, two preferred in case anything goes wrong (especially for ceramic packages).
 * I can make the pictures freely available with CC-BY license at any time. Your name can be listed as donator if you wish.
 * No specific deadline (work will be done depending on my free time and on the weather where I live).
+* Not interested in clueless broke kids, nor posers and freeloaders who are going to present other's work as theirs.
 
 Delaying the release of pictures for any reason (jealousy, race to worldwide fame, etc ...) can be arranged if under 12 months.
 

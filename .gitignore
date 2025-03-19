@@ -18,7 +18,6 @@
 *.rdb
 *.bak
 *.tdf
-Sega/315-5195/system16b_schematics.pdf
 SNK/NEO-MGA-T/Cells
 Konami/053260/Toshiba
 Konami/051937/die*
@@ -32,13 +31,8 @@ Capcom/86S105/pins
 Capcom/86S105/sim
 Nanao/KNA70H015(11)/CPLD
 Konami/054000
-SNK/NEO-MGA-T/snk_neo-mga-t_mz_2_12k.jpg
-SNK/NEO-MGA-T/neo-mga-t.png
-SNK/NEO-MGA-T/neo-mga-t.png
-SNK/NEO-E0/snk_neo-e0_9k.jpg
 NEC/BU5782K/BU5782K.csv
 NEC/BU5782K/BU5782K_cells.ods
 Namco/CUS27/ftk_CPLD.zip
-/Roland/RDD673106U/*.pdsprj
 *.bat
 /Namco/DS_priv
