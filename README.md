@@ -6,6 +6,7 @@ Passion provides the energy, Patreon money provides the time https://www.patreon
 
 More of this from other people:
 - https://github.com/ika-musume/ASIC_RE
+- https://github.com/nukeykt/
 - https://github.com/madoov/Custom_schematics
 - https://github.com/BueniaDev/RakitaASIC
 - https://www.patreon.com/skutis
