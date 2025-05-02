@@ -6,6 +6,7 @@ Passion provides the energy, Patreon money provides the time https://www.patreon
 
 More of this from other people:
 - https://github.com/ika-musume/ASIC_RE
+- https://github.com/sergiopolog/GateArray-RE
 - https://github.com/nukeykt/
 - https://github.com/madoov/Custom_schematics
 - https://github.com/BueniaDev/RakitaASIC
@@ -13,7 +14,7 @@ More of this from other people:
 - https://www.righto.com/
 - https://siliconpr0n.org/
 
-Chip "database" with references, date, manufacturers, silicon IDs, descriptions and donators (if in my collection): https://docs.google.com/spreadsheets/d/1-4YH3xBQobYJ0NR4TNJO10mzUCcyNdEzlFjsFldoQjc/edit?usp=sharing
+Chip database with references, date, manufacturers, silicon IDs, descriptions and donators (if in my collection): https://docs.google.com/spreadsheets/d/1-4YH3xBQobYJ0NR4TNJO10mzUCcyNdEzlFjsFldoQjc/edit?usp=sharing
 
 Please reach out if you're working on any of these so I can update @'s and links. This kind of work can be very time consuming, it would be a shame if several people worked on the same chip without knowing (even though that could help cross-checking for errors).
 
@@ -24,15 +25,13 @@ Check out `Cells` for cell lists and detailed traces for a few vendors. If you'r
 # Commissions
 
 If you own some chips that need decapping and/or imaging, I may be able to get you x5 or x10 panoramas for free under these conditions:
-* Chip must be from 70's, 80's or early 90's. It's very unlikely that I'll be able to produce useful images for chips with datecodes above 1993, except if you don't need to see down to the transistors (ie check silicon markings, for the presence of memory blocks, if pins are inputs or outputs, tech/process used etc...).
-* Chip package must be not be burnt or cracked. Untested or known non-functional is fine, as long as there are no cracks, bulges, smoke, burn marks or other evidences of severe silicon damage. Dirty package, bent/torn off pins, and cosmetic defects don't matter.
-* Plastic parts are the easiest to work with, through-hole or SMT doesn't matter. Ceramic packages sealed with glass frit are the most labor intensive and are better avoided for rare samples.
-* One sample is generally enough, two preferred in case anything goes wrong (especially for ceramic packages).
-* I can make the pictures freely available with CC-BY license at any time. Your name can be listed as donator if you wish.
-* No specific deadline (work will be done depending on my free time and on the weather where I live).
-* Not interested in clueless broke kids, nor posers and freeloaders who are going to present other's work as theirs.
-
-Delaying the release of pictures for any reason (jealousy, race to worldwide fame, etc ...) can be arranged if under 12 months.
+* Chip must be from the 70's, 80's or early 90's. It's very unlikely that I'll be able to produce useful images for chips with datecodes above 1993, except if you don't need to see down to the transistors (ie check silicon markings, for the presence of memory blocks, etc...).
+* Chip package must not be burnt or cracked. Untested or known non-functional is fine, as long as there are no evidences of severe silicon damage. Dirty package, bent/torn off pins, and cosmetic defects don't matter.
+* Package must be plastic or ceramic with metal lid, through-hole or SMT doesn't matter.
+* Failure is an option. Success rate is high but no guarantees. One sample is generally enough, two preferred.
+* I can publish the pictures with a CC-BY license at any time. Your name can be listed as donator if you wish.
+* No deadline (work will be done depending on my free time and on the weather where I live).
+* No clueless, broke, or entitled freeloaders, nor posers intending on presenting my work as theirs. Anyone taking my generosity for granted will be bitten back (I have rabies).
 
 If you have a specific deadline, I'll ask for financial participation depending on its tightness or reject the job if my schedule doesn't allow me to meet it.
 If you need some reverse-engineering work done (schematics, verilog, partial or complete) on top of the decapping and imaging, we can discuss a price.
