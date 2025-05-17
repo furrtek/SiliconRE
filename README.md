@@ -22,6 +22,10 @@ Please reach out if you're working on any of these so I can update @'s and links
 
 Check out `Cells` for cell lists and detailed traces for a few vendors. If you're reverse-engineering a gate array, this will save you a LOT of time.
 
+# Die photos
+
+Check out `Dies` for low-res photos of dies in my collection that I haven't scanned yet.
+
 # Commissions
 
 If you own some chips that need decapping and/or imaging, I may be able to get you x5 or x10 panoramas for free under these conditions:
