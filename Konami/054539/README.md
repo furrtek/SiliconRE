@@ -5,10 +5,16 @@
  * Die markings: 87821
  * Die picture: https://siliconpr0n.org/map/konami/054539...
  * Function: PCM sound
- * Used in: Racing Force, Metamorphic Force...
+ * Used in:
+ Pirate Ship, Polygonet, Premier Soccer, Pontoon, G.I. Joe, Lethal Enforcers, Run and Gun,
+ Wild West C.O.W. boys of Moo Mesa, X-Men, Ultra Sports, Xexex, Slam Dunk, Racing Force,
+ Metamorphic Force, Martial Champions, Mystic Warriors, Gaiapolis, Violent Storm, Monster Maulers, ...
+
  * Chip donator: ?
 
 External reverb RAM, address and data bus shared with PCM samples ROM.
+
+Schematics: Racing Force
 
 # Registers
 
