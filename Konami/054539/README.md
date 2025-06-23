@@ -40,3 +40,5 @@ Infos from MAME.
 * 22D: Data r/w port (for POSTs ?)
 * 22E: ROM banks / RAM select (for POSTs ?)
 * 22F: General control (Enable, timer, ...)
+
+ROM A data sets both RAM blocks address.
