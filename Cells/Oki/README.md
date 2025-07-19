@@ -26,7 +26,7 @@ See JPG files for mugshots, and PNG files for RE'd layout and I/O locations.
 | INV  | 1  |	Inverter			    	      | 1	 | 1   | ✔️    |
 | INV2 | 1  | 	Dual inverter			    	| 2	 | 2   | ✔️    |
 | LFX  | 1  |	Fixed low			    	      | 0	 | 1   | ✔️    |
-| 22AR | 2  | 	2-input 2-wide AND-NOR	| 4	 | 1   |
+| 22AR | 2  | 	2-input 2-wide AND-NOR	| 4	 | 1   | ✔️    |
 | 2AD  | 2  |	2-input AND              	|	2	 | 1	 | ✔️    |
 | 2ND2 | 2  | 	Dual 2-input NAND     	|	4	 | 2	 | 
 | 2NR2 | 2  | 	Dual 2-input NOR	     	| 4	 | 2	 | 
@@ -39,7 +39,7 @@ See JPG files for mugshots, and PNG files for RE'd layout and I/O locations.
 | 4NR  | 2  |	4-input NOR	     	        | 4	 | 1	 | ✔️    |
 | D1A  | 2  |	Driver	     	            | 1	 | 1	 | ✔️    |
 | G101 | 2  | 2-1 input 2-wide AND-NOR
-| G102 | 2  | 2-1-1 input 3-wide AND-NOR
+| G102 | 2  | 2-1-1 input 3-wide AND-NOR| 4  | 1   | ✔️    |
 | G103 | 2  | 3-1 input 2-wide AND-NOR
 | G104 | 2  | 2-input OR into 2-1 input 2-wide AND-NOR
 | G201 | 2  | 2-1 input 2-wide OR-NAND
@@ -47,8 +47,8 @@ See JPG files for mugshots, and PNG files for RE'd layout and I/O locations.
 | G203 | 2  | 3-1 input 2-wide OR-NAND
 | G204 | 2  | 2-input AND into 2-1 input 2-wide OR-NAND
 | G205 | 2  | 2-input 2-wide OR-NAND	  | 4  | 1   |
-| G302 | 2  | Driver		                |	1  | 1   |
-| G403 | 2  | Inverter driver		        |	1  | 1   |
+| G302 | 2  | Driver		                |	1  | 1   | ✔️    |
+| G403 | 2  | Inverter driver		        |	1  | 1   | ✔️    |
 | G404 | 2  | Inverter driver		        |	1  | 1   |
 | 220  | 3  |	2-input 2-wide AND-OR		  |	4  | 1   | ✔️    |
 | 2AD2 | 3  | Dual 2-input AND		      |	4  | 2   | ✔️    |
@@ -60,7 +60,7 @@ See JPG files for mugshots, and PNG files for RE'd layout and I/O locations.
 | D2A  | 3  |	Driver		                |	1	 | 1   | ✔️    |
 | D2AD | 3  | 2-input AND driver		    |	2	 | 1   |
 | D2ND | 3  | 2-input NAND driver		    |	2	 | 1   |
-| DLT1 | 3  | D-latch		                |	2	 | 2?	 | | Negedge
+| DLT1 | 3  | D-latch		                |	2	 | 2	 | ✔️    |
 | EXR  | 3  |	XOR		                    |	2	 | 1   | ✔️    |
 | ENR  | 3  |	XNOR		                  |	2	 | 1   | ✔️    |
 | G107 | 3  | 2-input 3-wide AND-NOR		|	6	 | 1   |
@@ -70,7 +70,7 @@ See JPG files for mugshots, and PNG files for RE'd layout and I/O locations.
 | G211 | 3  | 3-input 2-wide OR-NAND		|	6	 | 1   |
 | G217 | 3  | 2-input OR and 2-input NAND into 2-input NAND		  |	4  | 1   | |
 | G304 | 3  | Driver		                |	1	 | 1   | |
-| L204 | 3  | D-latch		                |	2	 | 2?  | | Posedge
+| L204 | 3  | D-latch		                |	2	 | 2   | ✔️    |
 | LTND | 3  |	S-R NAND latch
 | LTNR | 3  | S-R NOR latch
 | 2SE  | 4  |	2-to-1 selector	          |	3	 | 1   | | 74157
@@ -81,15 +81,15 @@ See JPG files for mugshots, and PNG files for RE'd layout and I/O locations.
 | 6AD  | 4  |	6-input AND	              |	6	 | 1   |
 | 6OR  | 4  |	6-input OR	              |	6	 | 1   |
 | D2N  | 4  |	Inverter driver		        | 1	 | 1   |
-| DLT  | 4  |	D-latch with reset		    | 3	 | 1   | | /LE
+| DLT  | 4  |	D-latch with reset		    | 3	 | 1   | ✔️    |
 | G108 | 4  | 2-input 4-wide AND-NOR		| 8	 | 1   |
 | G114 | 4  | 4-input 2-wide AND-NOR		| 8	 | 1   |
 | G208 | 4  | 2-input 4-wide OR-NAND		| 8	 | 1   |
 | G214 | 4  | 4-input 2-wide OR-NAND		| 8	 | 1   |
 | L101 | 4  | S-R latch with enable
 | L102 | 4  | S-R latch with clear
-| L203 | 4  | D-latch with /reset		    |	3	 | 2?  | | Negedge
-| L205 | 4  | D-latch with /reset		    |	3	 | 2?  | | Posedge
+| L203 | 4  | D-latch with /reset		    |	3	 | 2   | ✔️    |
+| L205 | 4  | D-latch with /reset		    |	3	 | 2   | | Posedge
 | TB01 | 4  | Tristate driver		        |	2? | 1   |
 | TB11 | 4  | Tristate inverter driver	|	2? | 1   |
 | TBD1 | 4  | Tristate driver	          |	2? | 1   |
@@ -99,7 +99,7 @@ See JPG files for mugshots, and PNG files for RE'd layout and I/O locations.
 | 7ND  | 5  |	7-input NAND	            |	7  | 1   |
 | 7NR  | 5  |	7-input NOR	              |	7  | 1   |
 | 7OR  | 5  |	7-input OR	              |	7  | 1   |
-| 8AD  | 5  |	8-input AND	              |	8  | 1   |
+| 8AD  | 5  |	8-input AND	              |	8  | 1   | ✔️    |
 | 8OR  | 5  |	8-input OR	              |	8  | 1   |
 | G703 | 5  | Delay 30ns	              |	1  | 1   |
 | TBD2 | 5  | Tristate driver	          |	2? | 1   |
@@ -108,15 +108,15 @@ See JPG files for mugshots, and PNG files for RE'd layout and I/O locations.
 | 8ND  | 6  |	8-input NAND	            |	8  | 1   | ✔️    |
 | 8NR  | 6  |	8-input NOR	              |	8  | 1   | ✔️    |
 | CB4  | 6  |	Driver and inverter driver|	1  | 2?  |
-| DFF  | 6  |	DFF	                      |	2? | 2?  | | Posedge
+| DFF  | 6  |	DFF	                      |	2? | 2?  | ✔️    |
 | F121 | 6  | DFF	                      |	2? | 2?  | | Negedge
 | G701 | 6  | Delay 10ns	              |	1	 | 1   |
 | 1FA  | 7  |	1-bit full adder
 | D3N  | 7  |	Inverter driver	          |	1  | 1   | ✔️    |
 | F112 | 7  | DFF with reset	          |	3  | 2?  | | Posedge
 | F113 | 7  | DFF with set	            |	3  | 2?  | | Posedge
-| F115 | 7  | DFF with /reset		        |	3  | 2?  | | Posedge
-| F116 | 7  | DFF with /set		          |	3  | 2?  | | Posedge
+| F115 | 7  | DFF with /reset		        |	3  | 2?  | ✔️    |
+| F116 | 7  | DFF with /set		          |	3  | 2?  | ✔️    |
 | F125 | 7  | DFF with /reset		        |	3  | 2?  | | Negedge
 | F126 | 7  | DFF with /set		          |	3  | 2?  | | Negedge
 | F312 | 7  | Toggle FF with reset			| | | | Posedge
@@ -139,14 +139,14 @@ See JPG files for mugshots, and PNG files for RE'd layout and I/O locations.
 | TFR  | 8  |	Toggle FF with reset			| | | | Posedge
 | 4DE  | 9  |	2-to-4 decoder with enable|	3  | 4   | | 74139
 | D3A  | 9  |	Driver		                | 1  | 1   | ✔️    |
-| DF   | 9  |	DFF with set and reset		|	4  | 2?  | ✔️    |	Posedge
+| DF   | 9  |	DFF with set and reset		|	4  | 2   | ✔️    |
 | F211 | 9  | J-K FF			              | | | | Posedge
 | F221 | 9  | J-K FF			              | | | | Negedge
 | 440  | 10 | 4-input 4-wide AND-OR		  |	16 |	1  | ✔️    |
 | F212 | 10 | J-K FF with reset		      | | | | Posedge
 | F213 | 10 | J-K FF with set		        | | | | Posedge
 | F215 | 10 | J-K FF with /reset		    | | | | Posedge
-| F216 | 10 | J-K FF with /set		      | | | | Posedge
+| F216 | 10 | J-K FF with /set		      | 4  |  1  |   ✔️    |
 | F225 | 10 | J-K FF with /reset		    | | | | Negedge
 | F226 | 10 | J-K FF with /set		      | | | | Negedge
 | F401 | 10 | Toggle FF with enable, set and reset  | | | | Posedge
@@ -169,24 +169,24 @@ See JPG files for mugshots, and PNG files for RE'd layout and I/O locations.
 | JKF  | 13 | J-K FF with set and reset | | | | Posedge
 | LJKR | 13 | J-K FF with reset and LSSD | | | | Posedge
 | 4CM1 | 14 | 4-bit equal-to comparator	|	8	 | 1   |
-| R41  | 14 | 4-bit RAM cell
+| R41  | 14 | 4-bit RAM cell            | 5  | 4   | ✔️    |
 | 2FA  | 15 | 2-bit full adder	        | | | | 7482
 | 8DE1 | 15 | 3-to-8 decoder		        | 3  | 8   |
 | LJKF | 15 | J-K FF with set, reset and LSSD | | | | Posedge
 | 8PG  | 18 | 8-bit parity generator
-| 8SE  | 18 | 8-to-1 selector		        |	11 | 1   | | 74151
+| 8SE  | 18 | 8-to-1 selector		        |	11 | 1   | ✔️    |
 | 4CM2 | 22 | 4-bit magnitude comparator|	8? |     | |
 | 4DF  | 19 | Quad DFF		              |	5? |     | |
-| 8DE  | 20 | 3-to-8 decoder with enable|	4	 | 8   | | 74138
-| 8LT  | 21 | 8-bit latch		            |	9? | 8   |
-| 4DF1 | 23 | Quad DFF with reset
+| 8DE  | 20 | 3-to-8 decoder with enable|	4	 | 8   | ✔️    |
+| 8LT  | 21 | 8-bit latch		            |	9  | 8   | ✔️    |
+| 4DF1 | 23 | Quad DFF with reset       |    |     | ✔️    |
 | 4RD  | 23 |	4-bit down counter with set
 | 4RU  | 23 |	4-bit up counter with reset | | | | 74393
 | 4SR  | 23 |	4-bit SR with reset
-| 8LT1 | 25 | 8-bit latch with reset
+| 8LT1 | 25 | 8-bit latch with reset    |    |     | ✔️    |
 | 4CD  | 66 |	Sync 4-bit up/down counter with load		  | | | | 74191
 | 4CD1 | 56 | Sync 4-bit up/down counter with set and reset	
-| 4CU  | 45 |	Sync 4-bit counter with sync reset and load		  | | | | 74163
+| 4CU  | 45 |	Sync 4-bit counter with sync reset and load		  | | | ✔️    |
 | 4CU1 | 38 | Sync 4-bit counter with sync reset	
 | 4FA1 | 38 | 4-bit full adder with fast carry	  | | | | 74283
 | 4SR1 | 32 | 4-bit SR with reset and load	  | | | | 74395
