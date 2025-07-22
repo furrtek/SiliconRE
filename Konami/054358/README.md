@@ -10,7 +10,7 @@
 
 According to a comment in MAME's source, Asterix' use of the chip is pretty comical.
 The mentionned routine is at 7F30 in the EAD set ("asterix").
-If d7 is >= $100, a simple d7 word copy is done from (a6) to (a5)
+If d7 is >= $100, a simple d7 words copy is done from (a6) to (a5)
 If d7 is < $100, two longword parameters are set up at arbitrary RAM locations:
  * {$22[7:0], a6[23:0]} (source) to $104258 (RAM)
  * {d7-1[7:0], a5[23:0]} (dest) to $10425C (RAM)
@@ -24,8 +24,8 @@ Sunset Riders is a bit more serious about it.
 
 # How it werks
 
-Full 68k address and data lines, everything needed to do DMA, IRQ output, MLWR input used to access DMA registers
-Can't read UDS nor LDS, so all writes to the chip are considered to be 16-bit.
+The chip has is connected to the 68k address and data lines, everything needed to do DMA, IRQ output, MLWR input used to access DMA registers.
+Not connected to UDS nor LDS, so all writes to the chip are considered to be 16-bit.
 
 ## RAM access interception
 
@@ -40,14 +40,25 @@ Hardwired address triggers are used to intercept writes (and reads ?) to:
 These random and innocent looking addresses are in the work RAM area of both Asterix and Sunset Riders.
 Interception isn't active when the chip is busy.
 
-## Other
+## Sunset Riders MAME
 
-ssriders_protection_r: 0x1C0800~1
-ssriders_protection_w: 0x1C0800~3
+ssriders_protection_r: 0x1C0800~1 (word)
+Seems to do very basic challenge/response stuff with bit shifting and masking.
 
-The write to 0x1C0802 triggers:
-* var = 1
-* ...
+ssriders_protection_w: 0x1C0800~3 (longword)
+Sprite priority sorting
+hw_pri = 1
+shift logical_pri left 0x01 to 0x80:
+	for i = 0 to 127:
+    	if (0x180006 + 128 * i).w MSB == logical_pri:
+    		set sprite i's priority to hw_pri
+    		hw_pri++
+
+So the game prepares a list of 128 sprites attribute blocks in RAM starting at 0x180006, each one occupies (?) 128 bytes.
+The first byte of each block should only have one bit set, representing its priority (so 8 levels, one for each bit).
+The 054358 is then used to parse this list in RAM to convert from the bit flag priorities to hardware 0~127 priorities.
+One pass for each bit, from lowest to highest, and storing matching sprites in VRAM with incrementing hw priority.
+
 
 Active high selects, mutually exclusive:
 J148
@@ -105,17 +116,39 @@ DBx_IN_LATCH goes to:
   &{C,8,4,0} or &{D,9,5,1} or &{E,A,6,2} or &{F,B,7,3}
 * Another 16-bit latch controlled by V6. The LSB and MSB seem to be used differently in muxes.
 * DB[15:8]_IN_LATCH to another latch, then a XOR comparator with P130/N126
-* DB[15:8]_IN_LATCH to another latch P130/N126 "LATB"
+* DB[15:8]_IN_LATCH to a byte latch P130/N126 "LATB", possibly MSB of double word, ie. instruction byte
+
+# LATB
+
+8-bit latch triggered on CPUCLK when L167_NQ, Z160_Q, M168_Q, P172 and P160_Q are all low.
+
+Used as instruction or address offset.
+
+		Comparator
+LATB8	Direct
+LATB9	Inverted
+LATB10	Inverted
+LATB11	Direct
+LATB12	Direct
+LATB13	Inverted
+LATB14	XNOR
+LATB15	XNOR
+
+Writing to internal register high clears interrupt, latches LATB comparator data with DB_IN_LAT[15:8], clocks MUXB_CKA (which should come from DB_IN_LAT[7:0]).
+Writing to internal register low clocks MUXA_CKA (which should come from DB_IN_LAT[15:1]), DB_IN_LAT[0] (parity) goes in ADDR_ODD, starts DMA operation.
+
+So when Asterix writes $64104258 to $380800:
+	The high word $6410 is written first to $380800:
+		The interrupt is cleared
+		The LATB comparator gets loaded with $64 0110_0100
+		MUXB_CKA gets loaded with $10
+	The low word $4258 is written to $380802:
+		MUXA_CKA gets loaded with $4258, ADDR_ODD is low
+		DMA operation is started
+
+At some point, the counter comparator data must be loaded with DB_IN_LAT[15:8], for the loop count
 
 
-DBx_IN_LATCH[15:12] to mux3
-DBx_IN_LATCH[15:12] to mux3
-
-DBx_IN_LATCH[11:8] to mux3
-DBx_IN_LATCH[7:4] to mux3
-DBx_IN_LATCH[7:4] to mux3
-DBx_IN_LATCH[3:0] to mux3
-DBx_IN_LATCH[3:0] to mux3
 
 DUAL MUXES sheets:
 Sixteen 4- or 5- to 1 muxes that each feed two groups of sixteen registers.
@@ -142,17 +175,43 @@ A: 4-to-1's
 	M102/G122 selects XORs on MUXES page
 	G120 selects ?
 
-# MUX5
+# ADDR_OFFS
 
-The output of MUX5 (8-bit) gets added to or subtracted from the base address for final address output.
+ADDR_OFFS (8-bit) gets added to or subtracted from the base address for final address output.
 
-W94:  {{6{V111}}, R130, V121}
-V106: LATB
-X140: Outputs of B registers in TRIMUX B
-W86:  Outputs of B registers in TRIMUX B
-W100: Outputs of B registers in TRIMUX B
+It comes from 5-to-1 muxes.
 
-Outputs go to TRI MUX A and TRI MUX D
+Address offset byte, mutually exclusive:
+W94:  		{{6{W112}}, R130, V121}	Maybe byte/word/longword access (0, +1, +2) ?
+SEL_LATB:	LATB
+SEL_MSB: 	MUXB_REGB[7:0]		(address base [23:16])
+SEL_MID:  	MUXA_REGB[15:8] 	(address base [15:8])
+SEL_LSB: 	MUXA_REGB[7:0]  	(address base [7:0])
+
+Mutually exclusive:
+SEL_SUM
+SEL_NOW
+SEL_PREV
+
+Lower data bytes, mutually exclusive:
+SEL_OUTL_Y
+SEL_OUTL_Z
+SEL_OUTL_TRUE
+SEL_OUTL_INV
+SEL_OUT_L
+
+Higher data bytes, mutually exclusive:
+SEL_OUTH_Y
+SEL_OUTH_Z
+SEL_OUTH_TRUE
+SEL_OUTH_INV
+
+For Latch X and Latch Y, mutually exclusive:
+SEL_DBL
+SEL_DBU
+UNK[7:0]
+UNK[10:3]
+
 
 AB[23:1] pins are all BIDIR.
 

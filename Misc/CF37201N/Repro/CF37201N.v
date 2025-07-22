@@ -1,19 +1,18 @@
 module CF37201N(
-	inout [7:0] DRAM_Az,
-	output PLUSONE,	// 5 pixel pair write offset
-	inout [4:0] PALz,
+	output [7:0] DRAM_Az,	// 
+	output PLUSONE,		// 5 pixel pair write offset
+	output [4:0] PALz,
 	input BLK,
 	input H0, nH0,
-	output PIN19,
 	input [7:0] DATA,
 	input [1:0] A,
 	input CS,
 	input F,		// 33 frame toggle
 	output S,		// 19 pixel pair data invert
-	output reg XF, YF,	//34, 35 H and V flips
+	output reg XF, YF,	// 34, 35 H and V flips
 	input nnH0,		// 36
 	input nPL,
-	input nLINE,	// 38
+	input nLINE,		// 38
 	input PACC,
 	output reg PINT
 );
@@ -33,8 +32,9 @@ end
 // Why are there two buffers (frame parity) if blitting is only possible during blanking ?
 // Is it something to do with buffer clearing ?
 // Color 7 is behind BG ?
+wire [7:0] DRAM_A;
 assign DRAM_A = nnH0 ? {F, C1[7:1]} : {C1[0], C2};
-assign S = ~((C45A & D40A) | (~C45A & ~D39A));	// 0 if {C45A, D40A} == 11 or 00, actually just an XOR
+assign S = ~((C45A & D40A) | (~C45A & ~D40A));	// 0 if {C45A, D40A} == 11 or 00, actually just an XOR
 
 assign PLUSONE = &{REG1B[0] & BLK & nH0};
 
@@ -86,14 +86,18 @@ end
 
 reg [7:0] REG0;
 reg [7:0] REG1;
+reg [7:0] REG1B;
 reg [7:0] REG2;
 always @(*) begin
-	case({CS, A}) begin
-		3'b000: REG0 <= D;
-		3'b001: REG1 <= D;
-		3'b010: REG2 <= D;
+	case({CS, A})
+		3'b000: REG0 <= DATA;
+		3'b001: REG1 <= DATA;
+		3'b010: REG2 <= DATA;
 		default:;
-	end
+	endcase
+
+	if (!nPL)
+		REG1B <= REG1;
 end
 
 reg [4:0] PAL;

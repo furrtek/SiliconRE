@@ -26,19 +26,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5120456"
-     inkscape:cx="5101.3099"
-     inkscape:cy="-5271.4923"
+     inkscape:zoom="1.4482837"
+     inkscape:cx="-2387.4674"
+     inkscape:cy="4490.7884"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer5"
      showgrid="false"
      gridtolerance="1"
      objecttolerance="1"
      guidetolerance="1"
-     inkscape:window-width="1366"
-     inkscape:window-height="684"
-     inkscape:window-x="1432"
-     inkscape:window-y="124"
+     inkscape:window-width="1440"
+     inkscape:window-height="877"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      showguides="false" />
   <metadata
@@ -61,19 +61,19 @@
     <image
        sodipodi:absref="D:\Electro\SiliconRE\Konami\055555\konami_055555-2_mz_12k.jpg"
        xlink:href="konami_055555-2_mz_12k.jpg"
-       sodipodi:insensitive="true"
-       width="4233.3335"
-       height="4238.9775"
-       preserveAspectRatio="none"
-       id="image1450"
+       y="-1966.1006"
        x="-2008.0262"
-       y="-1966.1006" />
+       id="image1450"
+       preserveAspectRatio="none"
+       height="4238.9775"
+       width="4233.3335"
+       sodipodi:insensitive="true" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Cells"
-     style="display:inline;opacity:0.5">
+     style="display:none;opacity:0.5">
     <rect
        style="opacity:1;vector-effect:none;fill:#800080;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect22-8-0-1-4-6-7-2-9-2-4-5-7-8-9-96-9-00-91-6-24-0-2-8-1-0-0-1-04-8-4-0-29-49-1-1-0-78-7"
@@ -28549,101 +28549,101 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="298.86334"
-       y="-923.70721"
+       x="298.1326"
+       y="-947.63928"
        id="text21779-9-1-3-70-5-8-0-5-3-0-3-9-2-9-64-5"><tspan
          sodipodi:role="line"
          id="tspan21777-8-7-4-38-2-7-0-16-1-6-8-2-31-9-77-1"
-         x="298.86334"
-         y="-923.70721"
+         x="298.1326"
+         y="-947.63928"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332px">DE3</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="707.64948"
-       y="-923.70721"
+       x="706.9187"
+       y="-947.63928"
        id="text21779-9-1-3-70-5-8-0-5-3-0-3-9-2-9-64-5-1"><tspan
          sodipodi:role="line"
          id="tspan21777-8-7-4-38-2-7-0-16-1-6-8-2-31-9-77-1-8"
-         x="707.64948"
-         y="-923.70721"
+         x="706.9187"
+         y="-947.63928"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332px">DE3</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="503.5647"
-       y="-620.97119"
+       x="502.83395"
+       y="-644.90326"
        id="text21779-9-1-3-70-5-8-0-5-3-0-3-9-2-9-64-5-1-0"><tspan
          sodipodi:role="line"
          id="tspan21777-8-7-4-38-2-7-0-16-1-6-8-2-31-9-77-1-8-2"
-         x="503.5647"
-         y="-620.97119"
+         x="502.83395"
+         y="-644.90326"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332px">DE3</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="502.94812"
-       y="-514.3045"
+       x="502.21738"
+       y="-538.23657"
        id="text21779-9-1-3-70-5-8-0-5-3-0-3-9-2-9-64-5-1-1"><tspan
          sodipodi:role="line"
          id="tspan21777-8-7-4-38-2-7-0-16-1-6-8-2-31-9-77-1-8-23"
-         x="502.94812"
-         y="-514.3045"
+         x="502.21738"
+         y="-538.23657"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332px">DE3</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="707.0329"
-       y="-514.92108"
+       x="706.30212"
+       y="-538.85315"
        id="text21779-9-1-3-70-5-8-0-5-3-0-3-9-2-9-64-5-1-2"><tspan
          sodipodi:role="line"
          id="tspan21777-8-7-4-38-2-7-0-16-1-6-8-2-31-9-77-1-8-8"
-         x="707.0329"
-         y="-514.92108"
+         x="706.30212"
+         y="-538.85315"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332px">DE3</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="707.64948"
-       y="-212.18506"
+       x="706.9187"
+       y="-236.11713"
        id="text21779-9-1-3-70-5-8-0-5-3-0-3-9-2-9-64-5-1-0-8"><tspan
          sodipodi:role="line"
          id="tspan21777-8-7-4-38-2-7-0-16-1-6-8-2-31-9-77-1-8-2-6"
-         x="707.64948"
-         y="-212.18506"
+         x="706.9187"
+         y="-236.11713"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332px">DE3</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="707.64948"
-       y="-107.3681"
+       x="706.9187"
+       y="-131.30017"
        id="text21779-9-1-3-70-5-8-0-5-3-0-3-9-2-9-64-5-1-0-85"><tspan
          sodipodi:role="line"
          id="tspan21777-8-7-4-38-2-7-0-16-1-6-8-2-31-9-77-1-8-2-9"
-         x="707.64948"
-         y="-107.3681"
+         x="706.9187"
+         y="-131.30017"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332px">DE3</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="502.94812"
-       y="-107.3681"
+       x="502.21738"
+       y="-131.30017"
        id="text21779-9-1-3-70-5-8-0-5-3-0-3-9-2-9-64-5-1-0-85-5"><tspan
          sodipodi:role="line"
          id="tspan21777-8-7-4-38-2-7-0-16-1-6-8-2-31-9-77-1-8-2-9-4"
-         x="502.94812"
-         y="-107.3681"
+         x="502.21738"
+         y="-131.30017"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332px">DE3</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="298.24677"
-       y="-0.70142978"
+       x="297.51602"
+       y="-24.633493"
        id="text21779-9-1-3-70-5-8-0-5-3-0-3-9-2-9-64-5-1-0-85-3"><tspan
          sodipodi:role="line"
          id="tspan21777-8-7-4-38-2-7-0-16-1-6-8-2-31-9-77-1-8-2-9-7"
-         x="298.24677"
-         y="-0.70142978"
+         x="297.51602"
+         y="-24.633493"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332px">DE3</tspan></text>
     <text
        xml:space="preserve"
@@ -28670,68 +28670,57 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1528.3046"
-       y="-410.10413"
+       x="1527.5739"
+       y="-434.03619"
        id="text21779-9-1-3-70-5-8-0-5-3-0-3-9-2-9-64-5-1-2-1"><tspan
          sodipodi:role="line"
          id="tspan21777-8-7-4-38-2-7-0-16-1-6-8-2-31-9-77-1-8-8-5"
-         x="1528.3046"
-         y="-410.10413"
+         x="1527.5739"
+         y="-434.03619"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332px">DE3</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1321.7535"
-       y="-410.7207"
+       x="1321.0228"
+       y="-434.65277"
        id="text21779-9-1-3-70-5-8-0-5-3-0-3-9-2-9-64-5-1-2-2"><tspan
          sodipodi:role="line"
          id="tspan21777-8-7-4-38-2-7-0-16-1-6-8-2-31-9-77-1-8-8-3"
-         x="1321.7535"
-         y="-410.7207"
+         x="1321.0228"
+         y="-434.65277"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332px">DE3</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1321.7535"
-       y="-514.92108"
+       x="1321.0228"
+       y="-538.85315"
        id="text21779-9-1-3-70-5-8-0-5-3-0-3-9-2-9-64-5-1-2-22"><tspan
          sodipodi:role="line"
          id="tspan21777-8-7-4-38-2-7-0-16-1-6-8-2-31-9-77-1-8-8-4"
-         x="1321.7535"
-         y="-514.92108"
+         x="1321.0228"
+         y="-538.85315"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332px">DE3</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1321.7535"
-       y="-619.12146"
+       x="1321.0228"
+       y="-643.05353"
        id="text21779-9-1-3-70-5-8-0-5-3-0-3-9-2-9-64-5-1-2-27"><tspan
          sodipodi:role="line"
          id="tspan21777-8-7-4-38-2-7-0-16-1-6-8-2-31-9-77-1-8-8-57"
-         x="1321.7535"
-         y="-619.12146"
+         x="1321.0228"
+         y="-643.05353"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332px">DE3</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1528.3046"
-       y="-620.35461"
+       x="1527.5739"
+       y="-644.28668"
        id="text21779-9-1-3-70-5-8-0-5-3-0-3-9-2-9-64-5-1-2-0"><tspan
          sodipodi:role="line"
          id="tspan21777-8-7-4-38-2-7-0-16-1-6-8-2-31-9-77-1-8-8-2"
-         x="1528.3046"
-         y="-620.35461"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332px">DE3</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="94.808632"
-       y="-410.20883"
-       id="text21779-9-1-3-70-5-8-0-5-3-0-3-9-2-9-64-5-1-1-7"><tspan
-         sodipodi:role="line"
-         id="tspan21777-8-7-4-38-2-7-0-16-1-6-8-2-31-9-77-1-8-23-9"
-         x="94.808632"
-         y="-410.20883"
+         x="1527.5739"
+         y="-644.28668"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332px">DE3</tspan></text>
     <text
        xml:space="preserve"
@@ -33015,36 +33004,36 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-1044.9467"
-       y="-350.98187"
+       x="-1045.1294"
+       y="-344.95319"
        id="text21779-9-1-3-70-5-8-0-5-3-0-3-9-2-9-64-5-1-1-7-3-4-05-1-8-4-8-2-7-752-9-5-1-6-41-46-6-3-9-0-6-48"><tspan
          sodipodi:role="line"
          id="tspan21777-8-7-4-38-2-7-0-16-1-6-8-2-31-9-77-1-8-23-9-3-2-757-6-1-6-3-7-35-62-79-8-7-6-4-9-7-4-0-7-6-1"
-         x="-1044.9467"
-         y="-350.98187"
+         x="-1045.1294"
+         y="-344.95319"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332px">N3N</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-1045.1294"
-       y="-374.1832"
+       x="-1044.9467"
+       y="-369.25061"
        id="text21779-9-1-3-70-5-8-0-5-3-0-3-9-2-9-64-5-1-1-7-3-4-05-1-8-4-8-2-7-752-9-5-1-6-41-46-6-3-9-0-6-74"><tspan
          sodipodi:role="line"
          id="tspan21777-8-7-4-38-2-7-0-16-1-6-8-2-31-9-77-1-8-23-9-3-2-757-6-1-6-3-7-35-62-79-8-7-6-4-9-7-4-0-7-6-74"
-         x="-1045.1294"
-         y="-374.1832"
+         x="-1044.9467"
+         y="-369.25061"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332px">N4N</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-1003.6594"
-       y="1364.8191"
+       x="-1003.4767"
+       y="1370.4825"
        id="text21779-9-1-3-70-5-8-0-5-3-0-3-9-2-9-64-5-1-1-7-3-4-05-1-8-4-8-2-7-752-9-5-1-6-41-46-6-3-9-0-6-70-6"><tspan
          sodipodi:role="line"
          id="tspan21777-8-7-4-38-2-7-0-16-1-6-8-2-31-9-77-1-8-23-9-3-2-757-6-1-6-3-7-35-62-79-8-7-6-4-9-7-4-0-7-6-5-6"
-         x="-1003.6594"
-         y="1364.8191"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332px">N4N</tspan></text>
+         x="-1003.4767"
+         y="1370.4825"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332px">???</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -40297,12 +40286,12 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-638.06323"
+       x="-638.24591"
        y="-888.57544"
        id="text21779-9-1-3-70-5-8-0-5-3-0-3-9-2-9-64-5-1-1-7-3-4-05-1-8-4-8-2-7-752-9-5-1-6-41-46-6-3-9-0-6-70-6-7-1-224-1-5-0"><tspan
          sodipodi:role="line"
          id="tspan21777-8-7-4-38-2-7-0-16-1-6-8-2-31-9-77-1-8-23-9-3-2-757-6-1-6-3-7-35-62-79-8-7-6-4-9-7-4-0-7-6-5-6-0-0-420-41-0-7"
-         x="-638.06323"
+         x="-638.24591"
          y="-888.57544"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332px">R2N</tspan></text>
     <text
@@ -40349,5 +40338,38 @@
          x="-1447.2682"
          y="-1527.2523"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.44444444px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332px;fill:#000000;">A  B  C  D  E  F  G  H  J  K  L  M  N  P  R  S  T  V  W  X  Y  Z  AA AB AC AD AE AF AG AH AJ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-1041.7462"
+       y="1370.5325"
+       id="text21779-9-1-3-70-5-8-0-5-3-0-3-9-2-9-64-5-1-1-7-3-4-05-1-8-4-8-2-7-752-9-5-1-6-41-46-6-3-9-0-6-70-6-3"><tspan
+         sodipodi:role="line"
+         id="tspan21777-8-7-4-38-2-7-0-16-1-6-8-2-31-9-77-1-8-23-9-3-2-757-6-1-6-3-7-35-62-79-8-7-6-4-9-7-4-0-7-6-5-6-8"
+         x="-1041.7462"
+         y="1370.5325"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332px">D24</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-1042.8217"
+       y="1347.6965"
+       id="text21779-9-1-3-70-5-8-0-5-3-0-3-9-2-9-64-5-1-1-7-3-4-05-1-8-4-8-2-7-752-9-5-1-6-41-46-6-3-9-0-6-70-6-3-2"><tspan
+         sodipodi:role="line"
+         id="tspan21777-8-7-4-38-2-7-0-16-1-6-8-2-31-9-77-1-8-23-9-3-2-757-6-1-6-3-7-35-62-79-8-7-6-4-9-7-4-0-7-6-5-6-8-5"
+         x="-1042.8217"
+         y="1347.6965"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332px">D24</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="93.891106"
+       y="-416.38055"
+       id="text21779-9-1-3-70-5-8-0-5-3-0-3-9-2-9-64-5-1-1-7"><tspan
+         sodipodi:role="line"
+         id="tspan21777-8-7-4-38-2-7-0-16-1-6-8-2-31-9-77-1-8-23-9"
+         x="93.891106"
+         y="-416.38055"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332px">LTM</tspan></text>
   </g>
 </svg>

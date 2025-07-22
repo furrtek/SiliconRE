@@ -29,9 +29,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.78567422"
-     inkscape:cx="6192.6171"
-     inkscape:cy="5145.7548"
+     inkscape:zoom="0.83333335"
+     inkscape:cx="11349.085"
+     inkscape:cy="6879.6041"
      inkscape:document-units="mm"
      inkscape:current-layer="layer3"
      showgrid="false"
@@ -64,7 +64,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -77,13 +77,13 @@
     <image
        sodipodi:absref="D:\Electro\SiliconRE\Konami\054358\konami_054358_mz.jpg"
        xlink:href="konami_054358_mz.jpg"
-       y="-1949.6652"
-       x="-2010.8334"
-       id="image18"
-       preserveAspectRatio="none"
-       height="4196.9971"
+       sodipodi:insensitive="true"
        width="4233.3335"
-       sodipodi:insensitive="true" />
+       height="4196.9971"
+       preserveAspectRatio="none"
+       id="image18"
+       x="-2010.8334"
+       y="-1949.6652" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -14981,7 +14981,10 @@ UNK6</desc>
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        d="m 1177.7738,435.33927 h -11.3393 v 8.31549 H 1031.875 v -36.28573 h 33.6399 m -33.3564,36.47472 0.8504,133.2366 H 838.25669 v 16.76832 h 6.80375"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc">
+      <desc
+         id="desc8831">AA106</desc>
+    </path>
     <path
        id="path62368"
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
