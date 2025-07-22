@@ -26,16 +26,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.012641954"
-     inkscape:cx="-2712.5885"
-     inkscape:cy="9334.0001"
+     inkscape:zoom="0.57210953"
+     inkscape:cx="5706.3933"
+     inkscape:cy="10903.002"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer2"
      showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="684"
-     inkscape:window-x="1432"
-     inkscape:window-y="124"
+     inkscape:window-width="1440"
+     inkscape:window-height="877"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      objecttolerance="1"
      gridtolerance="1"
@@ -53,7 +53,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -66,13 +66,13 @@
     <image
        sodipodi:absref="D:\Electro\SiliconRE\Hudson\HuC6201\hudson_huc6201_mz.jpg"
        xlink:href="hudson_huc6201_mz.jpg"
-       y="-2171.1089"
-       x="-2209.9761"
-       id="image2628"
-       preserveAspectRatio="none"
-       height="4939.2417"
+       sodipodi:insensitive="true"
        width="4843.2856"
-       sodipodi:insensitive="true" />
+       height="4939.2417"
+       preserveAspectRatio="none"
+       id="image2628"
+       x="-2209.9761"
+       y="-2171.1089" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -3435,7 +3435,7 @@
          id="tspan4223-83-0-1-44-2-5-4-9"
          x="-624.84576"
          y="-92.353188"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332px">XOR</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332px">XNOR</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"

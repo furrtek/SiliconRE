@@ -14,13 +14,13 @@ Bit 0 of 1FF8A0 high indicates presence of chip. Nothing happens unless read/wri
 
 All 3 LED outputs are the inverse of pin 19's state. Pin 19 isn't connected to anything else.
 
-A system reset or any access to $1FF800~$1FF80F except $1FF807 disables RAM access. Enabling RAM access is done by a series of writes to $1FF807.
+A system reset or any access to $1FF800~$1FF80F except $1FF807 disables RAM access. Enabling RAM access is done by a series of three writes to $1FF807.
 
 * After reset: D6 = D26 = 0, D17 = 1, D15 = 1, D20 = 0, SRAM is disabled.
 * To enable SRAM, D6 = D26 = 1. The only way to make D6 high, is to have F18 high: Write $48.
 * Now D6 = 1, D26 = 0, D17 = 0, D15 depends on CPU data, D20 = 0, SRAM is still disabled.
-* The only way to make D26 high, is to have D15 low: Write $F5.
-* This makes D6 low again. The only way to make D6 high again, is to have D15 low again but this time with D26 high, changing the compared value: Write $00.
+* The only way to make D26 high, is to have D15 low: Write $75.
+* This makes D6 low again. The only way to make D6 high again, is to have D15 low again but this time with D26 high, changing the compared value: Write $80.
 * D6 = D26 = 1, SRAM is now enabled.
 
 TODO: State diagram of the thing.
