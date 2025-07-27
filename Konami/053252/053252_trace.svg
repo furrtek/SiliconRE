@@ -15,7 +15,7 @@
    viewBox="0 0 3880.5557 4078.1111"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="053252_trace.svg">
   <defs
      id="defs2" />
@@ -26,15 +26,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.39375001"
-     inkscape:cx="7288.1378"
-     inkscape:cy="7448.9001"
+     inkscape:zoom="0.78750002"
+     inkscape:cx="6285.4653"
+     inkscape:cy="9493.8466"
      inkscape:document-units="mm"
      inkscape:current-layer="layer4"
      showgrid="false"
-     inkscape:window-width="1440"
-     inkscape:window-height="877"
-     inkscape:window-x="-8"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1432"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      gridtolerance="1"
@@ -53,7 +53,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -64,15 +64,15 @@
      style="display:inline"
      transform="translate(1834.4445,1890.2222)">
     <image
-       sodipodi:absref="D:\Electro\SiliconRE\Konami\053252\konami_053252_mz.jpg"
+       sodipodi:absref="E:\Electro\SiliconRE\Konami\053252\konami_053252_mz.jpg"
        xlink:href="konami_053252_mz.jpg"
-       sodipodi:insensitive="true"
-       width="3880.5557"
-       height="4078.1111"
-       preserveAspectRatio="none"
-       id="image1"
+       y="-1890.2222"
        x="-1834.4445"
-       y="-1890.2222" />
+       id="image1"
+       preserveAspectRatio="none"
+       height="4078.1111"
+       width="3880.5557"
+       sodipodi:insensitive="true" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -5629,7 +5629,8 @@ RESP3</desc>
        inkscape:export-xdpi="5.9000974"
        inkscape:export-ydpi="5.9000974">
       <desc
-         id="desc2695">F31</desc>
+         id="desc2695">F31
+CNTB_TC</desc>
     </path>
     <path
        id="path2697"
@@ -5641,8 +5642,7 @@ RESP3</desc>
        inkscape:export-xdpi="5.9000974"
        inkscape:export-ydpi="5.9000974">
       <desc
-         id="desc2700">C54_TC
-CNTB_TC</desc>
+         id="desc2700">C54_TC</desc>
     </path>
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
