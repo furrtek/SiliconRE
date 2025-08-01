@@ -55,6 +55,7 @@ Please e-mail me at (nickname) @gmail.com .
 |Capcom |86S100|Sprite graphics serializer|Done|
 |Data East |VSC30|Idk lol but it's |Done|
 |Hudson|BU5782K|PC-Engine GT I/O|Done|
+|Hudson|HuC6201|PC-Engine backup RAM controller|Done|
 |Hudson|uPD65005-195|PC-Engine multitap|Done|
 |Konami|005885|Tilemap and sprite controller|Done|
 |Konami|007121|Tilemap and sprite controller|Done|
@@ -68,6 +69,7 @@ Please e-mail me at (nickname) @gmail.com .
 |Konami|052109|Tilemap controller|Done|
 |Konami|052591|Security|Done|
 |Konami|053251|Graphics priority encoder|Done|
+|Konami|053252|Video interrupt generator|Done|
 |Konami|053260|PCM playback and I/O|Done|
 |Konami|053936|ROZ tilemap controller|Done|
 |Konami|053990|Security/DMA|WIP|
