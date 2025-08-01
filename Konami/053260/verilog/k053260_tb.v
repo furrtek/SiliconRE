@@ -22,30 +22,9 @@ k053260 UUT(
 	SY, SH1, SH2, SO	// For YM3012, SY must be CLK/2
 );
 
-/*task setreg;
-	input [3:0] addr;
-	input [7:0] data;
-	begin
-		A <= {7'd0, addr};
-		DOUT <= data;
-		#100
-		IOCS <= 1'b0;
-		RW <= 1'b0;
-		#100
-		IOCS <= 1'b1;
-		RW <= 1'b1;
-		#100
-		RW <= 1'b1;
-	end
-endtask*/
-
-//integer i, fd;
-
 initial begin
     $dumpfile("tb.vcd");
     $dumpvars(0, tb);
-
-    //fd = $fopen("log_video.txt", "w");
 
     STBI <= 1'b0;
     AUX1 <= 1'b0;
