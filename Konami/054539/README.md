@@ -15,6 +15,8 @@ External reverb RAM, address and data bus shared with PCM samples ROM.
 
 Schematics: Racing Force
 
+The DFFSNNQ are really DFFRNNQ (the /set is behind the output inverter).
+
 # Registers
 
 Some infos from MAME.
