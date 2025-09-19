@@ -1,0 +1,76 @@
+// Konami 054539 testbench
+// furrtek 2025
+
+`include "054539.v"
+
+module tb();
+
+reg CLK;
+reg NRES;
+reg [7:0] PIN_AB;
+reg PIN_AB09;
+reg [7:0] PIN_DB_IN;
+reg NCS;
+reg NRD;
+reg NWR;
+
+integer i;
+
+k054539 dut(
+	NRES,
+	CLK,
+	PIN_AB,
+	PIN_AB09,
+	PIN_DB_IN,
+	NCS,
+	NRD,
+	NWR,
+	PIN_WAIT,
+	PIN_DTCK,
+	PIN_WDCK
+);
+
+task write_reg;
+input [9:0] address;
+input [7:0] data;
+begin
+    #5 PIN_DB_IN <= data;
+    {PIN_AB09, PIN_AB} <= {address[9], address[7:0]};
+
+    #1 NCS <= 1'b0;
+    #2 NWR <= 1'b0;
+    #15 NWR <= 1'b1;
+    #1 NCS <= 1'b1;
+end
+endtask
+
+/*always @(posedge CLK) begin
+	$fwrite(fd, "%04x %04x %d\n", {X, XH}, {Y, YH}, NOB);	// Write pixel coordinates and OOB flag
+end*/
+
+always @(*) begin
+	#1 CLK <= ~CLK;
+end
+
+initial begin
+	$dumpfile("k054539.vcd");
+	$dumpvars(-1, tb);
+
+	NCS <= 1'b1;
+	NRD <= 1'b1;
+	NWR <= 1'b1;
+	CLK <= 1'b0;
+    NRES <= 1'b0;
+	PIN_AB09 <= 1'b0;
+	PIN_AB <= 8'd0;
+    #10 NRES <= 1'b1;
+
+	#10	write_reg(10'h50, 8'h11);
+	#8	write_reg(10'h51, 8'h22);
+	#20	write_reg(10'h210, 8'h55);
+
+	#2000 $display("OK");
+	$finish;
+end
+
+endmodule
