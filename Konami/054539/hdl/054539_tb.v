@@ -13,6 +13,9 @@ reg [7:0] PIN_DB_IN;
 reg NCS;
 reg NRD;
 reg NWR;
+reg PIN_DTS1;
+reg PIN_DTS2;
+wire [23:0] PIN_RA;
 
 integer i;
 
@@ -27,7 +30,11 @@ k054539 dut(
 	NWR,
 	PIN_WAIT,
 	PIN_DTCK,
-	PIN_WDCK
+	PIN_WDCK,
+	PIN_DTS1,
+	PIN_DTS2,
+	PIN_RA,
+	PIN_TIM
 );
 
 task write_reg;
@@ -56,6 +63,8 @@ initial begin
 	$dumpfile("k054539.vcd");
 	$dumpvars(-1, tb);
 
+	PIN_DTS1 <= 1'b1;
+	PIN_DTS2 <= 1'b0;
 	NCS <= 1'b1;
 	NRD <= 1'b1;
 	NWR <= 1'b1;
