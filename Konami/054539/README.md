@@ -16,8 +16,6 @@ Can reverb RAM be shared ?
 
 Pinout from Racing Force schematics.
 
-TODO: Check DFFSQs, they're probably DFFRQs (the /set is behind the output inverter).
-
 Channel data in 00~FF is stored in two 128-byte odd/even RAM blocks with full read/write access. Several addresses are used for internal storage of channel state and values. Access slots are tightly interleaved (1/4) so there's no CPU access delay.
 The current internal RAM access address comes from a lookup table stored in ROM A, which is read in a linear way during a 384-cycle (32 * 12) period.
 
@@ -30,6 +28,16 @@ ROMB: 192 * 16 bits
 
 MULA: 8 * 16 = 24 LSB
 MULB: 16 * 16 = 16 MSB
+
+# Schematic notes
+
+All cells are placed and connected, all pins are connected, ERC passes.
+
+Many nets and busses aren't named or correctly named yet.
+
+Several cells such as MUX21D, MUX41, LATCHN,... use shared differential control signals.
+To reduce clutter, only the true signals are shown (the /S input on MUX21D for example is always the inverse of S).
+This is why there are several inverters with unconnected outputs.
 
 # Data paths
 
