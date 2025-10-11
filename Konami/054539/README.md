@@ -3,7 +3,7 @@
  * Manufacturer: Fujitsu
  * Type: Standard cell, RAM, ROM, multipliers
  * Die markings: 87821
- * Die picture: https://siliconpr0n.org/map/konami/054539...
+ * Die picture: https://siliconpr0n.org/map/konami/054539/furrtek_mz/
  * Function: PCM sound
  * Used in:
  Pirate Ship, Polygonet, Premier Soccer, Pontoon, G.I. Joe, Lethal Enforcers, Run and Gun,
@@ -39,6 +39,8 @@ Several cells such as MUX21D, MUX41, LATCHN,... use shared differential control 
 To reduce clutter, only the true signals are shown (the /S input on MUX21D for example is always the inverse of S).
 This is why there are several inverters with unconnected outputs.
 
+MUX41N must have their inputs in the reverse order and true/inverted control signals swapped given the order in which bus bits are connected. Couldn't know the "right" way because no documentation. Doesn't actually change anything though, so I'm leaving them like they are. 
+
 # Data paths
 
  * Bidirectional path between DB[7:0] and RD[7:0], for POST of external RAM.
@@ -63,14 +65,18 @@ ADDA[31:24]	RAMA
 ADDA[23:16]	RAMB
 ADDA[15:8]	RAMA
 ADDA[7:0]	RAMB
-Adds {0, 0, MUXB, MUXA, MUXB} (24 bits) to {MUXA, MUXA, MUXB, MUXA, MUXB} (40 bits)
+Adds {0, 0, MUXB, MUXA, MUXB} (24 bits, probably pitch delta) to {MUXA, MUXA, MUXB, MUXA, MUXB} (40 bits)
 Top 24 bits of {MUXA, MUXA, MUXB, MUXA, MUXB} used as address offset
 
-ADDERB 24-bit adds channel start address + offset for ext address output.
+ADDERB 24-bit adds channel start address or loop point (BASE[23:0]) + offset for ext address output (OFFS[23:0]).
+
+OFFS[23:0] comes from ADDA_LAT_B[23:0] (inverted, or shifted depending on data format and reverse flag).
 
 {RD_REG[7:0], RD_REG2[7:0]} can go to MUXD[15:0].
 
-ADDERD used for DPCM step ?
+ADDERC 16-bit accumulates sample value with delta STEP[15:0] + {RAMA, RAMB}.
+
+MUXD[15:0] is the sample value from ADDERC accumulator or directly from RAM: {RD_REG[7:0], RD_REG2[7:0]}.
 
 # Sample data
 
@@ -81,9 +87,9 @@ Even[3:2]=10: 4-bit DPCM, end of sample marked as 0x88.
 
 End of samples marked as 0x80 or 0x8000.
 
-# Mixer
+# Adder E
 
-Channel mixer / accumulator: 10 bit (MULA_OUT[23:14]) + 24 bit (MULA_OUT[23:0])
+Channel mixer / accumulator ?: 10 bit (MULA_OUT[23:14]) + 24 bit (MULA_OUT[23:0])
 
 Output mixer / accumulator: three pairs of 16 bit registers (MULB_OUT[15:0] + REGEA/B/C/D/E/F)
 Three final outputs * 2 channels
@@ -142,6 +148,52 @@ Order of reg mux: 201, 203, 205, 207, 209, 20B, 20D, 20F
 Registers 201, 203, 205, 207, 209, 20B, 20D, 20F bits 0 get muxed to Z29 (LOOPFLAG).
 Registers 20F, 201, 203, 205, 207, 209, 20B, 20D bits [5:4] get muxed to MUXBIT[5:4].
 
+# Internal RAM
+
+```
+    Even    Odd
+    RAMB    RAMA
+00	PitchL	PitchC
+01  PitchM	Vol
+02	RevVol	Pan
+03	RevDeL	RevDeM
+04	LoopL	LoopC
+05	LoopM	?
+06	StartL	StartC
+07	StartM	?```
+
+Start/loop loads seem to be done from 08 09 0A 0B instead of 04 05 06 07. Maybe they're copied on channel start ?
+Actually, for each channel the values in 00~0F (00~07 IRAM address) are maybe copied to 10~1F (08~0F IRAM address) to allow the sound program to update channel parameters while they are playing, and only apply them on key on.
+
+RAMA can be written from:
+* DB_IN[7:0] (CPU write)
+* ADDA[39:32] frac counter
+* ADDA[31:24] frac counter
+* ADDA[15:8] frac counter
+* MUXD[15:8] sample value
+* BASE[15:8] start or loop address
+* ADDD[30:23] two registers
+* ADDD[14:7] two registers
+
+RAMB can be written from:
+* DB_IN[7:0] (CPU write)
+* ADDA[23:16] frac counter
+* ADDA[7:0] frac counter
+* MUXD[7:0] sample value
+* BASE[7:0] start or loop address
+* BASE[23:16] start or loop address
+* ADDD[22:16] two registers
+* {ADDD[6:0], 0} two registers
+
+External RAM address can come from:
+* ADDB[23:0] sample data
+* {AG83, ACCC[14:0], S106} reverb access ?
+* {REG22E[6:0], ADDRCNT[16:0]} POST address counter
+
+External RAM data:
+* DB_IN[7:0] (CPU write)
+* ACCD[7:0]
+* ACCD[15:8]
 
 * 00~FF: Eight 20-byte channel parameters
   * 00~02: Pitch
@@ -168,13 +220,13 @@ Registers 20F, 201, 203, 205, 207, 209, 20B, 20D bits [5:4] get muxed to MUXBIT[
 * 216: All bits used, data, 216/218/21A/21D group
 * 217: All bits used, data, 217/21E/21F/220 group
 * 218: All bits used, data, 216/218/21A/21D group
-* 219: All bits used, data, MULB_A[14:7]
-* 21A: All bits used, data, 216/218/21A/21D group
+* 219: All bits used  data, 217/21E/21F/220 group
+* 21A: All bits used, data, MULB_A[14:7]
 * 21B: Counter reload value, all bits used
 * 21C: Value compared against, double-buffered, all bits used
 * 21D: All bits used, data, 216/218/21A/21D group
 * 21E: All bits used, data, 217/21E/21F/220 group
-* 21F: All bits used  data, 217/21E/21F/220 group
+* 21F: All bits used, data, 216/218/21A/21D group
 * 220: All bits used, data, 217/21E/21F/220 group
 * 221: All bits used, data, MULB_A[14:7]
 * 222: Counter reload value, all bits used

@@ -10,12 +10,15 @@ reg NRES;
 reg [7:0] PIN_AB;
 reg PIN_AB09;
 reg [7:0] PIN_DB_IN;
+wire [7:0] PIN_DB_OUT;
 reg NCS;
 reg NRD;
 reg NWR;
 reg PIN_DTS1;
 reg PIN_DTS2;
 wire [23:0] PIN_RA;
+wire [7:0] PIN_RD_IN;
+wire [7:0] PIN_RD_OUT;
 
 integer i;
 
@@ -25,6 +28,7 @@ k054539 dut(
 	PIN_AB,
 	PIN_AB09,
 	PIN_DB_IN,
+	PIN_DB_OUT,
 	NCS,
 	NRD,
 	NWR,
@@ -34,6 +38,8 @@ k054539 dut(
 	PIN_DTS1,
 	PIN_DTS2,
 	PIN_RA,
+	PIN_RD_IN,
+	PIN_RD_OUT,
 	PIN_TIM
 );
 

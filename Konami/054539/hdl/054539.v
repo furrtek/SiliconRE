@@ -6,6 +6,7 @@
 `include "REG8.v"
 `include "RAM.v"
 `include "ROM.v"
+`include "startstop.v"
 
 module k054539(
 	input NRES,
@@ -14,6 +15,7 @@ module k054539(
 	input [7:0] PIN_AB,
 	input PIN_AB09,
 	input [7:0] PIN_DB_IN,
+	output [7:0] PIN_DB_OUT,
 	input PIN_NCS,
 	input PIN_NRD,
 	input PIN_NWR,
@@ -26,17 +28,18 @@ module k054539(
 	input PIN_DTS2,
 
 	output [23:0] PIN_RA,
+	input [7:0] PIN_RD_IN,
+	output [7:0] PIN_RD_OUT,
 	output reg PIN_TIM
 );
+
+// CLOCKS AND RESET
 
 reg R131 = 0;
 always @(posedge CLK) begin
 	R131 <= NRES;
 end
 assign nRES = NRES & R131;
-
-// Low pulse every 384 CLK cycles
-assign nCYCLERES = nRES & ~&{CLKDIVTHREE, S36};
 
 // Divide-by-3
 reg R53 = 0, R46 = 0;
@@ -72,11 +75,8 @@ always @(posedge CLK) begin
 	CLKDIVD <= CLKDIV;
 end
 
-assign AB166 = ~&{~CLKDIV[4:1]};
-reg [13:0] SR_A;
-always @(posedge CLKDIVD[0]) begin
-	SR_A <= {SR_A[12:0], AB166};
-end
+// Low pulse every 384 CLK cycles
+assign nCYCLERES = nRES & ~&{CLKDIVTHREE, S36};
 
 
 // S11 is the load signal for the final output PISO, it should match the falling edge of LRCK (start of new sample pair output) OK
@@ -107,7 +107,7 @@ always @(posedge CLKDIVD[6] or negedge REG22F[5]) begin
 		PIN_TIM <= 1'b1;
 	end else begin
 		PIN_TIM <= TIMER_TC ^ PIN_TIM;
-	end
+	end                                                                                                    
 end
 
 // POST address counter
@@ -120,6 +120,15 @@ always @(posedge nACCESS22D or negedge REG22F[4]) begin
         ADDRCNT <= ADDRCNT + 1'b1;
 end
 
+// CPU DATA
+
+reg [7:0] IRAM_OUT_REG;
+always @(posedge IRAM_INT) begin
+	IRAM_OUT_REG <= PIN_AB[0] ? RAM_B_DOUT : RAM_A_DOUT;
+end
+
+assign PIN_DB_OUT = PIN_AB09 ? PIN_AB[0] ? PIN_RD_IN : CH_ACTIVE : IRAM_OUT_REG;
+assign PIN_DB_DIR = PIN_NCS | PIN_NRD;
 
 
 // EXT RAM ADDRESS
@@ -127,9 +136,8 @@ end
 // DEBUG: Assumes T127 = 0 (no test mode, not in POST mode)
 assign PIN_RA = CLKDIVD[8] ? 24'bzzzzzzzz_zzzzzzzz_zzzzzzzz : ADDB;	// TODO
 
+// REGISTERS DECODE
 
-
-// Register decode
 assign CPU_REGS = ~|{PIN_NCS, ~PIN_AB09};
 
 reg [5:0] REGDECTOP;
@@ -233,7 +241,57 @@ REG8 R20A(nWR20A, PIN_DB_IN, REG20A);
 REG8 R20C(nWR20C, PIN_DB_IN, REG20C);
 REG8 R20E(nWR20E, PIN_DB_IN, REG20E);
 
+reg E51;
+always @(posedge CLKDIVD[0])
+	E51 <= (CLKDIVD[4] ^ CLKDIVD[2]) | CLKDIV[3];
+
+// MULA
+
+reg [7:0] MULA_A_LATA;
+reg [7:0] MULA_A_LATB;
+
+always @(*) begin
+	if (K50) {MULA_A_LATB, MULA_A_LATA} <= {MUX_B, MUX_A};
+end
+
+wire [7:0] MULA_A;	// Test not implemented
+assign MULA_A = TRIGE ? MULA_A_LATB : MULA_A_LATA;
+
+reg [15:0] MULA_B_LATA;
+reg [15:0] MULA_B_LATB;
+reg [14:0] MULA_B_LATC;
+reg [14:0] MULA_B_LATD;
+
+always @(*) begin
+	if (TRIGF) begin
+		MULA_B_LATA <= ADDD[30:15];
+		MULA_B_LATC <= {1'b0, ADDD[14:0]};
+	end
+end
+
+always @(*) begin
+	if (D9) begin
+		MULA_B_LATD <= {1'b0, ADDD[14:0]};
+	end
+end
+
+always @(*) begin
+	if (TRIGF) MULA_B_LATC <= ADDD[30:15];
+end
+
+wire [15:0] MULA_B;	// Test not implemented
+assign MULA_B = TRIGH ?
+					E51 ? {1'b0, MULA_B_LATD} : {1'b0, MULA_B_LATC} :
+					E51 ? MULA_B_LATB : MULA_B_LATA;	// MULA_B_LATB = {D58, D57, E35... A55, A57, A53}
+
+wire [31:0] MULA_OUT_RAW;
+assign MULA_OUT_RAW = {8'd0, MULA_A} * MULA_B;
+
+wire [23:0] MULA_OUT;
+assign MULA_OUT = MULA_OUT_RAW[23:0];	// Intermediate MULA_OUT_RAW maybe not needed
+
 // ROMA
+
 wire [8:0] ROMA_A;
 assign ROMA_A = CLKDIV;
 
@@ -244,7 +302,8 @@ ROM #(9, 7, "ROMA.mem") ROMA(
 	ROMA_D
 );
 
-// Internal RAM
+// INTERNAL RAM
+
 assign N43 = ~&{CLKDIVD[1], ~CLKDIVD[0]};
 
 wire [3:0] P59;
@@ -267,16 +326,14 @@ always @(posedge CLK) begin
 	IRAM_INT <= N43;
 end
 
-assign N70 = ~IRAM_INT;
-
 assign H69 = ~|{~CLKDIV[2], CLKDIV[1]};
 assign H70 = ~|{~CLKDIV[2], CLKDIV[0]};
 
-assign S122 = (ROMA_A[1] | ROMA_A[2]) & ROMA_A[3];
+assign S122 = |{ROMA_A[2:1]} & ROMA_A[3];
 
 // RAM A DIN
 wire [7:0] RAM_A_DIN;
-assign RAM_A_DIN = N70 ? PIN_DB_IN : RAM_A_DIN_INT;
+assign RAM_A_DIN = IRAM_INT ? RAM_A_DIN_INT : PIN_DB_IN;
 
 reg [7:0] RAM_A_DIN_INT;
 always @(posedge CLK) begin	// negedge ?
@@ -301,7 +358,7 @@ assign RAM_A_DIN_MUXC = H69 ?
 
 // RAM B DIN
 wire [7:0] RAM_B_DIN;
-assign RAM_B_DIN = N70 ? PIN_DB_IN : RAM_B_DIN_INT;
+assign RAM_B_DIN = IRAM_INT ? RAM_B_DIN_INT : PIN_DB_IN;
 
 reg [7:0] RAM_B_DIN_INT;
 always @(posedge CLK) begin	// negedge ?
@@ -324,8 +381,8 @@ assign RAM_B_DIN_MUXC = H69 ?
 							H70 ? 8'bzzzzzzzz : 8'bzzzzzzzz :	// TODO
 							H70 ? 8'bzzzzzzzz : 8'bzzzzzzzz;	// TODO
 
-// N70=~IRAM_INT=0: RAM fed by internal data
-// N70=~IRAM_INT=1: RAM fed by CPU data
+// IRAM_INT=1: RAM fed by internal data
+// IRAM_INT=0: RAM fed by CPU data
 
 assign R79 = PIN_AB09 | PIN_NCS;
 assign R86 = ~|{R79, PIN_NWR};
@@ -361,12 +418,136 @@ always @(posedge CPU_IRAM_WR or negedge R86) begin
 		P72 <= 1'b1;
 end
 
-// DEBUG
-assign MUX_ACTIVE = 1'b1;	// MUX_ACTIVE must be active low
+// ADPCM STEP
+
+reg [15:0] STEP;
+always @(*) begin
+	case(DTYPE[2:1])
+    	2'd0: STEP[10:0] <= {RD_REG[2:0], RD_REG2[7:0]};
+		2'd1: STEP[10:0] <= {DPCM_STEP[2:0], 8'd0};
+		2'd2: STEP[10:0] <= {DPCM_STEP[6:0], 4'd0};
+		3'd3: STEP[10:0] <= {{4{DPCM_STEP[7]}}, DPCM_STEP[6:0]};
+	endcase
+end
+always @(*) begin
+	case(DTYPE[2:1])
+		2'd0: STEP[15:11] <= RD_REG[7:3];
+		3'd1: STEP[15:11] <= DPCM_STEP[7:3];
+    	2'd2, 2'd3: STEP[15:11] <= {5{DPCM_STEP[7]}};
+	endcase
+end
+
+
+
+// Stop marker detect
+assign Z26 = ~&{DTYPE[2:1]};
+assign V34B = ~|{{5{~DTYPE[2]}} & {STEP[14:11], STEP[9]}, {2{Z26}} & {STEP[10], STEP[8]}, ~STEP[15]};
+assign V38A = ~&{|{STEP[7] & Z26, STEP[6:0]}, V34B};
+
+// START / STOP
+
+
+
+wire [7:0] M5;
+DEC3 M5Cell(
+	CLKDIVD[7:5],
+	1'b1,
+	M5
+);
+assign M5_GATED = M5 | {8{~&{CLKDIV[4], ~CLKDIV[8]}}};
+
+// nCYCLERES delayed 1 clk
+reg W17;
+always @(posedge CLK) begin
+	W17 <= nCYCLERES;
+end
+
+wire [7:0] CH_ACTIVE;
+wire [7:0] nCH_LOOP;
+wire [7:0] W15;
+wire [7:0] W26;
+wire [7:0] nODD_D4;
+wire [7:0] nODD_D5;
+
+genvar i;
+generate
+	for (i = 0; i < 8; i = i + 1) begin
+		startstop #(.chnum(i)) SSCH(
+			.nRES(nRES),
+			.CLK(CLK),			// Main CLK
+			.DB_IN(PIN_DB_IN),
+			.nODDWR(nWR201),	// Odd channel config register write
+			.nKONWR(nWR214),	// Key ON register write, common
+			.nKOFFWR(nWR215),	// Key OFF register write, common
+			.V38A(V38A),		// Common to all channels
+			.M4(M5[i]),			// Pulses from M5 decoder
+			.W17(W17),			// Common to all channels
+			.CH_ACTIVE(CH_ACTIVE[i]),
+			.nCH_LOOP(nCH_LOOP[i]),
+			.nODDREG_D4(nODD_D4[i]),
+			.nODDREG_D5(nODD_D5[i]),
+			.W15(W15[i]),
+			.W26(W26[i])
+		);
+	end
+endgenerate
+
+
+reg MUX_ACTIVE;		// MUX_ACTIVE must be active low
+reg LOOPFLAG;
+reg R88;			// What is this ?
+always @(*) begin
+	case(CLKDIVD[7:5])
+		3'd0: begin
+			MUX_ACTIVE <= CH_ACTIVE[0];
+			LOOPFLAG <= ~&{nCH_LOOP[0], ~W15[0]};	// W15
+			R88 <= W26[0];
+		end
+		3'd1: begin
+			MUX_ACTIVE <= CH_ACTIVE[1];
+			LOOPFLAG <= ~&{nCH_LOOP[0], ~W15[1]};	// AA25
+			R88 <= W26[1];
+		end
+		3'd2: begin
+			MUX_ACTIVE <= CH_ACTIVE[2];
+			LOOPFLAG <= ~&{nCH_LOOP[0], ~W15[2]};	// R35
+			R88 <= W26[2];
+		end
+		3'd3: begin
+			MUX_ACTIVE <= CH_ACTIVE[3];
+			LOOPFLAG <= ~&{nCH_LOOP[0], ~W15[3]};	// T18
+			R88 <= W26[3];
+		end
+		3'd4: begin
+			MUX_ACTIVE <= CH_ACTIVE[4];
+			LOOPFLAG <= ~&{nCH_LOOP[0], ~W15[4]};	// N4
+			R88 <= W26[4];
+		end
+		3'd5: begin
+			MUX_ACTIVE <= CH_ACTIVE[5];
+			LOOPFLAG <= ~&{nCH_LOOP[0], ~W15[5]};	// S34
+			R88 <= W26[5];
+		end
+		3'd6: begin
+			MUX_ACTIVE <= CH_ACTIVE[6];
+			LOOPFLAG <= ~&{nCH_LOOP[0], ~W15[6]};	// Y37
+			R88 <= W26[6];
+		end
+		3'd7: begin
+			MUX_ACTIVE <= CH_ACTIVE[7];
+			LOOPFLAG <= ~&{nCH_LOOP[0], ~W15[7]};	// Y38
+			R88 <= W26[7];
+		end
+	endcase
+end
+
+
+
+
 
 // Internal RAM internal write pulse gen
 assign P84B = ~&{ROMA_A[4:3], ~&{~CLKDIV[2:1]}};
-assign P88 = ~&{~&{P84B, ~CLKDIV[8], ROMA_A[4], ~&{CLKDIV[3:2]}, MUX_ACTIVE}, P84B | ~P91};
+assign P88 = ~&{~&{P84B, ~CLKDIV[8], ROMA_A[4], ~&{~CLKDIV[3:2]}, MUX_ACTIVE}, P84B | ~P91};
 
 reg P91 = 0;
 always @(posedge ROMA_A[5]) begin
@@ -394,13 +575,27 @@ always @(posedge CLK) begin
 	RAM_A <= N43 ? ROMA_D : PIN_AB[7:1];
 end
 
-// DPCM step decode
+// Sample data read
 
-// DEBUG
-reg [7:0] RD_REG = 0;
-always @(posedge CLK) begin
-	RD_REG <= RD_REG + 1'b1;
+assign M26 = ~MUX_ACTIVE;	// Test not implemented
+
+reg [7:0] RD_REG;
+always @(posedge ~CLKDIVD[2] or negedge M26) begin
+	if (!M26)
+		RD_REG <= 8'd0;
+	else
+		RD_REG <= PIN_RD_IN;
 end
+
+reg [7:0] RD_REG2;
+always @(posedge ~CLKDIVD[2] or negedge DTYPE[0]) begin		// Test not implemented
+	if (!DTYPE[0])
+		RD_REG2 <= 8'd0;
+	else
+		RD_REG2 <= RD_REG;
+end
+
+// DPCM step decode
 
 // T132: Nibble select
 //assign T132 = REVERSE ^ ADDA_LAT_B[0];
@@ -432,16 +627,32 @@ assign DPCM_STEP = DEC_IN[3] ? ~{1'b0, N29, N28, N32, N20, N27, N24, N37_X[0]} :
 // Register mux
 
 reg [2:0] DTYPE;
+reg REVERSE;
 always @(*) begin
-	case(CLKDIV[7:5])
-		3'd0: DTYPE <= REG200[4:2];
-		3'd1: DTYPE <= REG202[4:2];
-		3'd2: DTYPE <= REG204[4:2];
-		3'd3: DTYPE <= REG206[4:2];
-		3'd4: DTYPE <= REG208[4:2];
-		3'd5: DTYPE <= REG20A[4:2];
-		3'd6: DTYPE <= REG20C[4:2];
-		3'd7: DTYPE <= REG20E[4:2];
+	case(CLKDIVD[7:5])
+		3'd0: {REVERSE, DTYPE} <= REG200[5:2];
+		3'd1: {REVERSE, DTYPE} <= REG202[5:2];
+		3'd2: {REVERSE, DTYPE} <= REG204[5:2];
+		3'd3: {REVERSE, DTYPE} <= REG206[5:2];
+		3'd4: {REVERSE, DTYPE} <= REG208[5:2];
+		3'd5: {REVERSE, DTYPE} <= REG20A[5:2];
+		3'd6: {REVERSE, DTYPE} <= REG20C[5:2];
+		3'd7: {REVERSE, DTYPE} <= REG20E[5:2];
+	endcase
+end
+
+reg MUXBIT5;
+reg MUXBIT4;
+always @(*) begin
+	case(CLKDIVD[7:5])
+		3'd0: {MUXBIT5, MUXBIT4} <= {nODD_D5[7], nODD_D4[7]};
+		3'd1: {MUXBIT5, MUXBIT4} <= {nODD_D5[0], nODD_D4[0]};
+		3'd2: {MUXBIT5, MUXBIT4} <= {nODD_D5[1], nODD_D4[1]};
+		3'd3: {MUXBIT5, MUXBIT4} <= {nODD_D5[2], nODD_D4[2]};
+		3'd4: {MUXBIT5, MUXBIT4} <= {nODD_D5[3], nODD_D4[3]};
+		3'd5: {MUXBIT5, MUXBIT4} <= {nODD_D5[4], nODD_D4[4]};
+		3'd6: {MUXBIT5, MUXBIT4} <= {nODD_D5[5], nODD_D4[5]};
+		3'd7: {MUXBIT5, MUXBIT4} <= {nODD_D5[6], nODD_D4[6]};
 	endcase
 end
 
@@ -462,8 +673,6 @@ end
 wire [23:0] OFFS;
 assign OFFS = {24{REVERSE}} ^ MUX_OFFS;
 
-assign REVERSE = 1'b0;	// DEBUG
-
 wire [23:0] ADDB;
 assign ADDB = REVERSE + OFFS + ADDB_B;
 
@@ -482,7 +691,7 @@ assign N153A = ~&{~(LOOPFLAG ? N152 : N146), ~&{N152, N146}};
 assign N152 = V128;
 
 
-assign PIN_DTAC = &{R83, ~CPU_REGS};
+assign PIN_DTAC = R83 & ~CPU_REGS;
 
 wire [7:0] RAM_A_DOUT;
 wire [7:0] RAM_B_DOUT;
@@ -508,10 +717,6 @@ wire [7:0] MUX_B;
 
 assign MUX_A = RAM_A_DOUT;
 assign MUX_B = RAM_B_DOUT;
-
-
-assign R88 = 1'b1;	// DEBUG
-assign LOOPFLAG = 1'b1;	// DEBUG
 
 assign R89 = R88 & LOOPFLAG;
 
@@ -591,7 +796,8 @@ end
 assign PIN_ADDA = 0;	// DEBUG
 assign PIN_LRCK = PIN_ADDA ? ~SR_S1[2] : SR_S1[0];
 
-// Triggers
+// TRIGGERS
+
 reg [5:0] TRIGDEC;
 always @(*) begin
 	case({J70, CLKDIVD[2:0]})
@@ -610,7 +816,7 @@ assign J72 = TRIGDEC[0];
 assign K49 = TRIGDEC[1];
 assign J64 = TRIGDEC[2];
 assign L9 = TRIGDEC[3];
-assign B72 = TRIGDEC[4];
+assign K50 = TRIGDEC[4];
 assign B74 = TRIGDEC[5];
 
 reg [5:0] TRIGDECB;
@@ -650,9 +856,13 @@ assign B98 = TRIGDECC[2];
 
 assign H61A = ~&{H61B, CLKDIVD[2:0] == 3'b010};
 
+assign AB166 = ~&{~CLKDIV[4:1]};
+reg [13:0] SR_A;
+always @(posedge CLKDIVD[0]) begin
+	SR_A <= {SR_A[12:0], AB166};
+end
+
 // The gaps between these decoded triggers match the CPU access slots OK
-
-
 reg TRIGA, TRIGB, TRIGC, TRIGD, TRIGE, TRIGF, TRIGG, TRIGJ, E54, D67;
 always @(posedge CLKDIVD[0]) begin
 	TRIGA <= ~&{~CLKDIVD[4:1]};	// D72 0000
