@@ -19,6 +19,10 @@ reg PIN_DTS2;
 wire [23:0] PIN_RA;
 wire [7:0] PIN_RD_IN;
 wire [7:0] PIN_RD_OUT;
+reg PIN_RRMD;
+reg PIN_ALRA;
+reg PIN_AXDA;
+reg PIN_USE2;
 
 integer i;
 
@@ -40,7 +44,12 @@ k054539 dut(
 	PIN_RA,
 	PIN_RD_IN,
 	PIN_RD_OUT,
-	PIN_TIM
+	PIN_TIM,
+	PIN_RRMD,
+	PIN_DLY,
+	PIN_AXDA,
+	PIN_ALRA,
+	PIN_USE2
 );
 
 task write_reg;

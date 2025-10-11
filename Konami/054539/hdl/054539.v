@@ -30,7 +30,13 @@ module k054539(
 	output [23:0] PIN_RA,
 	input [7:0] PIN_RD_IN,
 	output [7:0] PIN_RD_OUT,
-	output reg PIN_TIM
+	output reg PIN_TIM,
+
+	input PIN_RRMD,
+	input PIN_DLY,
+	input PIN_AXDA,
+	input PIN_ALRA,
+	input PIN_USE2
 );
 
 // CLOCKS AND RESET
@@ -87,6 +93,88 @@ always @(posedge PIN_DTCK) begin
 	S10 <= S2;
 end
 assign S11 = ~|{S10, S2};
+
+// COUNTERS
+
+
+
+reg [15:0] AC74;	// Test not implemented
+always @(posedge CLK) begin
+	if (~nRES) begin
+		AC74 <= 8'd0;
+	end else begin
+    	AC74 <= AC74 + 1'b1;
+	end
+end
+
+// EXT MEM CONTROL
+
+assign AB103A = CLKDIV[6] ? REG224[6] : REG224[2];
+assign AB79 = AC74[0];	// Test not implemented
+
+assign AA120 = ~|{~AB103A, AB79};
+
+reg W92;
+assign nCLKDIVD16 = ~CLKDIVD[3];
+always @(posedge nCLKDIVD16 or negedge nRES) begin
+	if (nRES)
+		W92 <= 1'b0;
+	else
+		W92 <= ~|{REG22F[4], CLKDIV[6] & REG224[3], AA120, PIN_DLY};
+end
+
+assign W93 = ~CLKDIVD[8] | ~W92;
+
+reg X124, W99, W112;
+always @(negedge CLKDIV[1]) begin
+	X124 <= CLKDIVD[2] | W93;
+	W99 <= ~|{~CLKDIVD[2], ~MUX_ACTIVE, CLKDIVD[4], CLKDIV[8], REG22F[4]};
+	W112 <= W100;
+end
+
+reg X103, W100, W111, Y115, W101;
+always @(posedge CLK) begin
+	X103 <= ~^{CLKDIV[5:4]};
+	W100 <= ~W99;
+	W111 <= ~W112;
+	Y115 <= X123;
+	W101 <= W110;
+end
+
+assign Y114 = ~&{~X123, ~Y115};
+assign W94 = PIN_NRD | nACCESS22D;
+
+reg X123;
+always @(posedge CLK or negedge nRES) begin
+	if (nRES)
+		X123 <= 1'b1;
+	else
+		X123 <= X124;
+end
+
+reg X105, X121, X120;
+always @(negedge CLK) begin
+	X105 <= ~|{~X103, Y114};
+	X121 <= ~X105;
+	X120 <= X121;
+end
+assign X110 = ~REG22F[4] | REG22E[7];
+assign Y109 = ~&{REG22F[4], REG22E[7]};
+assign W95 = PIN_NWR | nACCESS22D;
+assign X118 = ~|{~|{~X120, ~X105}, ~|{W95, Y109}};
+assign PIN_RDWP = ~|{~|{X118, ~PIN_RRMD}, ~|{W95, X110}};
+assign RD_DIR = X118 & PIN_RDWP;
+
+assign X122B = ~|{~|{PIN_USE2, PIN_NRD | nACCESS22D}, ~X123};
+assign W110 = ~|{~|{W100, PIN_USE2}, ~W111};
+assign TESTEN = 1'b0;
+assign PIN_RA_EN = &{~REG22F[4], ~TESTEN, X122B, W110};
+
+assign PIN_RACS = Y114 & (nACCESS22D | Y109);
+assign PIN_ROBS = &{~PIN_RRMD | (X124 & Y109), W100, X110};
+assign PIN_RAOE = ~|{Y109, W94} | ~|{X123, X103};
+assign PIN_ROCS = ~&{~|{PIN_RACS, ~PIN_RRMD}, ~|{W101, W110}, ~|{X110, nACCESS22D}};
+assign PIN_ROOE = &{X110 | W94, W110, PIN_RAOE | ~PIN_RRMD};
 
 // TIMER
 
@@ -202,10 +290,22 @@ assign nACCESS22D = ~&{PIN_AB[2:0] == 3'd5, ~REGDECTOP[5]};
 
 // Registers
 
+// REG224
+reg [6:0] REG224;
+always @(*) begin
+	REG224 <= PIN_DB_IN;
+end
+
 // REG227
 reg [7:0] REG227;
 always @(*) begin
 	REG227 <= PIN_DB_IN;
+end
+
+// REG22E
+reg [7:0] REG22E;
+always @(*) begin
+	REG22E <= PIN_DB_IN;
 end
 
 // REG22F
@@ -247,6 +347,11 @@ always @(posedge CLKDIVD[0])
 
 // MULA
 
+reg [30:0] DLAT_D;
+always @(*) begin
+	if (TRIGF) DLAT_D <= ADDD;
+end
+
 reg [7:0] MULA_A_LATA;
 reg [7:0] MULA_A_LATB;
 
@@ -268,6 +373,8 @@ always @(*) begin
 		MULA_B_LATC <= {1'b0, ADDD[14:0]};
 	end
 end
+
+assign D9 = TRIGJ & D67;
 
 always @(*) begin
 	if (D9) begin
@@ -722,6 +829,7 @@ assign R89 = R88 & LOOPFLAG;
 
 
 // ADDER A (phase accumulation ?)
+
 reg [39:0] ADDA_LAT_B;	// Should be current accumulator value read, modified, stored in IRAM
 
 always @(*) begin
@@ -795,6 +903,56 @@ end
 
 assign PIN_ADDA = 0;	// DEBUG
 assign PIN_LRCK = PIN_ADDA ? ~SR_S1[2] : SR_S1[0];
+
+// ROOT51
+
+reg F68, F73;
+always @(posedge CLKDIVD[1]) begin
+	F68 <= ~|{CLKDIVD[3:2]} | F69;
+	F73 <= CLKDIVD[3];
+end
+
+reg F66, F71;
+always @(posedge CLKDIVD[0]) begin
+	F66 <= F68;
+	F71 <= F73;
+end
+
+assign F3 = ~F66;
+assign F17 = ~F71;
+
+wire [14:0] MUX_LAT2;
+assign MUX_LAT2 = {MUX_A, MUX_B[7:1]};
+
+wire [14:0] ADDD_IN_AMUX;
+assign ADDD_IN_AMUX = F3 ?
+			F17 ? DLAT_D[14:0] : {~H40, 14'd0} :
+			F17 ? MUX_LAT2 : {ADDE[7:0], MULA_LAT[13:7]};
+
+wire [14:0] ADDD_IN_A;	// Order to check
+assign ADDD_IN_A = D14 ? ~ADDD_IN_AMUX : ADDD_IN_AMUX;
+
+
+// ADDER D
+
+reg D62;
+always @(posedge CLKDIVD[0]) begin
+	D62 <= ((CLKDIVD[1] & CLKDIVD[3]) | ~CLKDIVD[4]) & (CLKDIVD[1] | CLKDIVD[4]);
+end
+
+wire [30:0] ADDD_IN_BMUX;
+assign ADDD_IN_BMUX = TRIGG ?
+			D62 ? {DLAT_B, ADDD_LAT[14:0]} : MUX_LAT :
+			D62 ? {DLAT_C, ADDD_LAT2[14:0]} : {ADDE[23:0], MULA_LAT[13:7]};
+
+wire [30:0] ADDD_IN_B;
+assign ADDD_IN_B = D10 ? ~ADDD_IN_BMUX : ADDD_IN_BMUX;
+
+assign D12A = ~&{TRIGA, TRIGJ} | ~TRIGF;
+
+wire [30:0] ADDD;
+assign ADDD = D12A + ADDD_IN_B + ADDD_IN_A;
+
 
 // TRIGGERS
 
