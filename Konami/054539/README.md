@@ -39,7 +39,8 @@ Several cells such as MUX21D, MUX41, LATCHN,... use shared differential control 
 To reduce clutter, only the true signals are shown (the /S input on MUX21D for example is always the inverse of S).
 This is why there are several inverters with unconnected outputs.
 
-MUX41N must have their inputs in the reverse order and true/inverted control signals swapped given the order in which bus bits are connected. Couldn't know the "right" way because no documentation. Doesn't actually change anything though, so I'm leaving them like they are. 
+MUX41N must have their inputs in the reverse order and true/inverted control signals swapped given the order in which bus bits are connected. Couldn't know the "right" way from the start because no documentation.
+Doesn't actually change anything though, so I'm leaving them as they are on the schematic.
 
 # Data paths
 

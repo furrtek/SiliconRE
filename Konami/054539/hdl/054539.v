@@ -7,6 +7,7 @@
 `include "RAM.v"
 `include "ROM.v"
 `include "startstop.v"
+`include "auxin.v"
 
 module k054539(
 	input NRES,
@@ -36,7 +37,8 @@ module k054539(
 	input PIN_DLY,
 	input PIN_AXDA,
 	input PIN_ALRA,
-	input PIN_USE2
+	input PIN_USE2,
+	input PIN_YMD
 );
 
 // CLOCKS AND RESET

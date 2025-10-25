@@ -49,7 +49,8 @@ k054539 dut(
 	PIN_DLY,
 	PIN_AXDA,
 	PIN_ALRA,
-	PIN_USE2
+	PIN_USE2,
+	PIN_YMD
 );
 
 task write_reg;
