@@ -1,7 +1,7 @@
 // Two to four one-hot decoder
 
 module DEC2(
-	input [1:0] in,
+	input [1:0] in, 	// {B, A}
 	output reg [3:0] out
 );
 
