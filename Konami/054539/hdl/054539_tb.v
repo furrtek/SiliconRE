@@ -27,32 +27,38 @@ reg PIN_USE2;
 integer i;
 
 k054539 dut(
-	NRES,
-	CLK,
-	PIN_AB,
-	PIN_AB09,
-	PIN_DB_IN,
-	PIN_DB_OUT,
-	NCS,
-	NRD,
-	NWR,
-	PIN_WAIT,
-	PIN_DTCK,
-	PIN_WDCK,
-	PIN_DTS1,
-	PIN_DTS2,
-	PIN_RA,
-	PIN_RD_IN,
-	PIN_RD_OUT,
-	PIN_TIM,
-	PIN_RRMD,
-	PIN_DLY,
-	PIN_AXDA,
-	PIN_ALRA,
-	PIN_USE2,
-	PIN_YMD,
-	PIN_AXXA,
-	PIN_AXWA
+	.NRES(NRES),
+	.CLK(CLK),
+	.PIN_AB(PIN_AB),
+	.PIN_AB09(PIN_AB09),
+	.PIN_DB_IN(PIN_DB_IN),
+	.PIN_DB_OUT(PIN_DB_OUT),
+	.PIN_NCS(NCS),
+	.PIN_NRD(NRD),
+	.PIN_NWR(NWR),
+	.PIN_WAIT(PIN_WAIT),
+	.PIN_DTCK(PIN_DTCK),
+	.PIN_WDCK(PIN_WDCK),
+	.PIN_DTS1(PIN_DTS1),
+	.PIN_DTS2(PIN_DTS2),
+	.PIN_RA(PIN_RA),
+	.PIN_RD_IN(PIN_RD_IN),
+	.PIN_RD_OUT(PIN_RD_OUT),
+	.PIN_TIM(PIN_TIM),
+	.PIN_RRMD(PIN_RRMD),
+	.PIN_DLY(PIN_DLY),
+	.PIN_AXDA(PIN_AXDA),
+	.PIN_ALRA(PIN_ALRA),
+	.PIN_USE2(PIN_USE2),
+	.PIN_YMD(PIN_YMD),
+	.PIN_AXXA(PIN_AXXA),
+	.PIN_AXWA(PIN_AXWA),
+	.PIN_ADDA(PIN_ADDA),
+	.PIN_FRDL(PIN_FRDL),
+	.PIN_FRDT(PIN_FRDT),
+	.PIN_REDL(PIN_REDL),
+	.PIN_REDT(PIN_REDT),
+	.PIN_AXDT(PIN_AXDT)
 );
 
 task write_reg;
@@ -68,10 +74,6 @@ begin
     #1 NCS <= 1'b1;
 end
 endtask
-
-/*always @(posedge CLK) begin
-	$fwrite(fd, "%04x %04x %d\n", {X, XH}, {Y, YH}, NOB);	// Write pixel coordinates and OOB flag
-end*/
 
 always @(*) begin
 	#1 CLK <= ~CLK;

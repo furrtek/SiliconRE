@@ -1,3 +1,6 @@
+// Konami 054539 comparator section
+// furrtek 2025
+
 module comp(
 	input nRES,
 	input [7:0] PIN_DB_IN,

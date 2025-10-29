@@ -1,3 +1,6 @@
+// Konami 054539 auxiliary input section
+// furrtek 2025
+
 module auxin(
 	input PIN_AXXA,
 	input AXDA_SYNC,

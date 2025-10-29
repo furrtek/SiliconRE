@@ -149,6 +149,10 @@ Order of reg mux: 201, 203, 205, 207, 209, 20B, 20D, 20F
 Registers 201, 203, 205, 207, 209, 20B, 20D, 20F bits 0 get muxed to Z29 (LOOPFLAG).
 Registers 20F, 201, 203, 205, 207, 209, 20B, 20D bits [5:4] get muxed to MUXBIT[5:4].
 
+# Effects
+
+Reverb obviously. Maybe flanger too ? See ACCA / ACCB, which are ping-pong up/down incremental counters ticked at a programmable rate.
+
 # Internal RAM
 
 ```
@@ -223,14 +227,14 @@ External RAM data:
 * 218: All bits used, data, 216/218/21A/21D group
 * 219: All bits used  data, 217/21E/21F/220 group
 * 21A: All bits used, data, MULB_A[14:7]
-* 21B: Counter reload value, all bits used
+* 21B: Counter reload value, all bits used. Like 222. Timer for flanger effect ?
 * 21C: Value compared against, double-buffered, all bits used
 * 21D: All bits used, data, 216/218/21A/21D group
 * 21E: All bits used, data, 217/21E/21F/220 group
 * 21F: All bits used, data, 216/218/21A/21D group
 * 220: All bits used, data, 217/21E/21F/220 group
 * 221: All bits used, data, MULB_A[14:7]
-* 222: Counter reload value, all bits used
+* 222: Counter reload value, all bits used. Like 21B. Timer for flanger effect ?
 * 223: Value compared against, zero is an exception, all bits used
 * 224: Bits [6:0] used
 * 225: Bits 0, 1, 4, 5 used
