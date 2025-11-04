@@ -208,47 +208,56 @@ External RAM data:
   * 06~07: Reverb delay
   * 08~0A: Loop position
   * 0C~0E: Start position
+
 * 100~1FF: Effects ?
-  * 13F: Analog input pan
+  * 13F: Analog input pan ?
+
 * 200~20F: Eight 2-byte channel control
   * 00: Data type (b2-3), reverse (b5)
   * 01: Loop flag
   * Silicon: even registers use all bits
     * Test mode ? PIN_AXDA PISO can be loaded with {REG200, REG202, REG204, REG206}
   * Silicon: odd registers use bits 0, 2, 4, 5
+
 * 210: Bits 0, 1, 6, 7 used
 * 211: Bits 0, 1, 6, 7 used
 * 212: Bits 0, 1, 6, 7 used
 * 213: Bits 0, 1, 6, 7 used
+
 * 214: Key on
 * 215: Key off
-* 216: All bits used, data, 216/218/21A/21D group
-* 217: All bits used, data, 217/21E/21F/220 group
-* 218: All bits used, data, 216/218/21A/21D group
-* 219: All bits used  data, 217/21E/21F/220 group
+
+* {217, 216}: All bits used
+* {219, 218}: All bits used
 * 21A: All bits used, data, MULB_A[14:7]
-* 21B: Counter reload value, all bits used. Like 222. Timer for flanger effect ?
-* 21C: Value compared against, double-buffered, all bits used
-* 21D: All bits used, data, 216/218/21A/21D group
-* 21E: All bits used, data, 217/21E/21F/220 group
-* 21F: All bits used, data, 216/218/21A/21D group
-* 220: All bits used, data, 217/21E/21F/220 group
+* 21B: LFO A update period, in CLK
+* 21C: LFO A amplitude (max value)
+
+* {21E, 21D}: All bits used
+* {220, 21F}: All bits used
 * 221: All bits used, data, MULB_A[14:7]
-* 222: Counter reload value, all bits used. Like 21B. Timer for flanger effect ?
-* 223: Value compared against, zero is an exception, all bits used
+* 222: LFO B update period, in CLK
+* 223: LFO B amplitude (max value)
+
 * 224: Bits [6:0] used
+  * Bit 1: Double LFO A range
+  * Bit 2: Halve CNTC for period A
+  * Bit 5: Double LFO B range
+  * Bit 6: Halve CNTC for period A
 * 225: Bits 0, 1, 4, 5 used
 * 226: Doesn't exist
 * 227: Timer counter load value, toggles TIM output when it overflows (if enabled)
+
 * 228: Bits [6:0] used
 * 229: Bits [6:0] used
 * 22A: Bits [6:0] used
 * 22B: Bits [6:0] used
+
 * 22C: Channel active flags ?
 * 22D: Data r/w port (for POSTs ?)
 * 22E: Bits [7:0] used, bit 7 selects ROM/RAM, bits [6:0] are top address bits for CPU access (POST), bits [16:0] come from an internal up-counter clocked by accesses to register 22D.
 * 22F: General control (Enable, timer, ...)
-  * Bit 0: Related to FRDL, FRDT, REDL, REDT outputs
+  * Bit 0: Active-low mute for all digital outputs
   * Bit 1: ?
   * Bit 4: Reset internal address counter for ROM/RAM test
   * Bit 5: Low: disable TIM output (keep high), force timer counter load with value from 227

@@ -8,7 +8,7 @@
 `include "ROM.v"
 `include "startstop.v"
 `include "auxin.v"
-`include "comp.v"
+`include "lfo.v"
 
 module k054539(
 	input NRES,
@@ -31,7 +31,7 @@ module k054539(
 
 	output reg [23:0] PIN_RA,
 	input [7:0] PIN_RD_IN,
-	output [7:0] PIN_RD_OUT,
+	output reg [7:0] PIN_RD_OUT,
 	output PIN_TIM,
 
 	input PIN_RRMD,
@@ -50,7 +50,15 @@ module k054539(
 	output PIN_REDL,
 	output PIN_REDT,
 
-	output PIN_AXDT
+	output PIN_AXDT,
+
+	output PIN_RACS,
+	output PIN_RAWP,
+	output PIN_RAOE,
+
+	output PIN_ROCS,
+	output PIN_ROBS,
+	output PIN_ROOE
 );
 
 // CLOCKS AND RESET
@@ -166,13 +174,12 @@ always @(posedge CLK) begin
 	AF117 <= |{~CLKDIVD[3:2], CLKDIVD[1]};
 end
 
-reg [15:0] AC74_CNT;	// Test not implemented
+reg [15:0] CNTC;	// Test not implemented
 always @(posedge CLK) begin
-	if (!nRES) begin
-		AC74_CNT <= 16'd0;
-	end else begin
-    	AC74_CNT <= AC74_CNT + 1'b1;
-	end
+	if (!nRES)
+		CNTC <= 16'd0;
+	else
+    	CNTC <= CNTC + 1'b1;
 end
 
 // MUX C
@@ -265,46 +272,26 @@ end
 wire [15:0] AXWORD;
 assign AXWORD = ROMA_A[5] ? ~nAXDMUX_REGB2 : ~nAXDMUX_REGA2;
 
-// ACC A and B
+// LFOs
 
-reg [7:0] ACCA;
-always @(posedge CNTB_OVF or negedge AL1) begin
-	if (!AL1)
-		ACCA <= 8'd0;
-	else
-		ACCA <= ACCA + {{7{AL3}}, 1'b1};	// Either +1 or -1
-end
-
-reg [7:0] ACCB;
-always @(posedge CNTA_OVF or negedge AM15) begin
-	if (!AM15)
-		ACCB <= 8'd0;
-	else
-		ACCB <= ACCB + {{7{AL16}}, 1'b1};	// Either +1 or -1
-end
-
-// COMPARATORS
-
-comp CA(
-	.nRES(nRES),
-	.PIN_DB_IN(PIN_DB_IN),
-	.nWR(nWR223),
-	.CK(CNTB_OVF),
-	.JKCK(AK13),
-	.ACC(ACCA),
-	.JK_OUT(AL3),
-	.OR_OUT(AL1)
-);
-
-comp CB(
+wire [7:0] LFOA;
+LFO CA(
 	.nRES(nRES),
 	.PIN_DB_IN(PIN_DB_IN),
 	.nWR(nWR21C),
 	.CK(CNTA_OVF),
-	.JKCK(AL23),
-	.ACC(ACCB),
-	.JK_OUT(AL16),
-	.OR_OUT(AM15)
+	.JKCK(CNTA_OVF_D),
+	.LFO(LFOA)
+);
+
+wire [7:0] LFOB;
+LFO CB(
+	.nRES(nRES),
+	.PIN_DB_IN(PIN_DB_IN),
+	.nWR(nWR223),
+	.CK(CNTB_OVF),
+	.JKCK(CNTB_OVF_D),
+	.LFO(LFOB)
 );
 
 // D LATCHES and MUX F
@@ -374,48 +361,40 @@ assign AE119 = |{CLKDIVD[5:4], ~CLKDIVD[3:2], CLKDIVD[1]};
 assign AE120 = |{CLKDIVD[5:4], ~CLKDIVD[3:2], ~CLKDIVD[1]};
 assign AD159 = ~&{AD158, AD160, AE119, AE120};
 
-reg AG113;
+reg nACCC_RES;
 always @(posedge CLKDIVD[0]) begin
-	AG113 <= AD159;
+	nACCC_RES <= AD159;
 end
 
-assign AE121 = ~&{AE119, AE120};
-assign AE73 = ~AE121;
+assign ACCC_NEG = ~&{AE119, AE120};
 
 assign AE131 = ~&{CLKDIVD[3], ~CLKDIVD[4]};
 assign AB178 = CLKDIVD[3] & CLKDIVD[1];
 
 assign AB103A = CLKDIV[6] ? REG224[6] : REG224[2];
 
-reg [15:0] ACCC_MUX_PRE_A;
-always @(*) begin
-	case({AE131, AB178})
-		2'b00: ACCC_MUX_PRE_A <= {7'd0, REG224[1] & ACCB[7], REG224[1] ? {ACCB[6:0], 1'b0} : ACCB[7:0]};
-		2'b01: ACCC_MUX_PRE_A <= {REG219, REG218};
-		2'b10: ACCC_MUX_PRE_A <= AB103A ? {1'b0, AC74_CNT[15:1]} : AC74_CNT;	// Normal or >> 1
-		2'b11: ACCC_MUX_PRE_A <= {REG21E, REG21D};
-	endcase
-end
-
 assign AD69 = ~|{AE131, ~CLKDIVD[6]};
 assign AE53 = ~&{AB178, CLKDIVD[6]};
 
 reg [15:0] ACCC_MUX;
 always @(*) begin
-	case({AD69, AE53})
-		2'b00: ACCC_MUX <= {7'd0, REG224[5] & ACCA[7], REG224[5] ? {ACCA[6:0], 1'b0} : ACCA[7:0]};
-		2'b01: ACCC_MUX <= {REG220, REG21F};
-		2'b10: ACCC_MUX <= ACCC_MUX_PRE_A;
-		2'b11: ACCC_MUX <= {REG217, REG216};
+	casex({AE131, AB178, AD69, AE53})
+		4'bxx00: ACCC_MUX <= {7'd0, REG224[5] ? {LFOB[7:0], 1'b0} : {1'b0, LFOB[7:0]}};	// Normal or << 1
+		4'bxx01: ACCC_MUX <= {REG220, REG21F};
+		4'b0010: ACCC_MUX <= {7'd0, REG224[1] ? {LFOA[7:0], 1'b0} : {1'b0, LFOA[7:0]}};	// Normal or << 1
+		4'b0110: ACCC_MUX <= {REG219, REG218};
+		4'b1010: ACCC_MUX <= AB103A ? {1'b0, CNTC[15:1]} : CNTC;	// Normal or >> 1
+		4'b1110: ACCC_MUX <= {REG21E, REG21D};
+		4'bxx11: ACCC_MUX <= {REG217, REG216};
 	endcase
 end
 
 wire [15:0] ACCC_MUX_XOR;
-assign ACCC_MUX_XOR = AE73 ? ~ACCC_MUX : ACCC_MUX;
+assign ACCC_MUX_XOR = ACCC_NEG ? ~ACCC_MUX : ACCC_MUX;
 
 reg [15:0] ACCC_PRE;
 always @(negedge CLKDIVD[0]) begin
-	ACCC_PRE <= AG113 ? (AE121 + ACCC_PRE + ACCC_MUX_XOR) : 16'd0;
+	ACCC_PRE <= nACCC_RES ? (ACCC_NEG + ACCC_PRE + ACCC_MUX_XOR) : 16'd0;
 end
 
 reg [14:0] ACCC;
@@ -429,10 +408,36 @@ always @(posedge AF117) begin
 				CLKDIVD[6];
 end
 
+// EXT MEM DATA
+
+reg AE145;
+always @(posedge CLKDIVD[1]) begin
+	AE145 <= CLKDIVD[4];
+end
+
+reg [15:0] ACCD_OUT_REG;
+always @(posedge AE145) begin
+	ACCD_OUT_REG <= ACCD;
+end
+
+assign AB98B = CLKDIV[6] ? REG224[4] : REG224[0];
+
+always @(*) begin
+	casex({REG22F_D4, CLKDIVD[4], AB98B, CLKDIVD[3]})
+		4'b0000: PIN_RD_OUT <= REGEEB[7:0];
+		4'b0001: PIN_RD_OUT <= REGEEB[15:8];
+		4'b0010: PIN_RD_OUT <= REGEFB[7:0];
+		4'b0011: PIN_RD_OUT <= REGEFB[15:8];
+		4'b01x0: PIN_RD_OUT <= ACCD_OUT_REG[7:0];
+		4'b01x1: PIN_RD_OUT <= ACCD_OUT_REG[15:8];
+		4'b1xxx: PIN_RD_OUT <= PIN_DB_IN;
+	endcase
+end
+
 // EXT MEM CONTROL
 
 assign AB103A = CLKDIV[6] ? REG224[6] : REG224[2];
-assign AB79 = AC74_CNT[0];	// Test not implemented
+assign AB79 = CNTC[0];	// Test not implemented
 
 assign AA120 = ~|{~AB103A, AB79};
 
@@ -471,7 +476,7 @@ assign W94 = PIN_NRD | nACCESS22D;
 
 reg X123;
 always @(posedge CLK or negedge nRES) begin
-	if (nRES)
+	if (!nRES)
 		X123 <= 1'b1;
 	else
 		X123 <= X124;
@@ -486,9 +491,9 @@ end
 assign X110 = ~REG22F_D4 | REG22E[7];
 assign Y109 = ~&{REG22F_D4, REG22E[7]};
 assign W95 = PIN_NWR | nACCESS22D;
-assign X118 = ~|{~|{~X120, ~X105}, ~|{W95, Y109}};
-assign PIN_RDWP = ~|{~|{X118, ~PIN_RRMD}, ~|{W95, X110}};
-assign RD_DIR = X118 & PIN_RDWP;
+assign PIN_RAWP = ~|{~|{~X120, ~X105}, ~|{W95, Y109}};
+assign PIN_RDWP = ~|{~|{PIN_RAWP, ~PIN_RRMD}, ~|{W95, X110}};
+assign RD_DIR = PIN_RAWP & PIN_RDWP;
 
 assign X122B = ~|{~|{PIN_USE2, PIN_NRD | nACCESS22D}, ~X123};
 assign W110 = ~|{~|{W100, PIN_USE2}, ~W111};
@@ -497,7 +502,7 @@ assign PIN_RA_EN = &{~REG22F_D4, ~TESTEN, X122B, W110};
 
 assign PIN_RACS = Y114 & (nACCESS22D | Y109);
 assign PIN_ROBS = &{~PIN_RRMD | (X124 & Y109), W100, X110};
-assign PIN_RAOE = ~|{Y109, W94} | ~|{X123, X103};
+assign PIN_RAOE = ~|{~|{Y109, W94}, ~|{X123, X103}};
 assign PIN_ROCS = ~&{~|{PIN_RACS, ~PIN_RRMD}, ~|{W101, W110}, ~|{X110, nACCESS22D}};
 assign PIN_ROOE = &{X110 | W94, W110, PIN_RAOE | ~PIN_RRMD};
 
@@ -705,7 +710,7 @@ end
 
 
 // REG224
-reg [6:0] REG224;
+reg [6:0] REG224 = 0;
 always @(*) begin
 	if (!nWR224)
 		REG224 <= PIN_DB_IN[6:0];
@@ -748,7 +753,7 @@ end
 
 reg REG22F_D0;
 reg REG22F_D1;
-reg REG22F_D4;
+reg REG22F_D4 = 0;
 reg REG22F_D5;
 always @(posedge nWR22F) begin
 	REG22F_D0 <= PIN_DB_IN[0];
@@ -1374,7 +1379,7 @@ end
 // Weird, same clock and same bus as above, but no reset
 reg [7:0] RD_REG2A;
 always @(posedge ~CLKDIVD[2]) begin
-		RD_REG2A <= PIN_RD_IN;
+	RD_REG2A <= PIN_RD_IN;
 end
 
 reg [7:0] RD_REG2B;
@@ -1695,6 +1700,7 @@ wire [30:0] ADDD_IN_A;
 assign D14 = ~TRIGF;
 assign ADDD_IN_A = D14 ? ~ADDD_IN_AMUX : ADDD_IN_AMUX;
 
+
 // ADDER C
 // V38A = 0: MUXD = 0, otherwise MUX2
 
@@ -1715,6 +1721,7 @@ assign ADDC = STEP + MUXAB_REG;
 
 wire [15:0] MUXD;
 assign MUXD = AA40 ? {RD_REGA, RD_REGB} : AA47 ? ADDC : 16'd0;
+
 
 // ADDER D
 
@@ -1942,53 +1949,34 @@ always @(*) begin
 	endcase
 end
 
+// FINAL OUTPUT PISO
 // AUX PISO
 
 reg [15:0] FRDL_SR;
-always @(negedge PIN_DTCK or negedge REG22F_D0) begin
-	if (!REG22F_D0)
-		FRDL_SR <= 16'd0;
-	else
-		FRDL_SR <= S11 ? {FRDL_SR[14:0], 1'b0} : REGED;
-end
-assign PIN_FRDL = FRDL_SR[15];
-
 reg [15:0] FRDT_SR;
-always @(negedge PIN_DTCK or negedge REG22F_D0) begin
-	if (!REG22F_D0)
-		FRDT_SR <= 16'd0;
-	else
-		FRDT_SR <= S11 ? {FRDT_SR[14:0], 1'b0} : REGEB;
-end
-assign PIN_FRDT = AH66 & FRDT_SR[15];
-
 reg [15:0] REDL_SR;
-always @(negedge PIN_DTCK or negedge REG22F_D0) begin
-	if (!REG22F_D0)
-		REDL_SR <= 16'd0;
-	else
-		REDL_SR <= S11 ? {REDL_SR[14:0], 1'b0} : REGED;
-end
-assign PIN_REDL = REDL_SR[15];
-
 reg [15:0] REDT_SR;
-always @(negedge PIN_DTCK or negedge REG22F_D0) begin
-	if (!REG22F_D0)
-		REDT_SR <= 16'd0;
-	else
-		REDT_SR <= S11 ? {REDT_SR[14:0], 1'b0} : REGEB;
-end
-assign PIN_REDT = AH66 & REDT_SR[15];
-
-// FINAL OUTPUT PISO
-
 reg [31:0] AXDT_SR;
 always @(negedge PIN_DTCK or negedge REG22F_D0) begin
-	if (!REG22F_D0)
+	if (!REG22F_D0) begin
+		FRDL_SR <= 16'd0;
+		FRDT_SR <= 16'd0;
+		REDL_SR <= 16'd0;
+		REDT_SR <= 16'd0;
 		AXDT_SR <= 32'd0;
-	else
+	end else begin
+		FRDL_SR <= S11 ? {FRDL_SR[14:0], 1'b0} : REGED;
+		FRDT_SR <= S11 ? {FRDT_SR[14:0], 1'b0} : REGEB;
+		REDL_SR <= S11 ? {REDL_SR[14:0], 1'b0} : REGED;
+		REDT_SR <= S11 ? {REDT_SR[14:0], 1'b0} : REGEB;
 		AXDT_SR <= S11 ? {AXDT_SR[30:0], 1'b0} : {REGEE, REGEF};
+	end
 end
+
+assign PIN_FRDL = FRDL_SR[15];
+assign PIN_FRDT = AH66 & FRDT_SR[15];
+assign PIN_REDL = REDL_SR[15];
+assign PIN_REDT = AH66 & REDT_SR[15];
 assign PIN_AXDT = AXDT_SR[31];
 
 endmodule

@@ -23,12 +23,14 @@ reg PIN_RRMD;
 reg PIN_ALRA;
 reg PIN_AXDA;
 reg PIN_USE2;
+reg PIN_DLY;
 
 integer i;
 
 k054539 dut(
 	.NRES(NRES),
 	.CLK(CLK),
+
 	.PIN_AB(PIN_AB),
 	.PIN_AB09(PIN_AB09),
 	.PIN_DB_IN(PIN_DB_IN),
@@ -36,14 +38,17 @@ k054539 dut(
 	.PIN_NCS(NCS),
 	.PIN_NRD(NRD),
 	.PIN_NWR(NWR),
+
 	.PIN_WAIT(PIN_WAIT),
 	.PIN_DTCK(PIN_DTCK),
 	.PIN_WDCK(PIN_WDCK),
 	.PIN_DTS1(PIN_DTS1),
 	.PIN_DTS2(PIN_DTS2),
+
 	.PIN_RA(PIN_RA),
 	.PIN_RD_IN(PIN_RD_IN),
 	.PIN_RD_OUT(PIN_RD_OUT),
+
 	.PIN_TIM(PIN_TIM),
 	.PIN_RRMD(PIN_RRMD),
 	.PIN_DLY(PIN_DLY),
@@ -51,14 +56,27 @@ k054539 dut(
 	.PIN_ALRA(PIN_ALRA),
 	.PIN_USE2(PIN_USE2),
 	.PIN_YMD(PIN_YMD),
+
 	.PIN_AXXA(PIN_AXXA),
 	.PIN_AXWA(PIN_AXWA),
 	.PIN_ADDA(PIN_ADDA),
+
 	.PIN_FRDL(PIN_FRDL),
 	.PIN_FRDT(PIN_FRDT),
 	.PIN_REDL(PIN_REDL),
 	.PIN_REDT(PIN_REDT),
-	.PIN_AXDT(PIN_AXDT)
+	.PIN_AXDT(PIN_AXDT),
+
+	.PIN_RACS(PIN_RACS),
+	.PIN_RAWP(PIN_RAWP),
+	.PIN_RAOE(PIN_RAOE)
+);
+
+RAM #(8, 8) extram(
+	.A(PIN_RA[7:0]),
+	.D(PIN_RD_OUT),
+	.Q(PIN_RD_IN),
+	.nWR(PIN_RAWP)
 );
 
 task write_reg;
@@ -82,7 +100,10 @@ end
 initial begin
 	$dumpfile("k054539.vcd");
 	$dumpvars(-1, tb);
-
+					 
+	PIN_RRMD <= 1'b0;
+	PIN_DLY <= 1'b0;
+	PIN_DB_IN <= 8'd0;
 	PIN_DTS1 <= 1'b1;
 	PIN_DTS2 <= 1'b0;
 	NCS <= 1'b1;
@@ -96,9 +117,14 @@ initial begin
 
 	#10	write_reg(10'h50, 8'h11);
 	#8	write_reg(10'h51, 8'h22);
-	#20	write_reg(10'h210, 8'h55);
 
-	#2000 $display("OK");
+	#20	write_reg(10'h21B, 8'h10);
+	#20	write_reg(10'h21C, 8'h15);
+
+	#20	write_reg(10'h222, 8'h06);
+	#20	write_reg(10'h223, 8'h13);
+
+	#5000 $display("OK");
 	$finish;
 end
 
