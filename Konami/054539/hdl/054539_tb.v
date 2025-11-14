@@ -20,10 +20,12 @@ wire [23:0] PIN_RA;
 wire [7:0] PIN_RD_IN;
 wire [7:0] PIN_RD_OUT;
 reg PIN_RRMD;
+reg PIN_ADDA;
 reg PIN_ALRA;
 reg PIN_AXDA;
 reg PIN_USE2;
 reg PIN_DLY;
+reg PIN_YMD;
 
 integer i;
 
@@ -101,8 +103,11 @@ initial begin
 	$dumpfile("k054539.vcd");
 	$dumpvars(-1, tb);
 					 
+	PIN_YMD <= 1'b0;
 	PIN_RRMD <= 1'b0;
+	PIN_ADDA <= 1'b0;
 	PIN_DLY <= 1'b0;
+	PIN_USE2 <= 1'b1;
 	PIN_DB_IN <= 8'd0;
 	PIN_DTS1 <= 1'b1;
 	PIN_DTS2 <= 1'b0;
@@ -117,6 +122,9 @@ initial begin
 
 	#10	write_reg(10'h50, 8'h11);
 	#8	write_reg(10'h51, 8'h22);
+
+	#20	write_reg(10'h227, 8'hFC);
+	#20	write_reg(10'h22F, 8'b00100000);
 
 	#20	write_reg(10'h21B, 8'h10);
 	#20	write_reg(10'h21C, 8'h15);

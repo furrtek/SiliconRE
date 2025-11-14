@@ -368,10 +368,10 @@ end
 
 assign ACCC_NEG = ~&{AE119, AE120};
 
+assign AB103A = CLKDIV[6] ? REG224[6] : REG224[2];
+
 assign AE131 = ~&{CLKDIVD[3], ~CLKDIVD[4]};
 assign AB178 = CLKDIVD[3] & CLKDIVD[1];
-
-assign AB103A = CLKDIV[6] ? REG224[6] : REG224[2];
 
 assign AD69 = ~|{AE131, ~CLKDIVD[6]};
 assign AE53 = ~&{AB178, CLKDIVD[6]};
@@ -454,10 +454,11 @@ always @(posedge nCLKDIVD16 or negedge nRES) begin
 end
 
 assign W93 = ~CLKDIVD[8] | ~W92;
+assign Y117 = CLKDIVD[2] | W93;
 
 reg X124, W99, W112;
 always @(negedge CLKDIV[1]) begin
-	X124 <= CLKDIVD[2] | W93;
+	X124 <= Y117;
 	W99 <= ~|{~CLKDIVD[2], ~MUX_ACTIVE, CLKDIVD[4], CLKDIV[8], REG22F_D4};
 	W112 <= W100;
 end
@@ -501,7 +502,8 @@ assign TESTEN = 1'b0;
 assign PIN_RA_EN = &{~REG22F_D4, ~TESTEN, X122B, W110};
 
 assign PIN_RACS = Y114 & (nACCESS22D | Y109);
-assign PIN_ROBS = &{~PIN_RRMD | (X124 & Y109), W100, X110};
+assign PIN_RABS = Y117 & Y109;
+assign PIN_ROBS = &{~PIN_RRMD | PIN_RABS, W100, X110};
 assign PIN_RAOE = ~|{~|{Y109, W94}, ~|{X123, X103}};
 assign PIN_ROCS = ~&{~|{PIN_RACS, ~PIN_RRMD}, ~|{W101, W110}, ~|{X110, nACCESS22D}};
 assign PIN_ROOE = &{X110 | W94, W110, PIN_RAOE | ~PIN_RRMD};
@@ -532,7 +534,7 @@ always @(posedge CLKDIVD[6] or negedge REG22F_D5) begin
 	if (!REG22F_D5) begin
 		X5 <= 1'b0;
 	end else begin
-		X5 <= TIMER_TC ^ PIN_TIM;
+		X5 <= TIMER_TC ^ X5;
 	end                                                                                                    
 end
 
@@ -556,7 +558,7 @@ always @(posedge IRAM_INT) begin
 end
 
 assign PIN_DB_OUT = PIN_AB09 ? PIN_AB[0] ? PIN_RD_IN : CH_ACTIVE : IRAM_OUT_REG;
-assign PIN_DB_DIR = PIN_NCS | PIN_NRD;
+assign PIN_DB_DIR = PIN_NCS | PIN_NRD;	// Low: PIN_DB are outputs
 
 // EXT RAM ADDRESS
 
@@ -638,75 +640,29 @@ assign nACCESS22D = ~&{PIN_AB[2:0] == 3'd5, ~REGDECTOP[5]};
 
 // Registers
 
-// REG216
-reg [7:0] REG216;
-always @(*) begin
-	if (!nWR216)
-		REG216 <= ~PIN_DB_IN;
-end
+wire [7:0] REG216;
+wire [7:0] REG217;
+wire [7:0] REG218;
+wire [7:0] REG219;
+wire [7:0] REG21A;
 
-// REG217
-reg [7:0] REG217;
-always @(*) begin
-	if (!nWR217)
-		REG217 <= ~PIN_DB_IN;
-end
+REG8 R216(nWR216, ~PIN_DB_IN, REG216);
+REG8 R217(nWR217, ~PIN_DB_IN, REG217);
+REG8 R218(nWR218, ~PIN_DB_IN, REG218);
+REG8 R219(nWR219, ~PIN_DB_IN, REG219);
+REG8 R21A(nWR21A, ~PIN_DB_IN, REG21A);
 
-// REG218
-reg [7:0] REG218;
-always @(*) begin
-	if (!nWR218)
-		REG218 <= ~PIN_DB_IN;
-end
+wire [7:0] REG21D;
+wire [7:0] REG21E;
+wire [7:0] REG21F;
+wire [7:0] REG220;
+wire [7:0] REG221;
 
-// REG219
-reg [7:0] REG219;
-always @(*) begin
-	if (!nWR219)
-		REG219 <= ~PIN_DB_IN;
-end
-
-// REG21A
-reg [7:0] REG21A;
-always @(*) begin
-	if (!nWR21A)
-		REG21A <= ~PIN_DB_IN;
-end
-
-// REG21D
-reg [7:0] REG21D;
-always @(*) begin
-	if (!nWR21D)
-		REG21D <= ~PIN_DB_IN;
-end
-
-// REG21E
-reg [7:0] REG21E;
-always @(*) begin
-	if (!nWR21E)
-		REG21E <= ~PIN_DB_IN;
-end
-
-// REG21F
-reg [7:0] REG21F;
-always @(*) begin
-	if (!nWR21F)
-		REG21F <= ~PIN_DB_IN;
-end
-
-// REG220
-reg [7:0] REG220;
-always @(*) begin
-	if (!nWR220)
-		REG220 <= ~PIN_DB_IN;
-end
-
-// REG221
-reg [7:0] REG221;
-always @(*) begin
-	if (!nWR221)
-		REG221 <= ~PIN_DB_IN;
-end
+REG8 R21D(nWR21D, ~PIN_DB_IN, REG21D);
+REG8 R21E(nWR21E, ~PIN_DB_IN, REG21E);
+REG8 R21F(nWR21F, ~PIN_DB_IN, REG21F);
+REG8 R220(nWR220, ~PIN_DB_IN, REG220);
+REG8 R221(nWR221, ~PIN_DB_IN, REG221);
 
 
 // REG224
@@ -903,10 +859,8 @@ end
 wire [15:0] MUXG_PRE;
 assign MUXG_PRE = AJ94 ? MUXH : AXWORD;
 
-assign AJ93B = ~AJ57;
-
 wire [15:0] MUXG;
-assign MUXG = AJ93B ? MUXG_PRE : MUXF_REG;
+assign MUXG = AJ57 ? MUXF_REG : MUXG_PRE;
 
 // MUL B
 
@@ -1361,7 +1315,7 @@ end
 // EXT DATA REGISTERS
 
 reg [7:0] RD_REGA;
-always @(posedge ~CLKDIVD[2] or negedge MUX_ACTIVE) begin
+always @(negedge CLKDIVD[2] or negedge MUX_ACTIVE) begin
 	if (!MUX_ACTIVE)
 		RD_REGA <= 8'd0;
 	else
@@ -1369,7 +1323,7 @@ always @(posedge ~CLKDIVD[2] or negedge MUX_ACTIVE) begin
 end
 
 reg [7:0] RD_REGB;
-always @(posedge ~CLKDIVD[2] or negedge DTYPE[0]) begin
+always @(negedge CLKDIVD[2] or negedge DTYPE[0]) begin
 	if (!DTYPE[0])
 		RD_REGB <= 8'd0;
 	else
@@ -1378,12 +1332,9 @@ end
 
 // Weird, same clock and same bus as above, but no reset
 reg [7:0] RD_REG2A;
-always @(posedge ~CLKDIVD[2]) begin
-	RD_REG2A <= PIN_RD_IN;
-end
-
 reg [7:0] RD_REG2B;
-always @(posedge ~CLKDIVD[2]) begin
+always @(negedge CLKDIVD[2]) begin
+	RD_REG2A <= PIN_RD_IN;
 	RD_REG2B <= RD_REG2A;
 end
 
@@ -1587,27 +1538,18 @@ assign R89 = R88 & LOOPFLAG;
 // ADDER A (phase accumulation ?)
 
 reg [23:0] ADDA_LAT_A;	// Should be delta value read from IRAM
-
 always @(*) begin
 	if (!MUX_ACTIVE) begin
-		ADDA_LAT_A[15:0] <= 16'd0;
+		ADDA_LAT_A[23:0] <= 24'd0;
 	end else begin
 		if (!TRIGP[6])
 			ADDA_LAT_A[15:0] <= {RAMA_DO, RAMB_DO};
-	end
-end
-
-always @(*) begin
-	if (!MUX_ACTIVE) begin
-		ADDA_LAT_A[23:16] <= 8'd0;
-	end else begin
-		if (!TRIGP[7])
+		else if (!TRIGP[7])
 			ADDA_LAT_A[23:16] <= RAMB_DO;
 	end
 end
 
 reg [39:0] ADDA_LAT_B;	// Should be current accumulator value read, modified, stored in IRAM
-
 always @(*) begin
 	if (!R88) begin
 		ADDA_LAT_B[15:0] <= 16'd0;
@@ -1619,19 +1561,12 @@ end
 
 always @(*) begin
 	if (!R89) begin
-		ADDA_LAT_B[31:16] <= 16'd0;
-	end else begin
-		if (!TRIGP[4])
-			ADDA_LAT_B[31:16] <= {RAMA_DO, RAMB_DO};
-	end
-end
-
-always @(*) begin
-	if (!R89) begin
-		ADDA_LAT_B[39:32] <= 8'd0;
+		ADDA_LAT_B[39:16] <= 24'd0;
 	end else begin
 		if (!TRIGP[1])
 			ADDA_LAT_B[39:32] <= RAMA_DO;
+		else if (!TRIGP[4])
+			ADDA_LAT_B[31:16] <= {RAMA_DO, RAMB_DO};
 	end
 end
 
@@ -1653,7 +1588,7 @@ always @(posedge ~CLKDIVD[4]) begin
 end
 
 reg [2:0] SR_S1 = 0;
-always @(posedge ~PIN_DTCK) begin
+always @(negedge PIN_DTCK) begin
 	PIN_WDCK <= SR_WDCK[2];
 	SR_S1 <= {SR_S1[1:0], SR_H3[2]};
 end
@@ -1685,9 +1620,7 @@ reg [30:0] MUX_LAT2;
 always @(*) begin
 	if (!TRIGP[12])
 		MUX_LAT2[30:15] <= {RAMA_DO, RAMB_DO};
-end
-always @(*) begin
-	if (!TRIGP[11])
+	else if (!TRIGP[11])
 		MUX_LAT2[14:0] <= {RAMA_DO, RAMB_DO[7:1]};
 end
 
@@ -1697,8 +1630,7 @@ assign ADDD_IN_AMUX = F3 ?
 			F17 ? MUX_LAT2 : {ADDE, MULA_LAT[13:7]};
 
 wire [30:0] ADDD_IN_A;
-assign D14 = ~TRIGF;
-assign ADDD_IN_A = D14 ? ~ADDD_IN_AMUX : ADDD_IN_AMUX;
+assign ADDD_IN_A = TRIGF ? ADDD_IN_AMUX : ~ADDD_IN_AMUX;
 
 
 // ADDER C
@@ -1709,11 +1641,10 @@ assign AA47 = ~|{~AA50, ~V38A};
 
 reg [15:0] MUXAB_REG;
 always @(posedge R89 or negedge TRIGP[9]) begin
-	if (!TRIGP[9]) begin
+	if (!TRIGP[9])
 		MUXAB_REG <= 16'd0;
-	end else begin
+	else
 		MUXAB_REG <= {RAMA_DO, RAMB_DO};
-	end
 end
 
 wire [15:0] ADDC;
@@ -1762,6 +1693,19 @@ end
 
 
 // TRIGGERS
+
+wire [3:0] H58;
+DEC2 H58Cell(
+	CLKDIVD[4:3],
+	H58
+);
+
+assign F118 = ~|{CLK, H58[0]};
+assign J70 = ~|{CLK, H58[1]};
+assign H57 = ~|{CLK, H58[2]};
+assign H61B = ~|{CLK, H58[3]};
+
+assign H61A = ~&{H61B, CLKDIVD[2:0] == 3'b010};
 
 reg [14:0] TRIGP;
 always @(*) begin
@@ -1831,19 +1775,6 @@ always @(posedge CLKDIVD[0]) begin
 end
 
 assign TRIGH = CLKDIV[1] ^ E54;
-
-wire [3:0] H58;
-DEC2 H58Cell(
-	CLKDIVD[4:3],
-	H58
-);
-
-assign F118 = ~|{CLK, H58[0]};
-assign J70 = ~|{CLK, H58[1]};
-assign H57 = ~|{CLK, H58[2]};
-assign H61B = ~|{CLK, H58[3]};
-
-assign H61A = ~&{H61B, CLKDIVD[2:0] == 3'b010};
 
 reg [15:0] LAT_H40;
 always @(*) begin

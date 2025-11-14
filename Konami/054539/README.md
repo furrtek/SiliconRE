@@ -11,7 +11,7 @@
  Metamorphic Force, Martial Champions, Mystic Warriors, Gaiapolis, Violent Storm, Monster Maulers, ...
  * Chip donator: Own
 
-External reverb RAM, address and data bus shared with PCM samples ROM. Can work in pairs.
+External reverb RAM, address and data bus shared with PCM samples ROM. Can work in pairs (only sync is offset /reset).
 Can reverb RAM be shared ?
 
 Pinout from Racing Force schematics.
@@ -19,12 +19,11 @@ Pinout from Racing Force schematics.
 Channel data in 00~FF is stored in two 128-byte odd/even RAM blocks with full read/write access. Several addresses are used for internal storage of channel state and values. Access slots are tightly interleaved (1/4) so there's no CPU access delay.
 The current internal RAM access address comes from a lookup table stored in ROM A, which is read in a linear way during a 384-cycle (32 * 12) period.
 
-Samplerate:
-Racing Force TOPCK = 18MHz
-Soccer Superstars = 18.43200MHz
+Soccer Superstars, Metamorphic Force CLK = 18.43200MHz
+Output rate = CLK / 384 = 48kHz
 
-ROMA: 384 * 7 bits
-ROMB: 192 * 16 bits
+ROMA: 384 * 7 bits, data dumped from chip
+ROMB: 192 * 16 bits, data dumped from chip
 
 MULA: 8 * 16 = 24 LSB
 MULB: 16 * 16 = 16 MSB
@@ -106,10 +105,10 @@ Two 8-bit test registers set to DB[7:0] by posedge on TS1 and TS2 pins, which ar
 
 ## TESTREG1
 
-Bit 0: Forces S109 = S121 = 1.
-Bit 1: Forces S109 = S121 = 1. MULB test.
-Bit 2: Forces S109 = S121 = 1.
-Bit 3: Forces S109 = S121 = 1. MULA test.
+Bit 0: ROMA readout.
+Bit 1: MULB test.
+Bit 2: ROMB readout.
+Bit 3: MULA test.
 Bit 4: Forces S109 = S121 = 1.
 Bit 5: Forces S109 = S121 = 1.
 Bit 6: Uses pins RRMD, ADDA, and USE2 as alternate inputs for ?.
@@ -243,10 +242,11 @@ External RAM data:
   * Bit 1: Double LFO A range
   * Bit 2: Halve CNTC for period A
   * Bit 5: Double LFO B range
-  * Bit 6: Halve CNTC for period A
+  * Bit 6: Halve CNTC for period B
 * 225: Bits 0, 1, 4, 5 used
 * 226: Doesn't exist
 * 227: Timer counter load value, toggles TIM output when it overflows (if enabled)
+fTIM = CLK / 256 / (255 - REG227)
 
 * 228: Bits [6:0] used
 * 229: Bits [6:0] used
@@ -259,6 +259,10 @@ External RAM data:
 * 22F: General control (Enable, timer, ...)
   * Bit 0: Active-low mute for all digital outputs
   * Bit 1: ?
-  * Bit 4: Reset internal address counter for ROM/RAM test
+  * Bit 4: Low: reset internal address counter for ROM/RAM test
   * Bit 5: Low: disable TIM output (keep high), force timer counter load with value from 227
   * Bit 7: Disable internal RAM internal updates
+
+MF k054539 #1 (5F): wpset e000,400,wr
+MF k054539 #2 (5E): wpset e400,400,wr
+
