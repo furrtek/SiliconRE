@@ -1,5 +1,7 @@
 // Konami 054539 testboard firmware for Mega2560
 
+// TODO: Check DTAC output after internal RAM write
+
 #include <Wire.h>
 #include <stdlib.h>
 #include <string.h>

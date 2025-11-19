@@ -74,12 +74,16 @@ k054539 dut(
 	.PIN_RAOE(PIN_RAOE)
 );
 
+wire [7:0] EXTRAM_OUT;
 RAM #(8, 8) extram(
 	.A(PIN_RA[7:0]),
 	.D(PIN_RD_OUT),
-	.Q(PIN_RD_IN),
+	.Q(EXTRAM_OUT),
 	.nWR(PIN_RAWP)
 );
+
+// ROM data fixed to 0x15 DEBUG
+assign PIN_RD_IN = (PIN_RACS | PIN_RAOE) ? 8'h15 : EXTRAM_OUT;
 
 task write_reg;
 input [9:0] address;
@@ -121,7 +125,7 @@ initial begin
     #10 NRES <= 1'b1;
 
 	#10	write_reg(10'h50, 8'h11);
-	#8	write_reg(10'h51, 8'h22);
+	#6	write_reg(10'h51, 8'h22);
 
 	#20	write_reg(10'h227, 8'hFC);
 	#20	write_reg(10'h22F, 8'b00100000);
@@ -131,6 +135,28 @@ initial begin
 
 	#20	write_reg(10'h222, 8'h06);
 	#20	write_reg(10'h223, 8'h13);
+
+	// Set up channel 0
+	#100
+	#20 write_reg(10'h0, 8'h23);	// Pitch LSB
+	#20 write_reg(10'h1, 8'h01);	// Pitch mid
+	#20 write_reg(10'h2, 8'h00);	// Pitch MSB
+	#20 write_reg(10'h3, 8'h00);	// Volume (max)
+	#20 write_reg(10'h4, 8'h00);	// Reverb volume (max)
+	#20 write_reg(10'h5, 8'h10);	// Pan (center)
+	#20 write_reg(10'h6, 8'h00);	// Reverb delay LSB
+	#20 write_reg(10'h7, 8'h00);	// Reverb delay MSB
+	#20 write_reg(10'h8, 8'h00);	// Loop LSB
+	#20 write_reg(10'h9, 8'h00);	// Loop mid
+	#20 write_reg(10'hA, 8'h00);	// Loop MSB
+	#20 write_reg(10'hB, 8'h00);
+	#20 write_reg(10'hC, 8'h00);	// Start LSB
+	#20 write_reg(10'hD, 8'h00);	// Start mid
+	#20 write_reg(10'hE, 8'h00);	// Start MSB
+
+	#20 write_reg(10'h200, 8'h00);	// Type 0, no reverse
+	#20 write_reg(10'h201, 8'h00);	// No loop
+	#20 write_reg(10'h214, 8'h01);	// Key on CH0
 
 	#5000 $display("OK");
 	$finish;

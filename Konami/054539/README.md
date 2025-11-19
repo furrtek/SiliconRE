@@ -59,22 +59,20 @@ Doesn't actually change anything though, so I'm leaving them as they are on the 
 
 # Adders
 
-ADDERA 40-bit pitch accumulator ? Value is stored in internal RAM
-ADDA[39:32]	RAMA
-ADDA[31:24]	RAMA
-ADDA[23:16]	RAMB
-ADDA[15:8]	RAMA
-ADDA[7:0]	RAMB
-Adds {0, 0, MUXB, MUXA, MUXB} (24 bits, probably pitch delta) to {MUXA, MUXA, MUXB, MUXA, MUXB} (40 bits)
-Top 24 bits of {MUXA, MUXA, MUXB, MUXA, MUXB} used as address offset
+ADDER A is used for each channel's 40-bit fractional accumulator (sample ROM address offset from channel pitch parameter).
+ADDA[39:32]	is stored in RAMA (address offset 0x0f)
+ADDA[31:24]	is stored in RAMA (address offset 0x11)
+ADDA[23:16]	is stored in RAMB (address offset 0x10)
+ADDA[15:8]	is stored in RAMA (address offset 0x13)
+ADDA[7:0]	is stored in RAMB (address offset 0x12)
+Channel pitch parameter (24 bits) is added to the channel's current accumualtor value (40 bits) and stored back.
+The top 24 bits are used for the sample ROM address offset, after shifting depending on the channel's data type parameter.
 
-ADDERB 24-bit adds channel start address or loop point (BASE[23:0]) + offset for ext address output (OFFS[23:0]).
+ADDER B is 24-bit, it adds the channel's start address or loop point (BASE[23:0]) + offset for ext address output (OFFS[23:0]).
 
 OFFS[23:0] comes from ADDA_LAT_B[23:0] (inverted, or shifted depending on data format and reverse flag).
 
-{RD_REG[7:0], RD_REG2[7:0]} can go to MUXD[15:0].
-
-ADDERC 16-bit accumulates sample value with delta STEP[15:0] + {RAMA, RAMB}.
+ADDER C 16-bit accumulates the sample value with delta STEP[15:0] + {RAMA, RAMB} if channel data type is set to DPCM.
 
 MUXD[15:0] is the sample value from ADDERC accumulator or directly from RAM: {RD_REG[7:0], RD_REG2[7:0]}.
 
@@ -122,35 +120,9 @@ Bit 2: Forces S109 = S121 = 1.
 Bit 3: Splits internal address counter in 4 blocks, clocks them with CLKDIV2D.
 Bit 4: Forces S109 = S121 = 1.
 
-# Registers
-
-Some infos from MAME.
-
-Registers 200, 202, 204, 206, 208, 20A, 20C, 20E, 210, 211, 212, 213 (8 + 4 channels) bits [7:6] get muxed to W67.
-Registers 200, 202, 204, 206, 208, 20A, 20C, 20E (8 channels) bits 5 get muxed to X84 (REVERSE).
-Registers 200, 202, 204, 206, 208, 20A, 20C, 20E (8 channels) bits 4 get muxed to Z73 (DTYPE2).
-Registers 200, 202, 204, 206, 208, 20A, 20C, 20E (8 channels) bits 3 get muxed to Y57 (DTYPE1).
-Registers 200, 202, 204, 206, 208, 20A, 20C, 20E (8 channels) bits 2 get muxed to Y61 (DTYPE0).
-Registers 200, 202, 204, 206, 208, 20A, 20C, 20E, 210, 211, 212, 213 (8 + 4 channels) bits 1 get muxed to W62.
-Registers 200, 202, 204, 206, 208, 20A, 20C, 20E, 210, 211, 212, 213 (8 + 4 channels) bits 0 get muxed to X60.
-
-CLKDIV512 ________####
-CLKDIV256 ____####____
-CLKDIV128 __##__##__##
-CLKDIV64  _#_#_#_#_#_#
-Order of reg mux: 212, 213, 200, 202, 204, 206, 208, 20A, 20C, 20E, 210, 211
-So the cycle is: (212, 213, CH0, CH1, CH2, CH3, CH4, CH5, CH6, CH7, 210, 211)
-
-CLKDIV256 ____####
-CLKDIV128 __##__##
-CLKDIV64  _#_#_#_#
-Order of reg mux: 201, 203, 205, 207, 209, 20B, 20D, 20F
-Registers 201, 203, 205, 207, 209, 20B, 20D, 20F bits 0 get muxed to Z29 (LOOPFLAG).
-Registers 20F, 201, 203, 205, 207, 209, 20B, 20D bits [5:4] get muxed to MUXBIT[5:4].
-
 # Effects
 
-Reverb obviously. Maybe flanger too ? See ACCA / ACCB, which are ping-pong up/down incremental counters ticked at a programmable rate.
+Reverb obviously. Maybe flanger too ? See LFOA / LFOB, which are ping-pong up/down counters ticked at a programmable rate.
 
 # Internal RAM
 
@@ -199,7 +171,29 @@ External RAM data:
 * ACCD[7:0]
 * ACCD[15:8]
 
-* 00~FF: Eight 20-byte channel parameters
+# Channel data type
+
+Set by even registers 200~20E bits [4:2].
+* 0: direct address offset	RD_REGB=0	8-bit PCM sample
+* 1: address offset << 1				16-bit PCM sample
+* 2: address offset >> 1	RD_REGB=0	4-bit DPCM	STEP = {DPCM_STEP[7:0], 8'd0} (max step size)
+* 3: address offset << 1    *						STEP = {DPCM_STEP[7:0], 8'd0} (max step size)
+* 4: address offset >> 1	RD_REGB=0	4-bit DPCM 	STEP = {DPCM_STEP[7]x4, DPCM_STEP[7:0], 4'd0} (max step size >> 4)
+* 5: address offset << 1	*						STEP = {DPCM_STEP[7]x4, DPCM_STEP[7:0], 4'd0} (max step size >> 4)
+* 6: address offset >> 1	RD_REGB=0	4-bit DPCM 	STEP = {DPCM_STEP[7]x8, DPCM_STEP[7:0]} (max step size >> 8)
+* 7: address offset << 1	*						STEP = {DPCM_STEP[7]x8, DPCM_STEP[7:0]} (max step size >> 8)
+
+The different DPCM step size settings are maybe to allow compromises between noise floor and frequency response ? Larger steps = higher noise but better high frequencies.
+
+*: 4-bit DPCM in 16-bit values ? What's the point ? Maybe those aren't meant to be used.
+
+# Registers
+
+Some infos from MAME.
+
+Register addresses assume {A[9], A[7:0]} are used, not A[8] (nothing in 100~1FF).
+
+* 00~FF: Eight 32-byte channel parameters, these go into internal RAM. Values 0F~1F used for internal stuff but should be R/Wable by CPU like the rest.
   * 00~02: Pitch
   * 03: Volume
   * 04: Reverb volume
@@ -208,20 +202,17 @@ External RAM data:
   * 08~0A: Loop position
   * 0C~0E: Start position
 
-* 100~1FF: Effects ?
-  * 13F: Analog input pan ?
-
-* 200~20F: Eight 2-byte channel control
+* 200~20F: Eight 2-byte channel control, these are dedicated registers.
   * 00: Data type (b2-3), reverse (b5)
-  * 01: Loop flag
-  * Silicon: even registers use all bits
+  * 01: Loop flag (b0)
+  * Silicon: even registers use all bits, [1:0] select which of registers 228/229/22A/22B to use for volume ?, [4] part of data type, [7:6] are related to panning (top bit of ROMB panning tables address)
     * Test mode ? PIN_AXDA PISO can be loaded with {REG200, REG202, REG204, REG206}
   * Silicon: odd registers use bits 0, 2, 4, 5
 
-* 210: Bits 0, 1, 6, 7 used
-* 211: Bits 0, 1, 6, 7 used
-* 212: Bits 0, 1, 6, 7 used
-* 213: Bits 0, 1, 6, 7 used
+* 210: Bits 0, 1, 6, 7 used, same as even registers 200~20E (see above)
+* 211: Bits 0, 1, 6, 7 used, same as even registers 200~20E (see above)
+* 212: Bits 0, 1, 6, 7 used, same as even registers 200~20E (see above)
+* 213: Bits 0, 1, 6, 7 used, same as even registers 200~20E (see above)
 
 * 214: Key on
 * 215: Key off
@@ -248,13 +239,13 @@ External RAM data:
 * 227: Timer counter load value, toggles TIM output when it overflows (if enabled)
 fTIM = CLK / 256 / (255 - REG227)
 
-* 228: Bits [6:0] used
-* 229: Bits [6:0] used
-* 22A: Bits [6:0] used
-* 22B: Bits [6:0] used
+* 228: Bits [6:0] used, ROMB address, volume setting
+* 229: Bits [6:0] used, ROMB address, volume setting
+* 22A: Bits [6:0] used, ROMB address, volume setting
+* 22B: Bits [6:0] used, ROMB address, volume setting
 
 * 22C: Channel active flags ?
-* 22D: Data r/w port (for POSTs ?)
+* 22D: Data r/w port for external memory
 * 22E: Bits [7:0] used, bit 7 selects ROM/RAM, bits [6:0] are top address bits for CPU access (POST), bits [16:0] come from an internal up-counter clocked by accesses to register 22D.
 * 22F: General control (Enable, timer, ...)
   * Bit 0: Active-low mute for all digital outputs
