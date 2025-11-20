@@ -1,6 +1,16 @@
 // Konami 054539 testbench
 // furrtek 2025
 
+// OK: Check that CH0 frac counter works given pitch value
+// OK: Check that sample ROM access address is correct
+// OK: ROM control signals
+
+// For CH0 (beginning of pulse group), # = 1 clk:
+// DTCK ######______######___
+// ROCS #######___#####___###
+// ROOE ######____####____###
+// ROBS ##____####____#######
+
 `include "054539.v"
 
 module tb();
@@ -71,7 +81,10 @@ k054539 dut(
 
 	.PIN_RACS(PIN_RACS),
 	.PIN_RAWP(PIN_RAWP),
-	.PIN_RAOE(PIN_RAOE)
+	.PIN_RAOE(PIN_RAOE),
+
+	.PIN_ROCS(PIN_ROCS),
+	.PIN_ROOE(PIN_ROOE)
 );
 
 wire [7:0] EXTRAM_OUT;
@@ -82,8 +95,10 @@ RAM #(8, 8) extram(
 	.nWR(PIN_RAWP)
 );
 
-// ROM data fixed to 0x15 DEBUG
-assign PIN_RD_IN = (PIN_RACS | PIN_RAOE) ? 8'h15 : EXTRAM_OUT;
+// ROM data fixed to 0x15 + A DEBUG
+wire [7:0] ROM_Q = 8'h15 + PIN_RA[7:0];
+
+assign PIN_RD_IN = (PIN_RACS | PIN_RAOE) ? (PIN_ROCS | PIN_ROOE) ? 8'h00 : ROM_Q : EXTRAM_OUT;	// 00 should be zzzzzzzz but avoids having Xs in IRAM in simulation
 
 task write_reg;
 input [9:0] address;
@@ -99,6 +114,18 @@ begin
 end
 endtask
 
+task read_reg;
+input [9:0] address;
+begin
+    #5 {PIN_AB09, PIN_AB} <= {address[9], address[7:0]};
+
+    #1 NCS <= 1'b0;
+    #2 NRD <= 1'b0;
+    #15 NRD <= 1'b1;
+    #1 NCS <= 1'b1;
+end
+endtask
+
 always @(*) begin
 	#1 CLK <= ~CLK;
 end
@@ -106,11 +133,11 @@ end
 initial begin
 	$dumpfile("k054539.vcd");
 	$dumpvars(-1, tb);
-					 
+
 	PIN_YMD <= 1'b0;
 	PIN_RRMD <= 1'b0;
 	PIN_ADDA <= 1'b0;
-	PIN_DLY <= 1'b0;
+	PIN_DLY <= 1'b1;
 	PIN_USE2 <= 1'b1;
 	PIN_DB_IN <= 8'd0;
 	PIN_DTS1 <= 1'b1;
@@ -124,22 +151,35 @@ initial begin
 	PIN_AB <= 8'd0;
     #10 NRES <= 1'b1;
 
+	// Enable ROM readout
+	#10	write_reg(10'h22f, 8'b00010000);
+	#10	write_reg(10'h22e, 8'h00);	// ROM bank 0
+
+	#20	read_reg(10'h22d);
+
+	// Disable ROM readout, enable PCM
+	#10	write_reg(10'h22f, 8'b00000001);
+
+	// Internal RAM write test
 	#10	write_reg(10'h50, 8'h11);
 	#6	write_reg(10'h51, 8'h22);
 
+	// Set up timer, enable timer and PCM
 	#20	write_reg(10'h227, 8'hFC);
-	#20	write_reg(10'h22F, 8'b00100000);
+	#20	write_reg(10'h22F, 8'b00100001);
 
+	// LFO A
 	#20	write_reg(10'h21B, 8'h10);
 	#20	write_reg(10'h21C, 8'h15);
 
+	// LFO B
 	#20	write_reg(10'h222, 8'h06);
 	#20	write_reg(10'h223, 8'h13);
 
 	// Set up channel 0
 	#100
-	#20 write_reg(10'h0, 8'h23);	// Pitch LSB
-	#20 write_reg(10'h1, 8'h01);	// Pitch mid
+	#20 write_reg(10'h0, 8'h87);	// Pitch LSB
+	#20 write_reg(10'h1, 8'hA9);	// Pitch mid
 	#20 write_reg(10'h2, 8'h00);	// Pitch MSB
 	#20 write_reg(10'h3, 8'h00);	// Volume (max)
 	#20 write_reg(10'h4, 8'h00);	// Reverb volume (max)

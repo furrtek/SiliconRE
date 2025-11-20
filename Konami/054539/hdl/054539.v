@@ -262,8 +262,8 @@ always @(posedge D122) begin
 	nAXDMUX_REGB1 <= nAXDMUX;
 end
 
-reg [15:0] nAXDMUX_REGA2;
-reg [15:0] nAXDMUX_REGB2;
+reg [15:0] nAXDMUX_REGA2 = ~0;
+reg [15:0] nAXDMUX_REGB2 = ~0;
 always @(posedge E110) begin
 	nAXDMUX_REGA2 <= nAXDMUX_REGA1;
 	nAXDMUX_REGB2 <= nAXDMUX_REGB1;
@@ -296,46 +296,28 @@ LFO CB(
 
 // D LATCHES and MUX F
 
-reg [30:0] DLAT_A;
+reg [30:0] DLAT_A = 0;
 always @(*) begin
 	if (!D8)
 		DLAT_A <= ADDD;
 end
 
-reg [30:0] DLAT_B;
+reg [30:0] DLAT_B = 0;
 always @(*) begin
 	if (!TRIGD)
 		DLAT_B <= ADDD;
 end
 
-reg [30:0] DLAT_C;
+reg [30:0] DLAT_C = 0;
 always @(*) begin
 	if (!TRIGA)
 		DLAT_C <= ADDD;
 end
 
-reg [30:0] DLAT_D;
+reg [30:0] DLAT_D = 0;
 always @(*) begin
 	if (!TRIGF)
 		DLAT_D <= ADDD;
-end
-
-reg [7:0] ALAT;
-reg [7:0] BLAT;
-always @(*) begin
-	if (!TRIGP[14]) begin
-		ALAT <= RAMA_DO[7:0];
-		BLAT <= RAMB_DO[7:0];
-	end
-end
-
-reg [7:0] A2LAT;
-reg [7:1] B2LAT;
-always @(*) begin
-	if (!TRIGP[13]) begin
-		A2LAT <= RAMA_DO[7:0];
-		B2LAT <= RAMB_DO[7:1];
-	end
 end
 
 assign P12 = MUXBIT4;
@@ -346,7 +328,7 @@ always @(*) begin
 	case({P12, P8})
 		2'b00: MUXF <= DLAT_C[30:15];
 		2'b01: MUXF <= DLAT_B[30:15];
-		2'b10: MUXF <= {ALAT, BLAT};
+		2'b10: MUXF <= P13LAT[30:15];
 		2'b11: MUXF <= DLAT_A[30:15];
 	endcase
 end
@@ -459,7 +441,7 @@ assign Y117 = CLKDIVD[2] | W93;
 reg X124, W99, W112;
 always @(negedge CLKDIV[1]) begin
 	X124 <= Y117;
-	W99 <= ~|{~CLKDIVD[2], ~MUX_ACTIVE, CLKDIVD[4], CLKDIV[8], REG22F_D4};
+	W99 <= ~|{~CLKDIVD[2], ~MUX_ACTIVE, CLKDIVD[4], CLKDIVD[8], REG22F_D4};
 	W112 <= W100;
 end
 
@@ -467,7 +449,7 @@ reg X103, W100, W111, Y115, W101;
 always @(posedge CLK) begin
 	X103 <= ~^{CLKDIV[5:4]};
 	W100 <= ~W99;
-	W111 <= ~W112;
+	W111 <= W112;
 	Y115 <= X123;
 	W101 <= W110;
 end
@@ -493,19 +475,21 @@ assign X110 = ~REG22F_D4 | REG22E[7];
 assign Y109 = ~&{REG22F_D4, REG22E[7]};
 assign W95 = PIN_NWR | nACCESS22D;
 assign PIN_RAWP = ~|{~|{~X120, ~X105}, ~|{W95, Y109}};
-assign PIN_RDWP = ~|{~|{PIN_RAWP, ~PIN_RRMD}, ~|{W95, X110}};
-assign RD_DIR = PIN_RAWP & PIN_RDWP;
+assign PIN_ROWP = ~|{~|{PIN_RAWP, ~PIN_RRMD}, ~|{W95, X110}};
+assign RD_DIR = PIN_RAWP & PIN_ROWP;
 
 assign X122B = ~|{~|{PIN_USE2, PIN_NRD | nACCESS22D}, ~X123};
-assign W110 = ~|{~|{W100, PIN_USE2}, ~W111};
+assign W108 = ~|{W100, PIN_USE2};
+assign W110 = ~|{W108, ~W111};
 assign TESTEN = 1'b0;
 assign PIN_RA_EN = &{~REG22F_D4, ~TESTEN, X122B, W110};
 
-assign PIN_RACS = Y114 & (nACCESS22D | Y109);
 assign PIN_RABS = Y117 & Y109;
-assign PIN_ROBS = &{~PIN_RRMD | PIN_RABS, W100, X110};
+assign PIN_RACS = Y114 & (nACCESS22D | Y109);
 assign PIN_RAOE = ~|{~|{Y109, W94}, ~|{X123, X103}};
-assign PIN_ROCS = ~&{~|{PIN_RACS, ~PIN_RRMD}, ~|{W101, W110}, ~|{X110, nACCESS22D}};
+
+assign PIN_ROBS = &{~PIN_RRMD | PIN_RABS, W100, X110};
+assign PIN_ROCS = ~|{~|{PIN_RACS, ~PIN_RRMD}, ~|{W101, W110}, ~|{X110, nACCESS22D}};
 assign PIN_ROOE = &{X110 | W94, W110, PIN_RAOE | ~PIN_RRMD};
 
 // TIMER
@@ -567,8 +551,8 @@ assign T127 = REG22F_D4;
 
 always @(*) begin
 	case({T127, T130})
-		2'b00: PIN_RA <= ADDB;
-		2'b01: PIN_RA <= {7'd0, AG83, ACCC, CLKDIVD[3]};
+		2'b00: PIN_RA <= ROM_ADDRESS;
+		2'b01: PIN_RA <= {7'd0, AG83, ACCC, CLKDIVD[3]};	// RAM address
 		2'b10: PIN_RA <= {REG22E[6:0], ADDRCNT};
 		2'b11: PIN_RA <= 24'd0;	// Test mode
 	endcase
@@ -782,8 +766,8 @@ always @(posedge CLKDIVD[0])
 
 // MULA
 
-reg [7:0] MULA_A_LATA;
-reg [7:0] MULA_A_LATB;
+reg [7:0] MULA_A_LATA = 0;
+reg [7:0] MULA_A_LATB = 0;
 always @(*) begin
 	if (!TRIGP[10])
 		{MULA_A_LATB, MULA_A_LATA} <= {RAMB_DO, RAMA_DO};
@@ -805,8 +789,8 @@ assign MULA_OUT = MULA_OUT_RAW[23:0];	// Intermediate MULA_OUT_RAW maybe not nee
 
 // SHEET 54 REGEEB / REGEFB
 
-reg [15:0] REGEEB;
-reg [15:0] REGEFB;
+reg [15:0] REGEEB = 0;
+reg [15:0] REGEFB = 0;
 always @(negedge PIN_DTCK) begin
 	if (!AG103) begin
 		REGEEB <= REGEE;
@@ -919,15 +903,15 @@ assign AK52 = &{~REG22F_D1, AS15};
 
 
 
-reg [7:0] ROMB_A_RAMA_REG;
-always @(posedge SRA[4]) begin
-	ROMB_A_RAMA_REG <= RAMA_DO[6:0];
+reg [7:0] CH_VOL_A;
+always @(posedge TRIGP[7]) begin
+	CH_VOL_A <= RAMA_DO[6:0];
 end
 
-reg [7:0] ROMB_A_RAMA_LAT;
+reg [7:0] CH_VOL_B;
 always @(*) begin
 	if (!TRIGP[7])
-		ROMB_A_RAMA_LAT <= ROMB_A_RAMA_REG;
+		CH_VOL_B <= CH_VOL_A;
 end
 
 
@@ -974,7 +958,7 @@ end
 reg [6:0] ROMB_A_PRE_MUXA;
 always @(*) begin
 	case({AS75, ~CLKDIV[2]})
-		2'd0: ROMB_A_PRE_MUXA <= ROMB_A_RAMA_LAT;
+		2'd0: ROMB_A_PRE_MUXA <= CH_VOL_B;
 		2'd1: ROMB_A_PRE_MUXA <= ROMB_A_PRE_MUXB;
 		2'd2: ROMB_A_PRE_MUXA <= {RVVOL[3:0], 3'b111};
 		2'd3: ROMB_A_PRE_MUXA <= {RVVOL[7:4], 3'b111};
@@ -1006,14 +990,14 @@ wire [7:0] RAMA_DI_MUXA;
 assign RAMA_DI_MUXA = S122 ? RAMA_DI_MUXC : RAMA_DI_MUXB;
 
 wire [7:0] RAMA_DI_MUXB;
-assign RAMA_DI_MUXB = CLKDIV[1] ? ADDA[31:24] : RAMA_DI_MUXD;
+assign RAMA_DI_MUXB = CLKDIV[1] ? CH_FRAC_NEW[31:24] : RAMA_DI_MUXD;
 
-wire [7:0] RAMA_DIN_MUXD;
+wire [7:0] RAMA_DI_MUXD;
 assign RAMA_DI_MUXD = CLKDIV[2] ?
-							(~CLKDIV[0]) ? BASE[15:8] : ADDA[39:32] :
-							(~CLKDIV[0]) ? ADDA[15:8] : CH_SAMPLE[15:8];
+							(~CLKDIV[0]) ? BASE[15:8] : CH_FRAC_NEW[39:32] :
+							(~CLKDIV[0]) ? CH_FRAC_NEW[15:8] : CH_SAMPLE[15:8];
 
-wire [7:0] RAMA_DIN_MUXC;
+wire [7:0] RAMA_DI_MUXC;
 assign RAMA_DI_MUXC = H69 ?
 							H70 ? RAMA_MUXC_PRE_D : RAMA_MUXC_PRE_C :
 							H70 ? RAMA_MUXC_PRE_B : RAMA_MUXC_PRE_A;
@@ -1050,12 +1034,12 @@ wire [7:0] RAMB_DI_MUXA;
 assign RAMB_DI_MUXA = S122 ? RAMB_DI_MUXC : RAMB_DI_MUXB;
 
 wire [7:0] RAMB_DI_MUXB;
-assign RAMB_DI_MUXB = CLKDIV[1] ? ADDA[23:16] : RAMB_DI_MUXD;
+assign RAMB_DI_MUXB = CLKDIV[1] ? CH_FRAC_NEW[23:16] : RAMB_DI_MUXD;
 
 wire [7:0] RAMB_DI_MUXD;
 assign RAMB_DI_MUXD = CLKDIV[2] ?
 							(~CLKDIV[0]) ? BASE[7:0] : BASE[23:16] :
-							(~CLKDIV[0]) ? ADDA[7:0] : CH_SAMPLE[7:0];
+							(~CLKDIV[0]) ? CH_FRAC_NEW[7:0] : CH_SAMPLE[7:0];
 
 wire [7:0] RAMB_DI_MUXC;
 assign RAMB_DI_MUXC = H69 ?
@@ -1184,17 +1168,10 @@ assign S122 = |{ROMA_A[2:1]} & ROMA_A[3];
 reg [15:0] STEP;
 always @(*) begin
 	case(DTYPE[2:1])
-    	2'd0: STEP[10:0] <= {RD_REGA[2:0], RD_REGB[7:0]};
-		2'd1: STEP[10:0] <= {DPCM_STEP[2:0], 8'd0};
-		2'd2: STEP[10:0] <= {DPCM_STEP[6:0], 4'd0};
-		3'd3: STEP[10:0] <= {{4{DPCM_STEP[7]}}, DPCM_STEP[6:0]};
-	endcase
-end
-always @(*) begin
-	case(DTYPE[2:1])
-		2'd0: STEP[15:11] <= RD_REGA[7:3];
-		3'd1: STEP[15:11] <= DPCM_STEP[7:3];
-    	2'd2, 2'd3: STEP[15:11] <= {5{DPCM_STEP[7]}};
+    	2'd0: STEP <= {RD_REGA[7:0], RD_REGB[7:0]};
+		2'd1: STEP <= {DPCM_STEP[7:0], 8'd0};
+		2'd2: STEP <= {{5{DPCM_STEP[7]}}, DPCM_STEP[6:0], 4'd0};
+		3'd3: STEP <= {{9{DPCM_STEP[7]}}, DPCM_STEP[6:0]};
 	endcase
 end
 
@@ -1262,42 +1239,42 @@ always @(*) begin
 		3'd0: begin
 			MUX_ACTIVE <= CH_ACTIVE[0];
 			nLOOPFLAG <= ~&{nCH_LOOP[0], ~W15[0]};	// W15
-			nRESETFRAC <= W26[0];
+			nRESETFRAC <= ~W26[0];
 		end
 		3'd1: begin
 			MUX_ACTIVE <= CH_ACTIVE[1];
 			nLOOPFLAG <= ~&{nCH_LOOP[0], ~W15[1]};	// AA25
-			nRESETFRAC <= W26[1];
+			nRESETFRAC <= ~W26[1];
 		end
 		3'd2: begin
 			MUX_ACTIVE <= CH_ACTIVE[2];
 			nLOOPFLAG <= ~&{nCH_LOOP[0], ~W15[2]};	// R35
-			nRESETFRAC <= W26[2];
+			nRESETFRAC <= ~W26[2];
 		end
 		3'd3: begin
 			MUX_ACTIVE <= CH_ACTIVE[3];
 			nLOOPFLAG <= ~&{nCH_LOOP[0], ~W15[3]};	// T18
-			nRESETFRAC <= W26[3];
+			nRESETFRAC <= ~W26[3];
 		end
 		3'd4: begin
 			MUX_ACTIVE <= CH_ACTIVE[4];
 			nLOOPFLAG <= ~&{nCH_LOOP[0], ~W15[4]};	// N4
-			nRESETFRAC <= W26[4];
+			nRESETFRAC <= ~W26[4];
 		end
 		3'd5: begin
 			MUX_ACTIVE <= CH_ACTIVE[5];
 			nLOOPFLAG <= ~&{nCH_LOOP[0], ~W15[5]};	// S34
-			nRESETFRAC <= W26[5];
+			nRESETFRAC <= ~W26[5];
 		end
 		3'd6: begin
 			MUX_ACTIVE <= CH_ACTIVE[6];
 			nLOOPFLAG <= ~&{nCH_LOOP[0], ~W15[6]};	// Y37
-			nRESETFRAC <= W26[6];
+			nRESETFRAC <= ~W26[6];
 		end
 		3'd7: begin
 			MUX_ACTIVE <= CH_ACTIVE[7];
 			nLOOPFLAG <= ~&{nCH_LOOP[0], ~W15[7]};	// Y38
-			nRESETFRAC <= W26[7];
+			nRESETFRAC <= ~W26[7];
 		end
 	endcase
 end
@@ -1332,8 +1309,8 @@ end
 // DPCM step decode
 
 // T132: Nibble select
-assign T132 = REVERSE ^ CH_FRAC[0];
-assign T133 = ~(ADDA[16] ^ CH_FRAC[0]);
+assign T132 = REVERSE ^ CH_FRAC[16];
+assign T133 = ~(CH_FRAC_NEW[16] ^ CH_FRAC[16]);
 
 wire [3:0] DEC_IN;
 assign DEC_IN = T133 ? 3'b111 : T132 ? ~RD_REGA[7:4] : ~RD_REGA[3:0];
@@ -1455,17 +1432,17 @@ assign AA50 = |{DTYPE[2:1]};
 reg [23:0] MUX_OFFS;
 always @(*) begin
 	case({DTYPE[0], AA50})
-    	2'b00: MUX_OFFS <= CH_FRAC;								// DTYPE 0: Offset << 0
-    	2'b01: MUX_OFFS <= {1'b0, CH_FRAC[23:1]};				// DTYPE 2, 4, 6: Offset >> 0
-    	2'b10, 2'b11: MUX_OFFS <= {CH_FRAC[22:0], CLKDIVD[4]};	// DTYPE 1, 3, 5, 7: Offset << 1
+    	2'b00: MUX_OFFS <= CH_FRAC[39:16];						// DTYPE 0: Offset << 0
+    	2'b01: MUX_OFFS <= {1'b0, CH_FRAC[39:17]};				// DTYPE 2, 4, 6: Offset >> 0
+    	2'b10, 2'b11: MUX_OFFS <= {CH_FRAC[38:16], CLKDIVD[4]};	// DTYPE 1, 3, 5, 7: Offset << 1
 	endcase
 end
 
 wire [23:0] OFFS;
 assign OFFS = {24{REVERSE}} ^ MUX_OFFS;
 
-wire [23:0] ADDB;
-assign ADDB = REVERSE + OFFS + BASE;
+wire [23:0] ROM_ADDRESS;
+assign ROM_ADDRESS = REVERSE + OFFS + BASE;
 
 reg [23:0] BASE;
 always @(*) begin
@@ -1479,7 +1456,6 @@ end
 
 assign N155 = ~&{~(nLOOPFLAG ? TRIGP[0] : TRIGP[2]), ~&{TRIGP[0], TRIGP[2]}};
 assign N153A = ~&{~(nLOOPFLAG ? TRIGP[1] : TRIGP[3]), ~&{TRIGP[1], TRIGP[3]}};
-
 
 assign PIN_DTAC = R83 & ~CPU_REGS;
 
@@ -1539,8 +1515,8 @@ always @(*) begin
 end
 
 // 24bit + 40bit = 40bit
-wire [39:0] ADDA;	// Could be called "CH_FRAC_NEW"
-assign ADDA = CH_PITCH + CH_FRAC;
+wire [39:0] CH_FRAC_NEW;
+assign CH_FRAC_NEW = CH_PITCH + CH_FRAC;
 
 
 
@@ -1565,42 +1541,6 @@ assign PIN_LRCK = PIN_ADDA ? ~SR_S1[2] : SR_S1[0];
 
 assign AH66 = ~&{PIN_ADDA, SR_S1[0]};
 
-// ROOT51
-
-assign F69 = ~CLKDIVD[4] | ~|{CLKDIVD[3:2]};
-
-reg F68, F73;
-always @(posedge CLKDIVD[1]) begin
-	F68 <= ~|{CLKDIVD[3:2]} | F69;
-	F73 <= CLKDIVD[3];
-end
-
-reg F66, F71;
-always @(posedge CLKDIVD[0]) begin
-	F66 <= F68;
-	F71 <= F73;
-end
-
-assign F3 = ~F66;
-assign F17 = ~F71;
-
-reg [30:0] MUX_LAT2;
-always @(*) begin
-	if (!TRIGP[12])
-		MUX_LAT2[30:15] <= {RAMA_DO, RAMB_DO};
-	else if (!TRIGP[11])
-		MUX_LAT2[14:0] <= {RAMA_DO, RAMB_DO[7:1]};
-end
-
-wire [30:0] ADDD_IN_AMUX;
-assign ADDD_IN_AMUX = F3 ?
-			F17 ? DLAT_D : {LAT_H40[15], LAT_H40, 14'd0} :
-			F17 ? MUX_LAT2 : {ADDE, MULA_LAT[13:7]};
-
-wire [30:0] ADDD_IN_A;
-assign ADDD_IN_A = TRIGF ? ADDD_IN_AMUX : ~ADDD_IN_AMUX;
-
-
 // ADDER C
 // V38A = 0: CH_SAMPLE = 0, otherwise MUX2
 
@@ -1622,17 +1562,62 @@ assign ADDC = STEP + MUXAB_REG;
 wire [15:0] CH_SAMPLE;
 assign CH_SAMPLE = AA40 ? {RD_REGA, RD_REGB} : AA47 ? ADDC : 16'd0;
 
+// ROOT51 - ADDER D
 
-// ADDER D
+assign F69 = ~CLKDIVD[4] | ~|{CLKDIVD[3:2]};
 
-reg D62;
+reg F68 = 0, F73 = 0;
+always @(posedge CLKDIVD[1]) begin
+	F68 <= ~|{CLKDIVD[3:2]} | F69;
+	F73 <= CLKDIVD[3];
+end
+
+reg F66 = 0, F71 = 0;
+always @(posedge CLKDIVD[0]) begin
+	F66 <= F68;
+	F71 <= F73;
+end
+
+assign F3 = ~F66;
+assign F17 = ~F71;
+
+reg [30:0] P11LAT = 0;	// Actually {P12LAT, P11LAT}
+always @(*) begin
+	if (!TRIGP[12])
+		P11LAT[30:15] <= {RAMA_DO, RAMB_DO};
+	else if (!TRIGP[11])
+		P11LAT[14:0] <= {RAMA_DO, RAMB_DO[7:1]};
+end
+
+reg [30:0] P13LAT = 0;	// Actually {P14LAT, P13LAT}
+always @(*) begin
+	if (!TRIGP[14])
+		P13LAT[30:15] <= {RAMA_DO, RAMB_DO};
+	else if (!TRIGP[13])
+		P13LAT[14:0] <= {RAMA_DO, RAMB_DO[7:1]};
+end
+
+
+wire [30:0] ADDD_IN_AMUX;
+assign ADDD_IN_AMUX = F3 ?
+			F17 ? DLAT_D : {LAT_H40[15], LAT_H40, 14'd0} :
+			F17 ? P11LAT : {ADDE, MULA_LAT[13:7]};
+
+wire [30:0] ADDD_IN_A;
+assign ADDD_IN_A = TRIGF ? ADDD_IN_AMUX : ~ADDD_IN_AMUX;
+
+// {LAT_H40[15], LAT_H40, 14'd0} (sample value, sign extended to 17 bits << 14)
+// +
+//
+
+reg D62 = 0;
 always @(posedge CLKDIVD[0]) begin
 	D62 <= ((CLKDIVD[1] & CLKDIVD[3]) | ~CLKDIVD[4]) & (CLKDIVD[1] | CLKDIVD[4]);
 end
 
 wire [30:0] ADDD_IN_BMUX;
 assign ADDD_IN_BMUX = TRIGG ?
-			D62 ? DLAT_B : {ALAT, BLAT, A2LAT, B2LAT[7:1]} :
+			D62 ? DLAT_B : P13LAT :
 			D62 ? DLAT_C : {ADDE, MULA_LAT[13:7]};
 
 wire [30:0] ADDD_IN_B;
@@ -1650,9 +1635,9 @@ assign ADDD = D12A + ADDD_IN_B + ADDD_IN_A;
 wire [23:0] ADDER_E_RAW;
 assign ADDER_E_RAW = L81_REG + MULA_OUT[23:14];
 
-reg [23:0] ADDE;
-reg [13:7] MULA_LAT;
-reg [23:0] L81_REG;
+reg [23:0] ADDE = 0;
+reg [13:7] MULA_LAT = 0;
+reg [23:0] L81_REG = 0;
 always @(posedge CLKDIVD[0]) begin
 	L81_REG <= MULA_OUT[23:0];
 	ADDE <= ADDER_E_RAW;
@@ -1674,7 +1659,7 @@ assign J70 = ~|{CLK, H58[1]};
 assign H57 = ~|{CLK, H58[2]};
 assign H61B = ~|{CLK, H58[3]};
 
-assign H61A = ~&{H61B, CLKDIVD[2:0] == 3'b010};
+assign TRIGK = ~&{H61B, CLKDIVD[2:0] == 3'b010};
 
 reg [14:0] TRIGP;
 always @(*) begin
@@ -1715,7 +1700,7 @@ assign D8 = TRIGJ & D67;
 assign AB166 = ~&{~CLKDIV[4:1]};
 
 // Weird, to confirm
-reg AB167, AJ114;
+reg AB167 = 0, AJ114 = 0;
 always @(negedge CLKDIVD[0]) begin
 	AB167 <= AB166;
 	AJ114 <= AB167;
@@ -1729,7 +1714,7 @@ always @(posedge CLKDIVD[0]) begin
 end
 
 // The gaps between these decoded triggers match the CPU access slots OK
-reg TRIGA, TRIGB, TRIGC, TRIGD, TRIGE, TRIGF, TRIGG, TRIGJ, E54, D67;
+reg TRIGA = 1, TRIGB, TRIGC, TRIGD, TRIGE = 1, TRIGF = 1, TRIGG = 1, TRIGJ = 1, E54, D67;
 always @(posedge CLKDIVD[0]) begin
 	TRIGA <= ~&{~CLKDIVD[4:1]};							// D72 0000
 	TRIGB <= ~&{~CLKDIVD[4], CLKDIVD[3], ~CLKDIVD[2], CLKDIVD[1]};	// D75 0101
@@ -1745,9 +1730,9 @@ end
 
 assign TRIGH = CLKDIV[1] ^ E54;
 
-reg [15:0] LAT_H40;
+reg [15:0] LAT_H40 = 0;
 always @(*) begin
-	if (!H61A)
+	if (!TRIGK)
 		LAT_H40 <= CH_SAMPLE;
 end
 
@@ -1761,7 +1746,7 @@ end
 wire [15:0] ACCD;
 assign ACCD = {RD_REG2A, RD_REG2B} + MULB_REGD;
 
-reg [15:0] MULB_REGE;
+reg [15:0] MULB_REGE = 0;
 always @(posedge CLKDIVD[0]) begin
 	MULB_REGE <= MULB_OUT;
 end
@@ -1771,7 +1756,7 @@ assign ACCE = MUXE + {MULB_REGE[15], MULB_REGE[15:1]} + MULB_REGE[0];
 
 // REGISTERS E
 
-reg [15:0] REGEA;
+reg [15:0] REGEA = 0;
 always @(posedge SRA[11] or negedge AH95) begin
 	if (!AH95)
 		REGEA <= 16'd0;
@@ -1779,7 +1764,7 @@ always @(posedge SRA[11] or negedge AH95) begin
 		REGEA <= ACCE;
 end
 
-reg [15:0] REGEB;
+reg [15:0] REGEB = 0;
 always @(posedge SRA[10] or negedge AH95) begin
 	if (!AH95)
 		REGEB <= 16'd0;
@@ -1787,7 +1772,7 @@ always @(posedge SRA[10] or negedge AH95) begin
 		REGEB <= ACCE;
 end
 
-reg [15:0] REGEC;
+reg [15:0] REGEC = 0;
 always @(posedge SRA[9] or negedge AH95) begin
 	if (!AH95)
 		REGEC <= 16'd0;
@@ -1795,7 +1780,7 @@ always @(posedge SRA[9] or negedge AH95) begin
 		REGEC <= ACCE;
 end
 
-reg [15:0] REGED;
+reg [15:0] REGED = 0;
 always @(posedge SRA[8] or negedge AH95) begin
 	if (!AH95)
 		REGED <= 16'd0;
@@ -1803,7 +1788,7 @@ always @(posedge SRA[8] or negedge AH95) begin
 		REGED <= ACCE;
 end
 
-reg [15:0] REGEE;
+reg [15:0] REGEE = 0;
 always @(posedge SRA[4] or negedge AH95) begin
 	if (!AH95)
 		REGEE <= 16'd0;
@@ -1811,7 +1796,7 @@ always @(posedge SRA[4] or negedge AH95) begin
 		REGEE <= ACCE;
 end
 
-reg [15:0] REGEF;
+reg [15:0] REGEF = 0;
 always @(posedge SRA[5] or negedge AH95) begin
 	if (!AH95)
 		REGEF <= 16'd0;

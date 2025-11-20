@@ -196,9 +196,9 @@ Register addresses assume {A[9], A[7:0]} are used, not A[8] (nothing in 100~1FF)
 * 00~FF: Eight 32-byte channel parameters, these go into internal RAM. Values 0F~1F used for internal stuff but should be R/Wable by CPU like the rest.
   * 00~02: Pitch
   * 03: Volume
-  * 04: Reverb volume
-  * 05: Pan
-  * 06~07: Reverb delay
+  * 04: Reverb volume (silicon: top/bottom nibbles used separately)
+  * 05: Pan (silicon: top/bottom nibbles used separately)
+  * 06~07: Reverb delay ? (used as MULA A)
   * 08~0A: Loop position
   * 0C~0E: Start position
 
@@ -217,14 +217,14 @@ Register addresses assume {A[9], A[7:0]} are used, not A[8] (nothing in 100~1FF)
 * 214: Key on
 * 215: Key off
 
-* {217, 216}: All bits used
-* {219, 218}: All bits used
+* {217, 216}: All bits used, RAM related
+* {219, 218}: All bits used, RAM related
 * 21A: All bits used, data, MULB_A[14:7]
 * 21B: LFO A update period, in CLK
 * 21C: LFO A amplitude (max value)
 
-* {21E, 21D}: All bits used
-* {220, 21F}: All bits used
+* {21E, 21D}: All bits used, RAM related
+* {220, 21F}: All bits used, RAM related
 * 221: All bits used, data, MULB_A[14:7]
 * 222: LFO B update period, in CLK
 * 223: LFO B amplitude (max value)
