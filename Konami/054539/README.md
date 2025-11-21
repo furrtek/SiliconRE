@@ -57,24 +57,24 @@ Doesn't actually change anything though, so I'm leaving them as they are on the 
  * Path from {AB[7:0], DB[7:0]} to MULB_B[15:0], for factory testing (TESTREG1_D1).
  * Path from MULB_OUT[15:0] to RA[15:0], for factory testing.
 
-# Adders
+# Blocks
 
-ADDER A is used for each channel's 40-bit fractional accumulator (sample ROM address offset from channel pitch parameter).
+Adder A is used for each channel's 40-bit fractional accumulator (sample ROM address offset from channel pitch parameter).
 ADDA[39:32]	is stored in RAMA (address offset 0x0f)
 ADDA[31:24]	is stored in RAMA (address offset 0x11)
 ADDA[23:16]	is stored in RAMB (address offset 0x10)
 ADDA[15:8]	is stored in RAMA (address offset 0x13)
 ADDA[7:0]	is stored in RAMB (address offset 0x12)
-Channel pitch parameter (24 bits) is added to the channel's current accumualtor value (40 bits) and stored back.
+The channel pitch parameter (24 bits) is added to the channel's current accumualtor value (40 bits) and stored back.
 The top 24 bits are used for the sample ROM address offset, after shifting depending on the channel's data type parameter.
 
-ADDER B is 24-bit, it adds the channel's start address or loop point (BASE[23:0]) + offset for ext address output (OFFS[23:0]).
+Adder B is 24-bit, it adds the channel's start address or loop point (BASE[23:0]) + offset for ext address output (OFFS[23:0]).
 
-OFFS[23:0] comes from ADDA_LAT_B[23:0] (inverted, or shifted depending on data format and reverse flag).
+Adder C 16-bit accumulates the sample value with delta STEP[15:0] + {RAMA, RAMB} if channel data type is set to DPCM.
 
-ADDER C 16-bit accumulates the sample value with delta STEP[15:0] + {RAMA, RAMB} if channel data type is set to DPCM.
+Adder D 31 + 31 = 31.
 
-MUXD[15:0] is the sample value from ADDERC accumulator or directly from RAM: {RD_REG[7:0], RD_REG2[7:0]}.
+Adder E is a two-step adder that uses channel RAM #3 parameter one byte after the other. (MULA_PREV << 7) + MULA[23:7], outputs 31 bits.
 
 # Sample data
 
@@ -83,19 +83,17 @@ Even[3:2]=00: 8-bit PCM, end of sample marked as 0x80.
 Even[3:2]=01: 16-bit PCM, end of sample marked as 0x8000.
 Even[3:2]=10: 4-bit DPCM, end of sample marked as 0x88.
 
-End of samples marked as 0x80 or 0x8000.
+# Output mixer
 
-# Adder E
-
-Channel mixer / accumulator ?: 10 bit (MULA_OUT[23:14]) + 24 bit (MULA_OUT[23:0])
-
-Output mixer / accumulator: three pairs of 16 bit registers (MULB_OUT[15:0] + REGEA/B/C/D/E/F)
-Three final outputs * 2 channels
+Three pairs of 16 bit registers (MULB_OUT[15:0] + REGEA/B/C/D/E/F)
+Three final outputs * 2 channels ?
 REGED ends up in the FRDL PISO
 REGEB ends up in the FRDT PISO
 REGEC ends up in the REDL PISO
-REGEA ends up in THE REDT PISO
+REGEA ends up in the REDT PISO
 REGEE and REGEF end up in the final output PISO
+
+Each of the 6 REGE's are updated 12 times per cycle (8 + 4 channels ?)
 
 # Test registers
 
@@ -127,19 +125,27 @@ Reverb obviously. Maybe flanger too ? See LFOA / LFOB, which are ping-pong up/do
 # Internal RAM
 
 ```
-    Even    Odd
-    RAMB    RAMA
-00	PitchL	PitchC
-01  PitchM	Vol
-02	RevVol	Pan
-03	RevDeL	RevDeM
-04	LoopL	LoopC
-05	LoopM	?
-06	StartL	StartC
-07	StartM	?```
+    Even    	Odd
+    RAMB    	RAMA
+00	PitchLSB	PitchMid
+01  PitchMSB	ChVol
+02	RevVol		Pan
+03	RevDelay	RevDelay
+04	LoopLSB		LoopMid
+05	LoopMSB		-
+06	StartLSB	StartC
+07	StartM		FracMSB
+08	FracMid		FracMid
+09	FracLSB		FracLSB
+0A	PrevSample	PrevSample
+0B	Feedback?	Feedback?
+0C	Feedback?	Feedback?
+0D	Feedback?	Feedback?
+0E	Feedback?	Feedback?
+0F	-			-
+```
 
-Start/loop loads seem to be done from 08 09 0A 0B instead of 04 05 06 07. Maybe they're copied on channel start ?
-Actually, for each channel the values in 00~0F (00~07 IRAM address) are maybe copied to 10~1F (08~0F IRAM address) to allow the sound program to update channel parameters while they are playing, and only apply them on key on.
+RevDelay isn't used for ext RAM address, but for MULA input. So probably volume setting rather than delay.
 
 RAMA can be written from:
 * DB_IN[7:0] (CPU write)
@@ -161,15 +167,11 @@ RAMB can be written from:
 * ADDD[22:16] two registers
 * {ADDD[6:0], 0} two registers
 
-External RAM address can come from:
-* ADDB[23:0] sample data
-* {AG83, ACCC[14:0], S106} reverb access ?
-* {REG22E[6:0], ADDRCNT[16:0]} POST address counter
-
-External RAM data:
-* DB_IN[7:0] (CPU write)
-* ACCD[7:0]
-* ACCD[15:8]
+External address can be:
+* ROM address
+* RAM address
+* POST address counter
+* Test mode data output
 
 # Channel data type
 
@@ -230,11 +232,16 @@ Register addresses assume {A[9], A[7:0]} are used, not A[8] (nothing in 100~1FF)
 * 223: LFO B amplitude (max value)
 
 * 224: Bits [6:0] used
+  * Bit 0: Used with bit 4, selects which of REGEEB or REGEFB is stored in ext RAM
   * Bit 1: Double LFO A range
   * Bit 2: Halve CNTC for period A
+  * Bit 3: Enable effects ?
+  * Bit 4: See bit 0
   * Bit 5: Double LFO B range
   * Bit 6: Halve CNTC for period B
 * 225: Bits 0, 1, 4, 5 used
+  * Bits 0, 1: Selects MUXH
+  * Bits 4, 5: Selects AG83 source when 224[3] set
 * 226: Doesn't exist
 * 227: Timer counter load value, toggles TIM output when it overflows (if enabled)
 fTIM = CLK / 256 / (255 - REG227)
