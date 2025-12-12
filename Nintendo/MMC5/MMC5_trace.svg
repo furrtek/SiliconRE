@@ -15,7 +15,7 @@
    viewBox="0 0 4233.3335 3289.3"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="MMC5_trace.svg"
    inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\MMC5_trace.png"
    inkscape:export-xdpi="6.318151"
@@ -29,16 +29,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.5257639"
-     inkscape:cx="3313.0621"
-     inkscape:cy="3912.8749"
+     inkscape:zoom="0.13485975"
+     inkscape:cx="5163.2719"
+     inkscape:cy="10994.637"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer4"
      showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="684"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
      inkscape:window-x="1432"
-     inkscape:window-y="124"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      gridtolerance="1"
      objecttolerance="1"
@@ -67,7 +67,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -78,15 +78,14 @@
      style="display:inline"
      transform="translate(2010.8334,1495.8167)">
     <image
-       sodipodi:absref="D:\Electro\SiliconRE\Nintendo\MMC5\nintendo_MMC5_10x.jpg"
-       xlink:href="nintendo_MMC5_10x.jpg"
-       y="-1495.8167"
-       x="-2010.8334"
+       sodipodi:absref="E:\Die shots\nintendo_MMC5_mz.jpg"
+       xlink:href="file:///E:/Die%20shots/nintendo_MMC5_mz.jpg"
+       y="-1496.3369"
+       x="-2001.2958"
        id="image18"
        preserveAspectRatio="none"
-       height="3289.3"
-       width="4233.3335"
-       sodipodi:insensitive="true" />
+       height="3283.0574"
+       width="4207.3218" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -43261,5 +43260,26 @@ AE13 ?</desc>
          x="-1327.4601"
          y="951.86798"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.5px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#000000;stroke-width:0.26458332px">C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-1889.1947"
+       y="-1533.9241"
+       id="text8652"><tspan
+         sodipodi:role="line"
+         id="tspan8650"
+         x="-1889.1947"
+         y="-1533.9241"
+         style="stroke-width:0.26458332">Die picture was lost by accident, had to be re-stitched from individual shots</tspan><tspan
+         sodipodi:role="line"
+         x="-1889.1947"
+         y="-1520.6949"
+         style="stroke-width:0.26458332"
+         id="tspan8654">TFile name was nintendo_MMC5_10x.jpg, may be in a backup somewhere</tspan><tspan
+         sodipodi:role="line"
+         x="-1889.1947"
+         y="-1507.4657"
+         style="stroke-width:0.26458332"
+         id="tspan8656">Current image doesn't match trace 1:1 :(</tspan></text>
   </g>
 </svg>
