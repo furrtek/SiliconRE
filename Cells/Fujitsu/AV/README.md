@@ -4,6 +4,8 @@ Cell names and BC sizes from "CMOS Channeled Gate Arrays 1989 Data Book".
 
 See JPG files for mugshots, and PNG files for RE'd layout and I/O locations.
 
+Thanks to Mathieu Demange for contributions.
+
 ## Color code
 
  * Orange: M1 metal
@@ -60,7 +62,7 @@ See JPG files for mugshots, and PNG files for RE'd layout and I/O locations.
 | X2B | 4 | Power XOR 						| 2 | 1 | Yes |
 | T2C | 4 | Dual 2:1 selector 				| 6 | 2 | Yes |
 | LT1 | 4 | SR latch with clear				| 3 | 2 | Yes |
-| LT2 | 4 | 1-bit data latch 				| 2 | 2 | No |
+| LT2 | 4 | 1-bit data latch 				| 2 | 2 | Yes |
 | LTK | 4 | Data latch 						| 2 | 2 | Yes |
 | N6B | 5 | Power NAND6 					| 6 | 1 | Yes |
 | R6B | 5 | Power NOR6 						| 6 | 1 | Yes |
@@ -131,7 +133,7 @@ See JPG files for mugshots, and PNG files for RE'd layout and I/O locations.
 | FS2 | 30 | 4-bit shift register with sync load	| 7 | 4 | No |
 | C42 | 32 | 4-bit binary sync counter		| 2 | 4 | Yes |
 | FS3 | 34 | 4-bit shift register with async load	| 7 | 4 | Yes |
-| MC4 | 42 | 4-bit magnitude comparator		| 11 | 3 | Todo |
+| MC4 | 42 | 4-bit magnitude comparator		| 11 | 3 | Yes |
 | C43 | 48 | 4-bit binary sync up counter | 9 | 5 | Yes |
 | C45 | 48 | 4-bit binary sync up counter | 9 | 5 | Yes |
 | A4H | 50 | 4-bit full adder				| 9 | 5 | Yes |
