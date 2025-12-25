@@ -15,7 +15,7 @@
    viewBox="0 0 4335.2856 3815.9973"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="CUS120_trace.svg"
    inkscape:export-filename="C:\Users\furrtek\Documents\Electro\VGChips\Namco\CUS120\CUS120.png"
    inkscape:export-xdpi="12.00111"
@@ -29,16 +29,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.57121651"
-     inkscape:cx="11120.411"
-     inkscape:cy="8482.7813"
+     inkscape:zoom="0.80782214"
+     inkscape:cx="8999.1212"
+     inkscape:cy="6120.9503"
      inkscape:document-units="mm"
      inkscape:current-layer="layer6"
      showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="684"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
      inkscape:window-x="1432"
-     inkscape:window-y="124"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      objecttolerance="1"
      gridtolerance="1"
@@ -55,7 +55,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -66,15 +66,15 @@
      style="display:inline"
      transform="translate(1622.9309,1394.6139)">
     <image
-       sodipodi:absref="D:\Electro\SiliconRE\Namco\CUS120\Namco_C120_mz.jpg"
+       sodipodi:absref="E:\Electro\SiliconRE\Namco\CUS120\Namco_C120_mz.jpg"
        xlink:href="Namco_C120_mz.jpg"
-       sodipodi:insensitive="true"
-       width="4335.2856"
-       height="3815.9973"
-       preserveAspectRatio="none"
-       id="image972"
+       y="-1394.6139"
        x="-1622.9309"
-       y="-1394.6139" />
+       id="image972"
+       preserveAspectRatio="none"
+       height="3815.9973"
+       width="4335.2856"
+       sodipodi:insensitive="true" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1395,7 +1395,7 @@
        sodipodi:nodetypes="cccccc" />
     <path
        id="path16582"
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        d="m 582.61347,813.83716 h 94.38423 v 6.87805 M 579.22749,143.12169 h 43.0053 M 484.81744,845.65343 h 97.76984 l -4.03175,-734.7857 h 45.35715"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccc" />
@@ -1404,7 +1404,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Cell RE"
-     style="display:none"
+     style="display:inline"
      transform="translate(1622.9309,1394.6139)">
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.97247709;fill-rule:evenodd;stroke:#0000ff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
