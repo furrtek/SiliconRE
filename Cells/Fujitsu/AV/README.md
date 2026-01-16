@@ -4,7 +4,7 @@ Cell names and BC sizes from "CMOS Channeled Gate Arrays 1989 Data Book".
 
 See JPG files for mugshots, and PNG files for RE'd layout and I/O locations.
 
-Thanks to Mathieu Demange for contributions.
+Thanks to Mathieu Demange for his contributions.
 
 ## Color code
 
@@ -93,7 +93,7 @@ Thanks to Mathieu Demange for contributions.
 | A1N | 8 | 1-bit full adder 				| 3 | 2 | Yes |
 | SM1 | 8 | Schmitt trigger input 			| 1 | 2 | Yes |
 | NCB | 9 | Power NAND12 					| 12 | 1 | No |
-| RCB | 9 | Power NOR12 					| 12 | 1 | No |
+| RCB | 9 | Power NOR12 					| 12 | 1 | Yes |
 | T26 | 9 | Power 2AND 6-wide MUX 			| 12 | 1 | Yes |
 | T34 | 9 | Power 3AND 4-wide MUX 	  		| 12 | 1 | Yes |
 | T43 | 9 | Power 4AND 3-wide MUX 	  		| 12 | 1 | No |
