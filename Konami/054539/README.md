@@ -59,22 +59,42 @@ Doesn't actually change anything though, so I'm leaving them as they are on the 
 
 # Blocks
 
-Adder A is used for each channel's 40-bit fractional accumulator (sample ROM address offset from channel pitch parameter).
-ADDA[39:32]	is stored in RAMA (address offset 0x0f)
-ADDA[31:24]	is stored in RAMA (address offset 0x11)
-ADDA[23:16]	is stored in RAMB (address offset 0x10)
-ADDA[15:8]	is stored in RAMA (address offset 0x13)
-ADDA[7:0]	is stored in RAMB (address offset 0x12)
-The channel pitch parameter (24 bits) is added to the channel's current accumualtor value (40 bits) and stored back.
-The top 24 bits are used for the sample ROM address offset, after shifting depending on the channel's data type parameter.
+**Adder A** is used for adding each channel's base address and the 40-bit fractional accumulator (sample ROM address offset from channel pitch parameter). When the end of the sample stream is reached, if the loop bit is set, the base address is replaced by the contents of the channel loop address and the upper 24 bits of the fractional accumulator are reset to zero.
 
-Adder B is 24-bit, it adds the channel's start address or loop point (BASE[23:0]) + offset for ext address output (OFFS[23:0]).
+The channel pitch parameter (24 bits) is added to the channel's fractional accumulator value (40 bits) and stored back. If the channel is not enabled, the added pitch is forced to zero, so the addition keeps the original _frac_ value.
 
-Adder C 16-bit accumulates the sample value with delta STEP[15:0] + {RAMA, RAMB} if channel data type is set to DPCM.
+The top 24 bits of _frac_ are used for the sample ROM address offset, after shifting depending on the channel's data type parameter. For 4-bit delta PCM, the address is shifted to the right, whereas for 16-bit samples the address is shifted to the left.
 
-Adder D 31 + 31 = 31.
+| ADDA Bits | Address | RAM  |
+|-----------|---------|------|
+| 39:32	    |  0x0f   | RAMA |
+| 31:24	    |  0x11   | RAMA |
+| 23:16	    |  0x10   | RAMB |
+| 15:8	    |  0x13   | RAMA |
+| 7:0	      |  0x12   | RAMB |
 
-Adder E is a two-step adder that uses channel RAM #3 parameter one byte after the other. (MULA_PREV << 7) + MULA[23:7], outputs 31 bits.
+The fractional counter is reset when:
+
+1. The channel is turned off via the _key off_ register 0x215
+2. The
+
+**Adder B** is 24-bit, it adds the channel's start address or loop point (BASE[23:0]) + offset for ext address output (OFFS[23:0]).
+
+**Adder C** 16-bit accumulates the sample value with delta STEP[15:0] + {RAMA, RAMB} if channel data type is set to DPCM.
+
+**Adder D** 31 + 31 = 31.
+
+**Adder E** is a two-step adder that uses channel RAM #3 parameter one byte after the other. (MULA_PREV << 7) + MULA[23:7], outputs 31 bits.
+
+# Key on/off behavior
+
+When a write to register 0x214 occurs, the input data byte signals which channels will go active. Channels become active at the start of the next sequence. When the next sequence starts, the fractional register gets reset to zero.
+
+A write to register 0x215 stops the given channel immediately, without waiting to the next sequence start.
+
+When playback starts, the _start address_ registers are used for the base until the first time the EOF marker is reached. Then the loop address registers are read. When EOF is reached, if the channel loop enable bit is low, then the channel goes off.
+
+A key on event (write to 0x214) while the channel is active restarts the fractional counter
 
 # Sample data
 
@@ -124,26 +144,24 @@ Reverb obviously. Maybe flanger too ? See LFOA / LFOB, which are ping-pong up/do
 
 # Internal RAM
 
-```
-    Even    	Odd
-    RAMB    	RAMA
-00	PitchLSB	PitchMid
-01  PitchMSB	ChVol
-02	RevVol		Pan
-03	RevDelay	RevDelay
-04	LoopLSB		LoopMid
-05	LoopMSB		-
-06	StartLSB	StartC
-07	StartM		FracMSB
-08	FracMid		FracMid
-09	FracLSB		FracLSB
-0A	PrevSample	PrevSample
-0B	Feedback?	Feedback?
-0C	Feedback?	Feedback?
-0D	Feedback?	Feedback?
-0E	Feedback?	Feedback?
-0F	-			-
-```
+|    | Even (RAMB) | Odd (RAMA)  |
+|----|-------------|-------------|
+| 00 | PitchLSB    | PitchMid    |
+| 01 | PitchMSB    | ChVol       |
+| 02 | RevVol      | Pan         |
+| 03 | RevDelay    | RevDelay    |
+| 04 | LoopLSB     | LoopMid     |
+| 05 | LoopMSB     |    -        |
+| 06 | StartLSB    | StartC      |
+| 07 | StartM      | FracMSB     |
+| 08 | FracMid     | FracMid     |
+| 09 | FracLSB     | FracLSB     |
+| 0A | PrevSample  | PrevSample  |
+| 0B | Feedback?   | Feedback?   |
+| 0C | Feedback?   | Feedback?   |
+| 0D | Feedback?   | Feedback?   |
+| 0E | Feedback?   | Feedback?   |
+| 0F |    -        |     -       |
 
 RevDelay isn't used for ext RAM address, but for MULA input. So probably volume setting rather than delay.
 
@@ -187,7 +205,20 @@ Set by even registers 200~20E bits [4:2].
 
 The different DPCM step size settings are maybe to allow compromises between noise floor and frequency response ? Larger steps = higher noise but better high frequencies.
 
-*: 4-bit DPCM in 16-bit values ? What's the point ? Maybe those aren't meant to be used.
+* 4-bit DPCM in 16-bit values ? What's the point ? Maybe those aren't meant to be used.
+
+# Stereo Panning
+
+The pan register for each channel contains independent volume information for the left and right speakers.
+
+| Bits     | Use          |
+|----------|--------------|
+| 7:4      | Right volume |
+| 3:0      | Left volume  |
+
+There are two look-up tables in ROMB starting at address 192. Each 4-bit pan value is used to read one of the tables. The two tables contain the same values but are upside down for entries 1-15. Entry 0 is always zero.
+
+The panning value is a 16-bit width and goes into multiplier B.
 
 # Registers
 
