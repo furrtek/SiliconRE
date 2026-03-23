@@ -20,58 +20,58 @@ CPU VRAM access is 8-bit only.
 
 3 or 2 bytes per tile
 
-[23:16]: Attributes (x/y flip bits selected by REG6[7:6]
-[15:13]: Tile code bank number (looked up to 6 bits)
-[12:0]: Tile code lower bits
+* [23:16]: Attributes (x/y flip bits selected by REG6[7:6]
+* [15:13]: Tile code bank number (looked up to 6 bits)
+* [12:0]: Tile code lower bits
 
 # Registers
 
 Some infos from MAME, discoveries and details added:
 
 00[7:0]: ??yx ????, all bits used
-7: VRAM/VROM ?
-6: Dot clock select ?
-5: Enable full display vertical flip
-4: Enable full display horizontal flip
-3: ?
-2: Video timing gen select
-1: Linescroll RAM present ?
-0: Number of layers 2/4 0:2 1:4
+* 7: VRAM/VROM ?
+* 6: Dot clock select ?
+* 5: Enable full display vertical flip
+* 4: Enable full display horizontal flip
+* 3: ?
+* 2: Video timing gen select
+* 1: Linescroll RAM present ?
+* 0: Number of layers 2/4 0:2 1:4
 
 02[7:0]: ???? ????, all bits used, X/Y tile flip enable for each layer ?
-0,2,4,6: Enable tile X flips
-1,3,5,7: Enable tile Y flips
+* 0,2,4,6: Enable tile X flips
+* 1,3,5,7: Enable tile Y flips
 
 04[7:0]: -??- ????, bits 4 and 7 unused
 [7:6]: ?
-3: Select address mode for registers 0:AB[13:3] 1:AB[12:2]
-2: 0:LU[1:0], 1:Use VRAM attribute directly [7:6]
-1: 0:LU[1:0], 1:Use VRAM attribute directly [1:0]
-0: 0:LU[1:0], 1:Use VRAM attribute directly [3:2]
+* 3: Select address mode for registers 0:AB[13:3] 1:AB[12:2]
+* 2: 0:LU[1:0], 1:Use VRAM attribute directly [7:6]
+* 1: 0:LU[1:0], 1:Use VRAM attribute directly [1:0]
+* 0: 0:LU[1:0], 1:Use VRAM attribute directly [3:2]
 
 06[7:0]: ???? ???e, all bits used, enable IRQ
-[7:6]: Choice of bits in VRAM attribute for X/Y tile flip
-5: 1=8-bit register access, 0=16-bit
-4: VRAM attributes 16/24 bits
-3: ?
-2: NMI enable (16 lines ?)
-1: FIRQ enable (2 lines ?)
-0: IRQ enable (v-blank ?)
+* [7:6]: Choice of bits in VRAM attribute for X/Y tile flip
+* 5: 1=8-bit register access, 0=16-bit
+* 4: VRAM attributes 16/24 bits
+* 3: ?
+* 2: NMI enable (16 lines ?)
+* 1: FIRQ enable (2 lines ?)
+* 0: IRQ enable (v-blank ?)
 
 08[7:0]: ???? ????, all bits used
-[7:4]: Related to how long the Y scroll value for each layer is presented to V adder
-[3:0]: Related to tile size ?
+* [7:4]: Related to how long the Y scroll value for each layer is presented to V adder
+* [3:0]: Related to tile size ?
 
 0A[7:0]: 3322 1100, all bits used, linescroll mode for each layer. 0: per line, 2: 8 lines, 1/3: no linescroll.
 x1: No linescroll, use X scroll registers
-[1:0]: reg 28
-[3:2]: reg 2A
-[5:4]: reg 2C
-[7:6]: reg 2E
+* [1:0]: reg 28
+* [3:2]: reg 2A
+* [5:4]: reg 2C
+* [7:6]: reg 2E
 
 0C[5:0]: --?? ????
-[5:2]: Something for each layer ?
-[1:0]: VRAM configuration
+* [5:2]: Something for each layer ?
+* [1:0]: VRAM configuration
 
 Reg 0E doesn't exist
 
