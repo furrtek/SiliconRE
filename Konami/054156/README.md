@@ -63,7 +63,7 @@ Some infos from MAME, discoveries and details added:
 [3:0]: Related to tile size ?
 
 0A[7:0]: 3322 1100, all bits used, linescroll mode for each layer. 0: per line, 2: 8 lines, 1/3: no linescroll.
-x1: Use registers 28/2A/2C/2E
+x1: No linescroll, use X scroll registers
 [1:0]: reg 28
 [3:2]: reg 2A
 [5:4]: reg 2C
