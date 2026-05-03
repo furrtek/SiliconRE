@@ -1,3 +1,7 @@
-I LOST THE .SVG FILE OF THE DIE TRACE BECAUSE I SUCK !
+# PCM
 
-S'ok though, the schematic is tested and correct.
+ * Manufacturer: Fujitsu
+ * Type: Dual column channeled gate array
+ * Die markings: ?
+ * Function: PCM ROM address/data mux/demux
+ * Used in: NeoGeo cartridges
