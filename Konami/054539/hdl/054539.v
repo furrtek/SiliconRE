@@ -116,7 +116,7 @@ always @(posedge PIN_DTCK) begin
 end
 assign nLOADSR = ~|{S10, S2};
 assign AG103 = nLOADSR;
-assign AH95 = SRA[3] | nLOADSR;
+assign nRST_OUT_ACCS = SRA[3] | nLOADSR;
 
 // COUNTERS
 
@@ -1757,48 +1757,48 @@ assign ACCE = MUXE + {MULB_REGE[15], MULB_REGE[15:1]} + MULB_REGE[0];
 // REGISTERS E
 
 reg [15:0] REGEA = 0;
-always @(posedge SRA[11] or negedge AH95) begin
-	if (!AH95)
+always @(posedge SRA[11] or negedge nRST_OUT_ACCS) begin
+	if (!nRST_OUT_ACCS)
 		REGEA <= 16'd0;
 	else
 		REGEA <= ACCE;
 end
 
 reg [15:0] REGEB = 0;
-always @(posedge SRA[10] or negedge AH95) begin
-	if (!AH95)
+always @(posedge SRA[10] or negedge nRST_OUT_ACCS) begin
+	if (!nRST_OUT_ACCS)
 		REGEB <= 16'd0;
 	else
 		REGEB <= ACCE;
 end
 
 reg [15:0] REGEC = 0;
-always @(posedge SRA[9] or negedge AH95) begin
-	if (!AH95)
+always @(posedge SRA[9] or negedge nRST_OUT_ACCS) begin
+	if (!nRST_OUT_ACCS)
 		REGEC <= 16'd0;
 	else
 		REGEC <= ACCE;
 end
 
 reg [15:0] REGED = 0;
-always @(posedge SRA[8] or negedge AH95) begin
-	if (!AH95)
+always @(posedge SRA[8] or negedge nRST_OUT_ACCS) begin
+	if (!nRST_OUT_ACCS)
 		REGED <= 16'd0;
 	else
 		REGED <= ACCE;
 end
 
 reg [15:0] REGEE = 0;
-always @(posedge SRA[4] or negedge AH95) begin
-	if (!AH95)
+always @(posedge SRA[4] or negedge nRST_OUT_ACCS) begin
+	if (!nRST_OUT_ACCS)
 		REGEE <= 16'd0;
 	else
 		REGEE <= ACCE;
 end
 
 reg [15:0] REGEF = 0;
-always @(posedge SRA[5] or negedge AH95) begin
-	if (!AH95)
+always @(posedge SRA[5] or negedge nRST_OUT_ACCS) begin
+	if (!nRST_OUT_ACCS)
 		REGEF <= 16'd0;
 	else
 		REGEF <= ACCE;
