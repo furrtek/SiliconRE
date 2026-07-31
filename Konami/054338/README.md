@@ -12,20 +12,26 @@
 
 Word-wise
 
-* 0: [7:0] only, [15:8] don't exist
-* 1: [15:0]
-* 2: [15:0]
+* 0: [7:0] only, [15:8] don't exist. Background red.
+* 1: [15:8] background green, [7:0] background blue.
+* 2: [15:0] shadow 1 RGB
 * 3: [15:0]
 * 4: [15:0]
-* 5: [15:0]
+* 5: [15:0] shadow 2 RGB
 * 6: [15:0]
 * 7: [15:0]
 
-* 8: [15:0]
+* 8: [15:0] shadow 3 RGB
 * 9: [15:0]
 * 10: [15:0]
-* 11: [7:0] only, [15:8] don't exist
+* 11: [7:0] only, [15:8] don't exist. Brightness RGB (external DAC current set ?)
 * 12: [15:0]
-* 13: [7:0] only, [15:8] don't exist
+* 13: [7:0] only, [15:8] don't exist. Alpha blend RGB
 * 14: [15:0]
-* 15: [7:0] only, [15:8] don't exist
+* 15: [5:0] only. Configuration.
+[0]: 1 enables layers, 0 forces background color
+[1]: Select MIX pins input delay
+[2]: Select SHD pins input delay
+[3]: Select BRI pins input delay
+[4]: ?
+[5]: Something to do with min/max clamping
