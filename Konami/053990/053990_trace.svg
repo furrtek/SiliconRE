@@ -15,7 +15,7 @@
    viewBox="0 0 4233.3335 4289.7778"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="053990_trace.svg">
   <defs
      id="defs2" />
@@ -26,16 +26,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.12374369"
+     inkscape:zoom="0.087500002"
      inkscape:cx="9033.4167"
-     inkscape:cy="5565.145"
+     inkscape:cy="10090.628"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="684"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
      inkscape:window-x="1432"
-     inkscape:window-y="124"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      gridtolerance="1"
      guidetolerance="1"
@@ -53,7 +53,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -64,8 +64,8 @@
      style="display:inline"
      transform="translate(2010.8334,1996.0555)">
     <image
-       sodipodi:absref="D:\Electro\SiliconRE\Konami\053990\konami_053990_mz.jpg"
-       xlink:href="konami_053990_mz.jpg"
+       sodipodi:absref="E:\Die shots\konami_053990_mz.jpg"
+       xlink:href="file:///E:/Die%20shots/konami_053990_mz.jpg"
        y="-1996.0555"
        x="-2010.8334"
        id="image18"

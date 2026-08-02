@@ -41,16 +41,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.54794558"
-     inkscape:cx="7906.4708"
-     inkscape:cy="12196.275"
+     inkscape:zoom="0.048432005"
+     inkscape:cx="10951.165"
+     inkscape:cy="9725.1301"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1440"
-     inkscape:window-height="877"
-     inkscape:window-x="-8"
-     inkscape:window-y="235"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1432"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      gridtolerance="1"
      objecttolerance="1"
@@ -76,7 +76,7 @@
      inkscape:label="Silicon"
      inkscape:groupmode="layer"
      id="layer1"
-     style="display:inline"
+     style="display:inline;opacity:1"
      transform="translate(2417.4017,2349.0773)">
     <image
        sodipodi:absref="E:\Electro\SiliconRE\Konami\054338\konami_054338_mz.jpg"
@@ -18368,7 +18368,7 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="Data"
-     style="display:inline">
+     style="display:inline;opacity:1">
     <path
        transform="translate(2417.4017,2349.0773)"
        id="path13477"
