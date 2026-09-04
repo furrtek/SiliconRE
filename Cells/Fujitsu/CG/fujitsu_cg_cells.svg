@@ -504,7 +504,7 @@
     <linearGradient
        id="linearGradient11751"
        osb:paint="solid"
-       gradientTransform="matrix(0,0,0,0,524.07805,442.58095)">
+       gradientTransform="matrix(0,0,0,0,1176.5373,912.05408)">
       <stop
          style="stop-color:#fefb00;stop-opacity:0.70588237;"
          offset="0"
@@ -624,17 +624,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.11892932"
-     inkscape:cx="9618.1808"
-     inkscape:cy="3792.7634"
+     inkscape:zoom="0.95143456"
+     inkscape:cx="7122.9892"
+     inkscape:cy="6871.5016"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer6"
+     inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:pagecheckerboard="false"
-     inkscape:window-width="2560"
-     inkscape:window-height="1377"
-     inkscape:window-x="1432"
-     inkscape:window-y="-8"
+     inkscape:window-width="1440"
+     inkscape:window-height="877"
+     inkscape:window-x="-8"
+     inkscape:window-y="235"
      inkscape:window-maximized="1"
      inkscape:snap-center="true"
      showguides="true"
@@ -13815,8 +13815,8 @@
        style="display:inline"
        transform="translate(2284.9999,165.07961)"
        id="g13078-5-1-0-4-8-8-7-1-3-0-2-2-0-6-7"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200">
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311">
       <rect
          transform="scale(-1,1)"
          y="134.99998"
@@ -13850,8 +13850,8 @@
        style="display:inline"
        transform="translate(2204.9999,185.07961)"
        id="g13078-5-1-0-4-8-8-1-0-9-7-8-78-1"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200">
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311">
       <rect
          transform="scale(-1,1)"
          y="134.99998"
@@ -13885,8 +13885,8 @@
        style="display:inline"
        transform="translate(2204.9999,165.07961)"
        id="g13078-5-7-0-1-4-3-3-4-6-5-68-1"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200">
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311">
       <rect
          transform="scale(-1,1)"
          y="134.99998"
@@ -13920,8 +13920,8 @@
        style="display:inline"
        transform="translate(2284.9999,185.07961)"
        id="g13078-5-1-0-4-8-8-7-1-3-0-2-2-75-3"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200">
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311">
       <rect
          transform="scale(-1,1)"
          y="134.99998"
@@ -13955,8 +13955,8 @@
        style="display:inline"
        transform="translate(2284.9999,125.07961)"
        id="g13078-5-1-0-4-8-8-7-1-3-0-2-2-0-6-3"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200">
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311">
       <rect
          transform="scale(-1,1)"
          y="134.99998"
@@ -13990,8 +13990,8 @@
        style="display:inline"
        transform="translate(2204.9999,145.07961)"
        id="g13078-5-1-0-4-8-8-1-0-9-7-8-78-0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200">
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311">
       <rect
          transform="scale(-1,1)"
          y="134.99998"
@@ -14025,8 +14025,8 @@
        style="display:inline"
        transform="translate(2204.9999,125.07961)"
        id="g13078-5-7-0-1-4-3-3-4-6-5-68-0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200">
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311">
       <rect
          transform="scale(-1,1)"
          y="134.99998"
@@ -14060,8 +14060,8 @@
        style="display:inline"
        transform="translate(2284.9999,145.07961)"
        id="g13078-5-1-0-4-8-8-7-1-3-0-2-2-75-0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200">
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311">
       <rect
          transform="scale(-1,1)"
          y="134.99998"
@@ -21802,6 +21802,181 @@
          d="m -401.99999,144.00001 v 5 l 8.99999,9e-5 2.6e-4,-4 h 21 l -1e-5,4 h 9.00001 l 10e-6,-4 20.99973,-1.2e-4 v 4 l 9.00001,-2.1e-4 -2.6e-4,-5 z"
          style="opacity:1;vector-effect:none;fill:#afffaf;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.49803922;paint-order:markers fill stroke" />
     </g>
+    <g
+       style="display:inline"
+       transform="translate(1440.124,670.07751)"
+       id="g13078-5-7-0-1-4-3-3-4-6-5-30-2-2-41-1-2"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622">
+      <rect
+         transform="scale(-1,1)"
+         y="134.99998"
+         x="373"
+         height="14"
+         width="19"
+         id="rect2006-6-2-4-7-1-5-0-4-5-4-4-6-6-3-9-2-8-5-8-7-9-2-7-2-8-4-3-3-1-47-7-3"
+         style="opacity:1;vector-effect:none;fill:#af7faf;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+      <rect
+         transform="scale(-1,1)"
+         y="134.99998"
+         x="343"
+         height="14"
+         width="19.000002"
+         id="rect2006-6-2-4-7-1-5-0-4-2-8-3-8-6-1-2-7-7-8-9-8-8-7-1-8-7-4-3-1-2-7-70-6-70"
+         style="opacity:1;vector-effect:none;fill:#af7faf;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+      <path
+         sodipodi:nodetypes="ccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path1978-8-3-6-5-8-4-9-06-6-3-0-3-7-7-2-8-0-3-8-2-9-5-7-6-4-7-2-2-2-34-0-4"
+         d="m -401.99999,140.00001 v -5 l 8.99999,-1.5e-4 2.6e-4,4 h 21 l -1e-5,-4 h 9.00001 l 10e-6,4 20.99973,1.2e-4 v -4 l 9.00001,3e-5 -2.6e-4,5 z"
+         style="opacity:1;vector-effect:none;fill:#afffaf;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.49803922;paint-order:markers fill stroke" />
+      <path
+         sodipodi:nodetypes="ccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path1978-8-3-6-5-8-4-9-06-1-9-5-9-8-0-7-9-4-4-1-7-5-1-1-0-2-9-7-8-5-9-85-4-1"
+         d="m -401.99999,144.00001 v 5 l 8.99999,9e-5 2.6e-4,-4 h 21 l -1e-5,4 h 9.00001 l 10e-6,-4 20.99973,-1.2e-4 v 4 l 9.00001,-2.1e-4 -2.6e-4,-5 z"
+         style="opacity:1;vector-effect:none;fill:#afffaf;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.49803922;paint-order:markers fill stroke" />
+    </g>
+    <g
+       style="display:inline"
+       transform="translate(1520.124,670.07751)"
+       id="g13078-5-7-0-1-4-3-3-4-6-5-30-2-9-87-5-7"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622">
+      <rect
+         transform="scale(-1,1)"
+         y="134.99998"
+         x="373"
+         height="14"
+         width="19"
+         id="rect2006-6-2-4-7-1-5-0-4-5-4-4-6-6-3-9-2-8-5-8-7-9-2-7-2-8-4-3-3-9-3-6-6"
+         style="opacity:1;vector-effect:none;fill:#af7faf;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+      <rect
+         transform="scale(-1,1)"
+         y="134.99998"
+         x="343"
+         height="14"
+         width="19.000002"
+         id="rect2006-6-2-4-7-1-5-0-4-2-8-3-8-6-1-2-7-7-8-9-8-8-7-1-8-7-4-3-1-2-9-9-8-2"
+         style="opacity:1;vector-effect:none;fill:#af7faf;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+      <path
+         sodipodi:nodetypes="ccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path1978-8-3-6-5-8-4-9-06-6-3-0-3-7-7-2-8-0-3-8-2-9-5-7-6-4-7-2-2-6-8-2-47"
+         d="m -401.99999,140.00001 v -5 l 8.99999,-1.5e-4 2.6e-4,4 h 21 l -1e-5,-4 h 9.00001 l 10e-6,4 20.99973,1.2e-4 v -4 l 9.00001,3e-5 -2.6e-4,5 z"
+         style="opacity:1;vector-effect:none;fill:#afffaf;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.49803922;paint-order:markers fill stroke" />
+      <path
+         sodipodi:nodetypes="ccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path1978-8-3-6-5-8-4-9-06-1-9-5-9-8-0-7-9-4-4-1-7-5-1-1-0-2-9-7-8-5-2-0-9-8"
+         d="m -401.99999,144.00001 v 5 l 8.99999,9e-5 2.6e-4,-4 h 21 l -1e-5,4 h 9.00001 l 10e-6,-4 20.99973,-1.2e-4 v 4 l 9.00001,-2.1e-4 -2.6e-4,-5 z"
+         style="opacity:1;vector-effect:none;fill:#afffaf;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.49803922;paint-order:markers fill stroke" />
+    </g>
+    <g
+       style="display:inline"
+       transform="translate(1440.124,690.07752)"
+       id="g13078-5-7-0-1-4-3-3-4-6-5-30-2-2-8-6-1-8"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622">
+      <rect
+         transform="scale(-1,1)"
+         y="134.99998"
+         x="373"
+         height="14"
+         width="19"
+         id="rect2006-6-2-4-7-1-5-0-4-5-4-4-6-6-3-9-2-8-5-8-7-9-2-7-2-8-4-3-3-1-5-0-0-4"
+         style="opacity:1;vector-effect:none;fill:#af7faf;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+      <rect
+         transform="scale(-1,1)"
+         y="134.99998"
+         x="343"
+         height="14"
+         width="19.000002"
+         id="rect2006-6-2-4-7-1-5-0-4-2-8-3-8-6-1-2-7-7-8-9-8-8-7-1-8-7-4-3-1-2-7-0-9-2-9"
+         style="opacity:1;vector-effect:none;fill:#af7faf;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+      <path
+         sodipodi:nodetypes="ccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path1978-8-3-6-5-8-4-9-06-6-3-0-3-7-7-2-8-0-3-8-2-9-5-7-6-4-7-2-2-2-3-7-8-8"
+         d="m -401.99999,140.00001 v -5 l 8.99999,-1.5e-4 2.6e-4,4 h 21 l -1e-5,-4 h 9.00001 l 10e-6,4 20.99973,1.2e-4 v -4 l 9.00001,3e-5 -2.6e-4,5 z"
+         style="opacity:1;vector-effect:none;fill:#afffaf;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.49803922;paint-order:markers fill stroke" />
+      <path
+         sodipodi:nodetypes="ccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path1978-8-3-6-5-8-4-9-06-1-9-5-9-8-0-7-9-4-4-1-7-5-1-1-0-2-9-7-8-5-9-5-3-0-05"
+         d="m -401.99999,144.00001 v 5 l 8.99999,9e-5 2.6e-4,-4 h 21 l -1e-5,4 h 9.00001 l 10e-6,-4 20.99973,-1.2e-4 v 4 l 9.00001,-2.1e-4 -2.6e-4,-5 z"
+         style="opacity:1;vector-effect:none;fill:#afffaf;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.49803922;paint-order:markers fill stroke" />
+    </g>
+    <g
+       style="display:inline"
+       transform="translate(1520.124,690.07752)"
+       id="g13078-5-7-0-1-4-3-3-4-6-5-30-2-9-0-2-6-67"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622">
+      <rect
+         transform="scale(-1,1)"
+         y="134.99998"
+         x="373"
+         height="14"
+         width="19"
+         id="rect2006-6-2-4-7-1-5-0-4-5-4-4-6-6-3-9-2-8-5-8-7-9-2-7-2-8-4-3-3-9-8-5-0-5"
+         style="opacity:1;vector-effect:none;fill:#af7faf;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+      <rect
+         transform="scale(-1,1)"
+         y="134.99998"
+         x="343"
+         height="14"
+         width="19.000002"
+         id="rect2006-6-2-4-7-1-5-0-4-2-8-3-8-6-1-2-7-7-8-9-8-8-7-1-8-7-4-3-1-2-9-8-0-6-9"
+         style="opacity:1;vector-effect:none;fill:#af7faf;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+      <path
+         sodipodi:nodetypes="ccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path1978-8-3-6-5-8-4-9-06-6-3-0-3-7-7-2-8-0-3-8-2-9-5-7-6-4-7-2-2-6-9-77-2-1"
+         d="m -401.99999,140.00001 v -5 l 8.99999,-1.5e-4 2.6e-4,4 h 21 l -1e-5,-4 h 9.00001 l 10e-6,4 20.99973,1.2e-4 v -4 l 9.00001,3e-5 -2.6e-4,5 z"
+         style="opacity:1;vector-effect:none;fill:#afffaf;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.49803922;paint-order:markers fill stroke" />
+      <path
+         sodipodi:nodetypes="ccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path1978-8-3-6-5-8-4-9-06-1-9-5-9-8-0-7-9-4-4-1-7-5-1-1-0-2-9-7-8-5-2-1-69-4-7"
+         d="m -401.99999,144.00001 v 5 l 8.99999,9e-5 2.6e-4,-4 h 21 l -1e-5,4 h 9.00001 l 10e-6,-4 20.99973,-1.2e-4 v 4 l 9.00001,-2.1e-4 -2.6e-4,-5 z"
+         style="opacity:1;vector-effect:none;fill:#afffaf;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.49803922;paint-order:markers fill stroke" />
+    </g>
+    <g
+       style="display:inline"
+       transform="translate(1440.124,650.07752)"
+       id="g13078-5-7-0-1-4-3-3-4-6-5-30-2-2-5-2-4-7"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622">
+      <rect
+         transform="scale(-1,1)"
+         y="134.99998"
+         x="373"
+         height="14"
+         width="19"
+         id="rect2006-6-2-4-7-1-5-0-4-5-4-4-6-6-3-9-2-8-5-8-7-9-2-7-2-8-4-3-3-1-4-97-1-5"
+         style="opacity:1;vector-effect:none;fill:#af7faf;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+      <rect
+         transform="scale(-1,1)"
+         y="134.99998"
+         x="343"
+         height="14"
+         width="19.000002"
+         id="rect2006-6-2-4-7-1-5-0-4-2-8-3-8-6-1-2-7-7-8-9-8-8-7-1-8-7-4-3-1-2-7-06-0-1-5"
+         style="opacity:1;vector-effect:none;fill:#af7faf;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+      <path
+         sodipodi:nodetypes="ccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path1978-8-3-6-5-8-4-9-06-6-3-0-3-7-7-2-8-0-3-8-2-9-5-7-6-4-7-2-2-2-37-1-1-8"
+         d="m -401.99999,140.00001 v -5 l 8.99999,-1.5e-4 2.6e-4,4 h 21 l -1e-5,-4 h 9.00001 l 10e-6,4 20.99973,1.2e-4 v -4 l 9.00001,3e-5 -2.6e-4,5 z"
+         style="opacity:1;vector-effect:none;fill:#afffaf;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.49803922;paint-order:markers fill stroke" />
+      <path
+         sodipodi:nodetypes="ccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path1978-8-3-6-5-8-4-9-06-1-9-5-9-8-0-7-9-4-4-1-7-5-1-1-0-2-9-7-8-5-9-2-9-7-5"
+         d="m -401.99999,144.00001 v 5 l 8.99999,9e-5 2.6e-4,-4 h 21 l -1e-5,4 h 9.00001 l 10e-6,-4 20.99973,-1.2e-4 v 4 l 9.00001,-2.1e-4 -2.6e-4,-5 z"
+         style="opacity:1;vector-effect:none;fill:#afffaf;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.49803922;paint-order:markers fill stroke" />
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -28956,8 +29131,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        d="m 1855.0001,262.07959 10e-5,69.99993"
@@ -28965,8 +29140,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        d="m 1820,262.0796 2e-4,69.99992"
@@ -28974,8 +29149,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        d="m 1935.0001,262.07958 10e-5,69.99995"
@@ -28983,293 +29158,293 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        id="path16870"
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1920.0002,267.07954 v 15 m -10,-15 h 15"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1925.0002,282.07954 v 9.99998"
        id="path16874"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1910.0002,292.07952 v -4.99999 h -5 v -4.99999"
        id="path16876"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1910.0002,282.07954 v -5.00002 h -5 v -15"
        id="path16878"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1850.0002,262.07952 v 10.00001 h -5 v 10"
        id="path16880"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        id="path16888"
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1845.0002,267.07954 h -15 m 5,14.99999 v -14.99999"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1840.0002,272.07953 v 29.99999"
        id="path16890"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1845.0002,312.07953 h -10 v -10.00001 l -5,10e-6"
        id="path16892"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1845.0002,307.07954 v -5.00002 h 5"
        id="path16894"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1910.0002,312.07953 h 10 v -10.00001 l 5,10e-6"
        id="path16900"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1910.0002,307.07954 v -5.00002 h -5"
        id="path16902"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1905.0002,322.07953 h 5 v 4.99999"
        id="path16906"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1815.0002,267.07954 v -5.00002 l -10,10e-6"
        id="path16908"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1860.0002,272.07953 v -10 h 10"
        id="path16910"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1890.0002,312.07953 v 10 h -10 v -35 -20 h 10 v 5"
        id="path17300"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        id="path17304"
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1920.0002,317.07952 v 5.00001 m -15,-14.99999 v 9.99998 h 20 v -9.99998"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        id="path17309"
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1840.0002,317.07952 v 5.00001 m 10,-14.99999 v 9.99998 h -20 v -9.99998"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1845.0002,322.07953 h 5"
        id="path17311"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1835.0002,322.07953 h -5"
        id="path17313"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        id="path17317"
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1895.0002,332.07954 v -5.00002 h -20 v 5.00002 h -5 m -5,-60.00001 v -4.99999 h 10 v 59.99998"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1850.0002,332.07954 h -25 v -70.00002 l 10,10e-6"
        id="path17320"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1925.0002,322.07954 v 4.99999"
        id="path17306"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1830.0002,287.07952 v -4.99999"
        id="path16884"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1850.0002,282.07954 v 4.99999"
        id="path16910-3"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1895.0002,272.07953 v -10.00001 h -10"
        id="path17709"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1940.0002,282.07954 v -10.00001 h 10"
        id="path17711"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1815.0002,282.07954 v -10.00001 h -10"
        id="path17713"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1940.0002,267.07954 v -5.00002 l 10,10e-6"
        id="path17715"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1885.0002,307.07954 v 9.99998"
        id="path17778"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1870.0002,317.07952 v -9.99998"
        id="path17780"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1815.0002,307.07954 v 4.99999 h -10"
        id="path17782"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1940.0002,307.07954 v 4.99999 h 10"
        id="path17782-9"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1895.0002,302.07952 v -4.99999 h -10"
        id="path17912"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        id="path18012"
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1930.0002,297.07953 h -15 v 4.99999 m -10,30.00002 h 25 v -70.00002 l -10,10e-6"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        id="path18031"
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1860.0002,312.07953 h 5 m 5,-30 h -5 v 4.99999 h -5 v 45.00002"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1860.0002,282.07954 v -5.00002 h 10"
        id="path18068"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1885.0002,277.07952 h 10 v 5.00002"
        id="path18070"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1815.0002,302.07952 h -10"
        id="path18117"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1940.0002,302.07952 h 10"
        id="path18119"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:url(#linearGradient11751);fill-opacity:0.74901961;fill-rule:evenodd;stroke:#00001e;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1807.0004,260.07952 h -4 v 4 h 4 z"
        id="path1818-6-0-5-8-5-2-5-15-4-6-8-74-8-2-0-6-1-7-0"
        inkscape:connector-curvature="0"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1773-39-1-2-0-8-7-6-9-7-5-5-0-3"
@@ -29277,8 +29452,8 @@
        cy="262.07956"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.60000038px;line-height:125%;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.22767682px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -29286,21 +29461,21 @@
        y="263.41547"
        id="text11909-7-9-92-93-3-0-0-7-0-8-4-6-2-6-5"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200"><tspan
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311"><tspan
          sodipodi:role="line"
          x="1797.9541"
          y="263.41547"
          style="stroke-width:0.22767682px"
-         id="tspan12041-1-1-36-5-0-3-5-86-9-8-7-8-5-9-8">A2</tspan></text>
+         id="tspan12041-1-1-36-5-0-3-5-86-9-8-7-8-5-9-8">A1</tspan></text>
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:url(#linearGradient11751);fill-opacity:0.74901961;fill-rule:evenodd;stroke:#00001e;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1807.0004,270.07952 h -4 v 4 h 4 z"
        id="path1818-6-0-5-8-5-2-5-15-4-6-8-74-8-2-0-6-1-7-8"
        inkscape:connector-curvature="0"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1773-39-1-2-0-8-7-6-9-7-5-5-0-4"
@@ -29308,8 +29483,8 @@
        cy="272.07956"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.60000038px;line-height:125%;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.22767682px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -29317,21 +29492,21 @@
        y="273.41547"
        id="text11909-7-9-92-93-3-0-0-7-0-8-4-6-2-6-3"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200"><tspan
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311"><tspan
          sodipodi:role="line"
          x="1797.9541"
          y="273.41547"
          style="stroke-width:0.22767682px"
-         id="tspan12041-1-1-36-5-0-3-5-86-9-8-7-8-5-9-6">A1</tspan></text>
+         id="tspan12041-1-1-36-5-0-3-5-86-9-8-7-8-5-9-6">A2</tspan></text>
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:url(#linearGradient11751);fill-opacity:0.74901961;fill-rule:evenodd;stroke:#00001e;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1807.0004,300.07953 h -4 v 4 h 4 z"
        id="path1818-6-0-5-8-5-2-5-15-4-6-8-74-8-2-0-6-1-7-0-4"
        inkscape:connector-curvature="0"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1773-39-1-2-0-8-7-6-9-7-5-5-0-3-3"
@@ -29339,8 +29514,8 @@
        cy="302.07956"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.60000038px;line-height:125%;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.22767682px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -29348,21 +29523,21 @@
        y="303.41547"
        id="text11909-7-9-92-93-3-0-0-7-0-8-4-6-2-6-5-6"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200"><tspan
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311"><tspan
          sodipodi:role="line"
          x="1797.9541"
          y="303.41547"
          style="stroke-width:0.22767682px"
-         id="tspan12041-1-1-36-5-0-3-5-86-9-8-7-8-5-9-8-8">C1</tspan></text>
+         id="tspan12041-1-1-36-5-0-3-5-86-9-8-7-8-5-9-8-8">C2</tspan></text>
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:url(#linearGradient11751);fill-opacity:0.74901961;fill-rule:evenodd;stroke:#00001e;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1807.0004,310.07953 h -4 v 4 h 4 z"
        id="path1818-6-0-5-8-5-2-5-15-4-6-8-74-8-2-0-6-1-7-8-5"
        inkscape:connector-curvature="0"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1773-39-1-2-0-8-7-6-9-7-5-5-0-4-3"
@@ -29370,8 +29545,8 @@
        cy="312.07956"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.60000038px;line-height:125%;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.22767682px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -29379,21 +29554,21 @@
        y="313.41547"
        id="text11909-7-9-92-93-3-0-0-7-0-8-4-6-2-6-3-0"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200"><tspan
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311"><tspan
          sodipodi:role="line"
          x="1797.9541"
          y="313.41547"
          style="stroke-width:0.22767682px"
-         id="tspan12041-1-1-36-5-0-3-5-86-9-8-7-8-5-9-6-8">C2</tspan></text>
+         id="tspan12041-1-1-36-5-0-3-5-86-9-8-7-8-5-9-6-8">C1</tspan></text>
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:url(#linearGradient11751);fill-opacity:0.74901961;fill-rule:evenodd;stroke:#00001e;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1952.0004,300.07953 h -4 v 4 h 4 z"
        id="path1818-6-0-5-8-5-2-5-15-4-6-8-74-8-2-0-6-1-7-0-4-8"
        inkscape:connector-curvature="0"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1773-39-1-2-0-8-7-6-9-7-5-5-0-3-3-6"
@@ -29401,16 +29576,16 @@
        cy="302.07956"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:url(#linearGradient11751);fill-opacity:0.74901961;fill-rule:evenodd;stroke:#00001e;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1952.0004,310.07953 h -4 v 4 h 4 z"
        id="path1818-6-0-5-8-5-2-5-15-4-6-8-74-8-2-0-6-1-7-8-5-7"
        inkscape:connector-curvature="0"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1773-39-1-2-0-8-7-6-9-7-5-5-0-4-3-6"
@@ -29418,16 +29593,16 @@
        cy="312.07956"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:url(#linearGradient11751);fill-opacity:0.74901961;fill-rule:evenodd;stroke:#00001e;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1952.0004,260.07953 h -4 v 4 h 4 z"
        id="path1818-6-0-5-8-5-2-5-15-4-6-8-74-8-2-0-6-1-7-0-4-0"
        inkscape:connector-curvature="0"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1773-39-1-2-0-8-7-6-9-7-5-5-0-3-3-8"
@@ -29435,16 +29610,16 @@
        cy="262.07956"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:url(#linearGradient11751);fill-opacity:0.74901961;fill-rule:evenodd;stroke:#00001e;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1952.0004,270.07953 h -4 v 4 h 4 z"
        id="path1818-6-0-5-8-5-2-5-15-4-6-8-74-8-2-0-6-1-7-8-5-2"
        inkscape:connector-curvature="0"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1773-39-1-2-0-8-7-6-9-7-5-5-0-4-3-5"
@@ -29452,8 +29627,8 @@
        cy="272.07956"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.60000038px;line-height:125%;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.22767682px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -29461,13 +29636,13 @@
        y="263.41547"
        id="text11909-7-9-92-93-3-0-0-7-0-8-4-6-2-6-5-9"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200"><tspan
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311"><tspan
          sodipodi:role="line"
          x="1952.9541"
          y="263.41547"
          style="stroke-width:0.22767682px"
-         id="tspan12041-1-1-36-5-0-3-5-86-9-8-7-8-5-9-8-6">B1</tspan></text>
+         id="tspan12041-1-1-36-5-0-3-5-86-9-8-7-8-5-9-8-6">B2</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.60000038px;line-height:125%;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.22767682px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -29475,13 +29650,13 @@
        y="273.41547"
        id="text11909-7-9-92-93-3-0-0-7-0-8-4-6-2-6-3-2"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200"><tspan
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311"><tspan
          sodipodi:role="line"
          x="1952.9541"
          y="273.41547"
          style="stroke-width:0.22767682px"
-         id="tspan12041-1-1-36-5-0-3-5-86-9-8-7-8-5-9-6-0">B2</tspan></text>
+         id="tspan12041-1-1-36-5-0-3-5-86-9-8-7-8-5-9-6-0">B1</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.60000038px;line-height:125%;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.22767682px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -29489,13 +29664,13 @@
        y="303.41547"
        id="text11909-7-9-92-93-3-0-0-7-0-8-4-6-2-6-5-68"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200"><tspan
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311"><tspan
          sodipodi:role="line"
          x="1952.9541"
          y="303.41547"
          style="stroke-width:0.22767682px"
-         id="tspan12041-1-1-36-5-0-3-5-86-9-8-7-8-5-9-8-82">D1</tspan></text>
+         id="tspan12041-1-1-36-5-0-3-5-86-9-8-7-8-5-9-8-82">D2</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.60000038px;line-height:125%;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.22767682px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -29503,13 +29678,13 @@
        y="313.41547"
        id="text11909-7-9-92-93-3-0-0-7-0-8-4-6-2-6-3-7"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200"><tspan
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311"><tspan
          sodipodi:role="line"
          x="1952.9541"
          y="313.41547"
          style="stroke-width:0.22767682px"
-         id="tspan12041-1-1-36-5-0-3-5-86-9-8-7-8-5-9-6-3">D2</tspan></text>
+         id="tspan12041-1-1-36-5-0-3-5-86-9-8-7-8-5-9-6-3">D1</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.60000038px;line-height:125%;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.22767682px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -29517,8 +29692,8 @@
        y="288.41547"
        id="text11909-7-9-92-93-3-0-0-7-0-8-4-6-2-6-3-6"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200"><tspan
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311"><tspan
          sodipodi:role="line"
          x="1797.9541"
          y="288.41547"
@@ -29531,8 +29706,8 @@
        y="293.41547"
        id="text11909-7-9-92-93-3-0-0-7-0-8-4-6-2-6-3-6-7"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200"><tspan
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311"><tspan
          sodipodi:role="line"
          x="1797.9541"
          y="293.41547"
@@ -29545,8 +29720,8 @@
        y="323.41547"
        id="text11909-7-9-92-93-3-0-0-7-0-8-4-6-2-6-3-6-9"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200"><tspan
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311"><tspan
          sodipodi:role="line"
          x="1797.9541"
          y="323.41547"
@@ -29559,8 +29734,8 @@
        y="328.41547"
        id="text11909-7-9-92-93-3-0-0-7-0-8-4-6-2-6-3-6-6"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200"><tspan
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311"><tspan
          sodipodi:role="line"
          x="1797.9541"
          y="328.41547"
@@ -37453,6 +37628,61 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="200"
        inkscape:export-ydpi="200" />
+    <path
+       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       d="m 1135.1242,807.07754 10e-5,30.00006"
+       id="path19059-6-4-4-5-9-6-0-8-3-8-9-2-6-7-1-6-0-42-2-3-6-1-8-8-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <path
+       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       d="m 1055.1241,787.07756 10e-5,50"
+       id="path19059-0-3-7-9-4-3-0-0-0-3-3-9-4-5-7-8-0-6-0-9-2-1-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <path
+       id="path34765"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 1105,827.07958 -15,1e-5 m 15,-10.00002 h -5 v 20.00002 h 5 m -14.8759,-50.00204 10e-5,50.00001"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       id="path35313"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 1180,817.07957 v 20.00002 m -10,-10.00001 h 10 m -9.8758,-20.00201 10e-5,30.00004" />
+    <path
+       id="path35318"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 1075,797.07959 v 10 m -15,-10 h 25" />
+    <path
+       id="path35323"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 1080,812.07958 v 19.99999 m -20,-24.99998 h 5 v 4.99999 h 15 v -4.99999 h 5" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 1060,827.07958 h 5 v -10.00001 h -5"
+       id="path35325"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 1100,807.07959 h 25"
+       id="path35327"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path35331"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 1155,807.07959 v 4.99999 m -15,-4.99999 h 25" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff6600;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 1140,817.07957 h 5 v 10.00001 h -5"
+       id="path35333"
+       inkscape:connector-curvature="0" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -38745,98 +38975,98 @@
        d="m 1805.0003,292.07955 144.9999,2e-5"
        id="path16386-1-1-0-1"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200"
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311"
        sodipodi:nodetypes="cc" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ffff00;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1805.0003,287.07955 144.9999,2e-5"
        id="path16386-1-1-0-1-9"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200"
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311"
        sodipodi:nodetypes="cc" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ffff00;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1870.0002,282.07954 h 10"
        id="path17686"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ffff00;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1805.0003,327.07956 144.9999,2e-5"
        id="path16386-1-1-0-1-9-3"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200"
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311"
        sodipodi:nodetypes="cc" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ffff00;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1805.0002,322.07953 144.9999,2e-5"
        id="path16386-1-1-0-1-9-0"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200"
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311"
        sodipodi:nodetypes="cc" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ffff00;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1815.0002,267.07954 h 45"
        id="path17774"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ffff00;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1895.0002,267.07954 h 45"
        id="path17776"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ffff00;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1815.0002,307.07954 h 55"
        id="path17859"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ffff00;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1885.0002,307.07953 h 55"
        id="path17859-1"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ffff00;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1835.0002,302.07952 h -20"
        id="path17929"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ffff00;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1920.0002,302.07952 h 20"
        id="path17931"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ffff00;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1815.0002,282.07953 h 45"
        id="path18064"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ffff00;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1940.0002,282.07954 -45,-1e-5"
        id="path18066"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ffff00;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 2814.9177,192.05187 h -25"
@@ -39575,6 +39805,20 @@
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ffff00;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1184.9999,717.07965 h -145"
        id="path17263-9-9-5-8-1-6-5-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <path
+       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ffff00;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 1184.9999,812.07965 h -145"
+       id="path17263-9-9-5-8-1-6-5-0-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <path
+       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.98994978;fill-rule:evenodd;stroke:#ffff00;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 1184.9999,832.07965 h -145"
+       id="path17263-9-9-5-8-1-6-5-0-6"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="199.99622"
        inkscape:export-ydpi="199.99622" />
@@ -74675,8 +74919,8 @@
        cy="292.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-7"
@@ -74684,8 +74928,8 @@
        cy="292.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-62"
@@ -74693,8 +74937,8 @@
        cy="332.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-98"
@@ -74702,8 +74946,8 @@
        cy="307.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-3"
@@ -74711,8 +74955,8 @@
        cy="307.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-9"
@@ -74720,8 +74964,8 @@
        cy="272.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-3"
@@ -74729,8 +74973,8 @@
        cy="302.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-30"
@@ -74738,8 +74982,8 @@
        cy="302.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-6"
@@ -74747,8 +74991,8 @@
        cy="312.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-7"
@@ -74756,8 +75000,8 @@
        cy="307.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-31"
@@ -74765,8 +75009,8 @@
        cy="302.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-74"
@@ -74774,8 +75018,8 @@
        cy="287.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38"
@@ -74783,8 +75027,8 @@
        cy="287.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-3"
@@ -74792,8 +75036,8 @@
        cy="267.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-8"
@@ -74801,8 +75045,8 @@
        cy="267.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-0"
@@ -74810,8 +75054,8 @@
        cy="282.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-5"
@@ -74819,8 +75063,8 @@
        cy="267.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-1"
@@ -74828,8 +75072,8 @@
        cy="262.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-84"
@@ -74837,8 +75081,8 @@
        cy="267.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-51"
@@ -74846,8 +75090,8 @@
        cy="272.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-4"
@@ -74855,8 +75099,8 @@
        cy="282.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-43"
@@ -74864,8 +75108,8 @@
        cy="267.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-40"
@@ -74873,8 +75117,8 @@
        cy="267.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-6"
@@ -74882,8 +75126,8 @@
        cy="262.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-03"
@@ -74891,8 +75135,8 @@
        cy="282.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-15"
@@ -74900,8 +75144,8 @@
        cy="282.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-53"
@@ -74909,8 +75153,8 @@
        cy="292.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-10"
@@ -74918,8 +75162,8 @@
        cy="292.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-35"
@@ -74927,8 +75171,8 @@
        cy="282.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-01"
@@ -74936,8 +75180,8 @@
        cy="312.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-2"
@@ -74945,8 +75189,8 @@
        cy="302.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-48"
@@ -74954,8 +75198,8 @@
        cy="307.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-29"
@@ -74963,8 +75207,8 @@
        cy="307.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-9"
@@ -74972,8 +75216,8 @@
        cy="307.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-00"
@@ -74981,8 +75225,8 @@
        cy="302.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-7"
@@ -74990,8 +75234,8 @@
        cy="322.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-41"
@@ -74999,8 +75243,8 @@
        cy="327.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-1"
@@ -75008,8 +75252,8 @@
        cy="327.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-1-0"
@@ -75017,8 +75261,8 @@
        cy="327.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-68"
@@ -75026,8 +75270,8 @@
        cy="327.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-1-8"
@@ -75035,8 +75279,8 @@
        cy="327.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6"
@@ -75044,8 +75288,8 @@
        cy="287.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-1"
@@ -75053,8 +75297,8 @@
        cy="287.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-382"
@@ -75062,8 +75306,8 @@
        cy="287.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-1-9"
@@ -75071,8 +75315,8 @@
        cy="287.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-72"
@@ -75080,8 +75324,8 @@
        cy="292.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-1-4"
@@ -75089,8 +75333,8 @@
        cy="292.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-3-9"
@@ -75098,8 +75342,8 @@
        cy="262.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-98-2"
@@ -75107,8 +75351,8 @@
        cy="332.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-7-8"
@@ -75116,8 +75360,8 @@
        cy="332.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-98-29"
@@ -75125,8 +75369,8 @@
        cy="332.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-7-2"
@@ -75134,8 +75378,8 @@
        cy="332.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-7-3"
@@ -75143,8 +75387,8 @@
        cy="262.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-98-2-4"
@@ -75152,8 +75396,8 @@
        cy="332.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-7-8-9"
@@ -75161,8 +75405,8 @@
        cy="332.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-98-2-3"
@@ -75170,8 +75414,8 @@
        cy="332.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-7-8-95"
@@ -75179,8 +75423,8 @@
        cy="332.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-3-9-3"
@@ -75188,8 +75432,8 @@
        cy="262.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-3-9-33"
@@ -75197,8 +75441,8 @@
        cy="322.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-3-9-8"
@@ -75206,8 +75450,8 @@
        cy="322.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-3-9-7"
@@ -75215,8 +75459,8 @@
        cy="327.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-98-2-3-1"
@@ -75224,8 +75468,8 @@
        cy="322.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-7-8-95-9"
@@ -75233,8 +75477,8 @@
        cy="322.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-98-2-3-8"
@@ -75242,8 +75486,8 @@
        cy="322.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-7-8-95-6"
@@ -75251,8 +75495,8 @@
        cy="322.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-98-29-4"
@@ -75260,8 +75504,8 @@
        cy="322.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-98-2-7"
@@ -75269,8 +75513,8 @@
        cy="332.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-98-2-8"
@@ -75278,8 +75522,8 @@
        cy="332.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-98-2-6"
@@ -75287,8 +75531,8 @@
        cy="312.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-98-2-38"
@@ -75296,8 +75540,8 @@
        cy="272.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-98-2-0"
@@ -75305,8 +75549,8 @@
        cy="272.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-9"
@@ -75314,8 +75558,8 @@
        cy="282.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-98-2-62"
@@ -75323,8 +75567,8 @@
        cy="282.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-4"
@@ -75332,8 +75576,8 @@
        cy="282.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-5"
@@ -75341,8 +75585,8 @@
        cy="282.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-1-2"
@@ -75350,8 +75594,8 @@
        cy="272.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-1-3"
@@ -75359,8 +75603,8 @@
        cy="282.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-1-5"
@@ -75368,8 +75612,8 @@
        cy="267.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-1-50"
@@ -75377,8 +75621,8 @@
        cy="262.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-1-8"
@@ -75386,8 +75630,8 @@
        cy="267.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-1-7"
@@ -75395,8 +75639,8 @@
        cy="272.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-1-27"
@@ -75404,8 +75648,8 @@
        cy="272.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-1-20"
@@ -75413,8 +75657,8 @@
        cy="282.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-7-4"
@@ -75422,8 +75666,8 @@
        cy="307.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-7-5"
@@ -75431,8 +75675,8 @@
        cy="312.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-7-86"
@@ -75440,8 +75684,8 @@
        cy="307.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-7-42"
@@ -75449,8 +75693,8 @@
        cy="302.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-7-30"
@@ -75458,8 +75702,8 @@
        cy="307.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-48-0"
@@ -75467,8 +75711,8 @@
        cy="307.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-48-3"
@@ -75476,8 +75720,8 @@
        cy="312.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-30-2"
@@ -75485,8 +75729,8 @@
        cy="302.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-2-3"
@@ -75494,16 +75738,16 @@
        cy="302.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:url(#linearGradient11751);fill-opacity:0.74901961;fill-rule:evenodd;stroke:#00001e;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1952.0003,330.07954 h -4 v 4 h 4 z"
        id="path1818-6-0-5-8-5-2-5-15-4-6-8-74-8-2-0-1-5-3-0-7"
        inkscape:connector-curvature="0"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1773-39-1-2-0-8-7-6-9-7-1-3-5-2-8"
@@ -75511,8 +75755,8 @@
        cy="332.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.60000038px;line-height:125%;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.22767682px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -75520,8 +75764,8 @@
        y="333.38998"
        id="text11909-7-9-92-93-3-0-0-7-0-8-4-4-6-8-6-8"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200"><tspan
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311"><tspan
          sodipodi:role="line"
          x="1953.9131"
          y="333.38998"
@@ -75534,8 +75778,8 @@
        cy="302.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-62-8"
@@ -75543,8 +75787,8 @@
        cy="312.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-3-8"
@@ -75552,8 +75796,8 @@
        cy="282.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-3-8-3"
@@ -75561,8 +75805,8 @@
        cy="282.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-3-8-7"
@@ -75570,8 +75814,8 @@
        cy="282.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-7-5-4"
@@ -75579,8 +75823,8 @@
        cy="302.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-7-5-5"
@@ -75588,8 +75832,8 @@
        cy="302.07959"
        r="1"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311" />
     <circle
        style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-53-29-6-38-40-5"
@@ -96884,6 +97128,524 @@
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
        inkscape:export-xdpi="199.98254"
        inkscape:export-ydpi="199.98254" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7"
+       cx="1060.0002"
+       cy="797.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-1"
+       cx="1065.0002"
+       cy="797.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-7"
+       cx="1080.0002"
+       cy="797.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-1-1"
+       cx="1085.0002"
+       cy="797.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-4"
+       cx="1080.0002"
+       cy="807.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-1-19"
+       cx="1085.0002"
+       cy="807.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-46"
+       cx="1060.0002"
+       cy="807.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-1-0"
+       cx="1065.0002"
+       cy="807.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-76"
+       cx="1060.0002"
+       cy="817.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-1-9"
+       cx="1065.0002"
+       cy="817.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-9"
+       cx="1060.0002"
+       cy="827.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-1-4"
+       cx="1065.0002"
+       cy="827.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-3"
+       cx="1100.0002"
+       cy="807.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-1-07"
+       cx="1105.0002"
+       cy="807.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-41"
+       cx="1100.0002"
+       cy="817.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-1-5"
+       cx="1105.0002"
+       cy="817.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-8"
+       cx="1100.0002"
+       cy="827.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-1-09"
+       cx="1105.0002"
+       cy="827.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-38"
+       cx="1100.0002"
+       cy="837.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-1-47"
+       cx="1105.0002"
+       cy="837.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-87"
+       cx="1120.0002"
+       cy="807.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-1-8"
+       cx="1125.0002"
+       cy="807.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-40"
+       cx="1140.0002"
+       cy="807.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-1-84"
+       cx="1145.0002"
+       cy="807.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-2"
+       cx="1160.0002"
+       cy="807.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-1-55"
+       cx="1165.0002"
+       cy="807.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-1"
+       cx="1140.0002"
+       cy="817.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-1-82"
+       cx="1145.0002"
+       cy="817.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-6"
+       cx="1140.0002"
+       cy="827.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-1-14"
+       cx="1145.0002"
+       cy="827.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-1-82-3"
+       cx="1155.0002"
+       cy="812.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-1-82-9"
+       cx="1180.0002"
+       cy="817.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-1-82-2"
+       cx="1180.0002"
+       cy="827.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-1-82-94"
+       cx="1180.0002"
+       cy="837.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-1-82-6"
+       cx="1080.0002"
+       cy="832.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-1-82-7"
+       cx="1075.0002"
+       cy="807.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-7-2"
+       cx="1090.0002"
+       cy="787.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-7-8"
+       cx="1090.0002"
+       cy="792.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-7-1"
+       cx="1055.0002"
+       cy="792.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-7-6"
+       cx="1055.0002"
+       cy="787.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-7-63"
+       cx="1055.0002"
+       cy="837.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-7-13"
+       cx="1090.0002"
+       cy="837.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-7-21"
+       cx="1090.0002"
+       cy="832.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-7-9"
+       cx="1090.0002"
+       cy="827.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-7-9-3"
+       cx="1135.0002"
+       cy="837.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-7-9-8"
+       cx="1170.0002"
+       cy="837.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-7-9-85"
+       cx="1170.0002"
+       cy="832.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-7-9-0"
+       cx="1170.0002"
+       cy="827.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-7-9-7"
+       cx="1170.0002"
+       cy="817.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-7-9-83"
+       cx="1170.0002"
+       cy="812.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.60000038px;line-height:125%;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.22767682px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1033.9164"
+       y="798.39178"
+       id="text11909-7-9-92-93-2-1-4-0-7-9-5-8-5-9-6-2-6-6-6-43-5-0-9-54-9-1-6-96-3-2-8-1-2-4-8-2"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622"><tspan
+         sodipodi:role="line"
+         x="1033.9164"
+         y="798.39178"
+         style="stroke-width:0.22767682px"
+         id="tspan12041-1-1-36-5-06-5-0-6-0-6-0-3-6-0-0-2-5-6-06-7-9-1-7-9-6-8-0-55-4-7-6-9-5-8-8-5">A</tspan></text>
+    <path
+       style="display:inline;opacity:1;vector-effect:none;fill:url(#linearGradient11751);fill-opacity:0.74901961;fill-rule:evenodd;stroke:#00001e;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 1042,795.07954 h -4 v 4.0001 h 4 z"
+       id="path1818-6-0-5-8-5-2-5-15-5-3-8-1-5-0-5-7-1-3-8-8-3-9-70-0-43-1-2-17-2-8-9-7-9-1-5-8-19"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-18"
+       cx="1040.0002"
+       cy="797.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1839-3-6-5-3-4-2-6-9-9-8-6-6-7-5-9-2-13-5-8-5-84-07-7-7-65-05-4-4-7-1-5-3-4-6-25-64-49-0-2-9-8-74-7-5-86-7-9-50-6-48-5-5-9-9-8-7-4-8-9-48-1-37-0-2-77-35-67-5-2-7-8-4"
+       cx="1090.0002"
+       cy="812.07965"
+       r="1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.60000038px;line-height:125%;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.22767682px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1188.9164"
+       y="813.39178"
+       id="text11909-7-9-92-93-2-1-4-0-7-9-5-8-5-9-6-2-6-6-6-43-5-0-9-54-9-1-6-96-3-2-8-1-2-4-8-2-1"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622"><tspan
+         sodipodi:role="line"
+         x="1188.9164"
+         y="813.39178"
+         style="stroke-width:0.22767682px"
+         id="tspan12041-1-1-36-5-06-5-0-6-0-6-0-3-6-0-0-2-5-6-06-7-9-1-7-9-6-8-0-55-4-7-6-9-5-8-8-5-9">A=0:z A=1:1 (PAD=0)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.60000038px;line-height:125%;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.22767682px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1188.9164"
+       y="833.39178"
+       id="text11909-7-9-92-93-2-1-4-0-7-9-5-8-5-9-6-2-6-6-6-43-5-0-9-54-9-1-6-96-3-2-8-1-2-4-8-2-1-3"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622"><tspan
+         sodipodi:role="line"
+         x="1188.9164"
+         y="833.39178"
+         style="stroke-width:0.22767682px"
+         id="tspan12041-1-1-36-5-06-5-0-6-0-6-0-3-6-0-0-2-5-6-06-7-9-1-7-9-6-8-0-55-4-7-6-9-5-8-8-5-9-5">A=0:0 A=1:z (PAD=1)</tspan></text>
   </g>
   <g
      inkscape:label="Photos"
@@ -99839,8 +100601,8 @@
        y="123.55853"
        id="text4075-6-30-41-5-5-7-4-6-7-4-7-8-6-0-5-4-0-0-1-9"
        inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200"><tspan
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311"><tspan
          sodipodi:role="line"
          x="1321.1611"
          y="123.55853"
@@ -102965,5 +103727,33 @@
        preserveAspectRatio="none"
        height="80.168747"
        width="133.61458" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.19999981px;line-height:125%;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="557.08069"
+       y="648.14429"
+       id="text4075-6-30-41-5-5-7-4-6-7-4-7-8-6-0-5-4-0-0-1-0-7-4-9-1-7-8-6-0-2-6-0"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="199.99622"
+       inkscape:export-ydpi="199.99622"><tspan
+         sodipodi:role="line"
+         x="557.08069"
+         y="648.14429"
+         style="stroke-width:0.26458332px"
+         id="tspan7333-8-7-5-8-2-0-2-2-1-9-5-1-7-3-5-5-8-1-5-4-3-6">Inverting output buffer</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.19999981px;line-height:125%;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1356.1611"
+       y="123.55855"
+       id="text4075-6-30-41-5-5-7-4-6-7-4-7-8-6-0-5-4-0-0-1-9-6"
+       inkscape:export-filename="C:\Users\furrtek\Documents\Desktop\temp.png"
+       inkscape:export-xdpi="200.14311"
+       inkscape:export-ydpi="200.14311"><tspan
+         sodipodi:role="line"
+         x="1356.1611"
+         y="123.55855"
+         style="stroke-width:0.26458332px"
+         id="tspan7333-8-7-5-8-2-0-2-2-1-9-1-4">S=0:/x1 S=1:/x2</tspan></text>
   </g>
 </svg>
