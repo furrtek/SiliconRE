@@ -27,10 +27,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="2234.0183"
-     inkscape:cy="12966.502"
+     inkscape:cx="5629.813"
+     inkscape:cy="3469.8784"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer4"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -2822,8 +2822,9 @@ PIN_102</desc>
     <path
        id="path9977"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1348.619,2929.9704 1224.6429,-1.5118 v -23.4344 h -41.5774 M 907.64729,3221.3928 v -80.7154 h 18.70888 v 8.0179 h 34.21049 M 1348.642,2686.319 v 243.7498 l -2.1381,154.482 m -229.3173,-396.6281 v 61.472 m 627.5489,-414.8023 h -305.7564 v 17.1053 h -90.3371 v 334.6213 l -273.684,0.5348 v -57.7303 H 963.23937 m 464.51443,828.0009 h 262.9932 v -113.8569 h 54.523 m -399.3007,-64.6792 v 178.5361 h 81.7845 v -14.967 m -1.6036,-357.6066 h -79.6463 v 194.0375 H 963.77391 908.18183 v -56.661 H 641.98139 v -48.1084"
-       inkscape:connector-curvature="0">
+       d="m 1348.619,2929.9704 1224.6429,-1.5118 v -23.4344 h -41.5774 M 907.64729,3221.3928 v -80.7154 h 18.70888 v 8.0179 h 34.21049 M 1348.642,2685.2607 v 244.8081 l -2.1381,154.482 m -229.8465,-398.7448 0,55.5706 m 628.0781,-406.7842 h -305.7564 v 17.1053 h -90.3371 v 333.563 l -273.684,0.5348 v -56.672 H 963.23937 m 464.51443,828.0009 h 262.9932 v -113.8569 h 54.523 m -399.3007,-64.6792 v 178.5361 h 81.7845 v -14.967 m -1.6036,-357.6066 h -79.6463 v 194.0375 H 963.77391 908.18183 v -56.661 H 641.98139 v -48.1084"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccc">
       <desc
          id="desc13657">P84_Q</desc>
     </path>
@@ -3773,7 +3774,7 @@ PIN_68</desc>
        x="1058.9219"
        y="740.59161" />
     <rect
-       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-6-61-8-9-66-4-7-0"
        width="117.59857"
        height="57.730194"
@@ -5965,14 +5966,14 @@ PIN_68</desc>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="1105.9218"
-       y="2722.5779"
+       x="1077.1956"
+       y="2722.2"
        id="text10142-2-1-1-2-4-3-3-6-8-4-5-3-2-1-9-0-8-8"><tspan
          sodipodi:role="line"
          id="tspan10140-8-8-3-8-8-7-6-4-68-4-6-7-1-6-2-1-8-6"
-         x="1105.9218"
-         y="2722.5779"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332">G81</tspan></text>
+         x="1077.1956"
+         y="2722.2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332">G81 OAI21</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
