@@ -26,16 +26,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="6228.8869"
-     inkscape:cy="6592.8648"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="5938.0179"
+     inkscape:cy="6358.4831"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
-     inkscape:window-width="2560"
-     inkscape:window-height="1377"
-     inkscape:window-x="1432"
-     inkscape:window-y="-8"
+     inkscape:window-width="1440"
+     inkscape:window-height="877"
+     inkscape:window-x="-8"
+     inkscape:window-y="235"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -43,7 +43,11 @@
      fit-margin-bottom="0"
      objecttolerance="1"
      gridtolerance="1"
-     guidetolerance="1" />
+     guidetolerance="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid18778" />
+  </sodipodi:namedview>
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -889,6 +893,27 @@
        height="104.76962"
        x="2038.8656"
        y="3514.2927" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect15504"
+       width="59.720234"
+       height="122.46429"
+       x="1572.3809"
+       y="168.98038" />
+    <rect
+       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect15504-8"
+       width="153.0948"
+       height="26.754417"
+       x="1479.0208"
+       y="575.68286" />
+    <rect
+       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect15504-8-9"
+       width="2.2679849"
+       height="42.333344"
+       x="1529.2916"
+       y="623.30786" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1712,12 +1737,18 @@
        d="m 1525.5744,2307.8379 -724.56763,-3.7417 c -0.13792,301.1896 0.14088,600.2955 -1.33636,908.1817 H 733.1203"
        id="path1457"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="cccc">
+      <desc
+         id="desc12993">PIN_SDRAD1_IN</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 733.65483,3297.537 194.30495,0.8019 2.13818,-1143.1119 601.89094,2.94"
        id="path1459"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc12991">PIN_SDRAD2_IN</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 684.74452,2014.6433 716.28228,4.2763 -0.2672,-299.3419 116.2622,0.2673"
@@ -1740,20 +1771,17 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1525.0399,2366.37 -107.7096,-0.5346 -1.8709,1154.6043 h 25.3906"
        id="path1469"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc13311">PIN_SDPAD6_OUT</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1515.1509,2537.1552 h -20.3124 l -2.1382,913.7946"
        id="path1473"
-       inkscape:connector-curvature="0" />
-    <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 985.34941,3534.2137 14.50589,-0.1432 2.4054,-1143.379 515.5629,2.6727"
-       id="path1475"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc">
+       inkscape:connector-curvature="0">
       <desc
-         id="desc9782">PIN_SDPA10</desc>
+         id="desc13019">PIN_SDPAD6_IN</desc>
     </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -1789,7 +1817,10 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1516.4873,2564.4167 -280.9003,-1.8709 -1.6036,721.8951 -543.35894,-3.2073"
        id="path1485"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc13307">PIN_SDRAD0_OUT</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1517.8236,1645.5441 -465.3162,-2.4054 c 0.8609,621.2549 0.5546,1250.6803 -2.1382,1896.8116 l -180.07018,-0.8017 0,-5.2352 -87.13235,0"
@@ -1799,12 +1830,6 @@
       <desc
          id="desc9816">PIN_SDPMPX</desc>
     </path>
-    <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1516.7546,1862.027 -140.0493,-0.7911 v -2.4107 l -315.9125,-1.6037 0.2672,742.4748 -351.99395,-2.1382"
-       id="path1489"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccc" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 683.1409,2324.6759 h 85.79353 v 241.0771 l 611.24537,2.94 v 2.94 H 1516.22"
@@ -1843,7 +1868,10 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1525.0399,2371.9826 -163.5689,-0.5345 v 240.5426 l -670.31201,-4.2763"
        id="path1501"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc13295">PIN_SDRAD6_OUT</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="M 1516.7546,2590.6091 988.89724,2588.4709 984.62093,739.2331"
@@ -1874,43 +1902,68 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 735.52573,2495.9957 641.71417,3.7418 v -5.3454 H 1516.22"
        id="path1511"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc12981">PIN_SDRAD7_IN</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 733.65483,2710.0786 h 70.02463 l 0.26728,-492.0432 717.61866,4.5436"
        id="path1513"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc12987">PIN_SDRAD4_IN</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1516.4873,2457.7761 -326.3361,-1.3363 -2.6727,1048.7655"
+       d="m 1516.4873,2457.7761 -326.3361,-1.3363 -2.6727,1052.9232"
        id="path1515"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc">
+      <desc
+         id="desc13309">PIN_SDPAD7_OUT</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1644.5094,3539.1486 3.2072,-855.5296"
        id="path1517"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc13023">PIN_SDPAD4_IN</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1680.0562,2684.4207 -0.5345,120.8058 -937.04695,-4.8109"
        id="path1519"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc13299">PIN_SDRAD4_OUT</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1618.317,2684.4207 -2.4055,836.5537 h -63.3428"
+       d="m 1618.317,2684.4207 -2.4055,836.5537 -9.2922,0"
        id="path1523"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc">
+      <desc
+         id="desc13313">PIN_SDPAD4_OUT</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1860.7304,3520.9744 h 8.5527 l 2.9399,-830.4064"
        id="path1525"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc13317">PIN_SDPAD2_OUT</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1909.1062,2688.4296 -2.4054,763.5891 h 94.8807"
        id="path1527"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc13031">PIN_SDPAD0_IN</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#008080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2304.6651,3538.0795 -157.9563,-0.2673 v -5.8798 h -114.3913 l 2.4054,-834.9501"
@@ -1924,7 +1977,10 @@
        d="m 2213.2589,2696.1806 -2.6727,844.0372 -236.8008,-0.2673 0,-2.1382 h -72.43"
        id="path1531"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc">
+      <desc
+         id="desc13027">PIN_SDPAD2_IN</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2558.0366,3537.8122 h -136.842 v -5.6126 h -216.4883 l 3.7418,-833.079"
@@ -1994,9 +2050,10 @@
     </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 3364.1215,3534.8724 h -13.6308 l 4.2764,-1049.5675 -641.4469,2.4055"
+       d="m 3364.1215,3534.8724 h -13.6308 l 4.2764,-1049.5675 -623.682,2.4055"
        id="path1549"
-       inkscape:connector-curvature="0">
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc">
       <desc
          id="desc9792">PIN_CPU_D1</desc>
     </path>
@@ -2013,17 +2070,27 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3565.3755,3416.4719 h -81.5174 v -12.8288 h -174.2596 l 2.4054,-877.9805 -581.5784,2.1382"
        id="path1553"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc18386">PIN_62</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 3566.1772,3298.8734 h -81.5171 v -5.0782 l -448.7455,2.4054 2.6725,-651.0685"
+       d="m 3566.1772,3298.8734 h -81.5171 v -5.0782 l -448.7455,2.4054 2.6725,-774.2887 -308.0871,0"
        id="path1555"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc">
+      <desc
+         id="desc18388">PIN_63</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3568.048,2733.331 h -81.517 v -16.8381 h -66.0157 l 0.5347,-351.7266 -682.3392,2.6727"
        id="path1557"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc18384">PIN_68</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3568.048,2332.4268 -805.8173,2.6726 v -266.7349 h -49.1779"
@@ -2038,12 +2105,18 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3567.7808,1878.6031 h -80.4482 v -16.0362 l -743.5437,2.6727 v -141.6528 h -30.2014"
        id="path1563"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc18452">PIN_77</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3569.9192,1419.4341 h -82.8538 v 10.958 l -608.3054,2.6727 0.802,800.7395 h -162.7672"
        id="path1565"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc18402">PIN_82</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3568.5827,2241.0206 -81.2501,0.5345 v -15.7689 l -639.3084,2.94 v -280.633 H 2718.131"
@@ -2051,45 +2124,70 @@
        inkscape:connector-curvature="0" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 3569.9192,1504.4258 h -83.3882 v 11.4925 l -248.5607,1.0691 0.2672,787.376 -527.0556,1.8709"
+       d="m 3569.9192,1504.4258 h -83.3882 v 11.4925 l -248.5607,1.0691 0.2672,790.0218 -3.1393,0 0,288.5783 -502.7083,1.134"
        id="path1569"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc">
+      <desc
+         id="desc18406">PIN_80_IN</desc>
+    </path>
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3519.1379,1376.9382 h -32.6069 v 10.9581 l -421.7514,1.8708 0.5347,1046.0929 -350.3904,1.3364"
        id="path1571"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc18404">PIN_83</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3569.3844,2433.1874 h -81.7843 v -10.4236 l -643.0504,3.7418 0.8017,-249.0952 H 2714.122"
        id="path1573"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc18458">PIN_72</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3569.1172,1291.1447 h -82.5862 v 10.6908 l -397.6971,2.1381 0.5345,918.3381 -372.3064,1.0691"
        id="path1575"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc18408">PIN_84</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3466.7531,650.76691 h -22.7179 l 3.4745,1725.22479 -708.5317,2.1381"
        id="path1577"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc18422">PIN_92</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3063.4432,652.90506 h -22.7177 c 3.3693,647.19524 3.3225,1300.53944 3.207,1954.00744 l -311.1891,1.1339"
        id="path1579"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="cccc">
+      <desc
+         id="desc18434">PIN_97</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2660.6682,744.04396 v 29.93419 h -2.6728 l 3.2073,1027.65135"
        id="path1581"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc18438">PIN_100</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2407.2966,745.11304 v 29.39965 h -5.6126 l 3.2072,765.72721 -774.5471,-1.3364 v 96.4843"
        id="path1583"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc18442">PIN_103</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1724.423,1615.8772 -3.4745,-864.34968 h 26.4596 v -7.75084"
@@ -2114,22 +2212,34 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2255.2203,744.31122 v 29.39965 h -2.4055 l 2.94,809.29213 h -149.1364 v 32.0723"
        id="path1593"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc18444">PIN_105</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2207.9135,1596.6337 v -59.0665 l 601.8911,-0.2673 -2.4056,-763.58903 h 5.8801 v -30.73598"
        id="path1595"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc18450">PIN_98</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2711.4494,743.50943 v 8.55263 h -29.3997 l 2.9398,924.48524"
        id="path1597"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc18436">PIN_99</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2508.3245,745.11304 v 7.21627 h -20.847 v 125.88396 l -415.6042,-0.53454 2.6728,791.11777"
        id="path1599"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc18440">PIN_102</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1544.0161,742.97489 v 7.75081 h -66.8174 l 4.2763,1009.6944 38.7452,0"
@@ -2155,25 +2265,33 @@
        d="m 733.65483,3052.1836 h 115.46044 l 0.53454,-918.6054 671.64829,3.2073"
        id="path1607"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="cccc">
+      <desc
+         id="desc12989">PIN_SDRAD3_IN</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1240.9324,3538.6142 224.5064,0.2672 c 2.1364,-509.6274 4.6691,-1018.5286 2.6727,-1535.7307 h 49.9794"
        id="path1609"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="cccc">
+      <desc
+         id="desc13017">PIN_SDPAD7_IN</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1518.0909,2006.0907 h -58.2648 c 1.7365,498.2617 -0.4523,988.7293 -2.1381,1480.1386 h 5.3454 v 50.2465 h 31.0032"
        id="path1611"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccc" />
+       sodipodi:nodetypes="cccccc">
+      <desc
+         id="desc13021">PIN_SDPAD5_IN</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 682.07183,3414.6011 653.20667,4.2762 1.6037,-941.0559 176.6651,1.0583"
+       d="m 682.07183,3414.6011 653.20667,4.2762 1.6037,-941.0559 h 176.6651"
        id="path1613"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc">
+       inkscape:connector-curvature="0">
       <desc
          id="desc9780">PIN_SDPOE</desc>
     </path>
@@ -2189,12 +2307,19 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1829.4599,2687.3607 v 32.8742 l -1138.30091,-5.3454"
        id="path1617"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc13297">PIN_SDRAD5_OUT</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 742.742,2949.5519 1342.4948,5.8801 0.2673,-307.0926"
+       d="m 742.742,2949.5519 1342.4948,5.8801 0.2673,-264.7593"
        id="path1619"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc">
+      <desc
+         id="desc13303">PIN_SDRAD2_OUT</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2737.6419,2689.766 v 164.9053 l 828.8027,-4.2762"
@@ -2202,57 +2327,93 @@
        inkscape:connector-curvature="0" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 3566.9791,2957.8374 h -80.9826 v -5.6126 l -666.3031,2.1381 0.8019,-266.4677"
+       d="m 3566.9791,2957.8374 h -80.9826 v -5.6126 l -666.3031,2.1381 0.8019,-655.7832 -105.8703,0"
        id="path1623"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc">
+      <desc
+         id="desc18396">PIN_67</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 3567.5136,3128.3555 h -83.388 v -4.8003 l -319.6545,1.0583 2.1381,-1030.8585 -409.1895,1.6037"
+       d="m 3567.5136,3128.3555 h -83.388 v -4.8003 l -319.6545,1.0583 2.1381,-1030.8585 -451.5228,1.6037"
        id="path1625"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="cccccc">
+      <desc
+         id="desc18392">PIN_65</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 3568.048,3041.76 -82.5862,1.0692 v -5.0781 h -2.4054 l 2.1381,-939.7197 -727.7748,2.4054"
+       d="m 3568.048,3041.76 -82.5862,1.0692 v -5.0781 h -2.4054 l 2.1381,-939.7197 -770.1081,2.4054"
        id="path1627"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc">
+      <desc
+         id="desc18394">PIN_66</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 3562.1682,2588.4709 -693.2972,3.2073 0.2675,-708.2643 -129.8933,1.0691"
+       d="m 3562.1682,2588.4709 -693.2972,3.2073 0.2675,-708.2643 -140.4766,1.0691"
        id="path1629"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc">
+      <desc
+         id="desc18456">PIN_70</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3572.8589,1841.7199 v 15.5016 l -738.7328,2.1382 -0.2675,484.2924 h -119.2021"
        id="path1631"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc18454">PIN_78</desc>
+    </path>
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 3572.8589,1692.3162 v 14.9671 l -613.6507,3.2073 v 722.964 l -351.1922,1.0691"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 3572.8589,1692.3162 v 14.9671 l -613.6507,3.2073 v 722.964 l -246.1148,1.0691"
        id="path1633"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc">
+      <desc
+         id="desc18398">PIN_80_OUT</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 3568.3155,1055.9475 h -82.5865 v 11.2253 l -720.2913,2.94 2.6728,1529.8507"
+       d="m 3568.3155,1055.9475 h -82.5865 v 11.2253 l -720.2913,2.94 2.6728,1535.1961 h -36.0986"
        id="path1635"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc">
+      <desc
+         id="desc18410">PIN_85</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 3567.7808,970.42125 h -82.0518 v 11.22532 l -656.4138,2.67269 1.6037,1645.04394 H 2714.122"
+       d="m 3567.7808,970.42125 h -82.0518 v 11.22532 l -656.4138,2.67269 1.6037,1645.04394 -99.6917,0"
        id="path1637"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc">
+      <desc
+         id="desc18412">PIN_86</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3113.6899,652.37052 h -30.4686 c 3.6144,653.20408 2.915,1327.43068 3.2073,1997.30508 l -349.2794,0.5347"
        id="path1639"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="cccc">
+      <desc
+         id="desc18432">PIN_96</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3566.4446,682.57197 -653.2067,2.40543 c 4.1754,661.3929 5.445,1327.6289 3.2073,1999.7105 l -167.0464,0"
        id="path1641"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc">
+      <desc
+         id="desc18418">PIN_89</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 689.55538,1206.9548 637.17052,5.0781 1.8709,657.483 h 199.3831"
@@ -2265,104 +2426,146 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 683.1409,3190.6292 h 143.79101 l 1.33634,-864.6169 696.23715,2.4054"
        id="path1777"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc12995">PIN_SDRAD0_IN</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 690.89171,2981.3572 1286.90279,5.3454 0.5345,-289.9875 h 40.8923"
        id="path1779"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc13301">PIN_SDRAD3_OUT</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1764.7807,2693.7753 -2.4054,827.199 -3.7418,0"
        id="path1781"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc">
+      <desc
+         id="desc13315">PIN_SDPAD3_OUT</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1797.6548,3537.545 h -35.5468 v -6.1471 h -28.8651 l 2.6727,-838.4246"
        id="path1783"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc13025">PIN_SDPAD3_IN</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2041.4046,3521.7761 h -12.0271 l 3.2072,-825.8627"
        id="path1785"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc13319">PIN_SDPAD0_OUT</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2001.0469,3537.8122 h -25.1233 v -5.6126 h -48.3758 l 3.2072,-842.1663"
        id="path1787"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc13029">PIN_SDPAD1_IN</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3567.2463,767.83096 -287.3147,1.60361 2.94,1892.80293 -540.8211,1.6033"
        id="path1789"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="cccc">
+      <desc
+         id="desc18416">PIN_88</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 3567.2463,885.16226 h -82.0518 v 11.22532 h -103.166 c 1.4222,566.69222 2.2805,1140.49352 1.0692,1719.07762 l -620.867,3.2072"
+       d="m 3567.2463,885.16226 h -82.0518 v 11.22532 h -103.166 c 1.4222,566.69222 2.2805,1140.49352 1.0692,1719.07762 l -651.603,3.2072"
        id="path1791"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccc" />
+       sodipodi:nodetypes="cccccc">
+      <desc
+         id="desc18414">PIN_87</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 3516.9996,650.49963 h -32.6067 v 5.34537 h -98.6227 v 65.48104 h -2.4053 c 3.2232,627.85686 4.9468,1256.07326 2.6728,1897.61366 l -623.0054,2.6727"
+       d="m 3516.9996,650.49963 h -32.6067 v 5.34537 h -98.6227 v 65.48104 h -2.4053 c 3.2232,627.85686 4.9468,1256.07326 2.6728,1897.61366 l -653.7414,2.6727"
        id="path1793"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccc" />
+       sodipodi:nodetypes="cccccccc">
+      <desc
+         id="desc18420">PIN_90</desc>
+    </path>
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3566.4446,1594.7628 h -79.112 v 6.4145 h -124.5475 l -0.5345,870.7641 -630.7561,2.4055"
        id="path1795"
        inkscape:connector-curvature="0" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 3567.7808,3213.3471 h -83.1207 v -4.5437 l -639.576,2.4056 1.8709,-523.0466"
+       d="m 3567.7808,3213.3471 h -83.1207 v -4.5437 l -639.576,2.4056 1.8709,-789.8978 -131.574,0"
        id="path1797"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc">
+      <desc
+         id="desc18390">PIN_64</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3214.7179,652.37052 h -25.3908 l 3.7418,1655.20018 -477.6105,1.3363"
        id="path1799"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc18430">PIN_95</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 3264.6971,651.83598 h -29.9341 l 0.5347,120.27128 h -2.4056 l 2.1381,1823.84724 -501.6648,0.5345"
+       d="m 3264.6971,651.83598 h -29.9341 l 0.5347,120.27128 h -2.4056 c 0.7127,607.94904 3.5729,920.18354 2.1381,1532.42764 l -521.3196,0.5345"
        id="path1801"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc">
+      <desc
+         id="desc18428">PIN_94</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 687.14995,844.53729 448.21095,2.67271 4.5436,1571.2775 374.9792,1.8709"
        id="path1803"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc21015">PIN_3</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 691.15899,2501.3411 h 5.34538 l 0.26728,-96.7516 814.63745,4.5436"
        id="path1816"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc13293">PIN_SDRAD7_OUT</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 734.02975,2623.5577 714.57105,5.0037"
+       d="m 734.02975,2623.5577 731.40905,4.4692 0.5346,-317.5162 -2.94,0 0,-189.7614 58.532,0"
        id="path1818"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc">
+      <desc
+         id="desc12983">PIN_SDRAD6_IN</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1515.6855,2574.8402 -93.0098,-0.2673 -0.8018,518.7703 -731.24944,-4.0092"
        id="path1820"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc13305">PIN_SDRAD1_OUT</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 559.02677,3397.6529 h 98.27381 V 3269.897 h 23.05656"
        id="path9774"
-       inkscape:connector-curvature="0" />
-    <path
-       id="path9848"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 703.98793,3078.376 h -20.57975 m 20.84703,106.3733 -0.80182,192.9686 H 683.1409 m 77.2409,-481.6197 -0.53454,150.2055 h -28.86511 -26.72694 v 138.4456 h -22.71792 m 7.75081,-373.9102 h 71.36095 v 85.5263 h -26.45968" />
-    <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 699.17709,2810.5719 V 2703.9313 H 685.0118"
-       id="path9851"
        inkscape:connector-curvature="0" />
     <path
        id="path9907"
@@ -2374,13 +2577,71 @@
     <path
        id="path9914"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1516.22,1725.4576 h -72.6973 l 0.8018,447.9438 m -759.57998,643.3178 673.51918,3.4745 0.2673,-640.9124 h 85.7935 v -5.3454 h 85.259" />
+       d="m 1516.22,1725.4576 h -72.6973 l 0.8018,447.9438 m -759.57998,643.3178 673.51918,3.4745 0.2673,-640.9124 h 85.7935 v -5.3454 h 85.259">
+      <desc
+         id="desc12985">PIN_SDRAD5_IN</desc>
+    </path>
     <path
        id="path9917"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="M 1502.8565,2529.1371 V 1819.002 h 14.1653 m -377.1173,1716.1377 114.3914,0.8017 2.4054,-994.2426 246.1552,1.0691 v -13.6308 h 13.0962">
       <desc
          id="desc9920">PIN_SDPA8</desc>
+    </path>
+    <path
+       id="path12924"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 1518.3303,1960.2095 h -47.625 l 0.378,432.4048 m -485.73389,1141.5994 14.50589,-0.1432 2.4054,-1143.379 515.5629,2.6727">
+      <desc
+         id="desc12927">PIN_SDPA10</desc>
+    </path>
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 1961.3184,3522.3852 h 4.5357 l 2.2679,-833.4375"
+       id="path13321"
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc13323">PIN_SDPAD1_OUT</desc>
+    </path>
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 1556.5059,3521.2512 h 25.3244 v -3.024 l 290.2858,0.7562 2.6458,-825.5"
+       id="path13325"
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc13327">PIN_SDPAD5_OUT</desc>
+    </path>
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 3365.5,650.90002 h -27.2143 l 3.0237,1987.02078 -608.8233,2.2679"
+       id="path18424"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc">
+      <desc
+         id="desc18426">PIN_93</desc>
+    </path>
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 2306.4107,744.26013 v 7.55954 h -31.75 l 2.2678,855.73813"
+       id="path18446"
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc18448">PIN_104</desc>
+    </path>
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 2128.0059,2695.3731 -3.0238,919.6162 h -71.4375 v 3.4018 h -102.8095 l 0.6868,2.563 -507.5529,-1.429 v -3.0239"
+       id="path18760"
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc18762">PIN_SDPAD_OE</desc>
+    </path>
+    <path
+       id="path18765"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 698.87797,2703.3106 v -105.4553 m 0.29912,212.7166 V 2703.9313 H 685.0118 m 18.97613,374.4447 h -20.57975 m 20.84703,106.3733 -0.80182,192.9686 H 683.1409 m 77.2409,-481.6197 -0.53454,150.2055 h -28.86511 -26.72694 v 138.4456 h -22.71792 m 7.75081,-373.9102 h 71.36095 v 85.5263 h -26.45968 m 782.56523,-1034.3384 -140.0493,-0.7911 v -2.4107 l -315.9125,-1.6037 0.2672,742.4748 -378.07431,-2.1382">
+      <desc
+         id="desc18769">PIN_SDRAD_OE</desc>
     </path>
   </g>
   <g
