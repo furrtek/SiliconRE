@@ -26,16 +26,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="5938.0179"
-     inkscape:cy="6358.4831"
+     inkscape:zoom="0.35"
+     inkscape:cx="13931.956"
+     inkscape:cy="7902.1669"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
-     inkscape:window-width="1440"
-     inkscape:window-height="877"
-     inkscape:window-x="-8"
-     inkscape:window-y="235"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1432"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -546,10 +546,10 @@
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect397-0-0-42-6-4-2-9-53-8-9-28"
-       width="26.459656"
-       height="72.964569"
+       width="26.459717"
+       height="104.5024"
        x="3558.0256"
-       y="1620.8218" />
+       y="1589.2839" />
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect397-0-0-42-6-4-2-92"
@@ -974,7 +974,10 @@
        d="m 685.43888,747.78573 231.56286,1.60361 4.81084,1517.82366 604.29642,3.7418"
        id="path73"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="cccc">
+      <desc
+         id="desc28185">PIN_2</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1523.7036,2264.8076 -465.049,-2.1382 -2.94,1271.9356 h -17.907"
@@ -1160,7 +1163,7 @@
        id="path154"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2806.3301,558.02437 v 87.12985 h -10.4235 v 96.48431 h 15.7689"
        id="path156"
        inkscape:connector-curvature="0" />
@@ -1175,7 +1178,7 @@
        id="path160"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2792.432,563.90431 v 114.12408 h 16.8379"
        id="path162"
        inkscape:connector-curvature="0" />
@@ -1713,15 +1716,16 @@
        inkscape:connector-curvature="0" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1499.4315,3701.5459 v -46.8691 h 8.3155 l 0.378,-48.759"
+       d="m 1499.4315,3701.5459 v -46.8691 h 8.3155 l 0.378,-137.7598"
        id="path1449"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1472.9732,3701.5459 v -98.2739 h 37.7976 v -85.8007"
+       d="m 1472.9732,3701.5459 v -98.2739 h 37.7976"
        id="path1451"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1633.2351,3701.5459 v -47.2472 h -3.0238 v -49.8927 h 32.8839"
@@ -1731,7 +1735,10 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 730.44761,972.5594 0.80182,179.0706 h 18.97613 l 2.93997,1157.277 772.40887,4.5436"
        id="path1455"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28157">PIN_4</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1525.5744,2307.8379 -724.56763,-3.7417 c -0.13792,301.1896 0.14088,600.2955 -1.33636,908.1817 H 733.1203"
@@ -1761,12 +1768,18 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1517.5564,1672.271 -58.2648,-0.5345 -3.2072,-899.8965 h -13.6308 v -26.72696"
        id="path1465"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28559">PIN_113</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1340.6239,743.50943 v 28.06329 h 5.6127 l 4.009,1626.06778 h 27.2615 v 16.5707 h 137.1093"
        id="path1467"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28561">PIN_114</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1525.0399,2366.37 -107.7096,-0.5346 -1.8709,1154.6043 h 25.3906"
@@ -1781,13 +1794,16 @@
        id="path1473"
        inkscape:connector-curvature="0">
       <desc
-         id="desc13019">PIN_SDPAD6_IN</desc>
+         id="desc13019">PIN_SDPAD5_IN</desc>
     </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1517.5564,2612.2579 h -35.8142 v -15.7689 l -450.0818,-2.6727 -2.94,-1575.8211 -342.10499,-2.4054"
        id="path1477"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28155">PIN_5</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 687.14995,1111.8068 534.80635,3.2073 2.9399,1047.162 306.5582,1.069"
@@ -1858,12 +1874,18 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1524.7726,2254.6513 -302.5491,-1.6036 -4.5435,-1511.94371 h -71.6283"
        id="path1497"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28563">PIN_115</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1034.6003,739.76764 v 8.28537 h 35.8141 l 4.5436,1584.64099 450.8837,1.6036"
        id="path1499"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28565">PIN_116</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1525.0399,2371.9826 -163.5689,-0.5345 v 240.5426 l -670.31201,-4.2763"
@@ -1876,12 +1898,18 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="M 1516.7546,2590.6091 988.89724,2588.4709 984.62093,739.2331"
        id="path1503"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28567">PIN_117</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 882.52397,739.76764 v 28.59785 h 16.30344 l 4.00904,1242.53601 474.13615,2.4054 v 2.94 h 140.851"
        id="path1505"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28569">PIN_118</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1521.2981,2206.8101 -275.0203,-1.8709 -1.8709,-768.9344 -555.1188,-3.7418"
@@ -2095,12 +2123,18 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3568.048,2332.4268 -805.8173,2.6726 v -266.7349 h -49.1779"
        id="path1559"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc29003">PIN_73</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3568.5827,2145.6053 h -62.8083 l 0.8017,-191.8995 -786.5743,2.94"
        id="path1561"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28983">PIN_75</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3567.7808,1878.6031 h -80.4482 v -16.0362 l -743.5437,2.6727 v -141.6528 h -30.2014"
@@ -2121,7 +2155,10 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3568.5827,2241.0206 -81.2501,0.5345 v -15.7689 l -639.3084,2.94 v -280.633 H 2718.131"
        id="path1567"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc29007">PIN_74</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3569.9192,1504.4258 h -83.3882 v 11.4925 l -248.5607,1.0691 0.2672,790.0218 -3.1393,0 0,288.5783 -502.7083,1.134"
@@ -2192,22 +2229,34 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1724.423,1615.8772 -3.4745,-864.34968 h 26.4596 v -7.75084"
        id="path1585"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28553">PIN_109</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1696.8942,742.44035 v 6.41445 h 77.5082 l 3.7417,884.1276"
        id="path1587"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28555">PIN_110</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1903.4935,1639.3969 -3.2072,-887.60213 h 50.514 v -7.48355"
        id="path1589"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28549">PIN_107</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1848.7033,743.50943 v 8.28534 h 21.6488 l 4.2764,910.05273"
        id="path1591"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28551">PIN_108</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2255.2203,744.31122 v 29.39965 h -2.4055 l 2.94,809.29213 h -149.1364 v 32.0723"
@@ -2217,7 +2266,7 @@
          id="desc18444">PIN_105</desc>
     </path>
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2207.9135,1596.6337 v -59.0665 l 601.8911,-0.2673 -2.4056,-763.58903 h 5.8801 v -30.73598"
        id="path1595"
        inkscape:connector-curvature="0">
@@ -2245,7 +2294,10 @@
        d="m 1544.0161,742.97489 v 7.75081 h -66.8174 l 4.2763,1009.6944 38.7452,0"
        id="path1601"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="cccc">
+      <desc
+         id="desc28557">PIN_112</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 690.08992,1527.9455 747.55288,5.3454 0.5345,207.6684 80.491,0.3131"
@@ -2259,7 +2311,10 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 780.427,739.2331 v 6.94901 h 29.66694 l 4.54358,1481.20769 706.66058,2.6727"
        id="path1605"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28187">PIN_119</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 733.65483,3052.1836 h 115.46044 l 0.53454,-918.6054 671.64829,3.2073"
@@ -2270,13 +2325,13 @@
          id="desc12989">PIN_SDRAD3_IN</desc>
     </path>
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1240.9324,3538.6142 224.5064,0.2672 c 2.1364,-509.6274 4.6691,-1018.5286 2.6727,-1535.7307 h 49.9794"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 1518.0909,2003.1507 h -49.9794 c 1.9964,517.2021 -0.5363,1026.1033 -2.6727,1535.7307 l -238.6717,-0.2672 0,-2.94 -88.7335,0"
        id="path1609"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc">
       <desc
-         id="desc13017">PIN_SDPAD7_IN</desc>
+         id="desc13017">PIN_SDPA8</desc>
     </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -2285,7 +2340,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc">
       <desc
-         id="desc13021">PIN_SDPAD5_IN</desc>
+         id="desc13021">PIN_SDPAD6_IN</desc>
     </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -2370,13 +2425,13 @@
          id="desc18454">PIN_78</desc>
     </path>
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3572.8589,1692.3162 v 14.9671 l -613.6507,3.2073 v 722.964 l -246.1148,1.0691"
        id="path1633"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc">
       <desc
-         id="desc18398">PIN_80_OUT</desc>
+         id="desc18398">PIN_80_OE</desc>
     </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -2499,10 +2554,13 @@
          id="desc18420">PIN_90</desc>
     </path>
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3566.4446,1594.7628 h -79.112 v 6.4145 h -124.5475 l -0.5345,870.7641 -630.7561,2.4055"
        id="path1795"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28078">PIN_80_OUT</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3567.7808,3213.3471 h -83.1207 v -4.5437 l -639.576,2.4056 1.8709,-789.8978 -131.574,0"
@@ -2583,10 +2641,12 @@
     </path>
     <path
        id="path9917"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 1502.8565,2529.1371 V 1819.002 h 14.1653 m -377.1173,1716.1377 114.3914,0.8017 2.4054,-994.2426 246.1552,1.0691 v -13.6308 h 13.0962">
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 1502.8565,2529.1371 V 1819.002 h 14.1653 m -276.0894,1716.9395 13.3635,-10e-5 2.4054,-994.2426 246.1552,1.0691 v -13.6308 h 13.0962"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc">
       <desc
-         id="desc9920">PIN_SDPA8</desc>
+         id="desc9920">PIN_SDPAD7_IN</desc>
     </path>
     <path
        id="path12924"
@@ -3018,21 +3078,21 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:7.67593336px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.19189833"
-       x="4097.1338"
+       x="4089.5742"
        y="1672.2534"
        id="text8667-6-3-6-7-6"><tspan
          sodipodi:role="line"
-         x="4097.1338"
+         x="4089.5742"
          y="1672.2534"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
          id="tspan9241-0">80</tspan><tspan
          sodipodi:role="line"
-         x="4097.1338"
+         x="4089.5742"
          y="1695.2812"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
-         id="tspan9293">V_DATA</tspan><tspan
+         id="tspan9293">V_DATA15</tspan><tspan
          sodipodi:role="line"
-         x="4097.1338"
+         x="4089.5742"
          y="1718.3091"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
          id="tspan9295">IN</tspan></text>
@@ -3183,7 +3243,7 @@
          x="-160.86334"
          y="3048.6584"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
-         id="tspan9548">V_DATA</tspan><tspan
+         id="tspan9548">V_DATA0</tspan><tspan
          sodipodi:role="line"
          x="-160.86334"
          y="3071.6863"
@@ -3205,7 +3265,7 @@
          x="-158.47607"
          y="2729.7769"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
-         id="tspan9581">V_ADDR</tspan><tspan
+         id="tspan9581">V_ADDR22</tspan><tspan
          sodipodi:role="line"
          x="-158.47607"
          y="2752.8047"
@@ -3338,5 +3398,199 @@
          y="2272.9263"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
          id="tspan9772">POWER</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.67593336px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.19189833"
+       x="63.632626"
+       y="770.90625"
+       id="text8667-5-3"><tspan
+         sodipodi:role="line"
+         x="63.632626"
+         y="770.90625"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan8671-1-5">2</tspan><tspan
+         sodipodi:role="line"
+         x="63.632626"
+         y="793.93408"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan9638-3">V_ADDR</tspan><tspan
+         sodipodi:role="line"
+         x="63.632626"
+         y="816.96185"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan9640-4">OUT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.67593336px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.19189833"
+       x="-154.10677"
+       y="1504.6544"
+       id="text8667-6-3-6-7-6-6-2-6-7-0-5"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         x="-154.10677"
+         y="1504.6544"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan9550-1-2-1">112</tspan><tspan
+         sodipodi:role="line"
+         x="-154.10677"
+         y="1527.6823"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan9581-9-5">V_ADDR</tspan><tspan
+         sodipodi:role="line"
+         x="-154.10677"
+         y="1550.7101"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan9583-3-0">OUT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.67593336px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.19189833"
+       x="-155.61868"
+       y="1664.9163"
+       id="text8667-6-3-6-7-6-6-2-6-7-0-5-1"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         x="-155.61868"
+         y="1664.9163"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan9550-1-2-1-6">110</tspan><tspan
+         sodipodi:role="line"
+         x="-155.61868"
+         y="1687.9441"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan9581-9-5-7">V_ADDR</tspan><tspan
+         sodipodi:role="line"
+         x="-155.61868"
+         y="1710.9719"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan9583-3-0-6">OUT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.67593336px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.19189833"
+       x="-157.13058"
+       y="2468.4934"
+       id="text8667-6-3-6-7-6-6-2-6-7-0-5-1-9"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         x="-157.13058"
+         y="2468.4934"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan9550-1-2-1-6-7">102</tspan><tspan
+         sodipodi:role="line"
+         x="-157.13058"
+         y="2491.5212"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan9581-9-5-7-6">V_ADDR</tspan><tspan
+         sodipodi:role="line"
+         x="-157.13058"
+         y="2514.5491"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan9583-3-0-6-6">OUT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.67593336px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.19189833"
+       x="-158.64249"
+       y="2786.7495"
+       id="text8667-6-3-6-7-6-6-2-6-7-5"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         x="-158.64249"
+         y="2786.7495"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan9550-1-8">98</tspan><tspan
+         sodipodi:role="line"
+         x="-158.64249"
+         y="2809.7773"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan9581-5">V_ADDR23</tspan><tspan
+         sodipodi:role="line"
+         x="-158.64249"
+         y="2832.8052"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan9583-6">OUT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.67593336px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.19189833"
+       x="-154.6963"
+       y="3436.999"
+       id="text8667-6-3-6-7-6-6-2-6-5"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         x="-154.6963"
+         y="3436.999"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan9361-8-9">92</tspan><tspan
+         sodipodi:role="line"
+         x="-154.6963"
+         y="3460.0269"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan9548-3">V_DATA6</tspan><tspan
+         sodipodi:role="line"
+         x="-154.6963"
+         y="3483.0547"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan9550-9">IN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.67593336px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.19189833"
+       x="4090.4519"
+       y="1511.9913"
+       id="text8667-6-3-6-7-6-7"><tspan
+         sodipodi:role="line"
+         x="4090.4519"
+         y="1511.9913"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan9241-0-4">82</tspan><tspan
+         sodipodi:role="line"
+         x="4090.4519"
+         y="1535.0192"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan9293-2">V_DATA14</tspan><tspan
+         sodipodi:role="line"
+         x="4090.4519"
+         y="1558.047"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan9295-44">IN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.67593336px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.19189833"
+       x="4088.6431"
+       y="1113.6046"
+       id="text8667-6-3-6-7-6-7-6"><tspan
+         sodipodi:role="line"
+         x="4088.6431"
+         y="1113.6046"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan9241-0-4-2">85</tspan><tspan
+         sodipodi:role="line"
+         x="4088.6431"
+         y="1136.6324"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan9293-2-4">V_DATA11</tspan><tspan
+         sodipodi:role="line"
+         x="4088.6431"
+         y="1159.6603"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan9295-44-6">IN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.67593336px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.19189833"
+       x="4088.0715"
+       y="688.0033"
+       id="text8667-6-3-6-7-6-7-6-5"><tspan
+         sodipodi:role="line"
+         x="4088.0715"
+         y="688.0033"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan9241-0-4-2-3">90</tspan><tspan
+         sodipodi:role="line"
+         x="4088.0715"
+         y="711.03113"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan9293-2-4-3">V_DATA6</tspan><tspan
+         sodipodi:role="line"
+         x="4088.0715"
+         y="734.0589"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.42224312px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.19189833"
+         id="tspan9295-44-6-8">IN</tspan></text>
   </g>
 </svg>

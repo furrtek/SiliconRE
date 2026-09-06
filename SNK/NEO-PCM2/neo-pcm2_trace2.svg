@@ -27,8 +27,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="5629.813"
-     inkscape:cy="3469.8784"
+     inkscape:cx="14217.149"
+     inkscape:cy="5835.0583"
      inkscape:document-units="mm"
      inkscape:current-layer="layer4"
      showgrid="false"
@@ -36,10 +36,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="2560"
-     inkscape:window-height="1377"
-     inkscape:window-x="1432"
-     inkscape:window-y="-8"
+     inkscape:window-width="1440"
+     inkscape:window-height="877"
+     inkscape:window-x="-8"
+     inkscape:window-y="235"
      inkscape:window-maximized="1"
      objecttolerance="1"
      gridtolerance="1"
@@ -80,13 +80,13 @@
      style="display:inline">
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M -8.0180859,246.6829 4246.9128,247.22819"
+       d="M -8.0180859,246.6829 4246.9128,249.34486"
        id="path5820"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 4246.3783,279.83507 -8.023458,279.28442"
+       d="M 4246.3783,281.95174 -8.023458,279.28442"
        id="path5822"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -326,7 +326,7 @@
        sodipodi:nodetypes="cc" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 4243.4425,2890.5239 c -1442.2336,7.4048 -2830.6834,3.2599 -4250.1253395,4.7947"
+       d="m 4243.4425,2890.5239 c -1436.1364,9.234 -2817.2347,7.2945 -4250.1253395,4.7947"
        id="path5822-2"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -434,7 +434,10 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="M -5.8799295,2365.5957 H 130.42753 v 17.1052 h 196.71036"
        id="path6022"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28585">PIN_116</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="M -4.8108515,2349.5595 H 130.96207 v -15.5016 l 581.04395,0.5345 v -65.7483 h 298.27278 l -1.6036,-687.4172 h -48.10854"
@@ -449,7 +452,7 @@
        id="path6026"
        inkscape:connector-curvature="0">
       <desc
-         id="desc13051">PIN_SDPAD5_IN</desc>
+         id="desc13051">PIN_SDRAD6_IN</desc>
     </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -460,12 +463,12 @@
          id="desc9855">PIN_SDRA8</desc>
     </path>
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="M 167.31072,1352.1097 H -14.432554"
        id="path6030"
        inkscape:connector-curvature="0">
       <desc
-         id="desc13049">PIN_SDPAD7_IN</desc>
+         id="desc13049">PIN_SDPA8</desc>
     </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -512,7 +515,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccc">
       <desc
-         id="desc12979">B62</desc>
+         id="desc12979">B62
+SDRMPX</desc>
     </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -785,12 +789,6 @@
        inkscape:connector-curvature="0" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 3763.6894,3047.1329 h -94.0734 l 1.0745,-235.7316 h -138.9909 l 1.0689,-463.9799 h -64.1445"
-       id="path6269"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccc" />
-    <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3457.9332,2691.13 h -47.5742 v -17.1053 h -179.605 v 50.7812 l -1059.4564,1.0691 v 260.8551 h -263.5277"
        id="path6271"
        inkscape:connector-curvature="0" />
@@ -940,12 +938,12 @@
     </path>
     <path
        id="path6477"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 38.486812,2960.5377 c 2.591802,-734.214 -0.851379,-1450.323 -2.138156,-2172.90128 h 74.300924 v -8.55263 h 57.73022 m 2.13816,2181.98841 H 39.02135 v 39.556 H -8.5526247"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 38.486812,2960.5377 c 2.591802,-734.214 -0.851379,-1450.323 -2.138156,-2172.90128 h 74.300924 v -8.55263 h 57.73022 m 2.13816,2181.98841 H 39.02135 l -0.529167,39.556 H -8.5526247"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccc">
       <desc
-         id="desc9861">PIN_SDPA8</desc>
+         id="desc9861">PIN_SDPAD7_IN</desc>
     </path>
     <path
        id="path6481"
@@ -1161,7 +1159,10 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m -4.2763124,2299.8474 825.3283024,1.6036 v 9.0872 l 659.62121,0.5345 v 40.625 l 262.4587,-1.0691"
        id="path6569"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28159">PIN_4</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1116.1175,2220.7356 -471.46342,-1.0691 v 9.0872 H 438.85656 L 434.58024,942.65275 H 172.12157 126.15122 V 926.61657 H -13.363476"
@@ -1204,7 +1205,10 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 327.13789,3164.197 -197.77944,-0.5344 v -15.5017 H -9.0871639"
        id="path6597"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28583">PIN_117</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="M -8.0180856,2741.3767 H 129.89299 v -17.6397 l 341.03592,0.5344 v -129.3585 l 489.63775,1.6037 478.94704,-0.5346 v -8.5526 l 1054.1109,-1.0691 v 9.0872 l 450.6164,-2.1382 v 57.7302 l 629.1527,-2.1381 -1.0692,422.8203 h 193.503 v 27.2616"
@@ -1326,10 +1330,13 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 4243.7055,2360.7848 -318.0506,1.6037 v -815.7066 h -456.4965"
        id="path6671"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc29005">PIN_73</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 3154.8496,329.53647 h 56.661 v -74.30093 h 97.2862 v -18.70886"
+       d="m 3154.8496,329.53647 h 56.1318 v -74.30093 h 97.8154 v -14.17315"
        id="path6683"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
@@ -1361,12 +1368,7 @@
        sodipodi:nodetypes="cccc" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 2212.9917,2623.2435 v 168.3797 h -50.2467 v 260.3206 l -414.8023,1.0692"
-       id="path6711"
-       inkscape:connector-curvature="0" />
-    <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1126.2738,2742.4456 h 57.1957 V 2252.808 h -51.3158 v -18.7089"
+       d="m 1132.1537,2234.0991 v 18.7089 h 51.3158 v 489.6376 h -57.1957 v 9.0873"
        id="path6715"
        inkscape:connector-curvature="0" />
     <path
@@ -1375,7 +1377,7 @@
        id="path6717"
        inkscape:connector-curvature="0">
       <desc
-         id="desc14476">PIN_?</desc>
+         id="desc14476">PIN_8</desc>
     </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -1389,7 +1391,10 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="M 173.19065,2120.7768 H -10.690781"
        id="path6721"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28587">PIN_115</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m -6.9490076,2169.4199 337.8286876,2.1381 v 16.5707"
@@ -1448,7 +1453,10 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="M -8.0180856,338.08908 1375.369,335.95093 v 9.08716 l 520.1065,-1.60361 v 9.08717"
        id="path6762"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28591">PIN_113</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1590.2537,458.89492 h 41.1595 V 311.90204 h -189.2269 v -7.48891"
@@ -1464,12 +1472,18 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2364.2662,549.76656 h -137.9111 v 56.66113 l -2236.511342,1.06908"
        id="path6774"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28593">PIN_112</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="M 719.48957,-7.7576753 728.57671,1835.333 h -75.90454 v 25.6578"
        id="path6776"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28577">PIN_109</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 645.18862,984.3468 -268.87313,0.53454 V 950.13631 H 118.66767 v -8.0181 H -7.4835466"
@@ -1545,7 +1559,10 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="M 884.66212,-9.3612924 885.73119,213.54149 H 2719.2001 v 8.01809 h 269.4078 v 33.67596"
        id="path6839"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28575">PIN_110</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="M 3934.742,-6.6885973 C 3937.0194,1047.1844 3948.5546,2093.2631 3936.3456,3186.1133 l -471.9981,1.0689 v 9.0871"
@@ -1561,7 +1578,8 @@
        id="path6845"
        inkscape:connector-curvature="0">
       <desc
-         id="desc18478">PIN_94</desc>
+         id="desc18478">PIN_80_IN
+PIN_V_D15_IN</desc>
     </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -1611,7 +1629,10 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2199.0936,109.84091 v 13.36348 h -238.4044 l 1.6037,343.70862 -376.8501,0.53453 h -84.4572 v 203.65937 h -7.4835 l 1.0691,353.33029 h -62.0066 -62.0065 v -66.81737 l -248.0261,1.60364 v -65.7483"
        id="path6877"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28104">N1?</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 642.51593,976.32871 v -9.08717 l 721.09317,-1.06908 1.0691,476.27434 h 16.5707 l 0.5346,458.6345 h 53.9884"
@@ -1682,12 +1703,6 @@
        inkscape:connector-curvature="0" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1909.3735,1597.9976 v -32.0723 h 41.694 l -1.6036,-345.3123 h -46.5049 -68.9555 v -65.7483 l -248.1938,0.5346 v 15.848"
-       id="path6913"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccc" />
-    <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1128.4119,755.04029 250.1643,-1.07982 -2.6727,-359.74478 h 56.1266"
        id="path6919"
        inkscape:connector-curvature="0"
@@ -1717,14 +1732,6 @@
        id="path6941"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 2215.6644,99.684672 V -9.8958314"
-       id="path6943"
-       inkscape:connector-curvature="0">
-      <desc
-         id="desc18522">PIN_98</desc>
-    </path>
-    <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 4244.7747,2434.5512 -471.4635,2.1382 v -8.0181"
        id="path6945"
@@ -1747,8 +1754,9 @@
     <path
        id="path6969"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 2821.8317,1023.9027 h 32.6068 l 0.5344,949.8759 h 41.1597 v 56.1266 h 102.6316 M 3151.6423,778.01472 h 44.9011 V 744.8733 l -377.3845,1.06908 2.6728,277.96032 h -134.1694"
-       inkscape:connector-curvature="0">
+       d="m 2821.8317,1023.9027 h 32.6068 l 1.0636,949.8759 h 40.6305 v 56.1266 h 102.6316 M 3151.6423,778.01472 h 44.9011 V 744.8733 l -377.3845,1.06908 2.6728,277.96032 h -134.1694"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccc">
       <desc
          id="desc18588">V59</desc>
     </path>
@@ -1881,8 +1889,9 @@
     <path
        id="path7038"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 4242.1018,1627.3973 -468.7906,1.069 H 3640.211 v -163.5689 l -547.3681,1.0691 m -91.4062,-131.4966 h 91.4062 v 131.4966 h -95.1479 -43.8322 v 106.3733 h -57.1958 v 197.2449 h -32.6067 v 196.1758 h 130.9619 m 645.1888,-500.8631 -4.2765,-1135.36093 h 137.3767 v -8.01809 -14.96709"
-       inkscape:connector-curvature="0">
+       d="m 4242.1018,1627.3973 -468.7906,1.069 H 3640.211 v -163.5689 l -547.3681,1.0691 m 547.3681,-1.0691 -4.2765,-1135.36093 h 137.3767 v -8.01809 -14.96709 M 3001.4367,1334.4699 h 91.4062 v 131.4966 h -95.1479 -43.8322 v 106.3733 h -57.1958 v 197.2449 h -32.6067 v 196.1758 h 130.9619 v 25.7708"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccccc">
       <desc
          id="desc18510">PIN_65</desc>
     </path>
@@ -1895,10 +1904,13 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1902.959,459.42945 h -96.7516 l 2.6727,580.50945 h -7.4835 l 0.5345,246.957 h -54.523"
        id="path7046"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28149">K36</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1892.1006,1229.7002 h -231.8223 l 1.6036,319.6544 H 1588.65"
+       d="m 1588.65,1549.3546 h 73.2319 l -1.6036,-319.6544 h 231.8223 v -16.0361 h 10.3239"
        id="path7048"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc">
@@ -1930,7 +1942,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccccc">
       <desc
-         id="desc18621">N78</desc>
+         id="desc18621">N78
+$JVMODE1</desc>
     </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -1941,9 +1954,12 @@
     <path
        id="path7079"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1436.3064,1007.332 h 91.9408 l -1.6037,-309.49812 h -90.3371 -7.4835 m 0,0 v 23.51971 H 1122.532 v 24.58879 m 49.1776,-25.12333 V 557.78463 h -51.3157 v 10.51508"
+       d="m 1436.3064,1007.332 h 91.9408 l -1.6037,-310.02729 h -90.3371 -7.4835 m 0,0 v 24.04888 H 1122.532 v 24.58879 m 49.1776,-25.12333 V 557.78463 h -51.3157 v 10.51508"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccccccc" />
+       sodipodi:nodetypes="ccccccccccccc">
+      <desc
+         id="desc28080">J19?</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 802.3431,1859.3872 v -23.5197 h 50.24668 l -1.06908,-532.4009 585.8548,0.5345 v -33.1414 h 339.4323 l 0.355,7.2496 h 128.4689"
@@ -1955,7 +1971,10 @@
        d="M 1274.3411,-7.7576753 C 1280.4933,1034.446 1286.5954,2076.7388 1280.221,3141.2119 h 148.6019 v 88.7336"
        id="path7083"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="cccc">
+      <desc
+         id="desc28571">PIN_107</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1164.2261,3132.1248 v -39.0216 l -471.46349,-2.1381 v 9.6219 l -703.453391,-2.6729"
@@ -2008,7 +2027,10 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 800.73949,352.52165 385.40261,0.53454 V -9.8958314"
        id="path7120"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28573">PIN_108</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1427.2193,689.28125 h -264.5969 v -26.19243 h -46.5049"
@@ -2027,13 +2049,17 @@
        inkscape:connector-curvature="0" />
     <path
        id="path7156"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#800000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1642.6385,705.3174 1.6036,442.0638 m 88.7335,-613.11628 v 24.05425 h -81.7845 v 145.92916 h -66.8174 m 12.2998,1074.95807 v -74.301 h 40.0851 l 0.5345,-384.8681 h 8.0181 l -1.0691,-172.6561 h -50.2467 v 4.2114"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 1642.6385,705.3174 1.6036,442.0638 m 88.7335,-613.11628 V 557.79 h -82.3137 v 146.45833 h -66.2882 m 12.2998,1074.95807 v -74.301 h 40.0851 l 0.5345,-384.8681 h 8.0181 l -1.0691,-172.6561 h -50.2467 v 4.2114"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccccccccc" />
+       sodipodi:nodetypes="ccccccccccccccc">
+      <desc
+         id="desc28948">K14
+$JVMODE5</desc>
+    </path>
     <path
        id="path7162"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1789.1022,320.44931 3.2072,589.06203 427.0859,-0.53454 m -415.8605,-919.94171 1.6036,331.41422 h -61.472 m 48.643,587.99295 -1190.95298,2.13815 1.06908,269.94219 h 45.43583 M 2219.9299,860.86827 v 186.55413 l 313.2506,0.5345 v 56.6612"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccccc">
@@ -2063,7 +2089,10 @@ PIN_102</desc>
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="M 639.30871,2154.9873 H 263.52775 V 2049.1486 L -8.5526247,2047.545"
        id="path7183"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28579">PIN_119</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="M 428.70032,-6.6885973 V 222.62866 h -95.68249"
@@ -2082,7 +2111,10 @@ PIN_102</desc>
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="M -8.0180856,1393.2692 H 959.49758 v 37.9523"
        id="path7217"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28581">PIN_118</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 188.69228,2167.2817 v 11.2253 h 273.14946 v 17.6398 h 274.21853 l 1.06907,-622.2034 h 64.67922 v -60.9375"
@@ -2103,7 +2135,8 @@ PIN_102</desc>
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccccccccccccccccccccccccc">
       <desc
-         id="desc18482">PIN_63</desc>
+         id="desc18482">PIN_63
+JV2</desc>
     </path>
     <path
        id="path7249"
@@ -2130,7 +2163,10 @@ PIN_102</desc>
        d="m 2551.3549,2643.556 h 24.0542 V 2497.6268 H 2374.957 2081.495 l 0.5346,-462.9108"
        id="path7255"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccc" />
+       sodipodi:nodetypes="cccccc">
+      <desc
+         id="desc28100">P76_Q</desc>
+    </path>
     <path
        id="path7257"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -2153,13 +2189,19 @@ PIN_102</desc>
        d="m 1434.1683,1877.0431 h 153.4127 v -64.0848"
        id="path7261"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc">
+      <desc
+         id="desc28950">J52</desc>
+    </path>
     <path
        id="path7263"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1586.5119,1803.2181 v -33.0989 h 66.8174 v -147.5328 m -529.1937,8.5527 v -8.0181 l 791.6523,-0.5346 v -9.6217"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccc" />
+       sodipodi:nodetypes="cccccccc">
+      <desc
+         id="desc28073">L47</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m -8.5526247,2462.8818 1184.0040247,2.6727 v -196.7104 l 575.6982,-0.1693 1241.7345,-0.3652 v 7.4835 h 406.2497 v 6.4145 l 207.401,-1.0691 v 237.8699 H 3786.14 v 24.5888"
@@ -2228,10 +2270,11 @@ PIN_102</desc>
     <path
        id="path7295"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 2995.5569,1580.3578 h -65.2137 l -2.1384,-262.4586 m 845.6409,-833.88096 h -47.0395 l -1.6036,-244.81888 -408.9223,1.06908 -261.3895,-1.06908 4.8106,997.44984 m -61.4719,81.25 h -70.0247 v -72.6866 h 130.9622 v -8.5634 h 155.0164 v -8.5526 h 90.8714 v 8.0181 m 468.2564,621.1344 h -108.5114 l 0.5345,-285.4439 h -205.7975 v 8.5526 l -463.9799,-0.5345 v 52.3848"
-       inkscape:connector-curvature="0">
+       d="m 2995.5569,1580.3578 h -65.2137 l -2.1384,-262.4586 m 70.0247,0 h -70.0247 v -72.6866 h 130.9622 v -8.5634 h 155.0164 v -8.5526 h 90.8714 v 8.0181 m 468.2564,621.1344 h -108.5114 l 0.5345,-285.4439 h -205.7975 v 8.5526 l -463.9799,-0.5345 v 52.3848 m 64.1445,-395.5589 -4.8106,-997.44984 251.1558,0.53991 v -17.59015"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccccc">
       <desc
-         id="desc18582">X5</desc>
+         id="desc18582">V38</desc>
     </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -2304,7 +2347,8 @@ PIN_102</desc>
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccc">
       <desc
-         id="desc18572">PIN_67</desc>
+         id="desc18572">PIN_67
+PIN_J2</desc>
     </path>
     <path
        id="path7363"
@@ -2317,11 +2361,11 @@ PIN_102</desc>
     <path
        id="path7367"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1998.107,704.24833 h 279.5639 m -369.3665,245.89334 h 89.268 V 703.71379 l -3.7417,-571.95677 h -245.888 m -45.9704,1187.74578 h -16.5707 l -0.5345,-369.36649 223.4373,-0.53454 v 10.15624 m 1387.1289,1681.12529 -343.7086,0.5346 v -14.9672 l -731.7858,2.0049 -48.6413,0.1333 M 1748.4772,1319.5028 h -46.5049 v 122.944 l 363.4866,-1.0691 v 196.7103 h 8.5526 v 264.0623 h 99.4243 l -2.1382,725.9041 M 2531.5769,663.62336 v 40.62497 l -253.3715,-0.53454 V 679.125 h -57.7302 m 1556.0431,1830.2617 h 58.2649 v 114.3914 l 350.1231,-2.1382 -6.949,1085.1143 m -343.7088,-1083.5107 -382.1954,2.1382 v 16.0362 h -156.6198 v 57.7355 h 16.0161 v 22.0231"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccc">
+       d="m 1998.107,704.24833 h 279.5639 m -369.3665,245.89334 h 89.268 V 703.71379 l -3.7417,-571.95677 h -245.888 m -45.9704,1187.74578 h -16.5707 l -0.5345,-369.36649 223.4373,-0.53454 v 10.15624 m 1387.1289,1681.12529 -343.7086,0.5346 v -14.9672 l -731.7858,2.0049 -48.6413,0.1333 M 1748.4772,1319.5028 h -46.5049 v 122.944 l 363.4866,-1.0691 v 196.7103 h 8.5526 v 264.0623 h 99.4243 l -2.1382,725.9041 M 2531.5769,663.62336 v 40.62497 l -253.3715,-0.53454 V 679.125 h -57.7302 m 1556.0431,1830.2617 h 58.2649 v 114.3914 l 350.1231,-2.1382 -6.949,1085.1143 m -343.7088,-1083.5107 -382.1954,2.1382 v 16.0362 h -156.6198 v 57.7355 h 16.0161 v 22.0231 m -1098.4577,-92.0531 v 162.4998 h -50.2467 v 260.3206 l -414.8023,1.0692"
+       inkscape:connector-curvature="0">
       <desc
-         id="desc18488">PIN_64</desc>
+         id="desc28076">PIN_64
+JV1</desc>
     </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -2356,7 +2400,8 @@ PIN_102</desc>
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccc">
       <desc
-         id="desc18508">PIN_72</desc>
+         id="desc18508">PIN_66
+J3</desc>
     </path>
     <path
        id="path7415"
@@ -2396,7 +2441,7 @@ PIN_102</desc>
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc">
       <desc
-         id="desc18486">PIN_80_OUT</desc>
+         id="desc18486">PIN_80_OE</desc>
     </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -2408,7 +2453,10 @@ PIN_102</desc>
        d="m 3169.2821,2405.6861 295.0656,-0.5085 215.9538,-1.0951 v -219.161 h 93.5442"
        id="path7426"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc">
+      <desc
+         id="desc28065">W72?</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3787.7437,1869.5435 v 28.3305 h 41.1594 l -1.6036,481.6197 h -53.9883"
@@ -2449,7 +2497,7 @@ PIN_102</desc>
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccccccccc">
       <desc
-         id="desc20993">PIN_80_OE</desc>
+         id="desc20993">PIN_80_OUT</desc>
     </path>
     <path
        id="path7455"
@@ -2463,8 +2511,12 @@ PIN_102</desc>
     <path
        id="path7463"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 2378.1642,1909.0994 v 9.0871 h 199.9176 m 113.8567,-271.0113 v 56.1266 h -114.9258 l 1.0691,213.8156 h 40.625 l -1.0691,465.049 736.0603,-0.5345 v -17.6398 h 114.3912 v -7.4836 l 298.8075,-1.069"
-       inkscape:connector-curvature="0" />
+       d="m 2378.1642,1909.0994 v 8.5579 h 199.9176 m 113.8567,-270.4821 v 56.1266 h -114.9258 l 1.0691,213.8156 h 40.625 l -1.0691,465.049 736.0603,-0.5345 v -17.6398 h 132.3829 v -7.4836 l 280.8158,-1.069"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccc">
+      <desc
+         id="desc28106">AA70</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2689.8004,1744.9959 h 59.3339 l -0.5345,604.0291 H 3101.93 v 65.2137 h 36.3488"
@@ -2476,7 +2528,7 @@ PIN_102</desc>
     </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 2688.1968,688.22292 h 261.9243 v 205.78677 h 43.8322"
+       d="m 2688.1968,688.22292 h 261.9243 l 1.0583,205.78677 h 42.7739"
        id="path7471"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
@@ -2560,7 +2612,10 @@ PIN_102</desc>
        d="m 4241.0329,2033.6517 h -53.9885 l -1.6036,-854.728 h -398.2316"
        id="path7513"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc">
+      <desc
+         id="desc29009">PIN_74</desc>
+    </path>
     <path
        id="path7515"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -2608,7 +2663,10 @@ PIN_102</desc>
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3781.8639,3373.7364 h 63.0756 v 329.8106"
        id="path7529"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28069">PIN_69</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3460.6058,3325.0933 303.0837,-1.6036 v -8.5526 h 15.5016"
@@ -2634,7 +2692,10 @@ PIN_102</desc>
        id="path7634"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2934.6194,598.40423 v -41.68868 h 60.4028 v -8.01806 M 3770.104,1611.3611 c 2.6725,-0.5345 -211.1431,0 -211.1431,0 l -1.0689,475.2052 h -406.7842 v -13.3635 m 0,13.3635 h -58.2649 v -88.1989 h -92.4753 -95.6824 c 2.263,-475.3599 -1.6087,-934.3608 -3.2073,-1399.42326 h 250.1644 207.4011 V 443.92783 h 8.0181 l -1.0691,-237.86988 h 93.5444"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28067">AA47</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3001.9712,1215.2677 v 45.9703 h 292.9276 v 16.5708 h 10.6907 v 8.5526 h 6.949"
@@ -2668,9 +2729,10 @@ PIN_102</desc>
     </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1131.0846,885.99162 v 32.07234 h 99.4243 l 0.5345,336.75964 510.4848,-1.6036"
+       d="m 1131.0846,885.99162 v 32.07234 h 99.4243 l 0.5345,336.75964 512.0723,-1.6036 v 12.8994"
        id="path7670"
-       inkscape:connector-curvature="0">
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc">
       <desc
          id="desc18597">G25</desc>
     </path>
@@ -2694,13 +2756,20 @@ PIN_102</desc>
     <path
        id="path7674"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1133.2228,993.9685 v 31.0033 h 164.638 v 32.6068 h 403.0321 m 1.0794,178.5361 v 66.8174 h 90.8717 v -48.6431 h 106.9078 m -198.314,-197.2449 v 179.0706 h 50.7812 v 18.7089"
-       inkscape:connector-curvature="0" />
+       d="m 1133.2228,993.9685 v 31.0033 h 164.638 v 32.6068 h 403.0321 m 1.0794,178.5361 v 66.8174 h 90.8717 v -48.6431 h 106.9078 M 1701.967,1057.0441 v 179.0706 h 50.252 v 18.7089"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccc">
+      <desc
+         id="desc28595">G28</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1604.1517,1188.0062 v 74.8354 h 180.6742 v 6.4145 h 115.995"
        id="path7676"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28957">J33</desc>
+    </path>
     <path
        id="path7679"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -2732,15 +2801,6 @@ PIN_102</desc>
        d="m 2759.8251,295.86049 h -83.9227 v -8.5526 m 787.9106,9.61631 -703.9879,-0.53454 2.1381,408.39321 h -81.2499 v -7.48353 m 782.5653,-424.42402 v 24.05427 h 74.8353 v -97.28611 h 225.5755"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccc" />
-    <path
-       id="path8186"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1676.849,827.19232 -2.1382,-310.5672 h -80.7154 M 1747.9427,1958.277 h -52.9194 l -1.0691,-679.9337 h -25.1233 v -188.6815 m 484.8269,-303.62899 h -114.3913 v 41.69405 h -141.1564 l -221.2611,-0.53454 0.5345,165.17257 h -9.0871 v 97.83141 l -544.6953,1.0583 M 807.15397,2457.0019 h 516.89923 v -259.786 l 254.9751,-1.6036 v -7.4836 h 124.0131 V 1958.2931 M 2215.1298,843.76304 h -60.9374 v -57.19569 h 48.643 v -32.60688 l 935.6843,-0.36718 v 8.38143 h 156.6767 m 312.9421,-769.7323953 4.8109,737.6638953 -317.5161,-0.53454 v 33.67595"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccc">
-      <desc
-         id="desc22538">E73</desc>
-    </path>
     <path
        id="path8194"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -2798,18 +2858,19 @@ PIN_102</desc>
     <path
        id="path8580"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 3109.4137,1972.175 v -71.0937 h 90.337 v -42.2286 h -37.9521 m -162.5,751.0274 h -64.1448 l 2.6729,-619.5308 h 171.587 v -18.1743 h 47.574 l 353.3304,-0.5346 v 16.5707 h 260.3203 v -16.5707"
-       inkscape:connector-curvature="0">
+       d="m 3109.4137,1972.175 v -71.0937 h 90.337 v -42.2286 h -37.9521 m -162.5,751.0274 h -64.1448 l 2.6729,-620.06 h 171.587 v -17.6451 h 47.574 l 353.3304,-0.5346 v 16.5707 h 260.3203 v -16.5707"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccc">
       <desc
          id="desc13667">V52_Q</desc>
     </path>
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="M 168.3798,3390.8415 H -6.9490076"
        id="path8589"
        inkscape:connector-curvature="0">
       <desc
-         id="desc13043">PIN_SDPAD7_IN</desc>
+         id="desc13043">PIN_SDPA8</desc>
     </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#008080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -2822,30 +2883,20 @@ PIN_102</desc>
     <path
        id="path9977"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1348.619,2929.9704 1224.6429,-1.5118 v -23.4344 h -41.5774 M 907.64729,3221.3928 v -80.7154 h 18.70888 v 8.0179 h 34.21049 M 1348.642,2685.2607 v 244.8081 l -2.1381,154.482 m -229.8465,-398.7448 0,55.5706 m 628.0781,-406.7842 h -305.7564 v 17.1053 h -90.3371 v 333.563 l -273.684,0.5348 v -56.672 H 963.23937 m 464.51443,828.0009 h 262.9932 v -113.8569 h 54.523 m -399.3007,-64.6792 v 178.5361 h 81.7845 v -14.967 m -1.6036,-357.6066 h -79.6463 v 194.0375 H 963.77391 908.18183 v -56.661 H 641.98139 v -48.1084"
+       d="m 1348.619,2929.9704 1224.6429,-1.5118 v -23.4344 h -41.5774 M 907.64729,3221.3928 v -80.7154 h 18.70888 v 8.0179 h 34.21049 M 1348.642,2685.2607 v 244.8081 l -2.1381,154.482 M 1116.6574,2685.806 v 55.5706 m 628.0781,-406.7842 h -305.7564 v 17.1053 h -90.3371 v 333.563 l -273.684,0.5348 v -56.672 H 963.23937 m 464.51443,828.0009 h 262.9932 v -113.8569 h 54.523 m -399.3007,-64.6792 v 178.5361 h 81.7845 v -14.967 m -1.6036,-357.6066 h -79.6463 v 194.0375 H 963.77391 908.18183 v -56.661 H 641.98139 v -48.1084"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccc">
       <desc
          id="desc13657">P84_Q</desc>
     </path>
     <path
-       id="path9984"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1474.1071,335.54199 v -64.25597 h -47.625 m 76.1072,490.69254 v 90.33708 h 74.8354 v 164.63806 l -454.3582,-1.0691 v 23.5197 M 1383.3871,337.02 v 105.83873 h 43.8322 v 235.73174 h 6.0664 69.3036 v 83.38809 h 85.5262 m -467.1871,277.96034 h -72.1628 v 42.2285 H 804.48128 M 3681.9048,-8.2922143 3684.0432,346.1179 2668.9534,346.1072 v -9.62171 L 1383.3871,337.02"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccccccccccccccccccc">
-      <desc
-         id="desc14454">E31
-PIN_99</desc>
-    </path>
-    <path
        id="path10116"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 3313.073,1710.7961 h 82.3138 l 0.01,645.7124 h 47.0394 m -46.547,-645.5112 423.5601,-1.1339 v -400.6548 h -40.0653 v 9.0715"
+       d="m 3395.8892,1710.9973 423.5601,-1.1339 v -400.6548 h -40.0653 v 9.0715 m -15.6946,1728.8528 h -94.0734 l 1.0745,-235.7316 h -138.9909 l 1.0689,-463.9799 h -57.4921 M 3313.073,1710.7961 h 82.3138 l 0.01,645.7124 h 79.9234 l -0.044,-9.0871"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccc">
+       sodipodi:nodetypes="cccccccccccccccc">
       <desc
-         id="desc22547">Y70</desc>
+         id="desc28981">Y70</desc>
     </path>
     <path
        id="path10135"
@@ -2859,12 +2910,16 @@ PIN_99</desc>
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="M 173.11309,2610.9586 H -9.8273808"
        id="path13290"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28589">PIN_114</desc>
+    </path>
     <path
        id="path13659"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#008080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 217.02285,711.19735 v -78.04269 h 9.62171 V 614.98032 M 1484.9495,3327.2314 v -55.5921 h 103.166 m -887.86934,88.1991 -473.06707,-1.6036 v -32.607 h -56.66113 m 843.50264,35.2795 -313.2399,-0.5344 v -34.7451 h -52.38483 m 836.55363,34.2106 -470.9289,1.0689 v -34.2103 h -46.50493 m 624.34163,33.1414 h -106.9078 v -32.607 h -47.574 m 398.2316,-1359.3327 h -212.7465 v -9.0872 h -28.8652 M 288.11654,1794.1735 H 179.60512 M 287.582,1926.2046 H 178.53604 M 228.24817,1630.07 h 18.17433 v -163.0344 m 457.03089,556.9896 h -49.1776 v -7.4835 H 288.11654 V 1663.2114 H 228.24817 V 1630.07 H 179.60512 M 288.65107,2804.9868 V 2512.5939 H 122.94398 l -0.53454,-261.3895 h 109.04597 v 33.6759 h 107.44234 l 471.46344,0.5345 66.8174,0.5346 v -229.3173 h -71.0937 -102.6315 v -97.8259 h 174.79428 m -176.3979,1108.1049 v 33.1411 H 802.3431 m 686.3482,-683.6753 v -33.676 H 1437.91 m -271.0113,163.569 V 2417.446 l 426.5622,-0.5346 m -553.2479,423.8894 h 80.7154 70.5591 V 2554.288 h -16.5707 v -6.949 h -156.6199 v -33.1414 h -56.1266 m 5.34537,520.6409 h 72.69733 v -194.5722 h -22.9852 v -32.6067 h -55.0575 m -673.51923,96.7515 v 72.6972 h 305.75636 v 90.3372 h 52.91937 368.2974 v -31.5378 M 180.13966,2773.449 h 48.64305 m -50.78121,-32.607 h 51.31575 v 65.214 h 59.33382 v 97.8204 H 181.20874 m 720.0241,-1402.6303 v -49.7122 h -90.87165 v -17.6398 H 703.98793 v -33.1414 h -56.1266 m 164.10348,296.1347 h 89.26803 v -195.6413 h 66.81737 48.10849 v 31.5378 h 104.2352 44.9012 v -163.569 h 271.5459 50.2466 v 32.6069 h 105.3042 M 965.91206,1728.4252 H 860.07333 v -29.9342 m 156.61997,259.2514 -138.98017,1.6036 v -230.3863 m 610.97817,230.3863 -471.4635,-1.069 v -31.5379 h -51.31574 m 473.06704,-0.5345 h 49.7122 v 32.6069 h 105.3041 M 329.81058,745.40784 H 226.11002 v -33.14142 h -49.71213 m 3.74177,262.45867 h 64.14469 V 747.01145 m 81.24993,260.31515 H 227.71364 V 975.79417 M 178.0015,1138.8286 h 74.83547 v -129.8984 m 72.69731,161.9707 h -97.82064 v -31.0032 m 17.63978,130.4275 v -97.8207 m -65.7483,293.9965 h 65.7483 v -196.1758 h -68.421 m 1626.06778,491.7759 h -50.7812 m 553.2479,-1.0691 h 74.301 v -7.4835 h 311.6362 v 8.0181 h 310.5671 50.2467 v 31.0032 h 104.7698 m -851.5208,-260.3205 h 69.4901 62.0065 v -132.0311 h 97.2861 50.7812 v 32.6069 h 104.7696 m -417.4749,327.1379 v -32.0724 h -55.0575 m -308.9636,66.8174 h -105.3042 v -32.6069 l 502.4667,-0.5345 v -229.3173 h -34.2105 v -34.745 h -54.523 m -308.9635,755.8382 h -104.7697 v -32.6069 h -49.7121 v -229.3172 h 82.8535 V 1795.7771 M 179.60512,2480.5216 h 51.31575 v 32.6069 m 886.80023,554.317 h -102.0969 v 22.031 h -7.9397 v 73.2137 111.2387 h 6.728 v 53.6726 M 2579.6855,387.26668 V 230.64674 h 6.9489 V 156.34581 M 707.19515,484.55278 v 195.6413 H 648.39587 M 3046.8726,124.27347 V 91.666588 h -52.3849 m -462.9108,31.537802 618.9962,1.60362 m -571.9567,31.00326 v -32.07234 m -313.2399,32.07234 420.1477,1.06908 m -1203.2474,-34.2105 h 107.4423 v 16.57071 l 626.4798,0.53454 v 16.03617 h 49.1776 v 34.2105 h 101.0279 m -1356.1256,-65.7483 471.4634,-1.06908 V 91.132048 h -49.1776 m -318.0507,64.679222 h -104.2351 v -31.5378 h -51.85029 -47.57396 v 64.14469 H 695.96983 v -33.14143 h -53.98844 l -269.40769,2.13816 v -34.2105 H 222.90278 V 91.132048 H 168.3798 M 962.70483,417.73541 h 74.83547 l -2.1382,-261.3896 m -21.9161,295.06555 v -33.67595 m -314.30891,33.14141 418.54401,0.53454 M 176.93242,418.80448 h 48.10852 v 32.07234 h 101.02788 320.1889 52.91937 v 33.67596 H 801.80856 M 178.0015,582.37344 h 72.16277 V 451.41136 m 80.71541,163.56896 H 224.5064 v -32.07234 m 2216.7334,32.60688 -641.9814,-1.06908 V 581.8389 h -50.7812 m 677.7955,196.71035 v 32.07235 h 96.7516 m 155.5509,-391.81712 h -237.3354 v 359.74477 h -66.2828 m 156.6199,-391.28257 h 48.1086 v 30.46873 M 965.91206,3164.197 h 49.71214 v 33.1415 h 103.166 m 515.5788,-24.7074 h -41.5774 m 1454.6154,186.1381 721.6278,-2.6725 M 1635.155,3003.8354 v 171.0637 56.1153 h 111.1841 51.8503 v 32.607 h 106.3732 43.2977 v 31.5378 l 426.5622,-0.5348 v 34.2107 h 49.7121 v 31.0033 h 106.9078 l 516.3646,-1.0692 v -31.5378 M 1440.0482,2808.1941 h 47.574 v 32.0722 h 108.5114 56.1266 v 163.0344 h -59.3338 -105.8388 v -34.2103 h -55.0575 m 995.8463,-422.286 v 32.6069 h 102.0969 m 625.4107,-67.8865 h -104.2352 -221.2991 v 34.2106 l -450.0818,1.069 m 669.7775,290.2546 h 8.5524 l 1.0692,-308.4289 h -8.5527 v -50.2467 h -53.4538 m 52.9194,392.3518 h 104.7697 m -157.6891,456.4962 h 57.7303 l 2.6725,-439.9256 h -8.0179 v -50.2468 h -52.3849"
-       inkscape:connector-curvature="0">
+       d="m 217.02285,711.19735 v -78.04269 h 9.62171 V 614.98032 M 1484.9495,3327.2314 v -55.5921 h 103.166 m -887.86934,88.1991 -473.06707,-1.6036 v -32.607 h -56.66113 m 843.50264,35.2795 -313.2399,-0.5344 v -34.7451 h -52.38483 m 836.55363,34.2106 -470.9289,1.0689 v -34.2103 h -46.50493 m 624.34163,33.1414 h -106.9078 v -32.607 h -47.574 m 398.2316,-1359.3327 h -212.7465 v -9.0872 h -28.8652 M 288.11654,1794.1735 H 179.60512 M 287.582,1926.2046 H 178.53604 M 228.24817,1630.07 h 17.64516 v -163.0344 m 457.56006,556.9896 h -49.1776 v -7.4835 H 288.11654 V 1663.2114 H 228.24817 V 1630.07 H 179.60512 M 288.65107,2804.9868 V 2512.5939 H 122.94398 l -0.53454,-261.3895 h 109.04597 v 33.6759 h 107.44234 l 471.46344,0.5345 66.8174,0.5346 v -229.3173 h -71.0937 -102.6315 v -97.8259 h 174.79428 m -176.3979,1108.1049 v 33.1411 H 802.3431 m 686.3482,-683.6753 v -33.676 H 1437.91 m -271.0113,163.569 V 2417.446 l 426.5622,-0.5346 m -553.2479,423.8894 h 80.7154 70.5591 V 2554.288 h -16.5707 v -6.949 h -156.6199 v -33.1414 h -56.1266 m 5.34537,520.6409 h 72.69733 v -194.5722 h -22.9852 v -32.6067 h -55.0575 m -673.51923,96.7515 v 72.6972 h 305.75636 v 90.3372 h 52.91937 368.2974 v -31.5378 M 180.13966,2773.449 h 48.64305 m -50.78121,-32.607 h 51.31575 v 65.214 h 59.33382 v 97.8204 H 181.20874 m 720.0241,-1402.6303 v -49.7122 h -90.87165 v -17.6398 H 703.98793 v -33.1414 h -56.1266 m 164.10348,296.1347 h 89.26803 v -195.6413 h 66.81737 48.10849 v 31.5378 h 104.2352 44.9012 v -163.569 h 271.5459 50.2466 v 32.6069 h 105.3042 M 965.91206,1728.4252 H 860.07333 v -29.9342 m 156.61997,259.2514 -138.98017,1.6036 v -230.3863 m 610.97817,230.3863 -471.4635,-1.069 v -31.5379 h -51.31574 m 473.06704,-0.5345 h 49.7122 v 32.6069 h 105.3041 M 329.81058,745.40784 H 226.11002 v -33.14142 h -49.71213 m 3.74177,262.45867 h 64.14469 V 747.01145 m 81.24993,260.31515 H 227.71364 V 975.79417 M 178.0015,1138.8286 h 74.83547 v -129.8984 m 72.69731,161.9707 h -97.82064 v -31.0032 m 17.63978,130.4275 v -97.8207 m -65.7483,293.9965 h 66.27747 v -196.1758 h -68.95017 m 1626.06778,491.7759 h -50.7812 m 553.2479,-1.0691 h 74.301 v -7.4835 h 311.6362 v 8.0181 h 310.5671 50.2467 v 31.0032 h 104.7698 m -851.5208,-260.3205 h 69.4901 62.0065 v -132.0311 h 97.2861 50.7812 v 32.6069 h 104.7696 m -417.4749,327.1379 v -32.0724 h -55.0575 m -308.9636,66.8174 h -105.3042 v -32.6069 l 502.4667,-0.5345 v -229.3173 h -34.2105 v -34.745 h -54.523 m -308.9635,755.8382 h -104.7697 v -32.6069 h -49.7121 v -229.3172 h 82.8535 V 1795.7771 M 179.60512,2480.5216 h 51.31575 v 32.6069 m 886.80023,554.317 h -102.0969 v 22.031 h -7.9397 v 73.2137 111.2387 h 6.728 v 53.6726 M 2579.6855,387.26668 V 230.64674 h 6.9489 V 156.34581 M 707.19515,484.55278 v 195.6413 H 648.39587 M 3046.8726,124.27347 V 91.666588 h -52.3849 m -462.9108,31.537802 618.9962,1.60362 m -571.9567,31.00326 v -32.07234 m -313.2399,32.07234 420.1477,1.06908 m -1203.2474,-34.2105 h 107.4423 v 16.57071 l 626.4798,0.53454 v 16.03617 h 49.1776 v 34.2105 h 101.0279 m -1356.1256,-65.7483 471.4634,-1.06908 V 91.132048 h -49.1776 m -318.0507,64.679222 h -104.2351 v -31.5378 h -51.85029 -47.57396 v 64.14469 H 695.96983 v -33.14143 h -53.98844 l -269.40769,2.13816 v -34.2105 H 222.90278 V 91.132048 H 168.3798 M 962.70483,417.73541 h 74.83547 l -2.1382,-261.3896 m -21.9161,295.06555 v -33.67595 m -314.30891,33.14141 418.54401,0.53454 M 176.93242,418.80448 h 48.10852 v 32.07234 h 101.02788 320.1889 52.91937 v 33.67596 H 801.80856 M 178.0015,582.37344 h 72.16277 V 451.41136 m 80.71541,163.56896 H 224.5064 v -32.07234 m 2216.7334,32.60688 -641.9814,-1.06908 V 581.8389 h -50.7812 m 677.7955,196.71035 v 32.07235 h 96.7516 m 155.5509,-391.81712 h -237.3354 v 359.74477 h -66.2828 m 156.6199,-391.28257 h 48.1086 v 30.46873 M 965.91206,3164.197 h 49.71214 v 33.1415 h 103.166 m 515.5788,-24.7074 h -41.5774 m 1454.6154,186.1381 721.6278,-2.6725 M 1635.155,3003.8354 v 171.0637 56.1153 h 111.1841 51.8503 v 32.607 h 106.3732 43.2977 v 31.5378 l 426.5622,-0.5348 v 34.2107 h 49.7121 v 31.0033 h 106.9078 l 516.3646,-1.0692 v -31.5378 M 1440.0482,2808.1941 h 47.574 v 32.0722 h 108.5114 56.1266 v 163.0344 h -59.3338 -105.8388 v -34.2103 h -55.0575 m 995.8463,-422.286 v 32.6069 h 102.0969 m 625.4107,-67.8865 h -104.2352 -221.2991 v 34.2106 l -450.0818,1.069 m 669.7775,290.2546 h 8.5524 l 1.0692,-308.4289 h -8.5527 v -50.2467 h -53.4538 m 52.9194,392.3518 h 104.7697 m -157.6891,456.4962 h 57.7303 l 2.6725,-439.9256 h -8.0179 v -50.2468 h -52.3849"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc">
       <desc
          id="desc18772">J95</desc>
     </path>
@@ -2898,7 +2953,10 @@ PIN_99</desc>
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2683.9206,337.02 h 231.9898 l 4.2765,587.99296 h 76.9736 m 311.1016,148.06734 -306.8254,-1.0691 V 941.58368 h -8.0179 V 925.01297 M 2915.9104,337.02 h 230.921 152.9007 v 16.28686"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccccc" />
+       sodipodi:nodetypes="ccccccccccc">
+      <desc
+         id="desc28071">X31</desc>
+    </path>
     <path
        id="path18079"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -2924,7 +2982,10 @@ PIN_99</desc>
        id="path18127"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1798.7239,761.96245 v -9.07106 h -50.2467 v -7.48355 m 616.3235,-90.87162 h -71.0937 v 106.9078 l -130.4275,0.53454 m -725.904,34.21049 v 15.50165 l 312.7054,0.53454 v -24.58882 h 48.643 v -25.67397 l 364.0211,-0.51843 0.5345,294.53098 h 50.2467 v 279.0294"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28102">P17</desc>
+    </path>
     <path
        id="path18238"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -2932,8 +2993,8 @@ PIN_99</desc>
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccccccccccccccc">
       <desc
-         id="desc18363">X31
-PIN_68</desc>
+         id="desc18363">PIN_68
+PIN_J1</desc>
     </path>
     <path
        id="path18241"
@@ -3005,11 +3066,13 @@ PIN_68</desc>
        inkscape:connector-curvature="0" />
     <path
        id="path22169"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1474.7932,402.23379 h -49.067 v 16.08497 M 2210.319,303.87858 h -58.7993 M 172.12157,329.00194 h 159.29265 v -8.55263 l 845.64078,0.53453 2.1381,260.85506 m 406.7843,163.0344 v -24.05425 h -99.9589 V 589.85697 H 1443.79 V 442.85873 h 31.0032 v -40.62494 l 676.1919,-1.60364 V 302.80951 99.684672 m -707.7297,490.166928 -264.0623,0.53991 v -8.55261 h -56.6611 v 8.08105 h -10.1481"
-       inkscape:connector-curvature="0">
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 1474.7932,402.23379 h -49.067 v 16.08497 M 2210.319,303.87858 h -58.7993 M 172.12157,329.00194 h 159.29265 v -8.55263 l 845.64078,0.53453 2.1381,260.85506 m 264.0623,8.0127 -264.0623,0.53991 v -8.55261 h -56.6611 v 8.08105 h -10.1481 M 2215.6644,89.397966 V -9.8958314 M 1585.9774,744.8733 v -24.05425 h -99.9589 V 589.85697 H 1443.79 V 442.85873 h 31.0032 v -40.62494 l 676.1919,-1.60364 V 302.80951 99.684672 h 56.1267 V 89.528433 l 8.5526,-0.130467"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccc">
       <desc
-         id="desc22172">A8</desc>
+         id="desc28960">A8
+PIN_98</desc>
     </path>
     <path
        id="path22531"
@@ -3042,7 +3105,8 @@ PIN_68</desc>
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccc">
       <desc
-         id="desc22552">PIN_62</desc>
+         id="desc22552">PIN_62
+JV3</desc>
     </path>
     <path
        id="path23638"
@@ -3052,6 +3116,34 @@ PIN_68</desc>
        sodipodi:nodetypes="cccccccccccccccccccccccc">
       <desc
          id="desc23641">K88</desc>
+    </path>
+    <path
+       id="path28144"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 1693.9542,1278.3433 h 58.7214 v -4.6644 m -75.8266,-446.48658 -2.1382,-310.5672 h -80.7154 M 1747.9427,1958.277 h -52.9194 l -1.0691,-679.9337 h -25.1233 v -188.6815 m 484.8269,-303.62899 h -114.3913 v 41.69405 h -141.1564 l -221.2611,-0.53454 0.5345,165.17257 h -9.0871 v 97.83141 l -544.6953,1.0583 M 807.15397,2457.0019 h 516.89923 v -259.786 l 254.9751,-1.6036 v -7.4836 h 124.0131 V 1958.2931 M 2215.1298,843.76304 h -60.9374 v -57.19569 h 48.643 v -32.60688 l 935.6843,-0.36718 v 8.38143 h 156.6767 m 312.9421,-769.7323953 4.8109,737.6638953 -317.5161,-0.53454 v 33.67595"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccc">
+      <desc
+         id="desc28147">E73
+PIN_100</desc>
+    </path>
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 3316.741,231.59852 v 7.55952 l 407.4583,0.75596 2.268,244.92858 h 46.491"
+       id="path28151"
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28153">X5</desc>
+    </path>
+    <path
+       id="path28952"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 1584.9083,1154.8647 h -8.0181 V 1017.4882 M 1474.1071,335.54199 v -64.25597 h -47.625 m 76.1072,490.69254 v 90.33708 h 74.8354 v 164.63806 l -454.3582,-1.0691 v 23.5197 M 1383.3871,337.02 v 105.83873 h 43.8322 v 235.73174 h 6.0664 69.3036 v 83.38809 h 85.5262 m -465.0704,277.96034 h -74.2795 v 42.2285 H 804.48128 M 3681.9048,-8.2922143 3684.0432,346.1179 2668.9534,346.1072 v -9.62171 L 1383.3871,337.02 m 525.9864,1260.9776 v -32.0723 h 41.694 l -1.6036,-345.3123 h -115.4604 v -65.7483 l -248.1938,0.5346 v 15.848"
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc28955">E31
+PIN_99
+VA22</desc>
     </path>
   </g>
   <g
@@ -3081,7 +3173,7 @@ PIN_68</desc>
        x="587.45844"
        y="970.98334" />
     <rect
-       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-9"
        width="117.59859"
        height="26.726952"
@@ -3179,7 +3271,7 @@ PIN_68</desc>
        x="2002.3833"
        y="2019.2145" />
     <rect
-       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-2"
        width="117.59863"
        height="58.476929"
@@ -3256,14 +3348,14 @@ PIN_68</desc>
        x="2466.8977"
        y="346.64175" />
     <rect
-       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-13"
        width="117.59859"
        height="26.726952"
        x="2155.2615"
        y="85.78669" />
     <rect
-       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-43"
        width="117.59859"
        height="26.726952"
@@ -3410,7 +3502,7 @@ PIN_68</desc>
        x="3090.1702"
        y="316.173" />
     <rect
-       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-54"
        width="117.59859"
        height="26.726952"
@@ -3431,7 +3523,7 @@ PIN_68</desc>
        x="3713.9773"
        y="479.20743" />
     <rect
-       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-38"
        width="117.59859"
        height="26.726952"
@@ -3648,7 +3740,7 @@ PIN_68</desc>
        x="2159.5432"
        y="1330.7335" />
     <rect
-       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-78-9"
        width="117.59859"
        height="26.726952"
@@ -3746,7 +3838,7 @@ PIN_68</desc>
        x="3404.4792"
        y="2865.3899" />
     <rect
-       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-6-61-8-9-66-4-5-5-8-0-3-7"
        width="117.59857"
        height="57.730194"
@@ -3816,7 +3908,7 @@ PIN_68</desc>
        x="1846.3087"
        y="2413.6934" />
     <rect
-       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-6-61-8-9-66-4-7-0-1-9-5"
        width="117.59857"
        height="57.730194"
@@ -3879,21 +3971,21 @@ PIN_68</desc>
        x="1531.4652"
        y="741.66614" />
     <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-6-61-8-9-66-4-7-0-1-9-2"
        width="117.59857"
        height="57.730194"
        x="2313.4849"
        y="610.15881" />
     <rect
-       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-6-61-8-9-66-4-7-0-1-9-95"
        width="117.59857"
        height="57.730194"
        x="1842.5669"
        y="413.45377" />
     <rect
-       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-6-61-8-9-66-4-7-0-1-9-95-5"
        width="117.59857"
        height="57.730194"
@@ -4096,7 +4188,7 @@ PIN_68</desc>
        x="3405.0193"
        y="2701.8101" />
     <rect
-       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-23-7"
        width="117.59859"
        height="26.726952"
@@ -4152,7 +4244,7 @@ PIN_68</desc>
        x="2935.6885"
        y="317.2421" />
     <rect
-       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-6-61-8-9-66-4-5-5-8-6-5-4-8-8-24"
        width="117.59857"
        height="57.730194"
@@ -4166,7 +4258,7 @@ PIN_68</desc>
        x="3716.1541"
        y="578.09717" />
     <rect
-       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-6-61-8-9-66-4-5-5-8-6-5-4-8-8-39"
        width="117.59857"
        height="57.730194"
@@ -4243,7 +4335,7 @@ PIN_68</desc>
        x="1689.1434"
        y="1298.1213" />
     <rect
-       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-6-61-8-9-66-4-0-8-0"
        width="117.59857"
        height="57.730194"
@@ -4292,14 +4384,14 @@ PIN_68</desc>
        x="3408.2212"
        y="1984.4694" />
     <rect
-       style="display:inline;opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="display:inline;opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-6-61-8-9-66-4-5-5-8-6-5-4-8-8-9-9-8-8"
        width="117.59857"
        height="57.730194"
        x="3407.1521"
        y="1887.1833" />
     <rect
-       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="display:inline;opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-6-61-8-9-66-4-7-0-1-9-95-9-7-3-9-4"
        width="117.59857"
        height="57.730194"
@@ -4320,14 +4412,14 @@ PIN_68</desc>
        x="3719.8572"
        y="1851.9037" />
     <rect
-       style="display:inline;opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="display:inline;opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-6-61-8-9-66-4-5-5-8-6-5-4-8-8-9-9-2-7"
        width="117.59857"
        height="57.730194"
        x="3251.0664"
        y="1232.3729" />
     <rect
-       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="display:inline;opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-6-61-8-9-66-4-7-0-1-9-95-9-7-3-80-8"
        width="117.59857"
        height="57.730194"
@@ -4817,7 +4909,7 @@ PIN_68</desc>
        x="3253.7446"
        y="1688.8693" />
     <rect
-       style="display:inline;opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="display:inline;opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-6-61-8-9-66-4-5-5-8-6-5-4-8-8-9-2"
        width="117.59857"
        height="57.730194"
@@ -4894,7 +4986,7 @@ PIN_68</desc>
        x="1845.7633"
        y="1264.9799" />
     <rect
-       style="display:inline;opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="display:inline;opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-6-61-8-9-66-4-7-0-1-9-64-6"
        width="117.59857"
        height="57.730194"
@@ -4964,7 +5056,7 @@ PIN_68</desc>
        x="3718.7883"
        y="2180.1108" />
     <rect
-       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="display:inline;opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-6-61-8-9-66-4-0-8-3"
        width="117.59857"
        height="57.730194"
@@ -4985,7 +5077,7 @@ PIN_68</desc>
        x="2935.1541"
        y="544.4212" />
     <rect
-       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="display:inline;opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-6-61-8-9-66-4-5-5-8-6-5-4-8-8-9-9-8-8-4-7"
        width="117.59857"
        height="57.730194"
@@ -5048,7 +5140,7 @@ PIN_68</desc>
        x="3717.719"
        y="1426.4105" />
     <rect
-       style="display:inline;opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="display:inline;opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-38-7"
        width="117.59859"
        height="26.726952"
@@ -5118,14 +5210,14 @@ PIN_68</desc>
        x="3712.9084"
        y="3319.748" />
     <rect
-       style="display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="display:inline;opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-83-5-9-6-1-1"
        width="117.59859"
        height="26.726952"
        x="3712.3738"
        y="3352.3547" />
     <rect
-       style="display:inline;opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="display:inline;opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1854-7-23-7-7"
        width="117.59859"
        height="26.726952"
@@ -6153,14 +6245,14 @@ PIN_68</desc>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="2986.3501"
+       x="2956.1121"
        y="1971.9569"
        id="text10142-2-1-1-2-4-5-6-9-2-9-1-2-2-0-2-6"><tspan
          sodipodi:role="line"
          id="tspan10140-8-8-3-8-8-9-2-3-4-9-9-0-7-0-1-9"
-         x="2986.3501"
+         x="2956.1121"
          y="1971.9569"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332">V57</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332">V57 OAI21</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -6923,14 +7015,14 @@ PIN_68</desc>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="3295.0823"
-       y="1251.9087"
+       x="3271.0281"
+       y="1250.8396"
        id="text10142-2-1-1-2-4-5-6-9-2-9-1-2-2-0-2-9-1-4-8-9-8-8-9-4"><tspan
          sodipodi:role="line"
          id="tspan10140-8-8-3-8-8-9-2-3-4-9-9-0-7-0-1-5-4-3-2-3-8-5-8-7"
-         x="3295.0823"
-         y="1251.9087"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332">X36</tspan></text>
+         x="3271.0281"
+         y="1250.8396"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332">X36 OAOI</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -7330,14 +7422,14 @@ PIN_68</desc>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="3451.5327"
-       y="2361.0688"
+       x="3428.2168"
+       y="2360.8474"
        id="text10142-2-1-1-2-4-5-6-9-2-9-1-2-2-0-2-9-1-4-8-9-8-8-9-4-3-2-8"><tspan
          sodipodi:role="line"
          id="tspan10140-8-8-3-8-8-9-2-3-4-9-9-0-7-0-1-5-4-3-2-3-8-5-8-7-7-0-0"
-         x="3451.5327"
-         y="2361.0688"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332">Y70</tspan></text>
+         x="3428.2168"
+         y="2360.8474"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332">Y70 AN2</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -8496,14 +8588,14 @@ PIN_68</desc>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="1886.9615"
-       y="1218.2245"
+       x="1864.5109"
+       y="1217.1554"
        id="text10142-2-1-1-2-4-5-6-9-2-9-1-2-2-3-7-7"><tspan
          sodipodi:role="line"
          id="tspan10140-8-8-3-8-8-9-2-3-4-9-9-0-7-1-9-4"
-         x="1886.9615"
-         y="1218.2245"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332">L35</tspan></text>
+         x="1864.5109"
+         y="1217.1554"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332">L35 OAOI</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -8518,14 +8610,14 @@ PIN_68</desc>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="3754.4868"
-       y="2132.8208"
+       x="3725.7607"
+       y="2133.1987"
        id="text10142-2-1-1-2-4-5-6-9-2-9-1-2-2-0-2-9-1-4-8-9-6-6-7-5-3-5-6-4"><tspan
          sodipodi:role="line"
          id="tspan10140-8-8-3-8-8-9-2-3-4-9-9-0-7-0-1-5-4-3-2-3-2-2-1-4-0-7-7-7"
-         x="3754.4868"
-         y="2132.8208"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332">AA63</tspan></text>
+         x="3725.7607"
+         y="2133.1987"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332">AA63 OAI23</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -8691,5 +8783,49 @@ PIN_68</desc>
          x="3420.6638"
          y="1150.5751"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332">Y33 AOAI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="2338.4873"
+       y="2461.7744"
+       id="text10142-2-1-1-2-8-1-2-2-0"><tspan
+         sodipodi:role="line"
+         id="tspan10140-8-8-3-8-1-8-3-4-5"
+         x="2338.4873"
+         y="2461.7744"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332">P73 ND3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="2335.2136"
+       y="628.85626"
+       id="text10142-2-1-1-2-4-5-6-7-7-4"><tspan
+         sodipodi:role="line"
+         id="tspan10140-8-8-3-8-8-9-2-4-2-1"
+         x="2335.2136"
+         y="628.85626"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332">P17 ND3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="1701.9701"
+       y="1249.6047"
+       id="text10142-2-1-1-2-4-5-6-9-2-9-1-2-2-4-6-4-7"><tspan
+         sodipodi:role="line"
+         id="tspan10140-8-8-3-8-8-9-2-3-4-9-9-0-7-07-5-6-2"
+         x="1701.9701"
+         y="1249.6047"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332">K36 OAI21</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="2956.343"
+       y="888.41382"
+       id="text10142-2-1-1-2-4-5-6-9-2-9-1-2-2-0-2-6-1-6-2-8-1-9-0"><tspan
+         sodipodi:role="line"
+         id="tspan10140-8-8-3-8-8-9-2-3-4-9-9-0-7-0-1-9-1-0-6-5-0-5-3"
+         x="2956.343"
+         y="888.41382"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332">V25 OAOI</tspan></text>
   </g>
 </svg>

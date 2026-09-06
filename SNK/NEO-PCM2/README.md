@@ -12,6 +12,8 @@ It is highly suspected that SNK 1999 and Playmore 2002 NEO-PCM2 chips are intern
 
 # Jumper settings
 
+JV[3:1] non zero: 16 bit ROM.
+
 Set means U, 1.
 
 | Game | Type | JVU3 / Pin 62 | JVU2 / Pin 63 | JVU1 / Pin 64 | JU4 / Pin 65 | JU3 / Pin 66 | JU2 / Pin 67 | JU1 / Pin 68 | Data XOR
