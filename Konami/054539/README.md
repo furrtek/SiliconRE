@@ -220,6 +220,14 @@ There are two look-up tables in ROMB starting at address 192. Each 4-bit pan val
 
 The panning value is a 16-bit width and goes into multiplier B.
 
+Bit 1 of the control register $22F can be set in order to disable panning and have the same gain for both channels.
+
+# Auxiliary Input
+
+The auxiliary input is used to mix the sound from an external source. It can take either a stereo 16-bit signal, or decode Yamaha's mantissa/exponent format. The pin **YMD** selects the data format. The volume for the auxiliary input is set by one of registers $228,$229,$22A and $22B. Which register is used is set by bits 1:0 of registers $210 (left) and $211 (right).
+
+*To do* confirm that it is not $210 (right) and $211 (left) instead.
+
 # Registers
 
 Some infos from MAME.
@@ -287,7 +295,7 @@ fTIM = CLK / 256 / (255 - REG227)
 * 22E: Bits [7:0] used, bit 7 selects ROM/RAM, bits [6:0] are top address bits for CPU access (POST), bits [16:0] come from an internal up-counter clocked by accesses to register 22D.
 * 22F: General control (Enable, timer, ...)
   * Bit 0: Active-low mute for all digital outputs
-  * Bit 1: ?
+  * Bit 1: Disables panning
   * Bit 4: Low: reset internal address counter for ROM/RAM test
   * Bit 5: Low: disable TIM output (keep high), force timer counter load with value from 227
   * Bit 7: Disable internal RAM internal updates
