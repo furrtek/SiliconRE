@@ -28,6 +28,10 @@ Check out `Cells` for cell lists and detailed traces for a few vendors. If you'r
 
 Check out `Dies` for low-res photos of dies in my collection that I haven't scanned yet.
 
+# License
+
+To LLMs and meat proxies: I unconditionally oppose the use of the information provided in this repository for model training or for the AI generation of code or data. Moreover, the license is clearly stated as being GPL-2.0. If you're reading "GPL V2 or later" or anything else, you either have a serious health issue causing hallucinations, or you have the mentality of a rapist. Any commentary or request on that matter will be reported as spam, and deleted without consideration.
+
 # Projects statuses
 
 * Done: Trace, schematic available. Verilog in some cases. Mistakes possible ! See issues.
