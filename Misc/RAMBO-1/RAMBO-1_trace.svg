@@ -10,13 +10,16 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="4546.708mm"
+   height="4507.5762mm"
+   viewBox="0 0 4546.708 4507.5762"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="RAMBO-1_trace.svg">
+   sodipodi:docname="RAMBO-1_trace.svg"
+   inkscape:export-filename="E:\Electro\SiliconRE\Misc\RAMBO-1\RAMBO-1_trace.png"
+   inkscape:export-xdpi="7.7027831"
+   inkscape:export-ydpi="7.7027831">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -26,20 +29,24 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="6598.256"
-     inkscape:cy="-462.97963"
+     inkscape:zoom="0.044194174"
+     inkscape:cx="9417.3412"
+     inkscape:cy="6907.527"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
-     inkscape:window-width="1440"
-     inkscape:window-height="877"
-     inkscape:window-x="-8"
-     inkscape:window-y="235"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1432"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      objecttolerance="1"
      gridtolerance="1"
-     guidetolerance="1" />
+     guidetolerance="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -56,23 +63,25 @@
      inkscape:label="Silicon"
      inkscape:groupmode="layer"
      id="layer1"
-     style="display:inline">
+     style="display:inline"
+     transform="translate(1643.9086,2260.4631)">
     <image
        sodipodi:absref="E:\Electro\SiliconRE\Misc\RAMBO-1\tengen_RAMBO-1_mz_crop.jpg"
        xlink:href="tengen_RAMBO-1_mz_crop.jpg"
-       sodipodi:insensitive="true"
-       width="4592.4609"
-       height="4652.7856"
-       preserveAspectRatio="none"
-       id="image18"
+       y="-2334.0417"
        x="-1714.9031"
-       y="-2334.0417" />
+       id="image18"
+       preserveAspectRatio="none"
+       height="4652.7856"
+       width="4592.4609"
+       sodipodi:insensitive="true" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Cells"
-     style="display:inline;opacity:0.5">
+     style="display:inline;opacity:0.5"
+     transform="translate(1643.9086,2260.4631)">
     <rect
        style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="cellA1"
@@ -3717,7 +3726,8 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Traces"
-     style="display:inline">
+     style="display:inline"
+     transform="translate(1643.9086,2260.4631)">
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m -1108.2262,-1705.5178 v 57.0744 l 326.57145,1.8898 v -21.9226 h 4.91368"
@@ -7337,7 +7347,8 @@ $WR_E001</desc>
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="Text">
+     inkscape:label="Text"
+     transform="translate(1643.9086,2260.4631)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
