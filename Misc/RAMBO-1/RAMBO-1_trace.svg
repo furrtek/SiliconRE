@@ -26,11 +26,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.25"
-     inkscape:cx="-4142.744"
-     inkscape:cy="-264.15712"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="6598.256"
+     inkscape:cy="-462.97963"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1440"
      inkscape:window-height="877"
@@ -3757,7 +3757,7 @@
        id="path841"
        inkscape:connector-curvature="0">
       <desc
-         id="desc16218">PIN_NC_12-13</desc>
+         id="desc16218">PIN_NC_12-13_IN</desc>
     </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -4032,7 +4032,10 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m -1317.247,317.03274 h 195.4137 l -0.756,361.34524 H -904.497 V 438.36309"
        id="path935"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0">
+      <desc
+         id="desc16561">PIN_NC_12-13_OC</desc>
+    </path>
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m -1466.5476,31.282738 h 180.6726 v 63.122023 l 625.5506,1.889882 V -49.226189 h -9.44941 V -370.12798"
