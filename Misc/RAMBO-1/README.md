@@ -8,6 +8,8 @@
  * Used in: Tengen NES games
  * Chip donator: krzysiobal
 
+![RAMBO-1 trace](RAMBO-1_trace.png)
+
 # Pinout
 
 * Unbonded pin between 39 and 40 would be PRG_A18
