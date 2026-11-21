@@ -27,8 +27,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="11343.519"
-     inkscape:cy="7052.3398"
+     inkscape:cx="3955.6624"
+     inkscape:cy="13236.937"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -2775,7 +2775,7 @@
        inkscape:connector-curvature="0" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 671.91558,763.3854 h 48.65381 v -78.04269 h -59.87912"
+       d="m 671.91558,763.91457 h 48.65381 v -78.57186 h -59.87912"
        id="path4443"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
@@ -2788,8 +2788,9 @@
     <path
        id="path4453"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 732.3185,620.66346 v 198.84853 h 6.41446 m -1.60362,-199.38306 -106.9078,1.06907 h -24.05425 v -79.6463 h -66.28286 v -80.7154"
-       inkscape:connector-curvature="0" />
+       d="m 732.3185,620.66346 v 198.84853 h 6.41446 M 737.12934,620.12893 630.22154,621.198 H 606.16729 V 542.08087 H 539.88443 V 460.8363"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="M 767.59807,824.32286 H 725.90402 V 812.563 h -94.61341"
@@ -2883,7 +2884,7 @@
        id="path4515"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 782.03062,1152.5298 h 35.81413 v 161.9653"
        id="path4529"
        inkscape:connector-curvature="0" />
@@ -2967,7 +2968,7 @@
        inkscape:connector-curvature="0" />
     <path
        id="path4593"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3615.0875,2891.3854 v -167.8453 h -35.814 m 149.6708,568.2149 h -112.2532 l -1.0689,-400.3696 h 113.3221"
        inkscape:connector-curvature="0" />
     <path
@@ -3127,7 +3128,7 @@
        d="m 1908.3044,1280.2847 v 132.5656 H 1711.594 m 195.6413,-466.65255 1.0691,334.08695 h 19.2434 m 490.1723,-2.6727 v -130.4275 h -60.4029 -12.8289 V 943.52506 h -96.7516 l -214.8847,2.13815 h -107.9769 -17.1052 l -198.8486,1.06907 m 571.9568,465.04902 h 17.6398 V 1278.681 h 167.3107"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1644.7767,1413.9194 h 35.8141 v -102.0969"
        id="path4701"
        inkscape:connector-curvature="0" />
@@ -3142,7 +3143,7 @@
        d="m 3291.1568,2785.5465 3.2073,657.4833 h 42.2285 M 2715.9929,2331.723 h 22.9851 v -6.4145 h 132.0313 l 1.0689,329.2762 h 28.8653 66.8173 v 130.9618 l 366.1593,-0.5344 106.9078,-1.0692"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3408.7556,1963.4256 v -29.3997 h -35.8142"
        id="path4711"
        inkscape:connector-curvature="0" />
@@ -3210,7 +3211,7 @@
        inkscape:connector-curvature="0" />
     <path
        id="path4763"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2869.4057,1804.1329 v 161.9654 m 0,-233.5936 v 71.6282 h -36.3487 m 0.5344,-72.1627 h 118.6678 V 1599.939 h -12.2944"
        inkscape:connector-curvature="0" />
     <path
@@ -3266,7 +3267,7 @@
        sodipodi:nodetypes="cccccccccccc" />
     <path
        id="path4801"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2944.7757,2857.7095 h 35.814 l -1.0583,-234.1282 m -142.7327,366.1593 h 42.2286 v -125.6168 h 76.9736 v -6.4143"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccc" />
@@ -3337,7 +3338,7 @@
        d="m 1755.4262,1814.2892 h 24.0543 v -12.2944 h 58.2647 54.523 v -59.3339 m -31.5378,-455.9618 h 29.9342 l 1.0691,455.4273 h 42.2286 89.268 v 5.3454 l 539.3499,-2.1382 v 66.2829 h 53.9884"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1754.3572,1737.3156 h 35.8141 V 1969.84"
        id="path4853"
        inkscape:connector-curvature="0" />
@@ -3415,7 +3416,7 @@
     <path
        id="path4919"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 1429.892,1091.0578 h 4.8108 V 882.05306 M 1295.1881,690.68809 h 84.4572 v 18.17433 h 53.9884 v 172.6561 h 60.4029"
+       d="m 1429.892,1091.0578 h 4.8108 V 882.05306 M 1295.1881,690.68809 h 84.4572 v 18.17433 h 54.5176 v 172.6561 h 59.8737"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccc" />
     <path
@@ -3591,7 +3592,7 @@
        d="m 3508.1797,3039.9873 -0.5345,-316.4472 h -36.3487 m 37.4179,376.3155 v -58.7994 h -174.2599 m 150.74,59.8684 h 23.5199 l 0.5345,287.5819 h 83.9226 18.7087 v 47.0395 h -17.6398"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3376.6831,3119.0991 h 36.8832 v 161.9652"
        id="path5061"
        inkscape:connector-curvature="0" />
@@ -3677,12 +3678,12 @@
        id="path5123"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1865.0068,2597.9234 h 36.8831 v 29.3997"
        id="path5170"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1793.9023,2628.9267 v 233.059 h -35.2688"
        id="path5172"
        inkscape:connector-curvature="0"
@@ -3714,12 +3715,12 @@
        d="m 1494.5712,2904.7487 v 101.028 h 13.3635 m 219.161,-281.1674 h -23.5198 v 66.2826 h -203.1248 l -5.7533,0.046 v 113.2764 l -328.8681,1.0691 v 6.4143 h -90.8717"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1110.7721,2660.4645 h 35.8142 v -29.9342"
        id="path5188"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1002.7952,2660.999 h 35.8142 v -29.3996"
        id="path5190"
        inkscape:connector-curvature="0" />
@@ -3778,7 +3779,7 @@
        sodipodi:nodetypes="cccccccccccccccccccccccccccccccccc" />
     <path
        id="path5234"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2076.1497,1411.2467 h 36.3486 v -101.0279 m -142.1874,292.9274 h 119.2022 v -191.3649"
        inkscape:connector-curvature="0" />
     <path
@@ -3861,13 +3862,13 @@
        d="m 2361.5935,2326.9121 h -107.9769 -24.5888 l -0.5345,-322.327 M 627.01431,1518.6891 v 48.643 l 1599.34079,-6.4144 1.6036,443.6674 h 42.7632 M 503.00125,1454.0099 h 124.5476 v 65.2137 h -84.45717 v -5.3454 h -40.62497"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2618.1723,1937.2332 h 35.2794 v 29.3996"
        id="path5284"
        inkscape:connector-curvature="0" />
     <path
        id="path5292"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2954.3973,2330.6539 v 6.4145 h -78.0426 v -6.9491 h -41.1596 m 143.2565,-203.1248 v 202.5903 h -35.814 m -1.0692,-202.0557 h 36.3487 v -162.4999"
        inkscape:connector-curvature="0" />
     <path
@@ -4003,12 +4004,12 @@
        id="path5378"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1971.9146,1938.3022 h 34.2104 v 30.4688"
        id="path5380"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2078.2878,1939.3713 h 36.3487 v 28.3306"
        id="path5382"
        inkscape:connector-curvature="0" />
@@ -4019,7 +4020,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccc" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3262.8263,1336.4113 h 35.2795 v -31.0033"
        id="path5388"
        inkscape:connector-curvature="0" />
@@ -4034,13 +4035,14 @@
        id="path5408"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 896.42197,3057.0924 h 36.88321 v 232.5245"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 896.42197,3057.0924 h 36.35404 l 0.52917,232.5245"
        id="path5418"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
     <path
        id="path5422"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1364.6782,3055.4887 h 4.2763 v 5.3454 h 78.0427 v -6.4143 h -11.7598 m -71.0937,233.059 v -233.059 h -36.3487"
        inkscape:connector-curvature="0" />
     <path
@@ -4094,7 +4096,7 @@
        id="path5461"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2728.8217,2727.2818 h 35.8143 v -102.6314"
        id="path5465"
        inkscape:connector-curvature="0" />
@@ -4197,7 +4199,7 @@
        sodipodi:nodetypes="cccc" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 3521.0088,3346.278 1.0583,221.2993 h -36.3381"
+       d="m 3521.0088,3346.8072 1.0583,220.7701 h -36.3381"
        id="path5519"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc" />
@@ -4219,7 +4221,7 @@
        inkscape:connector-curvature="0" />
     <path
        id="path5535"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2446.0507,2470.1686 v -6.4145 h -42.7631 m -167.3108,66.2829 v -65.2138 h 18.7089 83.3881 v 5.8799 h 186.0196 v -6.949 h -11.7599 m -288.1165,161.4308 v -94.6134 h 24.5888"
        inkscape:connector-curvature="0" />
     <path
@@ -4233,7 +4235,7 @@
        d="M 3542.3903,2334.9302 H 3439.7587 M 3614.553,2578.68 v 25.1233 h -59.3338 l -281.7022,1.0691 v 245.8881 h -47.5739 l -467.187,1.0689 -0.5347,-322.8615 h -73.2319 -11.2252 v 127.2204 l -388.6099,-0.5347 M 3590.4987,2578.68 h 24.0543 v -45.9704 h -23.5196 -48.1086 v -204.7284 h 4.8109"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3266.568,2065.5225 h 34.7451 v -101.0279"
        id="path5541"
        inkscape:connector-curvature="0" />
@@ -4258,12 +4260,12 @@
        d="m 815.7066,2285.2181 1.60361,442.5982 m 142.18737,-395.5588 h -29.93416 v -59.8684 H 850.98616 815.7066 v 12.829 h -78.57726 v -11.7599 h -100.49332 -6.94901 v 60.403 h 6.41447 m 112.25318,729.1113 h 70.02462 l -1.06907,-335.1562 h 36.88318 101.02789 v 5.3454 h 245.35342 30.4687 v 5.3456 l 155.5509,-1.6036 v -11.76 h 4.8108 103.1661 v -42.2285 l 538.2808,-1.0692 -1.6036,-413.7332 h 6.4145"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 787.37602,2734.2309 h 36.34864 v -102.6315"
        id="path5551"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 679.39914,2662.6026 h 35.27957 v -29.9341"
        id="path5553"
        inkscape:connector-curvature="0" />
@@ -4283,7 +4285,7 @@
        id="path5559"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 677.79553,1944.1821 h 34.74503 v 28.8652"
        id="path5561"
        inkscape:connector-curvature="0" />
@@ -4333,7 +4335,7 @@
        d="m 1059.4564,1745.3336 v 59.8684 l -317.51619,1.0691 m 341.03589,-391.2826 h -26.1924 l 2.6727,330.8797 h 5.3454"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 892.68021,1943.6476 h 35.27957 v 29.9342"
        id="path5585"
        inkscape:connector-curvature="0" />
@@ -4349,9 +4351,10 @@
        inkscape:connector-curvature="0" />
     <path
        id="path5595"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 1032.7294,1019.9641 H 995.84625 M 888.93845,889.00208 h 143.79095 l 1.6036,425.49302"
-       inkscape:connector-curvature="0" />
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 1032.7294,1019.9641 H 995.84625 M 888.93845,889.00208 h 143.79095 l 1.0744,425.49302"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1070.1472,1398.9523 h -17.6398 l -1.0583,-312.7053 h 41.1487 53.9885 v 107.9769 h 120.8058 v 4.2763 l 556.9897,-1.0691"
@@ -4526,7 +4529,7 @@
        id="path5687"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 1649.5875,2598.9925 h 36.3487 v 29.3997"
        id="path5689"
        inkscape:connector-curvature="0" />
@@ -4553,7 +4556,8 @@
     <path
        id="path5703"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 2849.0931,2976.9117 h -102.0969 v -124.0131 m 90.8717,260.8551 h 11.7597 v -136.3075 h 53.9884 m -391.2825,-388.6099 h 167.3106 m 719.4897,-1.0691 2.1381,657.4831 M 2944.241,2456.8051 h 22.4507 v 125.0821 l 401.9735,-1.069 v 6.4144 h 7.4181 23.5849 v -6.949 h 72.6975 m -4.8109,934.3742 h -65.2137 l -1.0692,-269.9422 h -24.5888 m -647.8614,-391.817 h 18.1745 l -1.0692,-262.9933 h -66.2829 l -1.0583,-311.6362 h 11.2146 60.9375 v 155.5508 h 96.2171 v 17.1053 l 90.676,0 0,5.9959 6.61,-0.116" />
+       d="m 2849.0931,2976.9117 h -102.0969 v -124.0131 m 90.8717,260.8551 h 11.7597 v -136.3075 h 53.9884 m -391.2825,-388.6099 h 167.3106 m 719.4897,-1.0691 2.1381,657.4831 M 2944.241,2456.8051 h 22.4507 v 125.0821 l 401.9735,-1.069 v 6.4144 h 7.4181 23.5849 v -6.949 h 72.6975 m -4.8109,934.3742 h -65.2137 l -1.0692,-269.9422 h -24.5888 m -647.8614,-391.817 h 18.1745 l -1.0692,-262.9933 h -66.2829 l -1.0583,-311.6362 h 11.2146 60.9375 v 155.5508 h 96.2171 v 17.1053 h 90.676 v 5.9959 l 6.61,-0.116"
+       inkscape:connector-curvature="0" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2385.1132,680.53185 h -48.1085 v -6.94902 l -106.9078,1.0691 0.8916,335.69237 0.1775,66.8155 h 18.1743"
@@ -4581,7 +4585,7 @@
        id="path5713"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2782.8102,1343.8948 h -24.0541 v -36.8832 -29.3996 h 29.9342"
        id="path5717"
        inkscape:connector-curvature="0" />
@@ -4622,7 +4626,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccc" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3586.2225,1273.8702 h 11.2252 v 24.5888 h -83.9226 v 6.4145"
        id="path5733"
        inkscape:connector-curvature="0" />
@@ -4632,14 +4636,14 @@
        d="m 3322.1601,1139.7009 0.5345,314.8435 h 12.2944 m -13.3633,-460.23816 v 143.79106 h 7.4835 m 111.7187,-143.79103 h -107.977 -11.2252 l -1.6036,-329.81058 -480.0161,2.13815 v 11.75986 h -16.5709"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3479.8492,1730.3665 h 36.3487 v 233.6097"
        id="path5739"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc" />
     <path
        id="path5741"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3494.2817,2256.353 h 29.9341 v 5.3454 h 76.4392 v -5.88 h -10.6907 m -179.0706,366.1593 v -161.9653 m 83.388,-0.5346 -0.5345,-203.6594 h -10.6908 m -108.5114,204.194 h 42.763 v 6.4144 h 77.5084 v -6.4144 h -12.2944"
        inkscape:connector-curvature="0" />
     <path
@@ -4649,7 +4653,7 @@
        inkscape:connector-curvature="0" />
     <path
        id="path5747"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3187.991,880.98399 h -34.2106 M 1978.8635,621.198 v -5.34537 h -79.1117 v 8.01809 h -148.6019 m 333.5685,-1.60362 -0.088,6.25206 h -76.902 v -6.78659 h -41.1595 m 873.4368,-2.67272 v 8.01809 h -538.8154 v -5.60923 -6.15062 h -78.0427 v 6.41448 h -150.2055 m 875.0406,3.20722 h -77.5084 v -6.41448 h -42.2286 m 361.8831,686.88269 -1.6036,-442.59835 -238.9392,1.0691 V 618.52531 h -13.3633"
        inkscape:connector-curvature="0" />
     <path
@@ -4694,7 +4698,7 @@
        inkscape:connector-curvature="0" />
     <path
        id="path5778"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2436.9635,1482.3457 h 82.8536 v 120.266 h -10.6908 m -108.5114,-131.4966 h 11.2253 v 11.2253 h 24.5888 v -174.2597"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccc" />
@@ -4818,7 +4822,7 @@
        inkscape:connector-curvature="0" />
     <path
        id="path5868"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2340.0506,3122.5371 v 5.6697 h 77.8631 v -5.6697 h -11.7173 m -71.8644,0.8382 v 160.3618 m -36.3486,-363.4867 h 41.694 v 202.5904 h -41.694 M 2190.541,2991.8787 h 53.4539 v -60.9375 h 64.6793 v -10.6908"
        inkscape:connector-curvature="0" />
     <path
@@ -4855,8 +4859,9 @@
     <path
        id="path6630"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 3676.1965,1482.8764 3.0236,802.0655 M 545.41964,2111.8288 h 6.04761 l -1.13392,-407.4583 M 612.6994,908.35262 H 500.81843 m 406.29433,-354.50653 2681.78234,-10.15624 1.6036,341.03593 h 72.6975 M 906.57822,460.8363 v 249.0952 l -294.00185,1.05833 m 0.53991,400.91507 H 499.79402 m -8.55263,-399.83525 121.34035,-1.06908 3.20725,993.17353 h -72.25923 v 7.3779 h -41.1994 M 3723.0645,1483.4095 h -59.3339 l -0.5344,-598.14918 h 58.2646 M 507.62201,2914.6502 h 64.63392 l -3.02379,-814.9166 h -24.19048 v 12.0952 h -39.30952 m 65.01191,401.4107 h -65.38989 m 66.90177,401.7888 3.02382,741.2112 h 346.22618 v 94.4941 M 3726.8062,2687.1914 h -40.0904 v 5.8801 h -82.3191 m 120.8059,-406.7844 -123.4784,-0.5345 4.2762,1227.8362 h -24.0543"
-       inkscape:connector-curvature="0" />
+       d="m 3676.1965,1482.8764 3.0236,802.0655 M 545.41964,2111.8288 h 6.04761 l -1.13392,-407.4583 M 612.6994,908.35262 H 500.81843 m 405.76516,-354.50653 2682.31151,-10.15624 1.6036,341.03593 h 72.6975 M 906.04905,460.8363 v 249.0952 l -293.47268,1.05833 m 0.53991,400.91507 H 499.79402 m -8.55263,-399.83525 121.34035,-1.06908 3.20725,993.17353 h -72.25923 v 7.3779 h -41.1994 M 3723.0645,1483.4095 h -59.3339 l -0.5344,-598.14918 h 58.2646 M 507.62201,2914.6502 h 64.63392 l -3.02379,-814.9166 h -24.19048 v 12.0952 h -39.30952 m 65.01191,401.4107 h -65.38989 m 66.90177,401.7888 3.02382,741.2112 h 346.22618 v 94.4941 M 3726.8062,2687.1914 h -40.0904 v 5.8801 h -82.3191 m 120.8059,-406.7844 -123.4784,-0.5345 4.2762,1227.8362 h -24.0543"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccc" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 3592.2857,2795.9658 h 28.7261 v -18.5208 h -38.9316"
@@ -4881,7 +4886,152 @@
     <path
        id="path6647"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#800080;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 2770.5158,1073.9526 h 18.1745 m 586.3892,-193.50315 v 5.22459 h 132.1615 v 173.86906 h 41.1995 M 3433.8789,743.60745 h -58.7994 v 136.842 h -5.8799 -66.2829 V 994.30627 H 3093.912 v 12.29443 l -196.7102,1.069 v -5.8799 h -115.4605 v 7.4836 h -11.7599 l 2.1381,663.8975 h 54.5229" />
+       d="m 2770.5158,1073.9526 h 18.1745 m 586.3892,-193.50315 v 5.22459 h 132.1615 v 173.86906 h 41.1995 M 3433.8789,743.60745 h -58.7994 v 136.842 h -5.8799 -66.2829 V 994.30627 H 3093.912 v 12.29443 l -196.7102,1.069 v -5.8799 h -115.4605 v 7.4836 h -11.7599 l 2.1381,663.8975 h 54.5229"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 527.27677,591.45738 3690.9375,579.51335"
+       id="path17960"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 527.4607,723.38704 3691.1216,711.44301"
+       id="path17960-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 528.97763,854.13795 3692.6385,843.25225"
+       id="path17960-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 529.16156,986.06764 3692.8226,975.18191"
+       id="path17960-1-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 528.97226,1118.1948 3163.66084,-11.944"
+       id="path17960-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 529.15619,1250.1244 3163.66101,-11.944"
+       id="path17960-1-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 536.12911,2961.9738 3163.66079,-11.944"
+       id="path17960-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 536.31304,3093.9035 3699.974,3081.9594"
+       id="path17960-1-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 537.82997,3224.6544 3701.4909,3213.7686"
+       id="path17960-6-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 538.0139,3356.584 3701.675,3345.6983"
+       id="path17960-1-2-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 537.8246,3488.7112 3163.6607,-11.944"
+       id="path17960-5-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 538.00853,3620.6408 3163.66097,-11.944"
+       id="path17960-1-3-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 531.32899,1381.871 3694.9898,1369.927"
+       id="path17960-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 531.51292,1513.8007 3163.66098,-11.944"
+       id="path17960-1-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 533.02985,1644.5516 3163.66095,-11.944"
+       id="path17960-6-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 533.21378,1776.4813 3163.66112,-11.944"
+       id="path17960-1-2-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 533.02448,1908.6085 3163.66072,-11.944"
+       id="path17960-5-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 533.20841,2040.5381 3163.66099,-11.944"
+       id="path17960-1-3-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 534.00169,2171.9251 3697.6625,2159.981"
+       id="path17960-63"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 534.18562,2303.8547 3163.66098,-11.944"
+       id="path17960-1-25"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 535.70255,2434.6056 3163.66095,-11.944"
+       id="path17960-6-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 535.88648,2566.5353 3163.66112,-11.944"
+       id="path17960-1-2-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 535.69718,2698.6625 3163.66072,-11.944"
+       id="path17960-5-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 535.88111,2830.5921 3163.66099,-11.944"
+       id="path17960-1-3-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -5016,7 +5166,7 @@
        sodipodi:nodetypes="ccccccccc" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 3945.5801,2564.8701 v -59.7958 h 124.7319 v -114.9046 h -124.7319 v -3.7042 h -251.732 v 178.4046 z"
+       d="m 3945.5801,2557.3106 0,-52.2363 h 124.7319 v -114.9046 h -124.7319 v -3.7042 h -251.732 l 0,170.8451 z"
        id="rect6062-3-7-9-7-8"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccc" />
@@ -5064,19 +5214,19 @@
        sodipodi:nodetypes="ccccccccc" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 3940.2884,899.58349 v -11.6417 h 124.7319 v -114.9046 h -124.7319 v -2.1166 h -251.7319 v 128.6629 z"
+       d="m 3940.2884,963.08349 v -60.8542 h 124.7319 v -113.3171 h -124.7319 v -17.9916 h -251.7319 v 192.1629 z"
        id="rect6062-3-7-9-7-2-8-7"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccc" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 3940.1372,761.84849 v -11.6416 h 124.7319 v -114.9046 h -124.7319 v -2.1167 h -251.7319 v 128.6629 z"
+       d="m 3940.1372,768.19849 v -8.4666 h 124.7319 V 644.29812 h -124.7319 v -33.33753 h -251.7319 v 157.2379 z"
        id="rect6062-3-7-9-7-2-8-2-40"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccc" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 3939.608,624.34139 v -11.6417 H 4064.34 V 497.79522 h -124.732 v -2.117 h -251.7319 v 128.66317 z"
+       d="m 3939.608,605.74496 v 22.07378 H 4064.34 V 513.14105 h -124.732 v 37.04134 h -251.7319 v 55.56257 z"
        id="rect6062-3-7-9-7-2-8-2-4-6"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccc" />
@@ -5120,12 +5270,6 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 2210.9113,276.26261 h 2.1166 V 151.53068 h 114.9046 v 124.73193 h 60.8542 v 219.98191 h -177.8754 z"
        id="rect6062-3-7-9-7-2-2-6-8-0"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccc" />
-    <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 2208.7002,276.46521 h -23.2833 V 151.73328 h -114.9046 v 124.73193 h -39.6875 v 219.98193 h 177.8754 z"
-       id="rect6062-3-7-9-7-2-2-6-2-3-2"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccc" />
     <path
@@ -5260,6 +5404,699 @@
        id="rect6062-3-7-9-7-2-2-6-8-0-1-7-3"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="979.38678"
+       y="3970.6165"
+       id="text6652"><tspan
+         sodipodi:role="line"
+         id="tspan6650"
+         x="979.38678"
+         y="3970.6165"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332">36</tspan><tspan
+         sodipodi:role="line"
+         x="979.38678"
+         y="3996.0164"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan6654">A29</tspan><tspan
+         sodipodi:role="line"
+         x="979.38678"
+         y="4021.4165"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan6656">IN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="1913.4403"
+       y="3969.8606"
+       id="text6652-6"><tspan
+         sodipodi:role="line"
+         id="tspan6650-2"
+         x="1913.4403"
+         y="3969.8606"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332">42</tspan><tspan
+         sodipodi:role="line"
+         x="1913.4403"
+         y="3995.2605"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan6654-3">VCC</tspan><tspan
+         sodipodi:role="line"
+         x="1913.4403"
+         y="4020.6606"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan6656-0">POWER</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="2182.7139"
+       y="3968.9248"
+       id="text6652-6-2"><tspan
+         sodipodi:role="line"
+         id="tspan6650-2-6"
+         x="2182.7139"
+         y="3968.9248"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332">43</tspan><tspan
+         sodipodi:role="line"
+         x="2182.7139"
+         y="3994.3247"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan6654-3-5">GND</tspan><tspan
+         sodipodi:role="line"
+         x="2182.7139"
+         y="4019.7249"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan6656-0-8">POWER</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="711.73657"
+       y="3974.3962"
+       id="text6652-8"><tspan
+         sodipodi:role="line"
+         x="711.73657"
+         y="3974.3962"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan6656-4">34</tspan><tspan
+         sodipodi:role="line"
+         x="711.73657"
+         y="3999.7961"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan6891">A30</tspan><tspan
+         sodipodi:role="line"
+         x="711.73657"
+         y="4025.1963"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan6893">IN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="190.84816"
+       y="3064.9856"
+       id="text6652-8-7"><tspan
+         sodipodi:role="line"
+         x="190.84816"
+         y="3064.9856"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan6656-4-7">31</tspan><tspan
+         sodipodi:role="line"
+         x="190.84816"
+         y="3090.3855"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan6891-2">A31</tspan><tspan
+         sodipodi:role="line"
+         x="190.84816"
+         y="3115.7856"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan6893-9">IN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="2715.0967"
+       y="3965.145"
+       id="text6652-6-2-6"><tspan
+         sodipodi:role="line"
+         x="2715.0967"
+         y="3965.145"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan6656-0-8-0">46</tspan><tspan
+         sodipodi:role="line"
+         x="2715.0967"
+         y="3990.5449"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan6984">A13</tspan><tspan
+         sodipodi:role="line"
+         x="2715.0967"
+         y="4015.9451"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan6986">IN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="3698.5974"
+       y="3962.301"
+       id="text6652-6-2-6-3"><tspan
+         sodipodi:role="line"
+         x="3698.5974"
+         y="3962.301"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan6986-9">53</tspan><tspan
+         sodipodi:role="line"
+         x="3698.5974"
+         y="3987.7009"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7065">TSTDEN</tspan><tspan
+         sodipodi:role="line"
+         x="3698.5974"
+         y="4013.1011"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7067">IN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="3973.7639"
+       y="3509.4856"
+       id="text6652-6-2-6-2"><tspan
+         sodipodi:role="line"
+         x="3973.7639"
+         y="3509.4856"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan6986-2">55</tspan><tspan
+         sodipodi:role="line"
+         x="3973.7639"
+         y="3534.8855"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7134">A26</tspan><tspan
+         sodipodi:role="line"
+         x="3973.7639"
+         y="3560.2856"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7136">IN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="3974.3896"
+       y="3107.1514"
+       id="text6652-6-2-6-2-7"><tspan
+         sodipodi:role="line"
+         x="3974.3896"
+         y="3107.1514"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7136-0">58</tspan><tspan
+         sodipodi:role="line"
+         x="3974.3896"
+         y="3132.5513"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7167">A22</tspan><tspan
+         sodipodi:role="line"
+         x="3974.3896"
+         y="3157.9514"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7169">IN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="3973.1321"
+       y="2576.6401"
+       id="text6652-6-2-6-2-7-3"><tspan
+         sodipodi:role="line"
+         x="3973.1321"
+         y="2576.6401"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7169-8">61</tspan><tspan
+         sodipodi:role="line"
+         x="3973.1321"
+         y="2602.04"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7212">A20</tspan><tspan
+         sodipodi:role="line"
+         x="3973.1321"
+         y="2627.4402"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7214">IN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="3972.8779"
+       y="3377.0266"
+       id="text6652-6-2-6-2-1"><tspan
+         sodipodi:role="line"
+         x="3972.8779"
+         y="3377.0266"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7136-1">56</tspan><tspan
+         sodipodi:role="line"
+         x="3972.8779"
+         y="3402.4265"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7257">A24</tspan><tspan
+         sodipodi:role="line"
+         x="3972.8779"
+         y="3427.8267"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7259">IN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="3975.9016"
+       y="3806.4075"
+       id="text6652-6-2-6-2-4"><tspan
+         sodipodi:role="line"
+         x="3975.9016"
+         y="3806.4075"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7136-4">54</tspan><tspan
+         sodipodi:role="line"
+         x="3975.9016"
+         y="3831.8074"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7302">GND</tspan><tspan
+         sodipodi:role="line"
+         x="3975.9016"
+         y="3857.2075"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7304">POWER</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="3778.5981"
+       y="192.36649"
+       id="text6652-6-2-6-2-7-3-9"><tspan
+         sodipodi:role="line"
+         x="3778.5981"
+         y="192.36649"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7214-5">75</tspan><tspan
+         sodipodi:role="line"
+         x="3778.5981"
+         y="217.76648"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7359">VCC</tspan><tspan
+         sodipodi:role="line"
+         x="3778.5981"
+         y="243.16649"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7361">POWER</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="3450.1614"
+       y="195.04303"
+       id="text6652-6-2-6-2-7-3-9-0"><tspan
+         sodipodi:role="line"
+         x="3450.1614"
+         y="195.04303"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7361-6">77</tspan><tspan
+         sodipodi:role="line"
+         x="3450.1614"
+         y="220.44302"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7404">A0</tspan><tspan
+         sodipodi:role="line"
+         x="3450.1614"
+         y="245.84303"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7406">IN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="3966.1548"
+       y="568.66333"
+       id="text6652-6-2-6-2-7-3-9-0-2"><tspan
+         sodipodi:role="line"
+         x="3966.1548"
+         y="568.66333"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7406-6">74</tspan><tspan
+         sodipodi:role="line"
+         x="3966.1548"
+         y="594.06335"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7437">A1</tspan><tspan
+         sodipodi:role="line"
+         x="3966.1548"
+         y="619.46332"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7439">IN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="3310.7439"
+       y="195.22287"
+       id="text6652-6-2-6-2-7-3-9-0-24"><tspan
+         sodipodi:role="line"
+         x="3310.7439"
+         y="195.22287"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7406-2">78</tspan><tspan
+         sodipodi:role="line"
+         x="3310.7439"
+         y="220.62286"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7482">RASA</tspan><tspan
+         sodipodi:role="line"
+         x="3310.7439"
+         y="246.02287"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7484">OUT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="2909.5933"
+       y="194.45451"
+       id="text6652-6-2-6-2-7-3-9-0-24-3"><tspan
+         sodipodi:role="line"
+         x="2909.5933"
+         y="194.45451"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7484-0">80</tspan><tspan
+         sodipodi:role="line"
+         x="2909.5933"
+         y="219.85451"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7539">CASLL</tspan><tspan
+         sodipodi:role="line"
+         x="2909.5933"
+         y="245.25452"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7541">OUT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="2244.6282"
+       y="196.72237"
+       id="text6652-6-2-6-2-7-3-9-0-24-3-1"><tspan
+         sodipodi:role="line"
+         x="2244.6282"
+         y="196.72237"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7541-0">83</tspan><tspan
+         sodipodi:role="line"
+         x="2244.6282"
+         y="222.12236"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7572">CASUU</tspan><tspan
+         sodipodi:role="line"
+         x="2244.6282"
+         y="247.52237"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7574">OUT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="1976.6"
+       y="198.99022"
+       id="text6652-6-2-6-2-7-3-9-0-24-3-1-1"><tspan
+         sodipodi:role="line"
+         x="1976.6"
+         y="198.99022"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7574-6">1</tspan><tspan
+         sodipodi:role="line"
+         x="1976.6"
+         y="224.39021"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7626">GND</tspan><tspan
+         sodipodi:role="line"
+         x="1976.6"
+         y="249.79022"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7628">POWER</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="1844.9954"
+       y="198.82278"
+       id="text6652-6-2-6-2-7-3-9-0-24-3-1-1-3"><tspan
+         sodipodi:role="line"
+         x="1844.9954"
+         y="198.82278"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7628-8">2</tspan><tspan
+         sodipodi:role="line"
+         x="1844.9954"
+         y="224.22278"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7671">SLTIRQ1N</tspan><tspan
+         sodipodi:role="line"
+         x="1844.9954"
+         y="249.62279"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7673">IN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="1041.8096"
+       y="202.19386"
+       id="text6652-6-2-6-2-7-3-9-0-24-3-1-1-3-9"><tspan
+         sodipodi:role="line"
+         x="1041.8096"
+         y="202.19386"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7673-3">7</tspan><tspan
+         sodipodi:role="line"
+         x="1041.8096"
+         y="227.59386"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7728">SLTIRQ6N</tspan><tspan
+         sodipodi:role="line"
+         x="1041.8096"
+         y="252.99387"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7730">IN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="773.44647"
+       y="205.05025"
+       id="text6652-6-2-6-2-7-3-9-0-24-3-1-1-3-9-4"><tspan
+         sodipodi:role="line"
+         x="773.44647"
+         y="205.05025"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7730-4">9</tspan><tspan
+         sodipodi:role="line"
+         x="773.44647"
+         y="230.45024"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7797">NMIN</tspan><tspan
+         sodipodi:role="line"
+         x="773.44647"
+         y="255.85025"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7799">IN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="178.90764"
+       y="660.30103"
+       id="text6652-6-2-6-2-7-3-9-0-24-3-1-1-3-9-4-1"><tspan
+         sodipodi:role="line"
+         x="178.90764"
+         y="660.30103"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7799-2">13</tspan><tspan
+         sodipodi:role="line"
+         x="178.90764"
+         y="685.70105"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7830">IPL2N</tspan><tspan
+         sodipodi:role="line"
+         x="178.90764"
+         y="711.10101"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7832">OUT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="178.88933"
+       y="790.90094"
+       id="text6652-6-2-6-2-7-3-9-0-24-3-1-1-3-9-4-1-1"><tspan
+         sodipodi:role="line"
+         x="178.88933"
+         y="790.90094"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7832-4">14</tspan><tspan
+         sodipodi:role="line"
+         x="178.88933"
+         y="816.30096"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7887">VIAIRQ1N</tspan><tspan
+         sodipodi:role="line"
+         x="178.88933"
+         y="841.70093"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7889">IN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="179.02046"
+       y="1191.5681"
+       id="text6652-6-2-6-2-7-3-9-0-24-3-1-1-3-9-4-1-1-4"><tspan
+         sodipodi:role="line"
+         x="179.02046"
+         y="1191.5681"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7889-6">17</tspan><tspan
+         sodipodi:role="line"
+         x="179.02046"
+         y="1216.9681"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7932">C32M</tspan><tspan
+         sodipodi:role="line"
+         x="179.02046"
+         y="1242.3682"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7934">IN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="181.54079"
+       y="1592.9788"
+       id="text6652-6-2-6-2-7-3-9-0-24-3-1-1-3-9-4-1-1-4-0"><tspan
+         sodipodi:role="line"
+         x="181.54079"
+         y="1592.9788"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7934-1">20</tspan><tspan
+         sodipodi:role="line"
+         x="181.54079"
+         y="1618.3788"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7977">SYNC</tspan><tspan
+         sodipodi:role="line"
+         x="181.54079"
+         y="1643.7788"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7979">IN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="183.49918"
+       y="1994.557"
+       id="text6652-6-2-6-2-7-3-9-0-24-3-1-1-3-9-4-1-1-4-0-0"><tspan
+         sodipodi:role="line"
+         x="183.49918"
+         y="1994.557"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7979-3">23</tspan><tspan
+         sodipodi:role="line"
+         x="183.49918"
+         y="2019.957"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan8010">FC2</tspan><tspan
+         sodipodi:role="line"
+         x="183.49918"
+         y="2045.3571"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan8012">IN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="186.60951"
+       y="2394.4558"
+       id="text6652-6-2-6-2-7-3-9-0-24-3-1-1-3-9-4-1-1-4-0-0-6"><tspan
+         sodipodi:role="line"
+         x="186.60951"
+         y="2394.4558"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7979-3-3">26</tspan><tspan
+         sodipodi:role="line"
+         x="186.60951"
+         y="2419.8557"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan8010-3">FC1</tspan><tspan
+         sodipodi:role="line"
+         x="186.60951"
+         y="2445.2559"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan8012-6">IN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="185.63651"
+       y="2796.6223"
+       id="text6652-6-2-6-2-7-3-9-0-24-3-1-1-3-9-4-1-1-4-0-0-6-4"><tspan
+         sodipodi:role="line"
+         x="185.63651"
+         y="2796.6223"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7979-3-3-9">29</tspan><tspan
+         sodipodi:role="line"
+         x="185.63651"
+         y="2822.0222"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan8010-3-8">FC0</tspan><tspan
+         sodipodi:role="line"
+         x="185.63651"
+         y="2847.4224"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan8012-6-6">IN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="3971.3662"
+       y="2175.2295"
+       id="text6652-6-2-6-2-7-3-4"><tspan
+         sodipodi:role="line"
+         x="3971.3662"
+         y="2175.2295"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7214-4">64</tspan><tspan
+         sodipodi:role="line"
+         x="3971.3662"
+         y="2200.6294"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan8247">RAMSI21</tspan><tspan
+         sodipodi:role="line"
+         x="3971.3662"
+         y="2226.0295"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan8249">IN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="3972.7544"
+       y="1773.8188"
+       id="text6652-6-2-6-2-7-3-4-1"><tspan
+         sodipodi:role="line"
+         x="3972.7544"
+         y="1773.8188"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7214-4-5">67</tspan><tspan
+         sodipodi:role="line"
+         x="3972.7544"
+         y="1799.2189"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan8247-9">RAMSI20</tspan><tspan
+         sodipodi:role="line"
+         x="3972.7544"
+         y="1824.6189"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan8249-8">IN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="3967.4255"
+       y="1102.5331"
+       id="text6652-6-2-6-2-7-3-4-1-5"><tspan
+         sodipodi:role="line"
+         x="3967.4255"
+         y="1102.5331"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan8249-8-5">71</tspan><tspan
+         sodipodi:role="line"
+         x="3967.4255"
+         y="1127.9331"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan8328">VIA1CSN</tspan><tspan
+         sodipodi:role="line"
+         x="3967.4255"
+         y="1153.3331"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan8330">OUT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="3964.4258"
+       y="700.1991"
+       id="text6652-6-2-6-2-7-3-9-0-2-4"><tspan
+         sodipodi:role="line"
+         x="3964.4258"
+         y="700.1991"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan7439-2">73</tspan><tspan
+         sodipodi:role="line"
+         x="3964.4258"
+         y="725.59912"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan8433">SIZ0</tspan><tspan
+         sodipodi:role="line"
+         x="3964.4258"
+         y="750.99908"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;line-height:1;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan8435">OUT</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
