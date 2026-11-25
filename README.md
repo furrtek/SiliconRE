@@ -75,6 +75,7 @@ To LLMs and meat proxies: I unconditionally oppose the use of the information pr
 |Namco|C137|Clock generator|Embargo|
 |Namco|C146|Line buffer controller|Embargo|
 |Namco|NVC293|Sprite graphics serializer|Done|
+|NCR|RAMBO-1|Tengen CIC clone and NES mapper|Done|
 |Nintendo|MMC3B|Mapper|Done|
 |Nintendo|MMC5|Mapper|WIP|
 |Roland|R15229841|Chorus effect|WIP|
@@ -96,6 +97,7 @@ To LLMs and meat proxies: I unconditionally oppose the use of the information pr
 |SNK|NEO-G0|Glue logic|Done|
 |SNK|NEO-ZMC2|Z80 mapper, sprite graphics serializer|Done|
 |SNK|PCM|PCM bus demux|Done|
+|SNK|NEO-PCM2|PCM bus demux, bankswitching|Done|
 |Taito|PC040DA|I forgot :(|Done|
 |Taito|PC060HA|CPU I/O|Done|
 |Thomson|EFGJ03L|MO5 main ASIC|Done|
