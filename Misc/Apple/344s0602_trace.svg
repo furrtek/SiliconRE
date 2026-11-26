@@ -26,11 +26,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="3940.7515"
-     inkscape:cy="12223.445"
+     inkscape:zoom="0.175"
+     inkscape:cx="7077.344"
+     inkscape:cy="9875.195"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer4"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -2241,7 +2241,7 @@
        x="627.8161"
        y="1580.624" />
     <rect
-       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect24-6-3-02-2-20-4-2-9-75-8-3-8-9-9-7-6-0-0-2-3-4-04-2-52-6-4-9-6-48-1-17"
        width="53.988403"
        height="62.149673"
@@ -2336,7 +2336,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Traces"
-     style="display:inline">
+     style="display:none">
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 503.00125,1638.9604 h 124.5476 v 274.753 H 503.53578"
@@ -2788,7 +2788,7 @@
     <path
        id="path4453"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 732.3185,620.66346 v 198.84853 h 6.41446 M 737.12934,620.12893 630.22154,621.198 H 606.16729 V 542.08087 H 539.88443 V 460.8363"
+       d="m 732.3185,620.66346 v 198.84853 h 6.41446 M 737.12934,620.6581 630.22154,621.198 H 606.16729 V 542.08087 H 539.88443 V 460.8363"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccc" />
     <path
@@ -8541,61 +8541,6 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332">NOR04</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="1167.3706"
-       y="885.21857"
-       id="text1359-17-1-6"><tspan
-         sodipodi:role="line"
-         id="tspan1357-953-9-0"
-         x="1167.3706"
-         y="885.21857"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332">C</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="1190.8052"
-       y="878.79297"
-       id="text1359-17-1-6-5"><tspan
-         sodipodi:role="line"
-         id="tspan1357-953-9-0-8"
-         x="1190.8052"
-         y="878.79297"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332">/C</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="1191.7705"
-       y="866.7984"
-       id="text1359-17-1-6-5-2"><tspan
-         sodipodi:role="line"
-         id="tspan1357-953-9-0-8-9"
-         x="1191.7705"
-         y="866.7984"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332">//C</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="1184.9669"
-       y="619.60193"
-       id="text1359-17-1-6-5-8"><tspan
-         sodipodi:role="line"
-         id="tspan1357-953-9-0-8-0"
-         x="1184.9669"
-         y="619.60193"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332">Q</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="1182.9827"
-       y="693.32068"
-       id="text1359-17-1-6-5-8-6"><tspan
-         sodipodi:role="line"
-         id="tspan1357-953-9-0-8-0-1"
-         x="1182.9827"
-         y="693.32068"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332">QN</tspan></text>
-    <text
-       xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="1179.3514"
        y="756.47894"
@@ -8748,72 +8693,6 @@
          x="2474.9033"
          y="2686.2332"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332">JKN76</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="2505.4307"
-       y="2466.8569"
-       id="text1359-352-3-6-8-279-50-4-8"><tspan
-         sodipodi:role="line"
-         id="tspan1357-57-2-62-8-04-25-4-2"
-         x="2505.4307"
-         y="2466.8569"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332">SDN</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="2505.4253"
-       y="2592.9917"
-       id="text1359-352-3-6-8-279-50-4-8-2"><tspan
-         sodipodi:role="line"
-         id="tspan1357-57-2-62-8-04-25-4-2-4"
-         x="2505.4253"
-         y="2592.9917"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332">CDN</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="2503.8271"
-       y="2521.9146"
-       id="text1359-352-3-6-8-279-50-4-8-9"><tspan
-         sodipodi:role="line"
-         id="tspan1357-57-2-62-8-04-25-4-2-3"
-         x="2503.8271"
-         y="2521.9146"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332">Q</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="2496.8462"
-       y="2729.9695"
-       id="text1359-352-3-6-8-279-50-4-8-9-8"><tspan
-         sodipodi:role="line"
-         id="tspan1357-57-2-62-8-04-25-4-2-3-5"
-         x="2496.8462"
-         y="2729.9695"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332">QN</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="2468.8049"
-       y="2920.634"
-       id="text1359-352-3-6-8-279-50-4-8-9-8-8"><tspan
-         sodipodi:role="line"
-         id="tspan1357-57-2-62-8-04-25-4-2-3-5-0"
-         x="2468.8049"
-         y="2920.634"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332">J</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="2464.5122"
-       y="2855.4204"
-       id="text1359-352-3-6-8-279-50-4-8-9-8-8-2"><tspan
-         sodipodi:role="line"
-         id="tspan1357-57-2-62-8-04-25-4-2-3-5-0-2"
-         x="2464.5122"
-         y="2855.4204"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332">K</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -9496,6 +9375,28 @@
          x="3550.1584"
          y="750.80927"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332">NA02</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="637.70087"
+       y="1551.4066"
+       id="text1359-42-1-2-33-9-10-7-6-9-8-5-9-9-2-3-5-5-94-5-3-8-5-2-1-0-7-5-0-1-4-5-5-9-5-36-5-7-03-4"><tspan
+         sodipodi:role="line"
+         id="tspan1357-36-8-9-8-0-0-9-1-8-5-6-7-5-1-9-1-0-6-7-8-0-1-1-5-3-2-9-3-3-5-4-0-2-5-7-1-9-4-5"
+         x="637.70087"
+         y="1551.4066"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332">INV03</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="643.1825"
+       y="1616.8877"
+       id="text1359-42-44-8"><tspan
+         sodipodi:role="line"
+         id="tspan1357-36-29-7"
+         x="643.1825"
+         y="1616.8877"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332">NA02</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -9743,60 +9644,5 @@
          x="2690.2898"
          y="2187.8799"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332">LAE02</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="2723.7651"
-       y="2143.1267"
-       id="text1359-9-3-7-2-7-3-1-2-3-0-7-7"><tspan
-         sodipodi:role="line"
-         id="tspan1357-04-9-7-9-15-8-0-8-7-3-3-9"
-         x="2723.7651"
-         y="2143.1267"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332">EN</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="2693.604"
-       y="2196.7993"
-       id="text1359-9-3-7-2-7-3-1-2-3-0-7-77-4"><tspan
-         sodipodi:role="line"
-         id="tspan1357-04-9-7-9-15-8-0-8-7-3-3-3-1"
-         x="2693.604"
-         y="2196.7993"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332">D</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="2724.5981"
-       y="2267.481"
-       id="text1359-9-3-7-2-7-3-1-2-3-0-7-77-9"><tspan
-         sodipodi:role="line"
-         id="tspan1357-04-9-7-9-15-8-0-8-7-3-3-3-4"
-         x="2724.5981"
-         y="2267.481"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332">QN</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="2718.47"
-       y="2202.0876"
-       id="text1359-9-3-7-2-7-3-1-2-3-0-7-77-9-0"><tspan
-         sodipodi:role="line"
-         id="tspan1357-04-9-7-9-15-8-0-8-7-3-3-3-4-8"
-         x="2718.47"
-         y="2202.0876"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332">Q</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="2684.9087"
-       y="2279.5762"
-       id="text1359-9-3-7-2-7-3-1-2-3-0-7-77-4-1"><tspan
-         sodipodi:role="line"
-         id="tspan1357-04-9-7-9-15-8-0-8-7-3-3-3-1-9"
-         x="2684.9087"
-         y="2279.5762"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.26458332">CDN</tspan></text>
   </g>
 </svg>
